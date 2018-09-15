@@ -82,6 +82,8 @@ The DIS acts as another layer of defence from malicious certificate related atta
 
 The decentralized nodes providing domain certificates have a chance to earn Viat through their services. This functionality will be covered in-depth with the Viat white paper.
 
+![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
+
 ### DOMAINS
 ###### HUMAN READABLE HOSTNAMES
 
