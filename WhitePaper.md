@@ -56,6 +56,8 @@ UDSP prioritizes the real-time web and Dispersed Computing. Since connections ar
 
 UDSP has optional puzzles included in the packets which allow providers and solvers to earn VIAT. Puzzle types vary and thus the puzzles are a Dynamic-Proof-of-Work. The puzzles may be encapsulated or point to data that is required for solving the puzzle. This functionality will be described in the next white paper for VIAT. The puzzles also function as congestion control and a way to limit the potential damages from DDOS attacks. Sentivate turns a typical DDOS attack into profit by the introduction of various puzzle types into packets. When a client solves the served puzzle the client and domain are credited by the network with Viat. If a server is under DDOS attack then the server can dynamically change the reward split up-to 100% for the domain. This ensures the attackers suffer more financial loss and have little to gain. Puzzles ensure that both parties have an incentive to act in good faith. 
 
+![CLIENT CONNECTION](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicClient.png)
+
 ## UNIVERSAL DOMAIN SYSTEM
 
 ### DOMAIN CERTIFICATES
