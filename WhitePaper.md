@@ -1,6 +1,6 @@
 # Sentivate Network White Paper Under Construction
 
-![enter image description here](https://sentivate.com/wp-content/uploads/2018/08/MonoChromeLogo.png)
+![Logo](https://sentivate.com/wp-content/uploads/2018/08/MonoChromeLogo.png)
 
 ##### TITLE:  SENTIVATE NETWORK - The chronicles of the Universal Web. 
 #####  ABSTRACT
@@ -35,6 +35,9 @@ The current state of the World Wide Web is deprecation. If humanity continues to
         - Optimized for 64-bit platforms—including NEON-enabled ARMs—and produces digests of any size between 1 and 64 bytes
     - X25519 – Ephemeral Key Pair
         - Computes a secret shared between the sender and receiver, using the sender’s secret key and the receiver’s public key (or vice versa)
+
+## HYBRID NETWORK
+![Sentivate Hybrid Network](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicNetwork.png)
 
 ## PROTOCOL
 
