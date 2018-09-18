@@ -37,7 +37,7 @@ The current state of the World Wide Web is deprecation. If humanity continues to
         - Computes a secret shared between the sender and receiver, using the sender’s secret key and the receiver’s public key (or vice versa)
 
 ## HYBRID NETWORK
-![Sentivate Hybrid Network](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicNetwork.png)
+![Sentivate Hybrid Network](https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png)
 
 ## PROTOCOL
 
