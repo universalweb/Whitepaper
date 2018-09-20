@@ -4,7 +4,7 @@
 
 ##### TITLE:  SENTIVATE NETWORK - The chronicles of the Universal Web. 
 #####  ABSTRACT
-Sentivate is a revolutionary advancement, not evolutionary, in Internet architecture. Sentivate has a hybrid topology consisting of interconnected centralized & decentralized systems. The network is designed to go beyond the capabilities that any solely centralized or decentralized network could offer. Sentivate has the ability to operate in a decentralized or centralized topology, if the need ever arose, giving it a unique dynamic topology. With Sentivates new data transport protocol, UDSP, all the issues associated with TCP will be a relic of the past. Sentivate is designed to be a realistic and viable replacement for the increasingly slugish Web we have today.
+Sentivate is a revolutionary advancement, not evolutionary, in Internet architecture. Sentivate has a hybrid topology consisting of interconnected centralized & decentralized systems. The network is designed to go beyond the capabilities that any solely centralized or decentralized network could offer. Sentivate has the ability to operate in a decentralized or centralized topology, if the need ever arose, giving it a unique dynamic topology. With Sentivates data transport protocol, UDSP, all the issues associated with TCP will be a relic of the past. Sentivate is designed to be a realistic and viable replacement for the increasingly slugish Web we have today.
 
 ##### FOCUS
 This white paper is focused on the core network design that serves as the framework for Viat, hApps, and the hybrid Internet. An additional white paper will be released solely on Viat. The network is phase 1 of the construction of the Universal Web; the Sentivate network is the entire basis for Viat and all future components.
