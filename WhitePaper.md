@@ -30,7 +30,7 @@ HTTP & DNS were built a long time ago without the consideration of modern demand
 ###### THE FAILURE THAT IS THE DECENTRALIZED WEB AKA WEB 3.0
 We know that the global economy requires a performant & inexpensive web. If a solely decentralized web replaced the modern web it would accelerate the bandwidth crisis and bring us to a dystopian web. The term Web 3.0 is not a magic globe, a revolutionary idea, or a solution; it's a cash grab. Trades are happening in nanoseconds the global economy doesn't have time to wait seconds or minutes for a block time to verify and then propagate through the network. A replacement for the web shouldn't be slower and more expensive for consumers. Web 3.0 costs more and they like to hide behind things like it's all on-chain and costs very little to launch an app. The reality is, you get what you pay for. Web 3.0 offsets costs to users instead of the services, which also results in a poorer service. Another common argument is to allow users to control their data. That's no problem, say hello to homomorphic encryption. Instead of tackling this issue from just topology we need to innovate in every aspect of the web and ask more from our services. The web's topology problem is minor compared to it's outdated technology problem. If these Web 3.0 projects actually cared about changing the web they would focus on the actual issues. **Both topologies have their use cases but together they are a solution to an ever growing problem that has gone unchecked.**
 
-## CRYPTOGRAPHY
+## CRYPTOGRAPHY ([SODIUM-NATIVE](https://github.com/sodium-friends/sodium-native))
 
 -  Key Signatures
     -   Single-part signature: Ed25519
