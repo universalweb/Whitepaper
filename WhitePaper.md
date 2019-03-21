@@ -2,12 +2,12 @@
 
 ![Logo](https://sentivate.com/wp-content/uploads/brizy/12/assets/images/iW=514&iH=524&oX=0&oY=0&cW=514&cH=524/70e94477b15f379a2717c387bf335188.png)
 
-##### TITLE:  SENTIVATE NETWORK - The chronicles of the Universal Web. 
+##### TITLE:  SENTIVATE - The Universal Web. 
 #####  ABSTRACT
-Sentivate is a revolutionary advancement, not evolutionary, in Internet architecture. Sentivate has a hybrid topology consisting of interconnected centralized & decentralized systems. The network is designed to go beyond the capabilities that any solely centralized or decentralized network could offer. Sentivate has the ability to operate in a decentralized or centralized topology, if the need ever arose, giving it a unique dynamic topology. With Sentivate's data transport protocol, UDSP, all the issues associated with TCP will be a relic of the past. Sentivate is designed to be a realistic and viable replacement for the increasingly slugish Web we have today.
+Sentivate is a hybrid web built to be a viable & realistic replacement for the modern web. The network is designed to go beyond the capabilities that any solely centralized or decentralized network could offer. Sentivate addresses the following issues directly: bandwidth crisis, outdated protocols, broken DNS, lack of accountability, lack of identity, reactive security, Domain rules, and web categorization.
 
 ##### FOCUS
-This white paper is focused on the core network design that serves as the framework for Viat, hApps, and the hybrid Internet. An additional white paper will be released solely on Viat. The network is phase 1 of the construction of the Universal Web; the Sentivate network is the entire basis for Viat and all future components.
+This white paper is focused on the core network design that serves as the base network & components for Viat, hApps, and the Universal Web. An additional white paper will be released solely on Viat. All technology is focused on ensuring Sentivateis a revolutionary not an evolutionary replacement, in Internet architecture. 
 
 ## INTRODUCTION
 ##### THE STATE OF THE WORLD WIDE WEB
