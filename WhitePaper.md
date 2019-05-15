@@ -1,7 +1,7 @@
 
 # Sentivate Network White Paper - Under Construction
 
-![Logo](https://sentivate.com/wp-content/uploads/brizy/12/assets/images/iW=514&iH=524&oX=0&oY=0&cW=514&cH=524/70e94477b15f379a2717c387bf335188.png)
+![Logo](https://sentivate.com/wp-content/uploads/brizy/12/assets/images/iW=1200&iH=any/70e94477b15f379a2717c387bf335188.png)
 
 ##### TITLE:  SENTIVATE - The Universal Web. 
 #####  ABSTRACT
