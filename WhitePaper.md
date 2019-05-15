@@ -76,12 +76,12 @@ UDSP has optional puzzles included in the packets which allow providers and solv
 ### DOMAIN CERTIFICATES
 ###### ROUTING & CRYPTOGRAPHIC PARAMETERS
 
-Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates  are signed by 3 or more keypairs: Ephemeral, Master, an authorized Domain Registrar & decentralized nodes on the network. In order to establish a successful handshake the domain certificate is required.
+Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, an authorized Domain Registrar. In order to establish a successful handshake the domain certificate and a valid signature is required.
 
-The domain's ephemeral certificate also acts as a wallet which stores funds for any puzzles it distributes to clients. A portion of the mined Viat is sent to the ephemeral certificates wallet address. This topic is covered more in the next white paper for Viat.
+The domain's ephemeral certificate also acts as a wallet which stores funds for any puzzles it distributes to clients. A portion of the mined Viat is sent to the ephemeral certificates wallet address. 
 
 ### DOMAIN REGISTRAR
-###### UPLOAD & SIGN DOMAIN CERTIFICATE
+###### UPLOAD & SIGN DOMAIN CERTIFICATES
 
 The Domain Registrar, (DR), is used to register a domain and manage a domain's public certificate. The DR validates & signs the public certificates associated with the hostname. The DR then passes the certificate to the Domain Information System which stores the certificate for distribution.
 
@@ -142,3 +142,16 @@ Sentivate’s components allow for highly modular asset streaming. For example, 
 Hybrid Apps can utilize an opt-in decentralized P2P CDN for assets in addition to the destination service. Making use of a Hybrid Content Delivery Network means that hybrid apps have high availability, scalability, and more bandwidth.
 
 hApps validate, authenticate, and authorize clients automatically during the initial connection handshake. hApps backends can store and reference clients by their public key or full certificates. Think of it as oAuth for the entire Internet. Services no longer need to worry about hashing, storing, and or encrypting passwords. Clients can quickly login on the click of a button or automatically simply by connecting to the service. Users no longer need to remember or create complex passwords as using their keypair is more secure and easier to use. If services do not require you to have a username they can simply rely on your public key as your identifying name. This means that for some services users don't have to create a username and password during the registration process.
+
+
+## VIAT
+
+### NATIVE CRYPTOCURRENCY
+Viat is the native cryptocurrency on the Sentivate Network. Viat has a hybrid blockchain. Viat’s core systems are decentralized focused but enhanced by decentralized components; the opposite of Sentivate’s Web. Viat is designed to be fast, secure, and have some of the lowest transaction fees available. Viat’s centralized portions can process instant transactions, provide wallet security, and alleviate network congestion when the decentralized network is under heavy load. However, these centralized features are opt-in only allowing users to forge their own path. 
+
+### MINING 
+Viat has a dynamic proof of work which can be mined two ways. Direct mining is the main method & the second method is through the use of packet puzzles in UDSP. Packet puzzles allow for passive mining of Viat while browsing the Universal Web. However, it’s not enabled by default. The situations which arise that enable packet puzzles are: upon connection handshake, connection liveliness check, DDoS protection, congestion control, and or the service chooses to enable it for their own reasons. It is up to the service to enable packet puzzles. This ensures that there is no need for constant mining in the background and gives real purpose to the mining process. Otherwise, it would be on all the time sucking up resources & eating into battery life.
+ 
+
+### INTEROPERABILITY 
+Identity & Domain certificates also double as Viat wallet keys. This allows users to not only instantly sign into a service during connection handshake but also provide a way to purchase goods from services, tip sites, and or refund clients. Viat is an integral part of the full functionality of the Universal Web without it only part of the picture is there.
