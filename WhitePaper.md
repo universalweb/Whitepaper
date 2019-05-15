@@ -55,10 +55,12 @@ We know that the global economy requires a performant & inexpensive web. If a so
 ## PROTOCOL
 
 ### Universal Data Stream Protocol
-###### APPLICATION LAYER INTERNET PROTOCOL
+###### Data Transport Protocol 
+
+UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol. 
 
 ##### The Problem
-User’s demands have changed and our requirements  of the web have grown. These changes make HTTP a major bottleneck with the heart of the issue being TCP. Large data centers moving copious amounts of data from one end-point to the other have latency and cost issues associated with outdated Internet Architecture. HTTP is especially problematic when users are experiencing low throughput, limited bandwidth, degraded network connectivity, or requiring a near real-time response. The first step in the construction of the Universal Web is to replace HTTP and TCP entirely with UDSP.
+User’s demands have changed and our requirements of the web have grown. These changes make HTTP a major bottleneck. The HTTP standard itself and TCP are both huge issues. Large data centers moving copious amounts of data from one end-point to the other have latency and cost issues associated with outdated Internet architecture. HTTP is especially problematic when users are experiencing low throughput, limited bandwidth, degraded network connectivity, or requiring a near real-time response. The first step in the construction of the Universal Web is to replace HTTP entirely with UDSP.
 
 ##### The Solution
 UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol. On the Universal Web all communication, streaming, or transferring of any type of data utilizes UDSP. When visiting a site on the Universal Web UDSP is the protocol used instead of HTTP. Specific UDSP client and server modules are required to visit or host a website on the Sentivate Network. UDSP is the backbone and life blood of the Sentivate Network.
