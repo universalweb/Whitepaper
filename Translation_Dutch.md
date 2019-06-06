@@ -145,8 +145,8 @@ hApps valideren, authenticeren en autoriseren clients automatisch tijdens de eer
 
 ## VIAT
 
-### NATIVE CRYPTOCURRENCY
-Viat is de native cryptocurrency op het Sentivate Network. Viat heeft een hybride blockchain. De kernsystemen van Viat zijn gedecentraliseerd, maar verbeterd door gecentraliseerde componenten (het tegenovergestelde van het web van Sentivate). Viat is ontworpen om snel en veilig te zijn en heeft de laagste transactiekosten die beschikbaar zijn. De gecentraliseerde delen van Viat kunnen directe transacties verwerken, portefeuillewaarborgen bieden en netwerkcongestie voorkomen wanneer het decentrale netwerk zwaar wordt belast. Deze gecentraliseerde functies zijn echter opt-in waardoor gebruikers hun eigen pad kunnen smeden.
+### EIGEN CRYPTOCURRENCY
+Viat is de eigen cryptocurrency op het Sentivate Network. Viat heeft een hybride blockchain. De kernsystemen van Viat zijn gedecentraliseerd, maar verbeterd door gecentraliseerde componenten (het tegenovergestelde van het web van Sentivate). Viat is ontworpen om snel en veilig te zijn en heeft de laagste transactiekosten die beschikbaar zijn. De gecentraliseerde delen van Viat kunnen directe transacties verwerken, portefeuillewaarborgen bieden en netwerkcongestie voorkomen wanneer het decentrale netwerk zwaar wordt belast. Deze gecentraliseerde functies zijn echter opt-in waardoor gebruikers hun eigen pad kunnen smeden.
 
 
 
