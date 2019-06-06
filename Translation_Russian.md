@@ -1,128 +1,163 @@
- 
 
-Sentivate Network Белая Бумага - Стадия разработки
-Sentivate - Универсальная сеть 
-Резюме:
+# Sentivate Network Белая Бумага - Стадия разработки
+
+![Logo](https://sentivate.com/wp-content/uploads/brizy/12/assets/images/iW=1200&iH=any/70e94477b15f379a2717c387bf335188.png)
+
+##### Sentivate - Универсальная сеть 
+#####  Резюме:
 Sentivate - это гибридная сеть, созданная, чтобы стать жизнеспособной и реалистичной заменой современной сети. Сеть разработана так, чтобы выходить за рамки возможностей, которые может предложить любая исключительно централизованная или децентрализованная сеть.Sentivate напрямую решает следующие проблемы: проблемы пропускной способности, устаревшие протоколы, сломанный DNS, отсутствие ответственности, отсутствие идентификации, реактивная безопасность, доменные правила и веб-категоризация.
-Акцент:
+
+##### Акцент
 Этот технический документ посвящен проектированию базовой сети, которая служит базовой сетью и компонентами для Viat, hApps и Universal Web. Все технологии направлены на то, чтобы обеспечить Sentivateis революционной, а не эволюционной заменой в архитектуре Интернета.
-Вступление:
+
+## Вступление
+##### THE STATE OF THE WORLD WIDE WEB
 В настоящее время мы продолжаем использовать среду взаимосвязанных коммуникаций в глобальном масштабе.
 Требования человечества экспоненциально растут, и Всемирная паутина просто не может их удовлетворить. По мере того, как мы продолжаем расти, развиваться и выходить за рамки Солнечной системы, нашим императивом становится революция в технологиях, от которых мы зависим.
 
+
 Текущее состояние Всемирной паутины является устаревшим. Если человечество продолжит исправлять существующие проблемы, Интернет останется «диким диким западом». Постоянно растущие требования человечества никогда не будут удовлетворены нынешним состоянием Интернета. Мы должны начать думать в терминах революционных, а не эволюционных. Решение представляет собой полную замену современных систем, браузеров, языков, протоколов и платформ с повышенной безопасностью, эффективностью, подотчетностью, доверием, идентичностью, возможностями и надежностью. Чтобы перейти в новый век информации, мы должны заменить то, с чем нам стало слишком комфортно. 
 
-Переломный момент
-Пропускная способность ограничена, наши потребности растут в наших сетях. Чтобы решить эту проблему, нам нужны современные революционные технологии для замены существующих компонентов. Если мы этого не сделаем, быстрые линии и приоритеты данных являются нашим единственным вариантом. Неизбежный рост IoT, больше устройств на человека, больше устройств на семью, автомобили с самостоятельным вождением, аналитика по страхованию автомобилей и развивающиеся страны, выходящие в интернет, поглощают пропускную способность, которой у нас нет.
-Устаревшая сеть, на которую мы полагаемся, изжила себя
-HTTP и DNS были созданы давно, без учета современных требований. Все больше и больше пропускной способности поглощается, HTTP продолжает демонстрировать свои проблемы с масштабируемостью, а DNS не заслуживает доверия и не масштабируется. HTTP - это средство для денег. Цифровая экономика переносится по HTTP. Любое замедление до HTTP или DNS означает резко более медленную глобальную экономику. DNS и HTTP по своей сути нарушены, имеют плохую масштабируемость, ужасно медленны, не имеют современных функций, поглощают пропускную способность и обходятся потребителям и бизнесу в миллиарды. Если мы не решим эту проблему, мы испытаем огромный удар по экономике. Когда вы учитываете все знаки доллара, вы сразу понимаете, что более медленная сеть - это глобальный гуманитарный кризис.
-1. Задержка в одну секунду может стоить Amazon 1.6BB в продажах.
-2. «10 лет назад Amazon обнаружил, что каждые 100 мс латентности стоили им 1% в продажах»
-3. «Спустя 10 лет исследование Akamai, проведенное в 2017 году, показывает, что каждая 100-миллисекундная задержка времени загрузки веб-сайта может снизить конверсию на 7% - это значительное падение продаж - 6% - со времени, когда Amazon впервые заговорил о задержке». в секундах и миллисекундах. Это говорит о том, что онлайн-ритейлерам не становится легче, поскольку пользовательский опыт становится критически важным для успеха электронной торговли ».
+###### BANDWIDTH CRISIS
+[Bandwidth is limited, our needs are out growing our networks.](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/)  To solve this issue we need modern revolutionary technology to replace existing components. If we don’t, fast lanes & prioritization of data is our only option. All those fears that folks have of the repeal of Net Neutrality will be our only hope at keeping the web spinning. The inevitable rise of IoT, more devices per-person, more devices per-household, self-driving cars, car insurance analytics, & developing countries coming online suck up bandwidth we don’t have.
 
-ОБ ОШИБКЕ, КОТОРАЯ ДЕЦЕНТРАЛИЗОВАНА WEB AKA WEB 3.0
-Мы знаем, что мировая экономика требует качественной и недорогой сети. Если бы единственная децентрализованная сеть заменила современную сеть, это ускорило бы кризис пропускной способности и привело бы нас к антиутопической сети. Термин Web 3.0 не является волшебным глобусом, революционной идеей или решением; это захватом денег. Торги происходят в наносекундах, мировая экономика не успевает ждать секунду или минуту, чтобы время блока подтвердилось, а затем распространялось по сети. Замена для Интернета не должна быть медленнее и дороже для потребителей. Web 3.0 стоит дороже, и им нравится прятаться за вещами, как будто они все в цепочке и очень мало стоят для запуска приложения. Реальность такова, что вы получаете то, за что платите. Web 3.0 компенсирует затраты для пользователей вместо сервисов, что также приводит к ухудшению сервиса. Другой распространенный аргумент - позволить пользователям контролировать свои данные. Это не проблема, скажи привет гомоморфному шифрованию. Вместо того, чтобы решать эту проблему только из-за топологии, нам нужно внедрять инновации во всех аспектах сети и просить большего от наших служб. Проблема топологии сети незначительна по сравнению с устаревшей технологической проблемой. Если бы эти проекты Web 3.0 действительно заботились об изменении сети, они сосредоточились бы на реальных проблемах. Обе топологии имеют свои варианты использования, но вместе они являются решением постоянно растущей проблемы, которая осталась без контроля.
+###### THE OUTDATED WEB WE RELY ON IS EATING ITSELF
+HTTP & DNS were built a long time ago without the consideration of modern demands in mind. More and more bandwidth is being sucked up, HTTP continues to show its long scalability issues, and DNS is not trustworthy or scalable. If half of the web can be shut down from DoS-ing specific DNS servers there's an obvious architectural problem. HTTP is the current vehicle for money. The entire digital economy is transported over HTTP. Any slowing down to HTTP or DNS means a drastically slower global economy. DNS & HTTP are inherently broken, have poor scalability, are dreadfully slow, lack modern features, eat up bandwidth, and cost consumers & businesses billions. If we don't solve this issue we will experience a massive blow to the economy. When you factor in all the dollar signs one soon realizes that a slower web is a global humanitarian crisis. 
 
-КРИПТОГРАФИЯ (SODIUM-NATIVE)
-*Ключ подписи
-    *Одной части подписи, Ed25519
-    *Многокопийная подпись, Ed25519ph
+1.  [A one second delay could cost Amazon 1.6BB in sales.](https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales)
+2.  [_“10 years ago, Amazon found that every 100ms of latency cost them 1% in sales”_](https://www.gigaspaces.com/blog/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/)
+3.  [_“Fast forward 10 years later, a 2017 Akamai study shows that every 100-millisecond delay in website load time can hurt conversion rates by 7% – that is a significant drop in sales – 6% – from the time when Amazon first talked about latency in seconds and milliseconds. This goes to show that things aren’t getting any easier for online retailers as user experience is becoming critical to e-commerce success.”_](https://www.akamai.com/us/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp)
 
-*Пакетное шифрование
-      *Аутентифицированное шифрование с дополнительными данными
-      *Зашифровывает сообщение ключом и одноразовым номером, чтобы сохранить его конфиденциальность
-      *Вычисляет тег аутентификации. Этот тег используется для проверки того, что сообщение, а также необязательные неконфиденциальные (незашифрованные) данные не были подделаны.
-      *Шифрование: потоковый шифр XChaCha20
-      *Аутентификация: Poly1305 MAC
-*Обмен ключами - общие сеансовые секретные ключи
-     *BLAKE2B-512
-            *BLAKE2 - это криптографическая хэш-функция, которая работает быстрее, чем MD5, SHA-1, SHA-2 и SHA-3, но при этом является по меньшей мере такой же безопасной, как и последний стандарт SHA-3.
-           *Оптимизирован для 64-битных платформ, включая ARM с поддержкой NEON, и создает дайджесты любого размера от 1 до 64 байт.
-    *X25519 - Пара эфемерных ключей
-           *Computes a secret shared between the sender and receiver, using the sender’s secret key and the receiver’s public key (or vice versa)
+###### THE FAILURE THAT IS THE DECENTRALIZED WEB AKA WEB 3.0
+We know that the global economy requires a performant & inexpensive web. If a solely decentralized web replaced the modern web, then it would accelerate the bandwidth crisis and bring us to a dystopian web. The term Web 3.0 is not a magic globe, a revolutionary idea, or a solution; it's a cash grab. Trades are happening in nanoseconds the global economy doesn't have time to wait seconds or minutes for a block time to verify and then propagate through the network. A replacement for the web shouldn't be slower and more expensive for consumers. Web 3.0 costs more and they like to hide behind things like it's all on-chain and costs very little to launch an app. The reality is, you get what you pay for. Web 3.0 offsets costs to users instead of the services, which also results in a poorer service. Another common argument is to allow users to control their data. That's no problem, say hello to homomorphic encryption. Instead of tackling this issue from just topology, we need to innovate in every aspect of the web and ask more from our web services. The web's topology problem is minor compared to it's outdated technology problem. If these Web 3.0 projects actually cared about changing the web they would focus on the actual issues. **Both topologies have their use cases but together they are a solution to an ever growing problem that has gone unchecked.**
 
-ГИБРИДНАЯ СЕТЬ
+## UNIVERSAL WEB CRYPTOGRAPHY ([SODIUM-NATIVE](https://github.com/sodium-friends/sodium-native))
+
+-  Key Signatures
+    -   Single-part signature: Ed25519
+    -   Multi-part signature: Ed25519ph
+-  Packet Encryption
+	- Authenticated Encryption with Additional Data
+    - Encrypts a message with a key and a nonce to keep it confidential
+    - Computes an authentication tag. This tag is used to make sure that the message, as well as optional, non-confidential (non-encrypted) data, haven’t been tampered with.
+    - Encryption: XChaCha20 stream cipher
+    - Authentication: Poly1305 MAC
+
+- Key exchange – Shared Session Secret Keys
+    - BLAKE2B-512
+        - BLAKE2 is a cryptographic hash function **faster than MD5, SHA-1, SHA-2, and SHA-3**, yet is at least as secure as the latest standard SHA-3
+        - Optimized for 64-bit platforms—including NEON-enabled ARMs—and produces digests of any size between 1 and 64 bytes
+    - X25519 – Ephemeral Key Pair
+        - Computes a secret shared between the sender and receiver, using the sender’s secret key and the receiver’s public key (or vice versa)
+
+## HYBRID NETWORK
+![Sentivate Hybrid Network](https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png)
+
+## PROTOCOL
+
+### Universal Data Stream Protocol
+###### Data Transport Protocol 
+
+UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol. 
+
+##### The Problem
+As mentioned in the introduction: User’s demands have changed and our requirements of the web have grown. These changes make HTTP a major bottleneck. The HTTP standard itself and TCP are both huge issues. Large data centers moving copious amounts of data from one end-point to the other have latency and cost issues associated with outdated Internet architecture. HTTP is especially problematic when users are experiencing low throughput, limited bandwidth, degraded network connectivity, or requiring a near real-time response. 
+
+##### The Solution
+The first step in the construction of the Universal Web is to replace HTTP entirely with UDSP. UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol. On the Universal Web all communication, streaming, or transferring of any type of data utilizes UDSP. When visiting a site on the Universal Web UDSP is the protocol used instead of HTTP. Specific UDSP client and server modules are required to visit or host a website on the Sentivate Network. UDSP is the foundation and life blood of the Sentivate Network.
+
+UDSP is capable of dynamic reliability on a connection level, or on a per-request basis which is agreed upon between the involved parties. UDSP enforces encryption which means all UDSP connections are encrypted by default, no exceptions. UDSP supports IPv6, Multiplexing, and Multihoming. UDSP relies on cryptographic keypairs and XChaCha20 to establish a connection.
+
+UDSP prioritizes the real-time web and Dispersed Computing. Since connections are bi-directional streams and less chatty this makes the network less clogged and ensures low-latency for the livelihood of the connection. UDSP is far less chatty than HTTP and can be programmatically set to adjust it's own reliability standards. This makes UDSP a highly useful protocol where high-throughput, low-latency, and high reliability are required. Due to UDSP's programmatically dynamic nature, it's efficacious in situations of highly variable and or degraded network connectivity.
+
+UDSP has optional puzzles included in the packets which allow providers and solvers to earn VIAT. Puzzles can vary and thus the puzzles are a Dynamic-Proof-of-Work. The puzzles may be encapsulated or point to data that is required for solving the puzzle. This functionality will be described in the next white paper for VIAT. The puzzles also function as congestion control and a way to limit the potential damages from DDOS attacks. Sentivate turns a typical DDOS attack into profit by the introduction of various puzzle types into packets. When a client solves the served puzzle the client and domain are credited by the network with Viat. If a server is under DDOS attack then the server can dynamically change the reward split up-to 100% for the domain. This ensures the attackers suffer more financial loss and have little to gain. Puzzles ensure that both parties have an incentive to act in good faith. 
+
+![CLIENT CONNECTION](https://sentivate.com/wp-content/uploads/2018/09/DISHyrbid.png)
+
+## UNIVERSAL DOMAIN SYSTEM
+
+### DOMAIN CERTIFICATES
+###### ROUTING & CRYPTOGRAPHIC PARAMETERS
+
+Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, and an authorized Domain Registrar. In order to establish a successful handshake, the domain certificate and a valid signature is required.
+
+The domain's ephemeral certificate also acts as a wallet which stores funds for any puzzles it distributes to clients. A portion of the mined Viat is sent to the ephemeral certificates wallet address. 
+
+### DOMAIN REGISTRAR
+###### UPLOAD & SIGN DOMAIN CERTIFICATES
+
+The Domain Registrar, (DR), is used to register a domain and manage a domain's public certificate. The DR validates & signs the public certificates associated with the hostname. The DR then passes the certificate to the Domain Information System which stores the certificate for distribution.
+
+
+### DOMAIN INFORMATION SYSTEM
+###### QUERY DOMAIN ROUTING AND CRYPTOGRAPHY
+
+The Domain Information System, (DIS), returns domain-specific information in the form of a domain certificate from human-readable hostnames. The DIS returns the domain’s certificate which includes cryptographic details & routing information. By including the hostnames cryptography along with routing information, 0-RTT is possible without requiring the client to have visited the domain prior. This is a unique advantage over TLS 1.3 in that 0-RTT is available by default where as in TLS 1.3 one would need to have visited the site prior. Before clients connect to a website they must first query the DIS with a human-readable hostname. The DIS has centralized servers and a decentralized network to provide clients with the fastest possible way to access domain certificates. 
+
+The DIS acts as another layer of defence from malicious certificate related attacks. When invalid certificates are used to request information from the DIS to go to a service the DIS simply denys returning a response.
+
+The decentralized nodes providing domain certificates have a chance to earn Viat through their services. This functionality will be covered in-depth with the Viat white paper.
+
+![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
+
+### DOMAINS
+###### HUMAN READABLE HOSTNAMES
+
+Domains on Sentivate have full extension names and can have single full names for trademarked entities. The domain rules and regulations are designed to organize the web, free up domain names for new companies, protect trademarks, limit malicious activity, and make extensions more descriptive.
+
+For example, one can navigate to Amazon by simply typing Amazon into the Sentivate browser. Domain rules are stricter on the Sentivate network. Domain squatting is entirely disallowed, there is a use it or lose it policy. Domain content or service must be relevant to the domain extension. For example, Amazon's store must use the store domain extension, "Amazon.store". There are shorthand domain extensions available for certain domains. For example, Amazon's company website must utilize the company extension, Amazon.company or the shorthand variant Amazon.com. Bitcoin, Ethereum, and Litecoin are cryptocurrencies and sites dedicated to them must use the cryptocurrency extension. However, a news site related to say bitcoin must use the .news and or .blog extension. Any domain that may have random and or arbitrary content must use the .abstract extension.
+
+## UNIVERSAL IDENTITY SYSTEM
+
+### IDENTITY CERTIFICATES
+###### EPHEMERAL & MASTER KEY PAIRS
+
+Identity certificates, (IC), are documents which provide cryptographic details that represent you on the network and are signed by a Identity Registrar. An identity certificate has two cryptographic key pairs: Master and Ephemeral. A master key pair is used specifically for signing ephemeral certificates and is the core identifying key pair. Ephemeral key pairs can be replaced at the owner's discretion. Identity certificates cryptographically authenticate & authorize clients on the network.
+
+Ephemeral Certificates, (EC), are a sub-certificate to the Master Certificate. EC's act as profiles which are used to access user defined services. For example, wallet certificate, banking certificate, general web browsing certificate or for every service. However, one can choose to utilize one single ephemeral certificate for all services. ECs are used for the key exchange process which sets up a bi-directional UDSP connection between the origin and host.
+
+Users can instantly signup, login, and purchase an item with their identity certificate. Servers require a client certificate upon connection to establish a successful UDSP handshake.
+
+Identity certificates form the basis for a decentralized reputation system, which can publicly record good & bad behavior associated with specific certificates. A honeypot can be used to block known bad actors from accessing a service further securing the network.
+
+Identity certificates can be linked to real world identities and assets. Making Sentivate an ideal platform for secure, private, and verifiable voting in elections. Stores and companies can have verified ICs which allow users to directly pay or donate through Viat.
+
+### IDENTITY REGISTRAR
+###### VALIDATE AND SIGN
+
+The Identity Registrar, (IR), is a service which signs certificates & is the first layer of protection for the network. The IR protects the network by filtering faulty certificates, stopping Sybil attacks, and nefarious actors. The Identity Registrar ensures malicious certificates aren’t signed which allows services to efficiently deny their connection attempts. False signatures can be denied by the DIS and therefore potentially protect a service and save some of its resources before hand. 
+
+A decentralized network and acyclic blockchain will be leveraged to help validate newly submitted certificates for signing. If the certificated is successfully vetted by the network the IR signs the certificate. Then it can be successfully used by services and the DIS. During the initial handshake, the first packet contains the certificates required to establish a UDSP stream. If signatures are successfully validated the rest of the handshake process continues else it fails.
+
+Active certificates will continually be updated and signed. When a certificate is re-signed, another field is added to the certificate which shows the elapsed time since the previous signing of the certificate. This provides services with an extra layer of trust for certain certificates. 
+
+## DEVELOPMENT
+
  
-ПРОТОКОЛ
-Протокол универсального потока данных
-Протокол передачи данных
-UDSP - это протокол UDP с низкой задержкой, двусторонний, зашифрованный и надежный протокол передачи данных в реальном времени.
 
-Эти проблемы
-Пользовательские требования изменились, и наши требования к сети выросли. Эти изменения делают HTTP основным узким местом. Сам по себе стандарт HTTP и TCP являются огромными проблемами. Большие центры обработки данных, перемещающие большие объемы данных из одной конечной точки в другую, имеют проблемы с задержкой и стоимостью, связанные с устаревшей архитектурой Интернета. HTTP особенно проблематичен, когда пользователи испытывают низкую пропускную способность, ограниченную пропускную способность, ухудшенное сетевое подключение или требуют ответа почти в реальном времени. Первым шагом в создании Universal Web является полная замена HTTP на UDSP.
-Решение Проблем 
-UDSP - это протокол UDP с низкой задержкой, двусторонний, зашифрованный и надежный протокол передачи данных в реальном времени. В универсальной сети Интернет все коммуникации, потоковая передача или передача данных любого типа использует UDSP. При посещении сайта в Universal Web UDSP используется протокол, используемый вместо HTTP. Для посещения или размещения веб-сайта в сети Sentivate требуются определенные клиентские и серверные модули UDSP. UDSP является основой и жизненной силой сети Sentivate.
+### hApps
+###### HYBRID UNIVERSAL WEB APPS
 
-UDSP обладает динамической надежностью на уровне соединения или на основе запроса, согласованного между заинтересованными сторонами. UDSP обеспечивает шифрование, что означает, что все соединения UDSP шифруются по умолчанию, без исключений. UDSP поддерживает IPv6, мультиплексирование и множественную адресацию. UDSP использует криптографические пары ключей и XChaCha20 для установления соединения.
+Hybrid apps are self-constructing, streaming single-page-applications. Hybrid apps are built using reactive, dynamic, and modular development methodologies. hApps have all the benefits of centralized & decentralized networks ensuring the highest scalability potential.
 
-UDSP отдает приоритет веб-сети реального времени и распределенным вычислениям. Поскольку соединения являются двунаправленными потоками, это делает сеть менее засоренной и обеспечивает низкую задержку для обеспечения существования соединения. UDSP гораздо менее болтлив, чем HTTP, и его можно программно настроить для настройки стандартов надежности. Это делает UDSP очень полезным протоколом, где требуются высокая пропускная способность, низкая задержка и высокая надежность. Благодаря программно-динамическому характеру UDSP, он эффективен в ситуациях с сильно изменяющимся или ухудшенным сетевым подключением.
+hApps’ assets are contained in their own file and are streamed to the client on an as needed basis. hApps are streamed and built over time much like a bridge building itself as you walk across. Only one initial page load takes place and thereafter pages are dynamically built as needed similar to Single-page-apps. Only exactly when the client needs the resource is when it will be fetched and delivered.
 
-UDSP имеет дополнительные загадки, включенные в пакеты, которые позволяют провайдерам и решателям зарабатывать VIAT. Пазлы могут варьироваться, и, таким образом, головоломки являются динамическим доказательством работы. Головоломки могут быть инкапсулированы или указывать на данные, необходимые для решения загадки. Эта функциональность будет описана в следующем техническом документе VIAT. Головоломки также выполняют функцию контроля перегрузки и позволяют ограничить потенциальный ущерб от атак DDOS. Sentivate превращает типичную DDOS-атаку в прибыль путем введения в пакеты различных типов головоломок. Когда клиент решает обслуживаемую головоломку, клиент и домен зачисляются в сеть с помощью Viat. Если сервер находится под атакой DDOS, то сервер может динамически изменять распределение вознаграждения до 100% для домена. Это гарантирует, что злоумышленники несут больше финансовых потерь и получают мало пользы. Загадки гарантируют, что у обеих сторон есть стимул действовать добросовестно.
+Sentivate’s components allow for highly modular asset streaming. For example, components can share the same CSS or HTML assets which ensures shared assets are only downloaded once and the duplicate code is never sent over the wire. Server loads and bandwidth is drastically decreased with this methodology as now the client is only pulling exactly what is needed.
+
+Hybrid Apps can utilize an opt-in decentralized P2P CDN for assets in addition to the destination service. Making use of a Hybrid Content Delivery Network means that hybrid apps have high availability, scalability, and more bandwidth.
+
+hApps validate, authenticate, and authorize clients automatically during the initial connection handshake. hApps backends can store and reference clients by their public key or full certificates. Think of it as oAuth for the entire Internet. Services no longer need to worry about hashing, storing, and or encrypting passwords. Clients can quickly login on the click of a button or automatically by simply connecting to the service. Users no longer need to remember or create complex passwords as using their keypair is more secure and easier to use. If services do not require you to have a username they can simply rely on your public key as your identifying name. This means that for some services users don't have to create a username and password during the registration process.
+
+## VIAT
+
+### NATIVE CRYPTOCURRENCY
+Viat is the native cryptocurrency on the Sentivate Network. Viat has a hybrid blockchain. Viat’s core systems are decentralized focused but enhanced by centralized components (the opposite of Sentivate’s Web). Viat is designed to be fast, secure, and have some of the lowest transaction fees available. Viat’s centralized portions can process instant transactions, provide wallet security, and alleviate network congestion when the decentralized network is under heavy load. However, these centralized features are opt-in only allowing users to forge their own path.
+
+
+
+### MINING 
+Viat has a dynamic proof of work which can be mined two ways. Direct mining is the main method, which will be explained in the Viat white paper, & the second method is through the use of packet puzzles in UDSP. Packet puzzles allow for passive mining of Viat while browsing the Universal Web. However, it’s not enabled by default. The situations which arise that enable packet puzzles are: upon connection handshake, connection liveliness check, DDoS protection, congestion control, and or the service chooses to enable it for their own reasons. It is up to the service to enable packet puzzles. This ensures that there is no need for constant mining in the background and gives real purpose to the mining process. Otherwise, it would be on all the time sucking up resources & eating into battery life.
  
-УНИВЕРСАЛЬНАЯ СИСТЕМА ДОМЕНОВ
-ДОМЕННЫЕ СЕРТИФИКАТЫ
-Маршрутные и криптографические параметры
-Сертификаты домена обеспечивают маршрутизацию, криптографию и дополнительную информацию, связанную с именем хоста. Сертификаты домена подписаны 3-мя или более парами ключей: Ephemeral, Master, авторизованным регистратором доменов. Для успешного установления связи требуется сертификат домена и действительная подпись.
 
-Эфемерный сертификат домена также действует как кошелек, в котором хранятся средства на любые головоломки, которые он раздает клиентам. Часть добытого Viat отправляется на адрес кошелька эфемерных сертификатов.
-
-ДОМЕННЫЙ РЕГИСТР
-ЗАГРУЗИТЬ И ПОДПИСАТЬ СЕРТИФИКАТЫ ДОМЕНА
-Регистратор домена (DR) используется для регистрации домена и управления открытым сертификатом домена. DR проверяет и подписывает публичные сертификаты, связанные с именем хоста. Затем DR передает сертификат в Информационную систему домена, которая хранит сертификат для распространения.
-
-ДОМЕННАЯ ИНФОРМАЦИОННАЯ СИСТЕМА
-QUERY DOMAIN МАРШРУТ И КРИПТОГРАФИЯ
-
-Информационная система домена (DIS) возвращает специфичную для домена информацию в форме сертификата домена из понятных человеку имен хостов. DIS возвращает сертификат домена, который включает в себя криптографические данные и информацию о маршрутизации. Включая криптографию имен узлов вместе с информацией о маршрутизации, можно получить 0-RTT, не требуя, чтобы клиент предварительно посетил домен. Это уникальное преимущество перед TLS 1.3 в том, что 0-RTT доступен по умолчанию, где, как и в TLS 1.3, необходимо предварительно посетить сайт. Прежде чем клиенты подключатся к веб-сайту, они должны сначала запросить DIS с понятным для человека именем хоста. DIS имеет централизованные серверы и децентрализованную сеть, чтобы предоставить клиентам максимально быстрый способ доступа к сертификатам домена.
-
-DIS действует как еще один уровень защиты от атак, связанных с вредоносными сертификатами. Когда недействительные сертификаты используются для запроса информации от DIS для перехода к услуге, DIS просто отказывает в возврате ответа.
-
-Децентрализованные узлы, предоставляющие доменные сертификаты, могут заработать Viat с помощью своих услуг. Эта функциональность будет подробно рассмотрена в официальном документе Viat.
- 
-ДОМЕНЫ
-HUMAN READABLE HOSTNAMES
-Домены в Sentivate имеют полные имена расширений и могут иметь одиночные полные имена для объектов с торговой маркой. Правила и положения домена предназначены для организации Интернета, освобождения доменных имен для новых компаний, защиты торговых марок, ограничения злонамеренной активности и расширения расширений.
-
-Например, можно перейти к Amazon, просто набрав Amazon в браузере Sentivate. Правила домена более строгие в сети Sentivate. Доменное содержимое или услуга должны соответствовать расширению домена. Например, магазин Amazon должен использовать расширение домена магазина «Amazon.store». Для некоторых доменов доступны сокращения доменов. Например, веб-сайт компании Amazon должен использовать расширение компании, Amazon.company или сокращенный вариант Amazon.com. Биткойн, Ethereum и Litecoin являются криптовалютами, и сайты, посвященные им, должны использовать расширение криптовалюты. Тем не менее, новостной сайт, связанный с биткойнами, должен использовать новости и / или расширение блога. Любой домен, который может иметь случайный или произвольный контент, должен использовать абстрактное расширение.
-
-УНИВЕРСАЛЬНАЯ СИСТЕМА ИДЕНТИЧНОСТИ
-СЕРТИФИКАТЫ ИДЕНТИЧНОСТИ
-EPHEMERAL & MASTER KEY PAIRS
-
-Удостоверения личности (IC) - это документы, которые предоставляют криптографические данные, представляющие вас в сети, и подписанные регистратором удостоверений. У удостоверения личности есть две пары криптографических ключей. Пара мастер-ключей, которая используется специально для подписи эфемерных сертификатов и является ключевой идентифицирующей парой ключей. Эфемерные пары ключей могут быть заменены по усмотрению владельца. Удостоверения личности криптографически аутентифицируют и авторизуют клиентов в сети.
-
-Эфемерные сертификаты (EC) являются дополнительным сертификатом к Основному сертификату. EC действуют как профили, которые используются для доступа к определенным пользователем услугам. Например, сертификат кошелька, банковский сертификат, общий сертификат просмотра веб-страниц или для каждой услуги. Тем не менее, можно использовать один единственный эфемерный сертификат для всех услуг. EC используются для процесса обмена ключами, который устанавливает двунаправленное соединение UDSP между источником и хостом.
-
-Пользователи могут мгновенно зарегистрироваться, войти в систему и приобрести товар со своим удостоверением личности. Серверы требуют сертификата клиента при подключении для установления успешного установления связи UDSP.
-
-Удостоверения личности образуют основу для децентрализованной системы репутации, которая может публично фиксировать хорошее и плохое поведение, связанное с конкретными сертификатами. Приманка может использоваться для блокирования доступа известных служб к дальнейшему обеспечению безопасности сети.
-
-Удостоверения личности могут быть связаны с реальными личностями и активами. Создание Sentivate идеальной платформой для безопасного, частного и проверяемого голосования на выборах. Магазины и компании могут иметь проверенные IC, которые позволяют пользователям напрямую платить или делать пожертвования через Viat.
-
-РЕГИСТРАЦИЯ ИДЕНТИЧНОСТИ
-VALIDATE AND SIGN
-
-Identity Registrar (IR) - это служба, которая подписывает сертификаты и является первым уровнем защиты сети. IR защищает сеть, фильтруя ошибочные сертификаты, останавливая атаки Сибил и гнусных актеров. Регистратор удостоверений гарантирует, что вредоносные сертификаты не подписаны, что позволяет службам эффективно отклонять попытки подключения. Ложные подписи могут быть отклонены DIS, и, следовательно, потенциально защищают службу и сохраняют часть ее ресурсов заранее.
-
-Децентрализованная сеть и ациклический блокчейн будут использованы для проверки новых подписанных сертификатов на подпись. Если сертификат успешно проверен сетью, ИК подписывает сертификат. Тогда он может быть успешно использован службами и DIS. Во время первоначального рукопожатия первый пакет содержит сертификаты, необходимые для установления потока UDSP. Если подписи успешно проверены, остальная часть процесса рукопожатия продолжается, иначе это терпит неудачу.
-Активные сертификаты будут постоянно обновляться и подписываться. При повторной подписи сертификата к сертификату добавляется другое поле, в котором указано время, прошедшее с момента предыдущего подписания сертификата. Это предоставляет сервисам дополнительный уровень доверия для определенных сертификатов.
-
-РАЗВИТИЕ
-hApps
-ГИБРИДНЫЕ УНИВЕРСАЛЬНЫЕ ВЕБ-ПРИЛОЖЕНИЯ
-Гибридные приложения - это самостоятельно создаваемые потоковые одностраничные приложения. Гибридные приложения создаются с использованием методологий реактивной, динамической и модульной разработки. hApps обладает всеми преимуществами централизованных и децентрализованных сетей, обеспечивающих высочайший потенциал масштабируемости.
-Ресурсы приложения содержатся в их собственном файле и передаются клиенту по мере необходимости. hApps транслируются и строятся со временем так же, как само здание моста, когда вы идете по нему. Происходит только одна начальная загрузка страницы, и после этого страницы создаются динамически по мере необходимости, подобно приложениям для одной страницы. Только когда клиенту нужен ресурс, он извлекается и доставляется.
-Компоненты Sentivate позволяют осуществлять модульную потоковую передачу активов. Например, компоненты могут совместно использовать одни и те же ресурсы CSS или HTML, что гарантирует, что общие ресурсы загружаются только один раз, а дублированный код никогда не передается по сети. При использовании этой методологии нагрузка на сервер и пропускная способность значительно снижаются, поскольку теперь клиент тянет только то, что ему нужно.
-Гибридные приложения могут использовать децентрализованную P2P CDN для активов в дополнение к услуге назначения. Использование гибридной сети доставки контента означает, что гибридные приложения имеют высокую доступность, масштабируемость и большую пропускную способность.
-hApps проверяет, аутентифицирует и авторизует клиентов автоматически во время первоначального установления соединения. Бэкэнды hApps могут хранить и ссылаться на клиентов по их открытому ключу или полному сертификату. Думайте об этом как oAuth для всего Интернета. Сервисам больше не нужно беспокоиться о хешировании, хранении и шифровании паролей. Клиенты могут быстро войти в систему одним нажатием кнопки или автоматически, просто подключившись к услуге. Пользователям больше не нужно запоминать или создавать сложные пароли, так как использование их пар ключей является более безопасным и простым в использовании. Если службы не требуют, чтобы у вас было имя пользователя, они могут просто полагаться на ваш открытый ключ в качестве вашего идентифицирующего имени. Это означает, что для некоторых служб пользователям не нужно создавать имя пользователя и пароль во время процесса регистрации.
-
-VIAT
-NATIVE CRYPTOCURRENCY
-Viat is the native cryptocurrency on the Sentivate Network. Viat has a hybrid blockchain. Viat’s core systems are decentralized focused but enhanced by decentralized components; the opposite of Sentivate’s Web. Viat is designed to be fast, secure, and have some of the lowest transaction fees available. Viat’s centralized portions can process instant transactions, provide wallet security, and alleviate network congestion when the decentralized network is under heavy load. However, these centralized features are opt-in only allowing users to forge their own path.
-МАЙНИНГ
-Viat имеет динамическое доказательство работы, которое может быть добыто двумя способами. Прямой майнинг является основным методом, а второй метод заключается в использовании пакетных головоломок в UDSP. Пакетные головоломки позволяют пассивно исследовать Viat во время просмотра Universal Web. Тем не менее, он не включен по умолчанию. Ситуации, которые включают головоломки пакета: при установлении соединения, проверке жизнеспособности соединения, защите от DDoS, контроле перегрузки и / или сервис выбирает включение его по своим собственным причинам. Это зависит от службы, чтобы включить головоломки пакетов. Это гарантирует, что нет необходимости в постоянном майнинге в фоновом режиме, и дает реальную цель для процесса майнинга. В противном случае он будет постоянно поглощать ресурсы и расходовать заряд аккумулятора.
-СОВМЕСТИМОСТЬ
-Сертификаты Identity & Domain также удваиваются как ключи кошелька Viat. Это позволяет пользователям не только мгновенно входить в сервис во время установления соединения, но и предоставлять возможность покупать товары на сервисах, чаевых сайтах или возвращать деньги клиентам. Viat является неотъемлемой частью полной функциональности Universal Web без единой части изображения.
-
-
-
+### INTEROPERABILITY 
+Identity & Domain certificates also double as Viat wallet keys. This allows users to not only instantly sign into a service during a connection handshake, but also provide a way to purchase goods from services, tip sites, and or refund clients. Viat is an integral part of the full functionality of the Universal Web without it only part of the picture is there.
