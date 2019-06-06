@@ -28,8 +28,8 @@ HTTP и DNS были созданы давно, без учета совреме
 2.  [_“10 years ago, Amazon found that every 100ms of latency cost them 1% in sales”_](https://www.gigaspaces.com/blog/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/)
 3.  [_“Fast forward 10 years later, a 2017 Akamai study shows that every 100-millisecond delay in website load time can hurt conversion rates by 7% – that is a significant drop in sales – 6% – from the time when Amazon first talked about latency in seconds and milliseconds. This goes to show that things aren’t getting any easier for online retailers as user experience is becoming critical to e-commerce success.”_](https://www.akamai.com/us/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp)
 
-###### THE FAILURE THAT IS THE DECENTRALIZED WEB AKA WEB 3.0
-We know that the global economy requires a performant & inexpensive web. If a solely decentralized web replaced the modern web, then it would accelerate the bandwidth crisis and bring us to a dystopian web. The term Web 3.0 is not a magic globe, a revolutionary idea, or a solution; it's a cash grab. Trades are happening in nanoseconds the global economy doesn't have time to wait seconds or minutes for a block time to verify and then propagate through the network. A replacement for the web shouldn't be slower and more expensive for consumers. Web 3.0 costs more and they like to hide behind things like it's all on-chain and costs very little to launch an app. The reality is, you get what you pay for. Web 3.0 offsets costs to users instead of the services, which also results in a poorer service. Another common argument is to allow users to control their data. That's no problem, say hello to homomorphic encryption. Instead of tackling this issue from just topology, we need to innovate in every aspect of the web and ask more from our web services. The web's topology problem is minor compared to it's outdated technology problem. If these Web 3.0 projects actually cared about changing the web they would focus on the actual issues. **Both topologies have their use cases but together they are a solution to an ever growing problem that has gone unchecked.**
+###### ОБ ОШИБКЕ, КОТОРАЯ ДЕЦЕНТРАЛИЗОВАНА WEB AKA WEB 3.0
+в цепочке и очень мало стоят для запуска приложения. Реальность такова, что вы получаете то, за что платите. Web 3.0 компенсирует затраты для пользователей вместо сервисов, что также приводит к ухудшению сервиса. Другой распространенный аргумент - позволить пользователям контролировать свои данные. Это не проблема, скажи привет гомоморфному шифрованию. Вместо того, чтобы решать эту проблему только из-за топологии, нам нужно внедрять инновации во всех аспектах сети и просить большего от наших служб. Проблема топологии сети незначительна по сравнению с устаревшей технологической проблемой. Если бы эти проекты Web 3.0 действительно заботились об изменении сети, они сосредоточились бы на реальных проблемах. **Обе топологии имеют свои варианты использования, но вместе они являются решением постоянно растущей проблемы, которая осталась без контроля.**
 
 ## UNIVERSAL WEB CRYPTOGRAPHY ([SODIUM-NATIVE](https://github.com/sodium-friends/sodium-native))
 
@@ -58,45 +58,47 @@ We know that the global economy requires a performant & inexpensive web. If a so
 ### Universal Data Stream Protocol
 ###### Data Transport Protocol 
 
-UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol. 
+UDSP - это протокол UDP с низкой задержкой, двусторонний, зашифрованный и надежный протокол передачи данных в реальном времени.
 
-##### The Problem
-As mentioned in the introduction: User’s demands have changed and our requirements of the web have grown. These changes make HTTP a major bottleneck. The HTTP standard itself and TCP are both huge issues. Large data centers moving copious amounts of data from one end-point to the other have latency and cost issues associated with outdated Internet architecture. HTTP is especially problematic when users are experiencing low throughput, limited bandwidth, degraded network connectivity, or requiring a near real-time response. 
+##### Эти проблемы
+Пользовательские требования изменились, и наши требования к сети выросли. Эти изменения делают HTTP основным узким местом. Сам по себе стандарт HTTP и TCP являются огромными проблемами. Большие центры обработки данных, перемещающие большие объемы данных из одной конечной точки в другую, имеют проблемы с задержкой и стоимостью, связанные с устаревшей архитектурой Интернета. HTTP особенно проблематичен, когда пользователи испытывают низкую пропускную способность, ограниченную пропускную способность, ухудшенное сетевое подключение или требуют ответа почти в реальном времени. Первым шагом в создании Universal Web является полная замена HTTP на UDSP.
 
-##### The Solution
-The first step in the construction of the Universal Web is to replace HTTP entirely with UDSP. UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol. On the Universal Web all communication, streaming, or transferring of any type of data utilizes UDSP. When visiting a site on the Universal Web UDSP is the protocol used instead of HTTP. Specific UDSP client and server modules are required to visit or host a website on the Sentivate Network. UDSP is the foundation and life blood of the Sentivate Network.
 
-UDSP is capable of dynamic reliability on a connection level, or on a per-request basis which is agreed upon between the involved parties. UDSP enforces encryption which means all UDSP connections are encrypted by default, no exceptions. UDSP supports IPv6, Multiplexing, and Multihoming. UDSP relies on cryptographic keypairs and XChaCha20 to establish a connection.
+##### Решение Проблем 
+UDSP - это протокол UDP с низкой задержкой, двусторонний, зашифрованный и надежный протокол передачи данных в реальном времени. В универсальной сети Интернет все коммуникации, потоковая передача или передача данных любого типа использует UDSP. При посещении сайта в Universal Web UDSP используется протокол, используемый вместо HTTP. Для посещения или размещения веб-сайта в сети Sentivate требуются определенные клиентские и серверные модули UDSP. UDSP является основой и жизненной силой сети Sentivate.
 
-UDSP prioritizes the real-time web and Dispersed Computing. Since connections are bi-directional streams and less chatty this makes the network less clogged and ensures low-latency for the livelihood of the connection. UDSP is far less chatty than HTTP and can be programmatically set to adjust it's own reliability standards. This makes UDSP a highly useful protocol where high-throughput, low-latency, and high reliability are required. Due to UDSP's programmatically dynamic nature, it's efficacious in situations of highly variable and or degraded network connectivity.
+UDSP обладает динамической надежностью на уровне соединения или на основе запроса, согласованного между заинтересованными сторонами. UDSP обеспечивает шифрование, что означает, что все соединения UDSP шифруются по умолчанию, без исключений. UDSP поддерживает IPv6, мультиплексирование и множественную адресацию. UDSP использует криптографические пары ключей и XChaCha20 для установления соединения.
 
-UDSP has optional puzzles included in the packets which allow providers and solvers to earn VIAT. Puzzles can vary and thus the puzzles are a Dynamic-Proof-of-Work. The puzzles may be encapsulated or point to data that is required for solving the puzzle. This functionality will be described in the next white paper for VIAT. The puzzles also function as congestion control and a way to limit the potential damages from DDOS attacks. Sentivate turns a typical DDOS attack into profit by the introduction of various puzzle types into packets. When a client solves the served puzzle the client and domain are credited by the network with Viat. If a server is under DDOS attack then the server can dynamically change the reward split up-to 100% for the domain. This ensures the attackers suffer more financial loss and have little to gain. Puzzles ensure that both parties have an incentive to act in good faith. 
+UDSP отдает приоритет веб-сети реального времени и распределенным вычислениям. Поскольку соединения являются двунаправленными потоками, это делает сеть менее засоренной и обеспечивает низкую задержку для обеспечения существования соединения. UDSP гораздо менее болтлив, чем HTTP, и его можно программно настроить для настройки стандартов надежности. Это делает UDSP очень полезным протоколом, где требуются высокая пропускная способность, низкая задержка и высокая надежность. Благодаря программно-динамическому характеру UDSP, он эффективен в ситуациях с сильно изменяющимся или ухудшенным сетевым подключением.
+
+UDSP имеет дополнительные загадки, включенные в пакеты, которые позволяют провайдерам и решателям зарабатывать VIAT. Пазлы могут варьироваться, и, таким образом, головоломки являются динамическим доказательством работы. Головоломки могут быть инкапсулированы или указывать на данные, необходимые для решения загадки. Эта функциональность будет описана в следующем техническом документе VIAT. Головоломки также выполняют функцию контроля перегрузки и позволяют ограничить потенциальный ущерб от атак DDOS. Sentivate превращает типичную DDOS-атаку в прибыль путем введения в пакеты различных типов головоломок. Когда клиент решает обслуживаемую головоломку, клиент и домен зачисляются в сеть с помощью Viat. Если сервер находится под атакой DDOS, то сервер может динамически изменять распределение вознаграждения до 100% для домена. Это гарантирует, что злоумышленники несут больше финансовых потерь и получают мало пользы. Загадки гарантируют, что у обеих сторон есть стимул действовать добросовестно.
+
 
 ![CLIENT CONNECTION](https://sentivate.com/wp-content/uploads/2018/09/DISHyrbid.png)
 
-## UNIVERSAL DOMAIN SYSTEM
+## УНИВЕРСАЛЬНАЯ СИСТЕМА ДОМЕНОВ
 
-### DOMAIN CERTIFICATES
-###### ROUTING & CRYPTOGRAPHIC PARAMETERS
+### ДОМЕННЫЕ СЕРТИФИКАТЫ
+###### Маршрутные и криптографические параметры
+Сертификаты домена обеспечивают маршрутизацию, криптографию и дополнительную информацию, связанную с именем хоста. Сертификаты домена подписаны 3-мя или более парами ключей: Ephemeral, Master, авторизованным регистратором доменов. Для успешного установления связи требуется сертификат домена и действительная подпись.
 
-Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, and an authorized Domain Registrar. In order to establish a successful handshake, the domain certificate and a valid signature is required.
-
-The domain's ephemeral certificate also acts as a wallet which stores funds for any puzzles it distributes to clients. A portion of the mined Viat is sent to the ephemeral certificates wallet address. 
-
-### DOMAIN REGISTRAR
-###### UPLOAD & SIGN DOMAIN CERTIFICATES
-
-The Domain Registrar, (DR), is used to register a domain and manage a domain's public certificate. The DR validates & signs the public certificates associated with the hostname. The DR then passes the certificate to the Domain Information System which stores the certificate for distribution.
+Эфемерный сертификат домена также действует как кошелек, в котором хранятся средства на любые головоломки, которые он раздает клиентам. Часть добытого Viat отправляется на адрес кошелька эфемерных сертификатов.
 
 
-### DOMAIN INFORMATION SYSTEM
-###### QUERY DOMAIN ROUTING AND CRYPTOGRAPHY
+### ДОМЕННЫЙ РЕГИСТР
+###### ЗАГРУЗИТЬ И ПОДПИСАТЬ СЕРТИФИКАТЫ ДОМЕНА
 
-The Domain Information System, (DIS), returns domain-specific information in the form of a domain certificate from human-readable hostnames. The DIS returns the domain’s certificate which includes cryptographic details & routing information. By including the hostnames cryptography along with routing information, 0-RTT is possible without requiring the client to have visited the domain prior. This is a unique advantage over TLS 1.3 in that 0-RTT is available by default where as in TLS 1.3 one would need to have visited the site prior. Before clients connect to a website they must first query the DIS with a human-readable hostname. The DIS has centralized servers and a decentralized network to provide clients with the fastest possible way to access domain certificates. 
+Регистратор домена (DR) используется для регистрации домена и управления открытым сертификатом домена. DR проверяет и подписывает публичные сертификаты, связанные с именем хоста. Затем DR передает сертификат в Информационную систему домена, которая хранит сертификат для распространения.
 
-The DIS acts as another layer of defence from malicious certificate related attacks. When invalid certificates are used to request information from the DIS to go to a service the DIS simply denys returning a response.
 
-The decentralized nodes providing domain certificates have a chance to earn Viat through their services. This functionality will be covered in-depth with the Viat white paper.
+### ДОМЕННАЯ ИНФОРМАЦИОННАЯ СИСТЕМА
+###### QUERY DOMAIN МАРШРУТ И КРИПТОГРАФИЯ
+
+Информационная система домена (DIS) возвращает специфичную для домена информацию в форме сертификата домена из понятных человеку имен хостов. DIS возвращает сертификат домена, который включает в себя криптографические данные и информацию о маршрутизации. Включая криптографию имен узлов вместе с информацией о маршрутизации, можно получить 0-RTT, не требуя, чтобы клиент предварительно посетил домен. Это уникальное преимущество перед TLS 1.3 в том, что 0-RTT доступен по умолчанию, где, как и в TLS 1.3, необходимо предварительно посетить сайт. Прежде чем клиенты подключатся к веб-сайту, они должны сначала запросить DIS с понятным для человека именем хоста. DIS имеет централизованные серверы и децентрализованную сеть, чтобы предоставить клиентам максимально быстрый способ доступа к сертификатам домена.
+
+DIS действует как еще один уровень защиты от атак, связанных с вредоносными сертификатами. Когда недействительные сертификаты используются для запроса информации от DIS для перехода к услуге, DIS просто отказывает в возврате ответа.
+
+Децентрализованные узлы, предоставляющие доменные сертификаты, могут заработать Viat с помощью своих услуг. Эта функциональность будет подробно рассмотрена в официальном документе Viat.
 
 ![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
 
