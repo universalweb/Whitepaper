@@ -12,16 +12,16 @@ Deze whitepaper is gericht op het ontwerp van de netwerkfundamenten die dienst z
 Een extra whitepaper wordt later gepubliceerd voor Viat. Alle technologie is erop gericht ervoor te zorgen dat Sentivate revolutionair is opgebouwd, dit in regenstelling tot een evolutionaire vervanging in moderne internetarchitectuur.
 
 ## INTRODUCTIE
-##### THE STATE OF THE WORLD WIDE WEB
+##### DE TOESTAND VAN THE WORLD WIDE WEB
 
 Op dit moment merken we dat we doorgaan met het gebruik van een verouderd en voorbijgestreeft medium van onderling verbonden communicatie op wereldschaal. De eisen van de mensheid nemen exponentieel toe, waaraan het World Wide Web eenvoudigweg niet kan voldoen. Terwijl we doorgaan met groeien, evolueren en het zonnestelsel overstijgen, wordt onze imperatieve taak een revolutie in de technologie waarvan we afhankelijk zijn.
 
 De huidige staat van het World Wide Web is bedenkelijk. Als de mensheid bestaande problemen blijft patchen, blijft het internet het "wilde wilde westen". De steeds toenemende eisen van de mensheid zullen nooit worden vervuld door de huidige staat van het web. We moeten in revolutionaire termen gaan denken en niet evolutionair. De oplossing is een complete vervanging van hedendaagse systemen, browsers, talen, protocollen en platforms met verhoogde beveiliging, snelheid, efficiëntie, verantwoordelijkheid, vertrouwen, identiteit, mogelijkheden en betrouwbaarheid. Om over te gaan naar een nieuw tijdperk van informatie, moeten we dat vervangen waar we ons maar al te graag in voelen.
 
-###### BANDWIDTH CRISIS
+###### BANDBREEDTE CRISIS
 [Bandwidth is limited, our needs are out growing our networks.](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/)  Om dit probleem op te lossen hebben we moderne revolutionaire technologie nodig om bestaande componenten te vervangen. Als we dat niet doen, zijn snelle rijstroken en prioritering van gegevens onze enige optie. Al die angsten die mensen hebben over de intrekking van 'Net Neutraliteit' zullen onze enige hoop zijn om het web draaiende te houden. De onvermijdelijke opkomst van IoT, meer apparaten per persoon, meer apparaten per huishouden, zelfrijdende auto's, analyses van autoverzekeringen en ontwikkelingslanden die online komen, zuigen bandbreedte op die we niet hebben.
 
-###### THE OUTDATED WEB WE RELY ON IS EATING ITSELF
+###### HET HUIDIGE INTERNET, WAAR WE OP VERTROUWEN, IS ZICHZELF AAN HET OPRBRANDEN
 HTTP en DNS zijn lang geleden gebouwd zonder rekening te houden met onze hedendaagse noden. Steeds meer bandbreedte wordt opgezogen, HTTP blijft lange schaalbaarheidsproblemen vertonen en DNS is niet betrouwbaar of schaalbaar. Als de helft van het internet kan worden plat gelegd door DNS-servers te DoS'en (aan te vallen via overbelasting), is er een duidelijk architecturaal probleem. 
 HTTP is het huidige voertuig voor geld. De hele digitale economie wordt getransporteerd via HTTP. Elke vertraging van HTTP of DNS betekent een drastisch tragere wereldeconomie. DNS en HTTP zijn inherent gebroken, hebben een slechte schaalbaarheid, zijn vreselijk traag, missen moderne functies, verbruiken bandbreedte, en kosten consumenten en bedrijven miljarden. Als we dit probleem niet oplossen, zullen we een enorme klap voor de economie ervaren. Wanneer je alle euros meetelt, realiseer je je al snel dat een trager web een wereldwijde humanitaire crisis is.
 
@@ -29,7 +29,7 @@ HTTP is het huidige voertuig voor geld. De hele digitale economie wordt getransp
 2.  [_“10 years ago, Amazon found that every 100ms of latency cost them 1% in sales”_](https://www.gigaspaces.com/blog/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/)
 3.  [_“Fast forward 10 years later, a 2017 Akamai study shows that every 100-millisecond delay in website load time can hurt conversion rates by 7% – that is a significant drop in sales – 6% – from the time when Amazon first talked about latency in seconds and milliseconds. This goes to show that things aren’t getting any easier for online retailers as user experience is becoming critical to e-commerce success.”_](https://www.akamai.com/us/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp)
 
-###### THE FAILURE THAT IS THE DECENTRALIZED WEB AKA WEB 3.0
+###### DE VERGISSING IS HET GEDECENTRALIZEERDE WEB, WEB 3.0 GENAAMD
 We weten dat de wereldeconomie een performant en goedkoop internet vereist. Als een uitsluitend gedecentraliseerd web het moderne web zou vervangen, zou het de bandbreedtecrisis versnellen en ons naar een dystopisch web brengen. De term Web 3.0 is geen magische wereldbol, een revolutionair idee of een oplossing; het is een geldklem. De transacties vinden plaats in nanoseconden. De wereldeconomie heeft geen tijd om seconden of minuten te wachten gedurende een bloktijd om te verifiëren en vervolgens door te geven via het netwerk. Een vervanging voor het internet mag niet trager en duurder zijn voor de consument. Web 3.0 kost meer en ze verstoppen zich graag achter dingen zoals het allemaal aan de ketting en kost erg weinig om een ​​app te lanceren. De realiteit is dat je krijgt waar je voor betaalt. Web 3.0 compenseert de kosten voor gebruikers in plaats van de services, wat ook resulteert in een slechtere service. Een ander veelvoorkomend argument is om gebruikers toe te staan ​​hun gegevens te beheren. Dat is geen probleem, zeg hallo tegen homomorfe codering. In plaats van dit probleem vanuit een topologie aan te pakken, moeten we innoveren in elk aspect van het web en meer vragen van onze webservices. Het topologieprobleem van het web is minimaal vergeleken met het verouderde technologieprobleem. Als deze Web 3.0-projecten echt geïnteresseerd waren in het veranderen van het internet, zouden ze zich concentreren op de werkelijke problemen. ** Beide topologieën hebben hun use casesbut together they are a solution to an ever growing problem that has gone unchecked.**
 
 ## UNIVERSAL WEB CRYPTOGRAPHY ([SODIUM-NATIVE](https://github.com/sodium-friends/sodium-native))
@@ -60,10 +60,11 @@ We weten dat de wereldeconomie een performant en goedkoop internet vereist. Als 
 ###### Data Transport Protocol 
 UDSP is een op UDP gebaseerd low-latency, real-time, bidirectioneel, gecodeerd en betrouwbaar datatransportprotocol.
 
-##### The Problem
+##### THET PROBLEEM
 Zoals vermeld in de inleiding: de eisen van de gebruiker zijn veranderd en onze eisen op het web zijn gegroeid. Deze wijzigingen maken van HTTP een groot knelpunt. De HTTP-standaard zelf en TCP zijn beide enorme problemen. Grote datacenters die grote hoeveelheden gegevens van het ene eindpunt naar het andere verplaatsen, hebben latency- en kostenproblemen in verband met verouderde internetarchitectuur. HTTP is vooral problematisch wanneer gebruikers een lage doorvoer, beperkte bandbreedte, verminderde netwerkconnectiviteit of een bijna realtime respons ondervinden.
 
-##### The SolutionDe eerste stap bij de constructie van het Universal Web is om HTTP volledig te vervangen door UDSP. UDSP is een op UDP gebaseerd low-latency, real-time, bidirectioneel, gecodeerd en betrouwbaar datatransportprotocol. Op het universele web maakt alle communicatie, streaming of overdracht van elk type gegevens gebruik van UDSP. Bij het bezoeken van een site op de Universal Web UDSP wordt het protocol gebruikt in plaats van HTTP. Specifieke UDSP-client- en -servermodules zijn vereist om een ​​website in het Sentivate-netwerk te bezoeken of te hosten. UDSP is de basis en het levensbloed van het Sentivate Network.
+##### DE OPLOSSING
+De eerste stap bij de constructie van het Universal Web is om HTTP volledig te vervangen door UDSP. UDSP is een op UDP gebaseerd low-latency, real-time, bidirectioneel, gecodeerd en betrouwbaar datatransportprotocol. Op het universele web maakt alle communicatie, streaming of overdracht van elk type gegevens gebruik van UDSP. Bij het bezoeken van een site op de Universal Web UDSP wordt het protocol gebruikt in plaats van HTTP. Specifieke UDSP-client- en -servermodules zijn vereist om een ​​website in het Sentivate-netwerk te bezoeken of te hosten. UDSP is de basis en het levensbloed van het Sentivate Network.
 
 UDSP is in staat tot dynamische betrouwbaarheid op verbindingsniveau of op basis van een verzoek dat is overeengekomen tussen de betrokken partijen. UDSP dwingt codering af, wat betekent dat alle UDSP-verbindingen standaard worden gecodeerd, geen uitzonderingen. UDSP ondersteunt IPv6, Multiplexing en Multihoming. UDSP vertrouwt op cryptografische keypairs en XChaCha20 om een ​​verbinding tot stand te brengen.
 
@@ -129,8 +130,6 @@ Actieve certificaten worden voortdurend bijgewerkt en ondertekend. Wanneer een c
 
 ## DEVELOPMENT
 
- 
-
 ### hApps
 ###### HYBRID UNIVERSAL WEB APPS
 Hybride apps zijn zelf-construerende, streaming applicaties met één pagina. Hybride apps worden gebouwd met behulp van reactieve, dynamische en modulaire ontwikkelingsmethodieken. hApp's hebben alle voordelen van gecentraliseerde en gedecentraliseerde netwerken die het hoogste schaalbaarheidspotentieel garanderen.
@@ -145,7 +144,7 @@ hApps valideren, authenticeren en autoriseren clients automatisch tijdens de eer
 
 ## VIAT
 
-### EIGEN CRYPTOCURRENCY
+### EIGEN CRYPTOCURRENCY - BLOCKCHAIN
 Viat is de eigen cryptocurrency op het Sentivate Network. Viat heeft een hybride blockchain. De kernsystemen van Viat zijn gedecentraliseerd, maar verbeterd door gecentraliseerde componenten (het tegenovergestelde van het web van Sentivate). Viat is ontworpen om snel en veilig te zijn en heeft de laagste transactiekosten die beschikbaar zijn. De gecentraliseerde delen van Viat kunnen directe transacties verwerken, portefeuillewaarborgen bieden en netwerkcongestie voorkomen wanneer het decentrale netwerk zwaar wordt belast. Deze gecentraliseerde functies zijn echter opt-in waardoor gebruikers hun eigen pad kunnen smeden.
 
 
