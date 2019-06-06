@@ -5,17 +5,18 @@
 
 ##### TITLE:  SENTIVATE - Het Universele Web. 
 #####  ABSTRACT
-Sentivate is a hybrid web (centralized focused but enhanced by decentralized components) built to be a viable & realistic replacement for the modern web. The network is designed to go beyond the capabilities that any solely centralized or decentralized network could offer. Sentivate addresses the following issues directly: bandwidth crisis, outdated protocols, broken DNS, lack of accountability, lack of identity, reactive security, Domain rules, and web categorization.
+Sentivate is een hybride web (gecentraliseerd gericht maar versterkt door gedecentraliseerde componenten) dat is gebouwd om een levensvatbare en realistische vervanging te zijn voor het moderne web. Het netwerk is ontworpen om verder te gaan dan de mogelijkheden die elk alleen gecentraliseerd of gedecentraliseerd netwerk kan bieden. Sentivate behandelt de volgende problemen rechtstreeks: bandbreedtecrisis, verouderde protocollen, verbroken DNS, gebrek aan verantwoordelijkheid, gebrek aan identiteit, reactieve beveiliging, domeinregels en webcategorisatie.
 
 ##### FOCUS
-This white paper is focused on the core network design that serves as the base network & components for Viat, hApps, and the Universal Web. An additional white paper will be released solely on Viat. All technology is focused on ensuring that Sentivate is a revolutionary, and not an evolutionary replacement in modern Internet architecture. 
+Deze whitepaper is gericht op het ontwerp van de netwerkfundamenten die dienst zullen doen als basisnetwerk en de componenten voor Viat (blockchain token), hApps en Universal Web. 
+Een extra whitepaper wordt later gepubliceerd voor Viat. Alle technologie is erop gericht ervoor te zorgen dat Sentivate revolutionair is opgebouwd, dit in regenstelling tot een evolutionaire vervanging in moderne internetarchitectuur.
 
-## INTRODUCTION
+## INTRODUCTIE
 ##### THE STATE OF THE WORLD WIDE WEB
 
-At present, we find ourselves continuing to utilize a ruinous medium of interconnected communication on a global scale. Humanity’s demands are exponentially increasing of which the World Wide Web simply can’t meet. As we continue to grow, evolve, and venture beyond the solar system, our imperative task becomes revolutionizing the technology we depend on.
+Op dit moment merken we dat we doorgaan met het gebruik van een verouderd en voorbijgestreeft medium van onderling verbonden communicatie op wereldschaal. De eisen van de mensheid nemen exponentieel toe, waaraan het World Wide Web eenvoudigweg niet kan voldoen. Terwijl we doorgaan met groeien, evolueren en het zonnestelsel overstijgen, wordt onze imperatieve taak een revolutie in de technologie waarvan we afhankelijk zijn.
 
-The current state of the World Wide Web is deprecationary. If humanity continues to monkey-patch existing problems the Internet will remain the “wild wild west”. Humanity’s ever-increasing demands will never be met by the current state of the Web. We must start thinking in revolutionary terms and not evolutionary. The solution is a complete replacement of contemporary systems, browsers, languages, protocols, and platforms with increased security, speed, efficiency, accountability, trust, identity, capability, and reliability. In order to transition into a new age of information we must replace that which we have become all too comfortable with.
+De huidige staat van het World Wide Web is bedenkelijk. Als de mensheid bestaande problemen blijft patchen, blijft het internet het "wilde wilde westen". De steeds toenemende eisen van de mensheid zullen nooit worden vervuld door de huidige staat van het web. We moeten in revolutionaire termen gaan denken en niet evolutionair. De oplossing is een complete vervanging van hedendaagse systemen, browsers, talen, protocollen en platforms met verhoogde beveiliging, snelheid, efficiëntie, verantwoordelijkheid, vertrouwen, identiteit, mogelijkheden en betrouwbaarheid. Om over te gaan naar een nieuw tijdperk van informatie, moeten we dat vervangen waar we ons maar al te graag in voelen.
 
 ###### BANDWIDTH CRISIS
 [Bandwidth is limited, our needs are out growing our networks.](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/)  To solve this issue we need modern revolutionary technology to replace existing components. If we don’t, fast lanes & prioritization of data is our only option. All those fears that folks have of the repeal of Net Neutrality will be our only hope at keeping the web spinning. The inevitable rise of IoT, more devices per-person, more devices per-household, self-driving cars, car insurance analytics, & developing countries coming online suck up bandwidth we don’t have.
