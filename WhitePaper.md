@@ -1,7 +1,12 @@
 
 # Sentivate Network White Paper - Under Construction
 
+
 ![Logo](https://sentivate.com/wp-content/uploads/brizy/12/assets/images/iW=1200&iH=any/70e94477b15f379a2717c387bf335188.png)
+##### Withepaper translations 
+-  [Vietnamese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Vietnamese.md)
+-  [Dutch version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Dutch.md)
+-  [Russian version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Russian.md)
 
 ##### TITLE:  SENTIVATE - The Universal Web. 
 #####  ABSTRACT
@@ -151,7 +156,6 @@ hApps validate, authenticate, and authorize clients automatically during the ini
 
 ### NATIVE CRYPTOCURRENCY
 Viat is the native cryptocurrency on the Sentivate Network. Viat has a hybrid blockchain. Viat’s core systems are decentralized focused but enhanced by centralized components (the opposite of Sentivate’s Web). Viat is designed to be fast, secure, and have some of the lowest transaction fees available. Viat’s centralized portions can process instant transactions, provide wallet security, and alleviate network congestion when the decentralized network is under heavy load. However, these centralized features are opt-in only allowing users to forge their own path.
-
 
 
 ### MINING 
