@@ -3,7 +3,7 @@
 
 ![Logo](https://sentivate.com/wp-content/uploads/brizy/12/assets/images/iW=1200&iH=any/70e94477b15f379a2717c387bf335188.png)
 
-##### TITLE:  제목: SENTIVATE – 유니버설 웹
+##### 제목: SENTIVATE – 유니버설 웹
 #####  개요
 Sentivate는 현대의 웹을 위한 실용적이고 현실적인 대안으로서 설계된 하이브리드 웹입니다. 이 네트워크는 단독 중앙 집중화 된, 또는 분산화 된 네트워크가 제공할 수 있는 그 어떤 가능성들도 뛰어넘을 수 있게 디자인되었습니다. Sentivate는 대역폭 위기, 구식 프로토콜, 망가진 DNS, 책무성 부재, ID 부재, 사후 대응적 보안, 도메인 규정, 웹 분류와 같은 문제들을 직접적으로 해결하고자 고심합니다.
 
