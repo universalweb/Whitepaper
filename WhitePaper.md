@@ -1,9 +1,8 @@
 
 # Sentivate Network White Paper - Under Construction
 
-
 ![Logo](https://sentivate.com/wp-content/uploads/brizy/12/assets/images/iW=1200&iH=any/70e94477b15f379a2717c387bf335188.png)
-##### Whitepaper translations 
+##### White Paper translations 
 -  [Vietnamese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Vietnamese.md)
 -  [Dutch version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Dutch.md)
 -  [Russian version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Russian.md)
