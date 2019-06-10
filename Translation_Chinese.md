@@ -107,63 +107,58 @@ DIS充当着证书相关恶意攻击的另一层防御。当使用无效证书�
 提供域证书的分布式节点有机会通过其服务获得Viat。 Viat白皮书将深入介绍此功能。
 ![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
 
-### DOMAINS
-###### HUMAN READABLE HOSTNAMES
+### 域
+###### 人类可读的主机名
+Sentivate上的域名具有完整的扩展名，并且可以为商标实体提供单个全名。域规则和法规旨在组织Web，为新公司释放域名，保护商标，限制恶意活动以及使扩展名更具描述性。
 
-Domains on Sentivate have full extension names and can have single full names for trademarked entities. The domain rules and regulations are designed to organize the web, free up domain names for new companies, protect trademarks, limit malicious activity, and make extensions more descriptive.
+例如，只需在Sentivate浏览器中输入Amazon即可导航到亚马逊。 Sentivate网络上的域规则更严格。域名抢注是完全不被允许的，这里将采取“使用即失去”的规则。域内容或服务必须与域扩展相关。例如，亚马逊的商店必须使用商店域扩展“Amazon.store”。某些域可以使用速记域扩展名。例如，亚马逊的公司网站必须使用公司扩展名，Amazon.company或简写版本Amazon.com。比特币，以太坊和Litecoin是加密货币，专用于它们的站点必须使用加密货币扩展名。但是，与比特币相关的新闻网站必须使用.news和.blog扩展名。任何可能包含随机和/或任意内容的域必须使用.abstract扩展名。
 
-For example, one can navigate to Amazon by simply typing Amazon into the Sentivate browser. Domain rules are stricter on the Sentivate network. Domain squatting is entirely disallowed, there is a use it or lose it policy. Domain content or service must be relevant to the domain extension. For example, Amazon's store must use the store domain extension, "Amazon.store". There are shorthand domain extensions available for certain domains. For example, Amazon's company website must utilize the company extension, Amazon.company or the shorthand variant Amazon.com. Bitcoin, Ethereum, and Litecoin are cryptocurrencies and sites dedicated to them must use the cryptocurrency extension. However, a news site related to say bitcoin must use the .news and or .blog extension. Any domain that may have random and or arbitrary content must use the .abstract extension.
 
-## UNIVERSAL IDENTITY SYSTEM
+## 普遍的身份系统
 
-### IDENTITY CERTIFICATES
-###### EPHEMERAL & MASTER KEY PAIRS
+### 身份证书
+###### 临时密钥对和主密钥对
+身份证书（IC）是在网络上代表您并由身份注册员签名的加密详细信息的文档。身份证书有两个加密密钥对：主密钥对和临时密钥对。主密钥对专门用于签署临时证书，并且是核心识别密钥对。临时的密钥对可由业主自行决定更换。身份证书以加密方式验证和授权网络上的客户端。
 
-Identity certificates, (IC), are documents which provide cryptographic details that represent you on the network and are signed by a Identity Registrar. An identity certificate has two cryptographic key pairs: Master and Ephemeral. A master key pair is used specifically for signing ephemeral certificates and is the core identifying key pair. Ephemeral key pairs can be replaced at the owner's discretion. Identity certificates cryptographically authenticate & authorize clients on the network.
+临时证书（EC）是主证书的子证书。 EC用作访问用户定义服务的配置文件。例如，钱包证书，银行证书，一般网络浏览证书或每项服务。但是，用户可以选择为所有服务使用一个临时的证书。 EC用于密钥交换过程，该过程在源和主机之间建立双向UDSP连接。
 
-Ephemeral Certificates, (EC), are a sub-certificate to the Master Certificate. EC's act as profiles which are used to access user defined services. For example, wallet certificate, banking certificate, general web browsing certificate or for every service. However, one can choose to utilize one single ephemeral certificate for all services. ECs are used for the key exchange process which sets up a bi-directional UDSP connection between the origin and host.
+用户可以使用其身份证书立即注册，登录和购买项目。服务器在连接时需要客户端证书才能建立成功的UDSP握手。
 
-Users can instantly signup, login, and purchase an item with their identity certificate. Servers require a client certificate upon connection to establish a successful UDSP handshake.
+身份证书构成了去中心化信用系统的基础，可以公开记录与特定证书相关的好的和坏的行为。蜜罐 (Honeypot)可用于阻止已知的不良参与者访问进一步保护网络的服务。
 
-Identity certificates form the basis for a decentralized reputation system, which can publicly record good & bad behavior associated with specific certificates. A honeypot can be used to block known bad actors from accessing a service further securing the network.
+身份证书可用于锚定到真实世界的用户身份和资产。Sentivate可在选举中作为安全，私密和可验证投票的理想平台。商店和公司可以拥有经过验证的IC，允许用户通过Viat直接付款或捐赠。
 
-Identity certificates can be linked to real world identities and assets. Making Sentivate an ideal platform for secure, private, and verifiable voting in elections. Stores and companies can have verified ICs which allow users to directly pay or donate through Viat.
+### 身份注册
+###### 验证和签名
+身份注册（IR）是一种签署证书的服务，是网络的第一层保护。 IR通过过滤错误的证书，阻止Sybil攻击和邪恶的角色来保护网络。 IR确保未签署恶意证书，从而允许服务有效地拒绝其连接尝试。 DIS可以拒绝虚假签名，因此可能会保护服务并预先保存一些资源。
 
-### IDENTITY REGISTRAR
-###### VALIDATE AND SIGN
+去中心化的网络和非循环结构区块链可被用来帮助验证新提交的证书以进行签名。如果证书被网络成功审核，则IR签署证书。然后它可以被服务和DIS成功使用。在初始握手期间，第一个数据包包含建立UDSP流所需的证书。如果签名验证成功，则握手过程的其余部分保留，否则失败。
 
-The Identity Registrar, (IR), is a service which signs certificates & is the first layer of protection for the network. The IR protects the network by filtering faulty certificates, stopping Sybil attacks, and nefarious actors. The Identity Registrar ensures malicious certificates aren’t signed which allows services to efficiently deny their connection attempts. False signatures can be denied by the DIS and therefore potentially protect a service and save some of its resources before hand. 
+活动证书将不断更新和签名。重新签名证书时，会在证书中添加另一个字段，该字段显示自上次签署证书以来经过的时间。这为某些证书提供了额外的信任层。
 
-A decentralized network and acyclic blockchain will be leveraged to help validate newly submitted certificates for signing. If the certificated is successfully vetted by the network the IR signs the certificate. Then it can be successfully used by services and the DIS. During the initial handshake, the first packet contains the certificates required to establish a UDSP stream. If signatures are successfully validated the rest of the handshake process continues else it fails.
-
-Active certificates will continually be updated and signed. When a certificate is re-signed, another field is added to the certificate which shows the elapsed time since the previous signing of the certificate. This provides services with an extra layer of trust for certain certificates. 
-
-## DEVELOPMENT
-
- 
-
+# 发展
 ### hApps
-###### HYBRID UNIVERSAL WEB APPS
+###### 混合通用WEB应用程序
+混合应用程序是自构建的流式单页应用程序。混合应用程序使用反应式，动态和模块化开发方法构建。 hApps兼具中心化和去中心化网络的所有优势，可确保最高的可扩展性。
 
-Hybrid apps are self-constructing, streaming single-page-applications. Hybrid apps are built using reactive, dynamic, and modular development methodologies. hApps have all the benefits of centralized & decentralized networks ensuring the highest scalability potential.
+hApps的资产在他们自己的文件中，并根据需要流式传输到客户端。 hApps随着时间的推移进行流式传输和构建，就像你走过时的桥梁建筑一样。只进行一次初始页面加载，然后根据需要动态构建页面，类似于单页面应用程序。只有当客户端需要资源时才会获取和传递资源。
 
-hApps’ assets are contained in their own file and are streamed to the client on an as needed basis. hApps are streamed and built over time much like a bridge building itself as you walk across. Only one initial page load takes place and thereafter pages are dynamically built as needed similar to Single-page-apps. Only exactly when the client needs the resource is when it will be fetched and delivered.
+Sentivate的组件允许高度模块化的资产流。例如，组件可以共享相同的CSS或HTML资产，这可确保共享资产仅下载一次，并且永远不会通过网络发送重复代码。由于这种客户端只能提取所需的内容，这种方法可以大大降低服务器负载和带宽。
 
-Sentivate’s components allow for highly modular asset streaming. For example, components can share the same CSS or HTML assets which ensures shared assets are only downloaded once and the duplicate code is never sent over the wire. Server loads and bandwidth is drastically decreased with this methodology as now the client is only pulling exactly what is needed.
+除了目标服务之外，混合应用程序还可以使用选择加入的分散式P2P CDN作为资产。利用混合内容交付网络意味着混合应用程序具有极高可用性，可扩展性和更多带宽。
 
-Hybrid Apps can utilize an opt-in decentralized P2P CDN for assets in addition to the destination service. Making use of a Hybrid Content Delivery Network means that hybrid apps have high availability, scalability, and more bandwidth.
+hApp在初始连接握手期间自动验证，验证和授权客户端。 hApps后端可以通过公钥或完整证书存储和引用客户端。可以把它想象成整个互联网的oAuth。服务不再需要担心散列，存储和/或加密密码。客户可以通过单击按钮快速登录，也可以通过简单地连接到服务自动登录。用户不再需要记住或创建复杂密码，因为使用密钥对更安全，更易于使用。如果服务不要求您拥有用户名，则可以依赖您的公钥作为您的识别名称。这意味着对于某些服务，用户无需在注册过程中创建用户名和密码。
 
-hApps validate, authenticate, and authorize clients automatically during the initial connection handshake. hApps backends can store and reference clients by their public key or full certificates. Think of it as oAuth for the entire Internet. Services no longer need to worry about hashing, storing, and or encrypting passwords. Clients can quickly login on the click of a button or automatically by simply connecting to the service. Users no longer need to remember or create complex passwords as using their keypair is more secure and easier to use. If services do not require you to have a username they can simply rely on your public key as your identifying name. This means that for some services users don't have to create a username and password during the registration process.
 
 ## VIAT
 
-### NATIVE CRYPTOCURRENCY
-Viat is the native cryptocurrency on the Sentivate Network. Viat has a hybrid blockchain. Viat’s core systems are decentralized focused but enhanced by centralized components (the opposite of Sentivate’s Web). Viat is designed to be fast, secure, and have some of the lowest transaction fees available. Viat’s centralized portions can process instant transactions, provide wallet security, and alleviate network congestion when the decentralized network is under heavy load. However, these centralized features are opt-in only allowing users to forge their own path.
+### N原生加密货币
+Viat是基于Sentivate网络的原生加密货币。 Viat有一个混合区块链。 Viat的核心系统专注于中心化的主体建设，但通过集中组件（与Sentivate的Web相反）得到增强。 Viat旨在提供快速，安全的网络服务，并且交易费用极低。 Viat的中心化部分可以处理即时交易，提供钱包安全性，并在去中心化网络负载较重时缓解网络拥塞。但是，这些中心化功能只是选择性的，允许用户建造自己的路径。
 
+### 挖矿 
+Viat有一个动态的工作证明，可以通过两种方式挖矿。直接挖矿是主要方法，这一部分将在Viat白皮书中进行解释，第二种方法是通过在UDSP中使用数据包谜题 (Puzzles)。数据包谜题 (Puzzles) 允许在浏览通用Web时对Viat进行被动挖矿。但是，默认情况它不会被启用。产生数据包谜题 (Puzzles) 的情况是：在连接握手，连接活跃性检查，DDoS保护，拥塞控制和/或各个服务可能由于各种原因启用它。这确保了不需要在后台进行持续挖矿并为开启挖矿提供了确切的目的。否则，挖矿将持续占用资源，并蚕食电池寿命。
 
-### MINING 
-Viat has a dynamic proof of work which can be mined two ways. Direct mining is the main method, which will be explained in the Viat white paper, & the second method is through the use of packet puzzles in UDSP. Packet puzzles allow for passive mining of Viat while browsing the Universal Web. However, it’s not enabled by default. The situations which arise that enable packet puzzles are: upon connection handshake, connection liveliness check, DDoS protection, congestion control, and or the service chooses to enable it for their own reasons. It is up to the service to enable packet puzzles. This ensures that there is no need for constant mining in the background and gives real purpose to the mining process. Otherwise, it would be on all the time sucking up resources & eating into battery life.
  
 
-### INTEROPERABILITY 
-Identity & Domain certificates also double as Viat wallet keys. This allows users to not only instantly sign into a service during a connection handshake, but also provide a way to purchase goods from services, tip sites, and or refund clients. Viat is an integral part of the full functionality of the Universal Web without it only part of the picture is there.
+### 互操作性
+身份和域证书可一起充当Viat钱包密钥。用户不仅可以在连接握手期间登录服务，还可以从网站直接购买，打赏小费或完成退款。 Viat是通用Web功能的一个不可或缺的组成部分。
