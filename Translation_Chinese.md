@@ -57,27 +57,29 @@ HTTP和DNS由来已久，而没有考虑到现代需求。越来越多的带宽�
     -   X25519  - 临时密钥对
       -   使用发件人的密钥和接收者的公钥计算发送者和接收者之间共享的秘密（反之亦然）
 
-## HYBRID NETWORK
+## 混合型网络
 ![Sentivate Hybrid Network](https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png)
 
-## PROTOCOL
+## 协议
 
-### Universal Data Stream Protocol
-###### Data Transport Protocol 
+### 通用数据流协议
 
-UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol. 
+###### 数据传输协议
 
-##### The Problem
-As mentioned in the introduction: User’s demands have changed and our requirements of the web have grown. These changes make HTTP a major bottleneck. The HTTP standard itself and TCP are both huge issues. Large data centers moving copious amounts of data from one end-point to the other have latency and cost issues associated with outdated Internet architecture. HTTP is especially problematic when users are experiencing low throughput, limited bandwidth, degraded network connectivity, or requiring a near real-time response. 
+UDSP是基于UDP的低延迟，实时，双向，加密和可靠的数据传输协议。 
 
-##### The Solution
-The first step in the construction of the Universal Web is to replace HTTP entirely with UDSP. UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol. On the Universal Web all communication, streaming, or transferring of any type of data utilizes UDSP. When visiting a site on the Universal Web UDSP is the protocol used instead of HTTP. Specific UDSP client and server modules are required to visit or host a website on the Sentivate Network. UDSP is the foundation and life blood of the Sentivate Network.
+##### 现有问题
+如引言中所述：用户的需求已经发生变化，我们对Web的需求也在增长。这些变化使HTTP成为主要瓶颈。 HTTP标准本身和TCP都是巨大的问题。大型数据中心将大量数据从一个端点移动到另一个端点，这与过时的互联网架构相关的延迟和成本问题。当用户遇到低吞吐量，有限的带宽，降低的网络连接或需要近乎实时的响应时，HTTP自身的问题则尤为明显。
 
-UDSP is capable of dynamic reliability on a connection level, or on a per-request basis which is agreed upon between the involved parties. UDSP enforces encryption which means all UDSP connections are encrypted by default, no exceptions. UDSP supports IPv6, Multiplexing, and Multihoming. UDSP relies on cryptographic keypairs and XChaCha20 to establish a connection.
+##### 解决方案
+构建通用Web的第一步是完全用UDSP替换HTTP。 UDSP是基于UDP的低延迟，实时，双向，加密和可靠的数据传输协议。在通用Web上，所有通信，流式传输或传输任何类型的数据都使用UDSP。访问Universal Web UDSP上的站点时，使用的是协议而不是HTTP。需要特定的UDSP客户端和服务器模块才能访问或托管Sentivate Network上的网站。 UDSP是Sentivate Network的基础。
 
-UDSP prioritizes the real-time web and Dispersed Computing. Since connections are bi-directional streams and less chatty this makes the network less clogged and ensures low-latency for the livelihood of the connection. UDSP is far less chatty than HTTP and can be programmatically set to adjust it's own reliability standards. This makes UDSP a highly useful protocol where high-throughput, low-latency, and high reliability are required. Due to UDSP's programmatically dynamic nature, it's efficacious in situations of highly variable and or degraded network connectivity.
+UDSP能够在连接级别上在每个请求的基础上实现动态可靠性，这是有关各方之间达成的协议。 UDSP强制执行加密，这意味着默认情况下所有UDSP连接都是加密的，没有例外。 UDSP支持IPv6，多路复用和多宿主。 UDSP依靠加密密钥对和XChaCha20来建立连接。
 
-UDSP has optional puzzles included in the packets which allow providers and solvers to earn VIAT. Puzzles can vary and thus the puzzles are a Dynamic-Proof-of-Work. The puzzles may be encapsulated or point to data that is required for solving the puzzle. This functionality will be described in the next white paper for VIAT. The puzzles also function as congestion control and a way to limit the potential damages from DDOS attacks. Sentivate turns a typical DDOS attack into profit by the introduction of various puzzle types into packets. When a client solves the served puzzle the client and domain are credited by the network with Viat. If a server is under DDOS attack then the server can dynamically change the reward split up-to 100% for the domain. This ensures the attackers suffer more financial loss and have little to gain. Puzzles ensure that both parties have an incentive to act in good faith. 
+UDSP优先考虑实时Web和分散计算。由于连接是双向流并且不那么繁琐，因此网络堵塞较少并确保连接生计的低延迟。 UDSP远不如HTTP那么繁琐，可以通过编程设置来调整自己的可靠性标准。因此，UDSP是一种实用型很强的协议，具备高吞吐量，低延迟和高可靠性。由于UDSP的编程动态特性，它在高度可变和/或降级的网络连接情况下是有效的。
+
+UDSP的数据包中有可选的谜题 (Puzzles)，允许提供者和解算者获得VIAT。谜题 (Puzzles）可以变化，因此谜题(Puzzles）是动态的工作证明。谜题(Puzzles）可以封装或指向解决谜题(Puzzles）所需的数据。此功能将在下一篇VIAT白皮书中介绍。这些谜题(Puzzles）还可用作拥塞控制和限制DDOS攻击潜在损害的方法。 Sentivate通过将各种谜题(Puzzles）类型引入数据包，将典型的DDOS攻击转化为利润。当客户端解决所服务的难题时，客户端和域由网络用Viat记入。如果服务器受到DDOS攻击，那么服务器可以动态地将奖励分割更改为域的100％。这可以确保攻击者遭受更多的经济损失并且几乎没有收获。谜题(Puzzles）能确保双方都是带着诚意进行各种操作。
+
 
 ![CLIENT CONNECTION](https://sentivate.com/wp-content/uploads/2018/09/DISHyrbid.png)
 
