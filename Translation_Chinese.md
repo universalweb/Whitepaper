@@ -58,7 +58,7 @@ HTTP和DNS由来已久，而没有考虑到现代需求。越来越多的带宽�
       -   使用发件人的密钥和接收者的公钥计算发送者和接收者之间共享的秘密（反之亦然）
 
 ## 混合型网络
-![Sentivate Hybrid Network](https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png)
+![Sentivate Hybrid Network](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/Chinese_01.png)
 
 ## 协议
 
