@@ -83,30 +83,28 @@ UDSP的数据包中有可选的谜题 (Puzzles)，允许提供者和解算者获
 
 ![CLIENT CONNECTION](https://sentivate.com/wp-content/uploads/2018/09/DISHyrbid.png)
 
-## UNIVERSAL DOMAIN SYSTEM
+## 通用域系统
 
-### DOMAIN CERTIFICATES
-###### ROUTING & CRYPTOGRAPHIC PARAMETERS
+### 域名证书
+###### 路由和密码参数
 
-Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, and an authorized Domain Registrar. In order to establish a successful handshake, the domain certificate and a valid signature is required.
+域证书提供路由，加密以及与主机名关联的其他详细信息。域证书由3个或更多密钥对签名：Ephemeral，Master和授权域名注册商。为了建立成功握手，需要域证书和有效签名。
 
-The domain's ephemeral certificate also acts as a wallet which stores funds for any puzzles it distributes to clients. A portion of the mined Viat is sent to the ephemeral certificates wallet address. 
-
-### DOMAIN REGISTRAR
-###### UPLOAD & SIGN DOMAIN CERTIFICATES
-
-The Domain Registrar, (DR), is used to register a domain and manage a domain's public certificate. The DR validates & signs the public certificates associated with the hostname. The DR then passes the certificate to the Domain Information System which stores the certificate for distribution.
+该域名的临时证书还充当钱包，为其分发给客户的任何谜题(Puzzles）存储资金。一部分已开采的Viat将被发送到临时证书钱包地址。
 
 
-### DOMAIN INFORMATION SYSTEM
-###### QUERY DOMAIN ROUTING AND CRYPTOGRAPHY
+### 域名注册者
+###### 上传和签名域名证书
+域名注册者（DR），具备注册域名和管理域名公共证书的作用。 DR验证并签署与主机名关联的公共证书。然后，DR将证书传递给域信息系统，该系统存储证书以供分发。
 
-The Domain Information System, (DIS), returns domain-specific information in the form of a domain certificate from human-readable hostnames. The DIS returns the domain’s certificate which includes cryptographic details & routing information. By including the hostnames cryptography along with routing information, 0-RTT is possible without requiring the client to have visited the domain prior. This is a unique advantage over TLS 1.3 in that 0-RTT is available by default where as in TLS 1.3 one would need to have visited the site prior. Before clients connect to a website they must first query the DIS with a human-readable hostname. The DIS has centralized servers and a decentralized network to provide clients with the fastest possible way to access domain certificates. 
 
-The DIS acts as another layer of defence from malicious certificate related attacks. When invalid certificates are used to request information from the DIS to go to a service the DIS simply denys returning a response.
+### 域信息系统
+###### 查询域路由和密码学
+域信息系统（DIS）从人类可读的主机名以域证书的形式返回属于该域的特定信息。 DIS返回域证书，其中包括加密详细信息和路由信息。通过加密主机名以及路由信息，可以在不要求客户端先前访问域的情况下进行0-RTT。与TLS 1.3相比，这是一个独特的优势，因为默认情况下可以使用0-RTT，而在TLS 1.3中需要先访问该站点。在客户端连接到网站之前，他们必须首先使用人类可读的主机名查询DIS。 DIS具有中心化服务器和去中心化网络，为客户提供最快访问域证书的方式。
 
-The decentralized nodes providing domain certificates have a chance to earn Viat through their services. This functionality will be covered in-depth with the Viat white paper.
+DIS充当着证书相关恶意攻击的另一层防御。当使用无效证书从DIS请求信息去服务时，DIS只是拒绝返回响应。
 
+提供域证书的分布式节点有机会通过其服务获得Viat。 Viat白皮书将深入介绍此功能。
 ![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
 
 ### DOMAINS
