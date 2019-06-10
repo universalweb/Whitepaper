@@ -81,7 +81,7 @@ UDSP优先考虑实时Web和分散计算。由于连接是双向流并且不那�
 UDSP的数据包中有可选的谜题 (Puzzles)，允许提供者和解算者获得VIAT。谜题 (Puzzles）可以变化，因此谜题(Puzzles）是动态的工作证明。谜题(Puzzles）可以封装或指向解决谜题(Puzzles）所需的数据。此功能将在下一篇VIAT白皮书中介绍。这些谜题(Puzzles）还可用作拥塞控制和限制DDOS攻击潜在损害的方法。 Sentivate通过将各种谜题(Puzzles）类型引入数据包，将典型的DDOS攻击转化为利润。当客户端解决所服务的难题时，客户端和域由网络用Viat记入。如果服务器受到DDOS攻击，那么服务器可以动态地将奖励分割更改为域的100％。这可以确保攻击者遭受更多的经济损失并且几乎没有收获。谜题(Puzzles）能确保双方都是带着诚意进行各种操作。
 
 
-![CLIENT CONNECTION](https://sentivate.com/wp-content/uploads/2018/09/DISHyrbid.png)
+![CLIENT CONNECTION](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/Chinese_02.png)
 
 ## 通用域系统
 
@@ -105,7 +105,7 @@ UDSP的数据包中有可选的谜题 (Puzzles)，允许提供者和解算者获
 DIS充当着证书相关恶意攻击的另一层防御。当使用无效证书从DIS请求信息去服务时，DIS只是拒绝返回响应。
 
 提供域证书的分布式节点有机会通过其服务获得Viat。 Viat白皮书将深入介绍此功能。
-![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
+![DIS](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/Chinese_03.png)
 
 ### 域
 ###### 人类可读的主机名
