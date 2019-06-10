@@ -2,10 +2,6 @@
 # Sentivate 网络项目白皮书 —— 本白皮书持续改进中
 
 ![Logo](https://sentivate.com/wp-content/uploads/brizy/12/assets/images/iW=1200&iH=any/70e94477b15f379a2717c387bf335188.png)
-##### White Paper translations 
--  [Vietnamese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Vietnamese.md)
--  [Dutch version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Dutch.md)
--  [Russian version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Russian.md)
 
 #####  摘要
 Sentivate是一个混合型网络（主体为中心化，通过去中心化的组件增强功能），是对现存当代网络的一种兼具现实性和可行性的替代方案。该网络旨在超越任何单一中心化或去中心化网络所能提供的功能。 Sentivate直接解决了以下问题：带宽危机，过时协议，破坏的DNS，缺乏问责制，缺乏用户身份，被动型安全机制，域规则和Web分类。
@@ -22,7 +18,7 @@ Sentivate是一个混合型网络（主体为中心化，通过去中心化的�
 万维网的当前状态是弃用的。如果人类继续修补现有的问题，那么互联网将仍然是“狂野的西部”。当下的万维网永远将永远无法满足人类日益增长的需求。我们必须从颠覆性角度开始思考而不仅仅是进化思考。该解决方案是对现代系统，浏览器，语言，协议和平台的完全替代，具备更强的安全性，更快的速度，更高的效率，并增加了系统中的责任性，信任，身份，功能和可靠性。为了过渡到一个新的信息时代，我们必须取代我们已经习以为常的事物。
 
 ###### 带宽危机
-[Bandwidth is limited, our needs are out growing our networks.](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/)  
+[带宽有限，我们的需求正在超出您的网络。](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/)  
 带宽有限，我们需求的增长速度已经超越网络强化速度。为了解决这个问题，我们需要现代革命性的技术来取代现有的组件。如果不这样做，快速通道和数据优先级是我们唯一的选择。所有人们对废除网络中立性的恐惧将是网络得以持续运行的唯一动力。物联网崛起势不可逆，个人设备数目急剧增多，每户家庭设备数目增多，自动驾驶汽车，汽车保险分析以及新近崛起发展中国家网民数量上涨，无不在占用和吸收带宽资源。
 
 
@@ -42,24 +38,24 @@ HTTP和DNS由来已久，而没有考虑到现代需求。越来越多的带宽�
 我们知道，全球经济需要一个高性能且使用费用低廉的网络支撑。如果一个去中心化单一结构的网络取代了当代网络，那么它将加速带宽危机并将我们带入反乌托邦网络。 Web 3.0这个术语不是一个神奇的星球，一个革命性的想法，或一个解决方案;这是现金抢夺。交易发生在几纳秒内，全球经济无法等待几分钟或几分钟，来验证然后通过网络传播。对于消费者而言，网络的替代品不应该更慢且更昂贵。 Web 3.0的使用成本将更高，他们喜欢隐藏在诸如链接之类的东西之后，而启动应用程序的成本也非常低。事实是，你得到的服务和体验也不会很好。 Web 3.0抵消了用户而非服务的成本，这也导致了较差的服务。另一个常见的论点是允许用户控制他们的数据。这要归功于同态加密。我们需要在网络的各个方面进行创新，并从我们的网络服务中获取更多信息，而不是仅从拓扑结构中解决这个问题。与过时的技术问题相比，Web的拓扑问题很小。如果这些Web 3.0项目实际上关心改变网络，那么他们将关注实际的问题。这两种拓扑结构都有它们的实际用例，它们共同解决了一个不断增长的问题。
 **这两种拓扑结构都有它们的实际用例，它们共同解决了一个不断增长的问题。**
 
-## UNIVERSAL WEB CRYPTOGRAPHY ([SODIUM-NATIVE](https://github.com/sodium-friends/sodium-native))
+## 通用网络密码学 ([SODIUM-NATIVE](https://github.com/sodium-friends/sodium-native))
+-  密钥签名
+    -   单件签名：Ed25519
+    -   多部分签名：Ed25519ph
 
--  Key Signatures
-    -   Single-part signature: Ed25519
-    -   Multi-part signature: Ed25519ph
--  Packet Encryption
-	- Authenticated Encryption with Additional Data
-    - Encrypts a message with a key and a nonce to keep it confidential
-    - Computes an authentication tag. This tag is used to make sure that the message, as well as optional, non-confidential (non-encrypted) data, haven’t been tampered with.
-    - Encryption: XChaCha20 stream cipher
-    - Authentication: Poly1305 MAC
+-  数据包加密
+      -   带附加数据的经过身份验证的加密
+    -   使用密钥和随机数加密消息以使其保密
+    -   计算身份验证标记。 此标记用于确保消息以及可选的非机密（非加密）数据未被篡改。
+    -   加密：XChaCha20流密码
+    -   身份验证：Poly1305 MAC
 
-- Key exchange – Shared Session Secret Keys
-    - BLAKE2B-512
-        - BLAKE2 is a cryptographic hash function **faster than MD5, SHA-1, SHA-2, and SHA-3**, yet is at least as secure as the latest standard SHA-3
-        - Optimized for 64-bit platforms—including NEON-enabled ARMs—and produces digests of any size between 1 and 64 bytes
-    - X25519 – Ephemeral Key Pair
-        - Computes a secret shared between the sender and receiver, using the sender’s secret key and the receiver’s public key (or vice versa)
+-  密钥交换 - 共享会话密钥
+    -   BLAKE2B-512
+      -   BLAKE2是一种比MD5，SHA-1，SHA-2和SHA-3更快的加密散列函数，但至少与最新的标准SHA-3一样安全
+      -   针对64位平台（包括支持NEON的ARM）进行了优化，并生成1到64字节之间任意大小的摘要
+    -   X25519  - 临时密钥对
+      -   使用发件人的密钥和接收者的公钥计算发送者和接收者之间共享的秘密（反之亦然）
 
 ## HYBRID NETWORK
 ![Sentivate Hybrid Network](https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png)
