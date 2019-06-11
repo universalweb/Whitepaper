@@ -1,7 +1,7 @@
 
 # Libro blanco de la red Sentivate
 
-! [Logo] (https://sentivate.com/wp-content/uploads/brizy/12/assets/images/iW=1200&iH=any/70e94477b15f379a2717c387bf335188.png)
+![Logo] (https://sentivate.com/wp-content/uploads/brizy/12/assets/images/iW=1200&iH=any/70e94477b15f379a2717c387bf335188.png)
 ##### TÍTULO: SENTIVATE - La web universal.
 ##### RESUMEN
 Sentivate es una web híbrida (enfocada centralizada pero mejorada por componentes descentralizados) creada para ser un reemplazo viable y realista para la web moderna. La red está diseñada para ir más allá de las capacidades que cualquier red únicamente centralizada o descentralizada podría ofrecer. Sentivate aborda los siguientes problemas directamente: crisis de ancho de banda, protocolos desactualizados, DNS roto, falta de responsabilidad, falta de identidad, seguridad reactiva, reglas de dominio y categorización web.
