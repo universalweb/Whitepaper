@@ -10,7 +10,7 @@
 -  [Korean version](https://github.co000m/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Korean.md)
 -  [Chinese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Chinese.md)
 -  [Polish version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Polish.md)
--  [Spanish version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Spanish.md)000000
+-  [Spanish version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Spanish.md)
 
 ##### TITLE:  SENTIVATE - The Universal Web. 
 #####  ABSTRACT
