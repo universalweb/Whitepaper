@@ -3,7 +3,7 @@
 
 ![Logo](https://sentivate.com/wp-content/uploads/brizy/12/assets/images/iW=1200&iH=any/70e94477b15f379a2717c387bf335188.png)
 
-##### TYTUŁ:  SENTIVATE - Uniwersalna sieć. 
+##### TYTUŁ:  SENTIVATE - Uniwersalna sieć
 #####  STRESZCZENIE
 Sentivate to hybrydowa sieć (zcentralizowana, ale wzbogacona o zdecentralizowane komponenty) zbudowana z myślą o realnym i realistycznym zastąpieniu nowoczesnej sieci web. Sieć została zaprojektowana tak, przekraczać możliwości, jakie może zaoferować każda scentralizowana lub zdecentralizowana sieć. Sentivate rozwiązuje następujące problemy : kryzys przepustowości, przestarzałe protokoły, zepsuty DNS, brak odpowiedzialności, brak tożsamości, bezpieczeństwo bierne, reguły domeny i kategoryzacja sieci.
 
