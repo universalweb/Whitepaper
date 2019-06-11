@@ -49,7 +49,7 @@ Sabemos que la economía global requiere una red de alto rendimiento y poco cost
         - Calcula un secreto compartido entre el remitente y el destinatario, utilizando la clave secreta del remitente y la clave pública del destinatario (o viceversa)
 
 ## RED HÍBRIDA
-![Red híbrida de Sentivate](https://github.com/sentivate/Sentivate-Network-White-Paper/tree/master/images/spanish1.png)
+![Red híbrida de Sentivate](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/spanish1.png)
 
 ## PROTOCOLO
 
@@ -96,7 +96,7 @@ El DIS actúa como otra capa de defensa contra los ataques relacionados con cert
 
 Los nodos descentralizados que proporcionan certificados de dominio tienen la oportunidad de obtener Viat a través de sus servicios. Esta funcionalidad se cubrirá en profundidad con el documento técnico de Viat.
 
-![DIS](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/Spanish3.png)
+![DIS](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/spanish3.png)
 
 ### DOMINIOS
 ###### NOMBRE DE HOST LEGIBLE POR HUMANO
