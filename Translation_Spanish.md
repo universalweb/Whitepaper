@@ -49,7 +49,7 @@ Sabemos que la economía global requiere una red de alto rendimiento y poco cost
         - Calcula un secreto compartido entre el remitente y el destinatario, utilizando la clave secreta del remitente y la clave pública del destinatario (o viceversa)
 
 ## RED HÍBRIDA
-![Red híbrida de Sentivate](https://github.com/sentivate/Sentivate-Network-White-Paper/tree/master/images/Spanish1.png)
+![Red híbrida de Sentivate](https://github.com/sentivate/Sentivate-Network-White-Paper/tree/master/images/spanish1.png)
 
 ## PROTOCOLO
 
@@ -70,7 +70,7 @@ UDSP prioriza la web en tiempo real y la computación dispersa. Dado que las con
 
 UDSP tiene rompecabezas opcionales incluidos en los paquetes que permiten a los proveedores y solucionadores obtener VIAT. Los rompecabezas pueden variar y, por lo tanto, los rompecabezas son una prueba de trabajo dinámica. Los rompecabezas se pueden encapsular o apuntar a los datos que se requieren para resolver el rompecabezas. Esta funcionalidad se describirá en el próximo documento técnico de VIAT. Los rompecabezas también funcionan como control de congestión y una forma de limitar los daños potenciales de los ataques DDOS. Sentivate convierte un ataque DDOS típico en ganancias mediante la introducción de varios tipos de rompecabezas en paquetes. Cuando un cliente resuelve el rompecabezas servido, el cliente y el dominio son acreditados por la red con Viat. Si un servidor está bajo ataque DDOS, el servidor puede cambiar dinámicamente la división de recompensa hasta el 100% para el dominio. Esto asegura que los atacantes sufran más pérdidas financieras y tengan poco que ganar. Los rompecabezas aseguran que ambas partes tengan un incentivo para actuar de buena fe.
 
-![CONEXIÓN DEL CLIENTE](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/Spanish1.png)
+![CONEXIÓN DEL CLIENTE](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/spanish2.png)
 
 ## SISTEMA DE DOMINIO UNIVERSAL
 
