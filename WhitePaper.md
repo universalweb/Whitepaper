@@ -1,5 +1,5 @@
 
-# Sentivate Network White Paper - Under Construction
+# Sentivate Network White Paper
 
 ![Logo](https://sentivate.com/wp-content/uploads/brizy/12/assets/images/iW=1200&iH=any/70e94477b15f379a2717c387bf335188.png)
 ##### White Paper translations 
@@ -7,8 +7,10 @@
 -  [Vietnamese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Vietnamese.md)
 -  [Dutch version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Dutch.md)
 -  [Russian version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Russian.md)
--  [Korean version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Korean.md)
+-  [Korean version](https://github.co000m/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Korean.md)
 -  [Chinese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Chinese.md)
+-  [Polish version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Polish.md)
+-  [Spanish version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Spanish.md)000000
 
 ##### TITLE:  SENTIVATE - The Universal Web. 
 #####  ABSTRACT
