@@ -1,7 +1,7 @@
 
 # Sentivate Network White Paper
 
-![Logo](https://sentivate.com/wp-content/uploads/brizy/12/assets/images/iW=1200&iH=any/70e94477b15f379a2717c387bf335188.png)
+![Logo](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/SNTVTbig.png)
 
 ##### SENTIVATE - Le Web universel.
 #####  ABSTRAIT
@@ -48,7 +48,7 @@ Nous savons que l’économie mondiale a besoin d’un réseau Internet puissant
         - Calcule un secret partagé entre l'expéditeur et le destinataire, à l'aide de la clé secrète de l'expéditeur et de la clé publique du destinataire (ou inversement)
 
 ## RESEAU HYBRIDE
-![Sentivate Hybrid Network](https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png)
+![RESEAU HYBRIDE](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/french_1.png)
 
 ## protocole
 
@@ -69,7 +69,7 @@ UDSP donne la priorité au web en temps réel et à l’informatique Dispersée.
 
 UDSP regroupe dees énigmes facultatifs inclus dans les paquets permettant aux fournisseurs et aux solveurs de gagner du VIAT. Les énigmes peuvent varier et constituent donc une preuve dynamique du travail. Les énigmes peuvent être encapsulées ou indiquer des données nécessaires à la résolution des énigmes. Cette fonctionnalité sera décrite dans le prochain livre blanc sur VIAT. Les énigmes servent également de contrôle de congestion et de moyen de limiter les dommages potentiels causés par les attaques DDOS. Sentivate transforme une attaque DDOS typique en profit par l’introduction de différents types d’énigmes dans des paquets. Lorsqu'un client résout l’énigme servi, le réseau et le client sont crédités avec Viat. Si un serveur est soumis à une attaque DDOS, il peut modifier de manière dynamique le partage des récompenses jusqu'à 100% pour le domaine. Cela assure que les attaquants subissent davantage de pertes financières et ont peu à gagner. Les énigmes garantissent que les deux parties sont encouragées  à agir de bonne foi. 
 
-![CLIENT CONNECTION](https://sentivate.com/wp-content/uploads/2018/09/DISHyrbid.png)
+![CLIENTE](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/french_2.png)
 
 ## SYSTÈME DE DOMAINE UNIVERSEL
 
@@ -94,7 +94,7 @@ Le DIS constitue une autre couche de défense contre les attaques malveillantes 
 
 Les nœuds décentralisés prévoit des certificats de domaine ont une chance de gagner Viat via leurs services. Cette fonctionnalité sera traitée en détail dans la page blanche Viat.
 
-![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
+![DIS](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/french_3.png)
 
 ### DOMAINES
 ###### Noms de famille lisibles par l'homme
