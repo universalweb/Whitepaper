@@ -15,37 +15,38 @@ Dieses Whitepaper konzentriert sich auf das Kernnetzwerkdesign, das als Basisnet
 Gegenwärtig nutzen wir weiterhin ein ruinöses Medium der vernetzten Kommunikation auf globaler Ebene. Die Anforderungen der Menschheit nehmen exponentiell zu, denen das World Wide Web einfach nicht gerecht werden kann. Während wir weiter wachsen, uns weiterentwickeln und uns jenseits des Sonnensystems bewegen, revolutioniert unsere unabdingbare Aufgabe die Technologie, auf die wir angewiesen sind.
 
 Der aktuelle Stand des World Wide Web ist veraltet. Wenn die Menschheit weiterhin bestehende Probleme behebt, bleibt das Internet der „wilde wilde Westen“. Die ständig wachsenden Anforderungen der Menschheit werden vom gegenwärtigen Stand des Web niemals erfüllt. Wir müssen revolutionär denken und nicht evolutionär. Die Lösung ist ein vollständiger Ersatz für moderne Systeme, Browser, Sprachen, Protokolle und Plattformen mit erhöhter Sicherheit, Geschwindigkeit, Effizienz, Verantwortlichkeit, Vertrauen, Identität, Leistungsfähigkeit und Zuverlässigkeit. Um in ein neues Informationszeitalter einzutreten, müssen wir das ersetzen, mit dem wir uns nur allzu wohl gefühlt haben.
-###### BANDWIDTH CRISIS
-[Bandwidth is limited, our needs are out growing our networks.](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/)  To solve this issue we need modern revolutionary technology to replace existing components. If we don’t, fast lanes & prioritization of data is our only option. All those fears that folks have of the repeal of Net Neutrality will be our only hope at keeping the web spinning. The inevitable rise of IoT, more devices per-person, more devices per-household, self-driving cars, car insurance analytics, & developing countries coming online suck up bandwidth we don’t have.
 
-###### THE OUTDATED WEB WE RELY ON IS EATING ITSELF
-HTTP & DNS were built a long time ago without the consideration of modern demands in mind. More and more bandwidth is being sucked up, HTTP continues to show its long scalability issues, and DNS is not trustworthy or scalable. If half of the web can be shut down from DoS-ing specific DNS servers there's an obvious architectural problem. HTTP is the current vehicle for money. The entire digital economy is transported over HTTP. Any slowing down to HTTP or DNS means a drastically slower global economy. DNS & HTTP are inherently broken, have poor scalability, are dreadfully slow, lack modern features, eat up bandwidth, and cost consumers & businesses billions. If we don't solve this issue we will experience a massive blow to the economy. When you factor in all the dollar signs one soon realizes that a slower web is a global humanitarian crisis. 
+###### BANDBREITE KRISE
+[Bandwidth is limited, our needs are out growing our networks.](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/)  
+Um dieses Problem zu lösen, benötigen wir moderne revolutionäre Technologie, um vorhandene Komponenten zu ersetzen. Andernfalls sind Überholspuren und die Priorisierung von Daten unsere einzige Option. All diese Ängste, die die Leute vor der Aufhebung der Netzneutralität haben, werden unsere einzige Hoffnung sein, das Web am Laufen zu halten. Der unvermeidliche Anstieg des Internet der Dinge, mehr Geräte pro Person, mehr Geräte pro Haushalt, selbstfahrende Autos, Analysen von Autoversicherungen und die Online-Verfügbarkeit von Entwicklungsländern belasten die Bandbreite, die wir nicht haben.
+
+###### DAS VERALTETE WEB, AUF DAS WIR SICH VERLASSEN, ESST SICH
+HTTP & DNS wurden vor langer Zeit ohne Berücksichtigung der modernen Anforderungen erstellt. Immer mehr Bandbreite wird aufgebraucht, HTTP zeigt weiterhin Probleme mit der langen Skalierbarkeit und DNS ist nicht vertrauenswürdig oder skalierbar. Wenn die Hälfte des Webs von DoS-spezifischen DNS-Servern heruntergefahren werden kann, liegt ein offensichtliches Architekturproblem vor. HTTP ist das aktuelle Vehikel für Geld. Die gesamte digitale Wirtschaft wird über HTTP transportiert. Eine Verlangsamung auf HTTP oder DNS bedeutet eine drastisch langsamere globale Wirtschaft. DNS und HTTP sind von Natur aus defekt, haben eine schlechte Skalierbarkeit, sind furchtbar langsam, verfügen über keine modernen Funktionen, beanspruchen Bandbreite und kosten Verbraucher und Unternehmen Milliarden. Wenn wir dieses Problem nicht lösen, werden wir einen massiven Schlag für die Wirtschaft erleben. Wenn man alle Dollarzeichen berücksichtigt, wird einem schnell klar, dass ein langsameres Web eine globale humanitäre Krise ist.
 
 1.  [A one second delay could cost Amazon 1.6BB in sales.](https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales)
 2.  [_“10 years ago, Amazon found that every 100ms of latency cost them 1% in sales”_](https://www.gigaspaces.com/blog/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/)
 3.  [_“Fast forward 10 years later, a 2017 Akamai study shows that every 100-millisecond delay in website load time can hurt conversion rates by 7% – that is a significant drop in sales – 6% – from the time when Amazon first talked about latency in seconds and milliseconds. This goes to show that things aren’t getting any easier for online retailers as user experience is becoming critical to e-commerce success.”_](https://www.akamai.com/us/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp)
 
-###### THE FAILURE THAT IS THE DECENTRALIZED WEB AKA WEB 3.0
-We know that the global economy requires a performant & inexpensive web. If a solely decentralized web replaced the modern web, then it would accelerate the bandwidth crisis and bring us to a dystopian web. The term Web 3.0 is not a magic globe, a revolutionary idea, or a solution; it's a cash grab. Trades are happening in nanoseconds the global economy doesn't have time to wait seconds or minutes for a block time to verify and then propagate through the network. A replacement for the web shouldn't be slower and more expensive for consumers. Web 3.0 costs more and they like to hide behind things like it's all on-chain and costs very little to launch an app. The reality is, you get what you pay for. Web 3.0 offsets costs to users instead of the services, which also results in a poorer service. Another common argument is to allow users to control their data. That's no problem, say hello to homomorphic encryption. Instead of tackling this issue from just topology, we need to innovate in every aspect of the web and ask more from our web services. The web's topology problem is minor compared to it's outdated technology problem. If these Web 3.0 projects actually cared about changing the web they would focus on the actual issues. **Both topologies have their use cases but together they are a solution to an ever growing problem that has gone unchecked.**
+###### DAS FEHLER IST DAS DEZENTRALISIERTE WEB AKA WEB 3.0
+Wir wissen, dass die globale Wirtschaft ein leistungsfähiges und kostengünstiges Web benötigt. Wenn ein rein dezentrales Web das moderne Web ersetzen würde, würde dies die Bandbreitenkrise beschleunigen und uns zu einem dystopischen Web führen. Der Begriff Web 3.0 ist keine Zauberkugel, keine revolutionäre Idee oder Lösung. Es ist ein Geldraub. Trades finden in Nanosekunden statt. Die Weltwirtschaft hat keine Zeit, Sekunden oder Minuten auf eine Blockierungszeit zu warten, um zu überprüfen und sich dann im Netzwerk zu verbreiten. Ein Ersatz für das Internet sollte für Verbraucher nicht langsamer und teurer sein. Web 3.0 kostet mehr und sie möchten sich gerne hinter Dingen verstecken, bei denen alles an der Kette hängt. Das Starten einer App kostet sehr wenig. In Wirklichkeit bekommen Sie, wofür Sie bezahlen. Web 3.0 gleicht die Kosten für Benutzer anstelle der Dienste aus, was ebenfalls zu einem schlechteren Dienst führt. Ein weiteres häufiges Argument besteht darin, Benutzern die Kontrolle über ihre Daten zu ermöglichen. Das ist kein Problem, begrüßen Sie die homomorphe Verschlüsselung. Anstatt dieses Problem nur aus der Topologie heraus anzugehen, müssen wir in allen Aspekten des Webs Innovationen vornehmen und mehr von unseren Webservices verlangen. Das Topologieproblem des Webs ist im Vergleich zu seinem veralteten Technologieproblem geringfügig. Wenn sich diese Web 3.0-Projekte wirklich um das Ändern des Webs kümmern würden, würden sie sich auf die tatsächlichen Probleme konzentrieren. ** Beide Topologien haben ihre Anwendungsfälle, aber zusammen sind sie eine Lösung für ein ständig wachsendes Problem, das nicht überprüft wurde. **
 
-## UNIVERSAL WEB CRYPTOGRAPHY ([SODIUM-NATIVE](https://github.com/sodium-friends/sodium-native))
+## UNIVERSAL WEB CRYPTOGRAPHY([SODIUM-NATIVE](https://github.com/sodium-friends/sodium-native))
+- Schlüsselsignaturen
+    - Einteilige Unterschrift: Ed25519
+    - Mehrteilige Signatur: Ed25519ph
+- Paketverschlüsselung
+- Authentifizierte Verschlüsselung mit zusätzlichen Daten
+    - Verschlüsselt eine Nachricht mit einem Schlüssel und einer Nonce, um sie vertraulich zu behandeln
+    - Berechnet ein Authentifizierungs-Tag. Mit diesem Tag wird sichergestellt, dass die Nachricht sowie optionale, nicht vertrauliche (nicht verschlüsselte) Daten nicht manipuliert wurden.
+    - Verschlüsselung: XChaCha20-Stream-Verschlüsselung
+    - Authentifizierung: Poly1305 MAC
 
--  Key Signatures
-    -   Single-part signature: Ed25519
-    -   Multi-part signature: Ed25519ph
--  Packet Encryption
-	- Authenticated Encryption with Additional Data
-    - Encrypts a message with a key and a nonce to keep it confidential
-    - Computes an authentication tag. This tag is used to make sure that the message, as well as optional, non-confidential (non-encrypted) data, haven’t been tampered with.
-    - Encryption: XChaCha20 stream cipher
-    - Authentication: Poly1305 MAC
-
-- Key exchange – Shared Session Secret Keys
-    - BLAKE2B-512
-        - BLAKE2 is a cryptographic hash function **faster than MD5, SHA-1, SHA-2, and SHA-3**, yet is at least as secure as the latest standard SHA-3
-        - Optimized for 64-bit platforms—including NEON-enabled ARMs—and produces digests of any size between 1 and 64 bytes
-    - X25519 – Ephemeral Key Pair
-        - Computes a secret shared between the sender and receiver, using the sender’s secret key and the receiver’s public key (or vice versa)
+- Schlüsselaustausch - Geheime Schlüssel für gemeinsame Sitzungen
+    - BLAKE2B-512
+        - BLAKE2 ist eine kryptografische Hash-Funktion **, die schneller als MD5, SHA-1, SHA-2 und SHA-3 ** ist, jedoch mindestens so sicher wie der neueste Standard-SHA-3
+        - Optimiert für 64-Bit-Plattformen - einschließlich NEON-fähiger ARMs - und erstellt Digests mit einer Größe zwischen 1 und 64 Byte
+    - X25519 - Temporäres Schlüsselpaar
+        - Berechnet ein zwischen Absender und Empfänger geteiltes Geheimnis unter Verwendung des geheimen Schlüssels des Absenders und des öffentlichen Schlüssels des Empfängers (oder umgekehrt)
 
 ## HYBRID NETWORK
 ![Sentivate Hybrid Network](https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png)
