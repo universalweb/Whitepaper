@@ -51,50 +51,50 @@ Wir wissen, dass die globale Wirtschaft ein leistungsfähiges und kostengünstig
 ## HYBRID NETWORK
 ![Sentivate Hybrid Network](https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png)
 
-## PROTOCOL
+## PROTOKOLL
 
 ### Universal Data Stream Protocol
-###### Data Transport Protocol 
+###### Data Transport Protocol
 
-UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol. 
+UDSP ist ein UDP-basiertes, bidirektionales, verschlüsseltes und zuverlässiges Datentransportprotokoll mit geringer Latenz, Echtzeit.
 
-##### The Problem
-As mentioned in the introduction: User’s demands have changed and our requirements of the web have grown. These changes make HTTP a major bottleneck. The HTTP standard itself and TCP are both huge issues. Large data centers moving copious amounts of data from one end-point to the other have latency and cost issues associated with outdated Internet architecture. HTTP is especially problematic when users are experiencing low throughput, limited bandwidth, degraded network connectivity, or requiring a near real-time response. 
+##### Das Problem
+Wie in der Einleitung erwähnt: Die Anforderungen der Benutzer haben sich geändert und unsere Anforderungen an das Web sind gestiegen. Diese Änderungen machen HTTP zu einem großen Engpass. Der HTTP-Standard selbst und TCP sind große Probleme. Bei großen Rechenzentren, die große Datenmengen von einem Endpunkt zum anderen verschieben, treten Latenz- und Kostenprobleme im Zusammenhang mit veralteter Internetarchitektur auf. HTTP ist besonders problematisch, wenn Benutzer einen geringen Durchsatz, eine begrenzte Bandbreite, eine verschlechterte Netzwerkkonnektivität oder eine Echtzeitreaktion benötigen.
 
-##### The Solution
-The first step in the construction of the Universal Web is to replace HTTP entirely with UDSP. UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol. On the Universal Web all communication, streaming, or transferring of any type of data utilizes UDSP. When visiting a site on the Universal Web UDSP is the protocol used instead of HTTP. Specific UDSP client and server modules are required to visit or host a website on the Sentivate Network. UDSP is the foundation and life blood of the Sentivate Network.
+##### Die Lösung
+Der erste Schritt beim Aufbau des Universal Web besteht darin, HTTP vollständig durch UDSP zu ersetzen. UDSP ist ein UDP-basiertes, bidirektionales, verschlüsseltes und zuverlässiges Datentransportprotokoll mit geringer Latenz, Echtzeit. Im Universal Web wird für die gesamte Kommunikation, das Streaming oder die Übertragung von Daten jeglicher Art UDSP verwendet. Beim Besuch einer Website im Universal Web wird UDSP als Protokoll anstelle von HTTP verwendet. Bestimmte UDSP-Client- und Servermodule sind erforderlich, um eine Website im Sentivate-Netzwerk zu besuchen oder zu hosten. UDSP ist die Grundlage und das Blut des Sentivate-Netzwerks.
 
-UDSP is capable of dynamic reliability on a connection level, or on a per-request basis which is agreed upon between the involved parties. UDSP enforces encryption which means all UDSP connections are encrypted by default, no exceptions. UDSP supports IPv6, Multiplexing, and Multihoming. UDSP relies on cryptographic keypairs and XChaCha20 to establish a connection.
+UDSP bietet dynamische Zuverlässigkeit auf Verbindungsebene oder auf Anfragebasis, die zwischen den beteiligten Parteien vereinbart wird. UDSP erzwingt die Verschlüsselung, dh alle UDSP-Verbindungen werden standardmäßig verschlüsselt, ohne Ausnahmen. UDSP unterstützt IPv6, Multiplexing und Multihoming. UDSP verwendet kryptografische Schlüsselpaare und XChaCha20, um eine Verbindung herzustellen.
 
-UDSP prioritizes the real-time web and Dispersed Computing. Since connections are bi-directional streams and less chatty this makes the network less clogged and ensures low-latency for the livelihood of the connection. UDSP is far less chatty than HTTP and can be programmatically set to adjust it's own reliability standards. This makes UDSP a highly useful protocol where high-throughput, low-latency, and high reliability are required. Due to UDSP's programmatically dynamic nature, it's efficacious in situations of highly variable and or degraded network connectivity.
+UDSP priorisiert das Echtzeit-Web und das Dispersed Computing. Da es sich bei den Verbindungen um bidirektionale Streams und weniger Chatty handelt, wird das Netzwerk weniger verstopft und es wird eine geringe Latenz für den Lebensunterhalt der Verbindung sichergestellt. UDSP ist weitaus weniger gesprächig als HTTP und kann programmgesteuert eingestellt werden, um die eigenen Zuverlässigkeitsstandards anzupassen. Dies macht UDSP zu einem äußerst nützlichen Protokoll, bei dem ein hoher Durchsatz, eine geringe Latenz und eine hohe Zuverlässigkeit erforderlich sind. Aufgrund der programmgesteuerten Dynamik von UDSP ist es in Situationen mit stark variablen und / oder beeinträchtigten Netzwerkverbindungen wirksam.
 
-UDSP has optional puzzles included in the packets which allow providers and solvers to earn VIAT. Puzzles can vary and thus the puzzles are a Dynamic-Proof-of-Work. The puzzles may be encapsulated or point to data that is required for solving the puzzle. This functionality will be described in the next white paper for VIAT. The puzzles also function as congestion control and a way to limit the potential damages from DDOS attacks. Sentivate turns a typical DDOS attack into profit by the introduction of various puzzle types into packets. When a client solves the served puzzle the client and domain are credited by the network with Viat. If a server is under DDOS attack then the server can dynamically change the reward split up-to 100% for the domain. This ensures the attackers suffer more financial loss and have little to gain. Puzzles ensure that both parties have an incentive to act in good faith. 
+UDSP bietet optionale Rätsel in den Paketen, mit denen Anbieter und Löser VIAT verdienen können. Rätsel können variieren und somit sind die Rätsel ein dynamischer Beweis für die Arbeit. Die Rätsel können gekapselt sein oder auf Daten verweisen, die zum Lösen des Rätsels erforderlich sind. Diese Funktionalität wird im nächsten Whitepaper für VIAT beschrieben. Die Rätsel fungieren auch als Überlastungskontrolle und als Mittel, um den potenziellen Schaden durch DDOS-Angriffe zu begrenzen. Sentivate verwandelt einen typischen DDOS-Angriff in Gewinn, indem verschiedene Puzzletypen in Pakete eingefügt werden. Wenn ein Kunde das gestellte Rätsel löst, werden dem Kunden und der Domain Viat vom Netzwerk gutgeschrieben. Wenn ein Server von DDOS angegriffen wird, kann der Server die Prämienaufteilung für die Domain dynamisch auf bis zu 100% ändern. Dies stellt sicher, dass die Angreifer mehr finanzielle Verluste erleiden und wenig zu gewinnen haben. Rätsel stellen sicher, dass beide Parteien einen Anreiz haben, in gutem Glauben zu handeln.
 
 ![CLIENT CONNECTION](https://sentivate.com/wp-content/uploads/2018/09/DISHyrbid.png)
 
 ## UNIVERSAL DOMAIN SYSTEM
 
-### DOMAIN CERTIFICATES
+### DOMAIN-ZERTIFIKATE
 ###### ROUTING & CRYPTOGRAPHIC PARAMETERS
 
-Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, and an authorized Domain Registrar. In order to establish a successful handshake, the domain certificate and a valid signature is required.
+Domänenzertifikate bieten Routing, Kryptografie und zusätzliche Details zu einem Hostnamen. Domain-Zertifikate werden von 3 oder mehr Schlüsselpaaren signiert: Ephemeral, Master und einem autorisierten Domain-Registrar. Für einen erfolgreichen Handshake sind das Domain-Zertifikat und eine gültige Signatur erforderlich.
 
-The domain's ephemeral certificate also acts as a wallet which stores funds for any puzzles it distributes to clients. A portion of the mined Viat is sent to the ephemeral certificates wallet address. 
+Das kurzlebige Zertifikat der Domain fungiert auch als Brieftasche, in der die Gelder für alle an Kunden verteilten Rätsel gespeichert werden. Ein Teil des abgebauten Viat wird an die Brieftaschenadresse für kurzlebige Zertifikate gesendet.
 
 ### DOMAIN REGISTRAR
-###### UPLOAD & SIGN DOMAIN CERTIFICATES
+###### DOMAIN-ZERTIFIKATE HOCHLADEN UND UNTERZEICHNEN
 
-The Domain Registrar, (DR), is used to register a domain and manage a domain's public certificate. The DR validates & signs the public certificates associated with the hostname. The DR then passes the certificate to the Domain Information System which stores the certificate for distribution.
+Der Domain Registrar (DR) wird zum Registrieren einer Domain und zum Verwalten des öffentlichen Zertifikats einer Domain verwendet. Der DR validiert und signiert die öffentlichen Zertifikate, die dem Hostnamen zugeordnet sind. Der DR leitet das Zertifikat dann an das Domain Information System weiter, in dem das Zertifikat zur Verteilung gespeichert ist.
 
 
 ### DOMAIN INFORMATION SYSTEM
-###### QUERY DOMAIN ROUTING AND CRYPTOGRAPHY
+###### QUERY DOMAIN ROUTING UND CRYPTOGRAPHY
 
-The Domain Information System, (DIS), returns domain-specific information in the form of a domain certificate from human-readable hostnames. The DIS returns the domain’s certificate which includes cryptographic details & routing information. By including the hostnames cryptography along with routing information, 0-RTT is possible without requiring the client to have visited the domain prior. This is a unique advantage over TLS 1.3 in that 0-RTT is available by default where as in TLS 1.3 one would need to have visited the site prior. Before clients connect to a website they must first query the DIS with a human-readable hostname. The DIS has centralized servers and a decentralized network to provide clients with the fastest possible way to access domain certificates. 
+Das Domain Information System (DIS) gibt domänenspezifische Informationen in Form eines Domänenzertifikats von lesbaren Hostnamen zurück. Der DIS gibt das Domain-Zertifikat zurück, das kryptografische Details und Routing-Informationen enthält. Durch Einbeziehen der Hostnamen-Kryptographie zusammen mit Routing-Informationen ist 0-RTT möglich, ohne dass der Client die Domäne zuvor besucht haben muss. Dies ist ein einzigartiger Vorteil gegenüber TLS 1.3, da 0-RTT standardmäßig verfügbar ist, wenn wie in TLS 1.3 zuvor die Site besucht werden müsste. Bevor Clients eine Verbindung zu einer Website herstellen, müssen sie zuerst den DIS mit einem von Menschen lesbaren Hostnamen abfragen. Der DIS verfügt über zentrale Server und ein dezentrales Netzwerk, um Clients den schnellstmöglichen Zugriff auf Domänenzertifikate zu ermöglichen.
 
-The DIS acts as another layer of defence from malicious certificate related attacks. When invalid certificates are used to request information from the DIS to go to a service the DIS simply denys returning a response.
+Die DIS fungiert als weitere Schutzschicht vor böswilligen Attacken im Zusammenhang mit Zertifikaten. Wenn ungültige Zertifikate verwendet werden, um Informationen vom DIS anzufordern, um zu einem Dienst zu gelangen, verweigert der DIS einfach die Rückgabe einer Antwort.
 
-The decentralized nodes providing domain certificates have a chance to earn Viat through their services. This functionality will be covered in-depth with the Viat white paper.
+Die dezentralen Knoten, die Domänenzertifikate bereitstellen, haben die Möglichkeit, Viat über ihre Dienste zu verdienen. Diese Funktionalität wird im Viat-Whitepaper ausführlich behandelt.
 
 ![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
 
@@ -128,34 +128,33 @@ The Identity Registrar, (IR), is a service which signs certificates & is the fir
 A decentralized network and acyclic blockchain will be leveraged to help validate newly submitted certificates for signing. If the certificated is successfully vetted by the network the IR signs the certificate. Then it can be successfully used by services and the DIS. During the initial handshake, the first packet contains the certificates required to establish a UDSP stream. If signatures are successfully validated the rest of the handshake process continues else it fails.
 
 Active certificates will continually be updated and signed. When a certificate is re-signed, another field is added to the certificate which shows the elapsed time since the previous signing of the certificate. This provides services with an extra layer of trust for certain certificates. 
+## ENTWICKLUNG
 
-## DEVELOPMENT
-
- 
+ 
 
 ### hApps
 ###### HYBRID UNIVERSAL WEB APPS
 
-Hybrid apps are self-constructing, streaming single-page-applications. Hybrid apps are built using reactive, dynamic, and modular development methodologies. hApps have all the benefits of centralized & decentralized networks ensuring the highest scalability potential.
+Hybrid-Apps sind selbstkonstruierende Streaming-Anwendungen für einzelne Seiten. Hybrid-Apps werden mit reaktiven, dynamischen und modularen Entwicklungsmethoden erstellt. hApps bieten alle Vorteile zentraler und dezentraler Netzwerke und sorgen für ein Höchstmaß an Skalierbarkeit.
 
-hApps’ assets are contained in their own file and are streamed to the client on an as needed basis. hApps are streamed and built over time much like a bridge building itself as you walk across. Only one initial page load takes place and thereafter pages are dynamically built as needed similar to Single-page-apps. Only exactly when the client needs the resource is when it will be fetched and delivered.
+Die Assets von hApps sind in einer eigenen Datei enthalten und werden nach Bedarf an den Client gestreamt. hApps werden im Laufe der Zeit wie eine Brücke gestreamt und aufgebaut, wenn Sie über die Brücke gehen. Es wird nur eine erste Seite geladen und danach werden die Seiten dynamisch nach Bedarf erstellt, ähnlich wie bei Single-Page-Apps. Nur genau dann, wenn der Client die Ressource benötigt, wird sie abgerufen und geliefert.
 
-Sentivate’s components allow for highly modular asset streaming. For example, components can share the same CSS or HTML assets which ensures shared assets are only downloaded once and the duplicate code is never sent over the wire. Server loads and bandwidth is drastically decreased with this methodology as now the client is only pulling exactly what is needed.
+Die Komponenten von Sentivate ermöglichen ein hochmodulares Asset-Streaming. Beispielsweise können Komponenten dieselben CSS- oder HTML-Assets gemeinsam nutzen, wodurch sichergestellt wird, dass gemeinsam genutzte Assets nur einmal heruntergeladen werden und der doppelte Code niemals über die Leitung gesendet wird. Serverlasten und Bandbreite werden mit dieser Methode drastisch reduziert, da der Client nur genau das abzieht, was benötigt wird.
 
-Hybrid Apps can utilize an opt-in decentralized P2P CDN for assets in addition to the destination service. Making use of a Hybrid Content Delivery Network means that hybrid apps have high availability, scalability, and more bandwidth.
+Hybrid Apps können zusätzlich zum Zieldienst ein dezentrales Opt-In-P2P-CDN für Assets verwenden. Die Verwendung eines hybriden Content Delivery-Netzwerks bedeutet, dass hybride Apps über hohe Verfügbarkeit, Skalierbarkeit und mehr Bandbreite verfügen.
 
-hApps validate, authenticate, and authorize clients automatically during the initial connection handshake. hApps backends can store and reference clients by their public key or full certificates. Think of it as oAuth for the entire Internet. Services no longer need to worry about hashing, storing, and or encrypting passwords. Clients can quickly login on the click of a button or automatically by simply connecting to the service. Users no longer need to remember or create complex passwords as using their keypair is more secure and easier to use. If services do not require you to have a username they can simply rely on your public key as your identifying name. This means that for some services users don't have to create a username and password during the registration process.
+hApps validieren, authentifizieren und autorisieren Clients automatisch während des anfänglichen Verbindungs-Handshakes. hApps-Backends können Clients anhand ihres öffentlichen Schlüssels oder vollständiger Zertifikate speichern und referenzieren. Stellen Sie es sich für das gesamte Internet als wahr vor. Die Dienste müssen sich nicht mehr um das Hashing, Speichern und Verschlüsseln von Kennwörtern kümmern. Kunden können sich schnell auf Knopfdruck oder automatisch anmelden, indem sie sich einfach mit dem Dienst verbinden. Benutzer müssen sich keine komplexen Passwörter mehr merken oder erstellen, da die Verwendung ihres Schlüsselpaars sicherer und benutzerfreundlicher ist. Wenn Sie für Dienste keinen Benutzernamen benötigen, können Sie sich einfach auf Ihren öffentlichen Schlüssel als Ihren identifizierenden Namen verlassen. Dies bedeutet, dass Benutzer für einige Dienste während des Registrierungsvorgangs keinen Benutzernamen und kein Kennwort erstellen müssen.
 
-## VIAT
+VIAT
 
 ### NATIVE CRYPTOCURRENCY
-Viat is the native cryptocurrency on the Sentivate Network. Viat has a hybrid blockchain. Viat’s core systems are decentralized focused but enhanced by centralized components (the opposite of Sentivate’s Web). Viat is designed to be fast, secure, and have some of the lowest transaction fees available. Viat’s centralized portions can process instant transactions, provide wallet security, and alleviate network congestion when the decentralized network is under heavy load. However, these centralized features are opt-in only allowing users to forge their own path.
+Viat ist die native Kryptowährung im Sentivate-Netzwerk. Viat hat eine Hybrid-Blockchain. Die Kernsysteme von Viat sind dezentral ausgerichtet, werden jedoch durch zentralisierte Komponenten erweitert (das Gegenteil von Sentivas Web). Viat ist so konzipiert, dass es schnell und sicher ist und einige der niedrigsten verfügbaren Transaktionsgebühren bietet. Die zentralisierten Bereiche von Viat können sofortige Transaktionen verarbeiten, Brieftaschensicherheit bieten und Netzwerkstaus verringern, wenn das dezentrale Netzwerk stark ausgelastet ist. Diese zentralisierten Funktionen sind jedoch nur aktiv, damit Benutzer ihren eigenen Weg finden können.
 
 
 
-### MINING 
-Viat has a dynamic proof of work which can be mined two ways. Direct mining is the main method, which will be explained in the Viat white paper, & the second method is through the use of packet puzzles in UDSP. Packet puzzles allow for passive mining of Viat while browsing the Universal Web. However, it’s not enabled by default. The situations which arise that enable packet puzzles are: upon connection handshake, connection liveliness check, DDoS protection, congestion control, and or the service chooses to enable it for their own reasons. It is up to the service to enable packet puzzles. This ensures that there is no need for constant mining in the background and gives real purpose to the mining process. Otherwise, it would be on all the time sucking up resources & eating into battery life.
- 
+### BERGBAU
+Viat verfügt über einen dynamischen Arbeitsnachweis, der auf zwei Arten gewonnen werden kann. Direct Mining ist die Hauptmethode, die im Viat-Whitepaper erläutert wird. Die zweite Methode ist die Verwendung von Paketrätseln in UDSP. Paketrätsel ermöglichen das passive Mining von Viat beim Surfen im Universal Web. Es ist jedoch nicht standardmäßig aktiviert. Die Situationen, in denen Paketrätsel aktiviert werden, sind: Beim Verbindungs-Handshake, bei der Überprüfung der Verbindungsbereitschaft, beim DDoS-Schutz, bei der Überlastungskontrolle oder wenn der Dienst dies aus eigenen Gründen aktiviert. Es ist Aufgabe des Dienstes, Paketrätsel zu aktivieren. Dies stellt sicher, dass kein ständiger Abbau im Hintergrund erforderlich ist, und gibt dem Abbauprozess einen echten Zweck. Andernfalls würde es die ganze Zeit dauern, Ressourcen aufzusaugen und die Batterielebensdauer zu verschlingen.
+ 
 
-### INTEROPERABILITY 
-Identity & Domain certificates also double as Viat wallet keys. This allows users to not only instantly sign into a service during a connection handshake, but also provide a way to purchase goods from services, tip sites, and or refund clients. Viat is an integral part of the full functionality of the Universal Web without it only part of the picture is there.
+### INTEROPERABILITÄT
+Identitäts- und Domain-Zertifikate dienen auch als Viat-Brieftaschenschlüssel. Auf diese Weise können sich Benutzer nicht nur während eines Verbindungs-Handshakes sofort bei einem Dienst anmelden, sondern auch Waren von Diensten, Tipp-Sites und Kunden kaufen oder diese zurückerstatten. Viat ist ein integraler Bestandteil der gesamten Funktionalität des Universal Web, ohne dass nur ein Teil des Bildes vorhanden ist.
