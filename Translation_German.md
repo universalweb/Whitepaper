@@ -1,22 +1,20 @@
-
-# Sentivate Network White Paper German - Under Construction
+# Sentivate Network White Paper Deutsch
 
 ![Logo](https://sentivate.com/wp-content/uploads/brizy/12/assets/images/iW=1200&iH=any/70e94477b15f379a2717c387bf335188.png)
 
-##### TITLE:  SENTIVATE - The Universal Web. 
-#####  ABSTRACT
-Sentivate is a hybrid web (centralized focused but enhanced by decentralized components) built to be a viable & realistic replacement for the modern web. The network is designed to go beyond the capabilities that any solely centralized or decentralized network could offer. Sentivate addresses the following issues directly: bandwidth crisis, outdated protocols, broken DNS, lack of accountability, lack of identity, reactive security, Domain rules, and web categorization.
+##### TITEL: SENTIVATE - Das universelle Web.
+#####  ABSTRAKT
+Sentivate ist ein Hybrid-Web (zentral ausgerichtet, aber durch dezentrale Komponenten erweitert), das als praktikabler und realistischer Ersatz für das moderne Web konzipiert wurde. Das Netzwerk ist so konzipiert, dass es über die Funktionen hinausgeht, die ein ausschließlich zentrales oder dezentrales Netzwerk bieten kann. Sentivate behebt die folgenden Probleme direkt: Bandbreitenkrise, veraltete Protokolle, defektes DNS, mangelnde Rechenschaftspflicht, mangelnde Identität, reaktive Sicherheit, Domänenregeln und Webkategorisierung.
 
-##### FOCUS
-This white paper is focused on the core network design that serves as the base network & components for Viat, hApps, and the Universal Web. An additional white paper will be released solely on Viat. All technology is focused on ensuring that Sentivate is a revolutionary, and not an evolutionary replacement in modern Internet architecture. 
+##### FOKUS
+Dieses Whitepaper konzentriert sich auf das Kernnetzwerkdesign, das als Basisnetzwerk und Komponenten für Viat, hApps und das Universal Web dient. Ein zusätzliches Whitepaper wird ausschließlich über Viat veröffentlicht. Alle Technologien konzentrieren sich darauf, sicherzustellen, dass Sentivate ein revolutionärer und kein evolutionärer Ersatz für die moderne Internetarchitektur ist.
 
-## INTRODUCTION
-##### THE STATE OF THE WORLD WIDE WEB
+## EINFÜHRUNG
+##### DER STAND DER WELTWEITEN WEB
 
-At present, we find ourselves continuing to utilize a ruinous medium of interconnected communication on a global scale. Humanity’s demands are exponentially increasing of which the World Wide Web simply can’t meet. As we continue to grow, evolve, and venture beyond the solar system, our imperative task becomes revolutionizing the technology we depend on.
+Gegenwärtig nutzen wir weiterhin ein ruinöses Medium der vernetzten Kommunikation auf globaler Ebene. Die Anforderungen der Menschheit nehmen exponentiell zu, denen das World Wide Web einfach nicht gerecht werden kann. Während wir weiter wachsen, uns weiterentwickeln und uns jenseits des Sonnensystems bewegen, revolutioniert unsere unabdingbare Aufgabe die Technologie, auf die wir angewiesen sind.
 
-The current state of the World Wide Web is deprecationary. If humanity continues to monkey-patch existing problems the Internet will remain the “wild wild west”. Humanity’s ever-increasing demands will never be met by the current state of the Web. We must start thinking in revolutionary terms and not evolutionary. The solution is a complete replacement of contemporary systems, browsers, languages, protocols, and platforms with increased security, speed, efficiency, accountability, trust, identity, capability, and reliability. In order to transition into a new age of information we must replace that which we have become all too comfortable with.
-
+Der aktuelle Stand des World Wide Web ist veraltet. Wenn die Menschheit weiterhin bestehende Probleme behebt, bleibt das Internet der „wilde wilde Westen“. Die ständig wachsenden Anforderungen der Menschheit werden vom gegenwärtigen Stand des Web niemals erfüllt. Wir müssen revolutionär denken und nicht evolutionär. Die Lösung ist ein vollständiger Ersatz für moderne Systeme, Browser, Sprachen, Protokolle und Plattformen mit erhöhter Sicherheit, Geschwindigkeit, Effizienz, Verantwortlichkeit, Vertrauen, Identität, Leistungsfähigkeit und Zuverlässigkeit. Um in ein neues Informationszeitalter einzutreten, müssen wir das ersetzen, mit dem wir uns nur allzu wohl gefühlt haben.
 ###### BANDWIDTH CRISIS
 [Bandwidth is limited, our needs are out growing our networks.](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/)  To solve this issue we need modern revolutionary technology to replace existing components. If we don’t, fast lanes & prioritization of data is our only option. All those fears that folks have of the repeal of Net Neutrality will be our only hope at keeping the web spinning. The inevitable rise of IoT, more devices per-person, more devices per-household, self-driving cars, car insurance analytics, & developing countries coming online suck up bandwidth we don’t have.
 
