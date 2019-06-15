@@ -2,6 +2,7 @@
 # Sentivate Network White Paper
 ##### Available White Paper translations 
 -  [English version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/WhitePaper.md)
+-  [German version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_German.md)
 -  [Vietnamese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Vietnamese.md)
 -  [Dutch version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Dutch.md)
 -  [Russian version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Russian.md)
