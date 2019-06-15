@@ -12,22 +12,22 @@ Dieses Whitepaper konzentriert sich auf das Kernnetzwerkdesign, das als Basisnet
 ## EINFÜHRUNG
 ##### DER STAND DER WELTWEITEN WEB
 
-Gegenwärtig nutzen wir weiterhin ein ruinöses Medium der vernetzten Kommunikation auf globaler Ebene. Die Anforderungen der Menschheit nehmen exponentiell zu, denen das World Wide Web einfach nicht gerecht werden kann. Während wir weiter wachsen, uns weiterentwickeln und uns jenseits des Sonnensystems bewegen, revolutioniert unsere unabdingbare Aufgabe die Technologie, auf die wir angewiesen sind.
+Gegenwärtig nutzen wir weiterhin ein ruinöses Medium der vernetzten Kommunikation auf globaler Ebene. Die Anforderungen der Menschheit nehmen exponentiell zu, denen das World Wide Web auf Dauer einfach nicht gerecht werden kann. Während wir weiter wachsen, uns weiterentwickeln und uns jenseits des Sonnensystems bewegen, revolutioniert unsere unabdingbare Aufgabe die Technologie, auf die wir angewiesen sind.
 
-Der aktuelle Stand des World Wide Web ist veraltet. Wenn die Menschheit weiterhin bestehende Probleme behebt, bleibt das Internet der „wilde wilde Westen“. Die ständig wachsenden Anforderungen der Menschheit werden vom gegenwärtigen Stand des Web niemals erfüllt. Wir müssen revolutionär denken und nicht evolutionär. Die Lösung ist ein vollständiger Ersatz für moderne Systeme, Browser, Sprachen, Protokolle und Plattformen mit erhöhter Sicherheit, Geschwindigkeit, Effizienz, Verantwortlichkeit, Vertrauen, Identität, Leistungsfähigkeit und Zuverlässigkeit. Um in ein neues Informationszeitalter einzutreten, müssen wir das ersetzen, mit dem wir uns nur allzu wohl gefühlt haben.
+Der aktuelle Stand des World Wide Web ist veraltet. Wenn die Menschheit weiterhin bestehende Probleme behebt, bleibt das Internet der „wilde wilde Westen“. Die ständig wachsenden Anforderungen der Menschheit werden vom gegenwärtigen Stand des Web niemals erfüllt. Wir müssen revolutionär denken und nicht evolutionär. Die Lösung ist ein vollständiger Ersatz für moderne Systeme, Browser, Sprachen, Protokolle und Plattformen mit erhöhter Sicherheit, Geschwindigkeit, Effizienz, Verantwortlichkeit, Vertrauen, Identität, Leistungsfähigkeit und Zuverlässigkeit. Um in ein neues Informationszeitalter einzutreten, müssen wir nun das ersetzen, mit dem wir uns bisher nur allzu wohl gefühlt haben.
 
 ###### BANDBREITE KRISE
-[Bandwidth is limited, our needs are out growing our networks.](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/)  
-Um dieses Problem zu lösen, benötigen wir moderne revolutionäre Technologie, um vorhandene Komponenten zu ersetzen. Andernfalls sind Überholspuren und die Priorisierung von Daten unsere einzige Option. All diese Ängste, die die Leute vor der Aufhebung der Netzneutralität haben, werden unsere einzige Hoffnung sein, das Web am Laufen zu halten. Der unvermeidliche Anstieg des Internet der Dinge, mehr Geräte pro Person, mehr Geräte pro Haushalt, selbstfahrende Autos, Analysen von Autoversicherungen und die Online-Verfügbarkeit von Entwicklungsländern belasten die Bandbreite, die wir nicht haben.
+[Bandbreite ist limitiert, die Netzwerke halten der enormen Belastung kaum noch stand.](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/)  
+Um dieses Problem zu lösen, benötigen wir moderne revolutionäre Technologien, um vorhandene Komponenten zu ersetzen. Andernfalls sind Überholspuren und die Priorisierung von Daten unsere einzige Option. All diese Ängste, die die Leute vor der Aufhebung der Netzneutralität haben, werden unsere einzige Hoffnung sein, das Web am Laufen zu halten. Der unvermeidliche Anstieg des Internet der Dinge, mehr Geräte pro Person, mehr Geräte pro Haushalt, selbstfahrende Autos, Analysen von Autoversicherungen und die Online-Verfügbarkeit von Entwicklungsländern belasten die Bandbreite, die wir nicht haben.
 
-###### DAS VERALTETE WEB, AUF DAS WIR SICH VERLASSEN, ESST SICH
+###### DAS VERALTETE WEB, AUF DAS WIR UNS VERLASSEN, VERZEHRT SICH SELBST!
 HTTP & DNS wurden vor langer Zeit ohne Berücksichtigung der modernen Anforderungen erstellt. Immer mehr Bandbreite wird aufgebraucht, HTTP zeigt weiterhin Probleme mit der langen Skalierbarkeit und DNS ist nicht vertrauenswürdig oder skalierbar. Wenn die Hälfte des Webs von DoS-spezifischen DNS-Servern heruntergefahren werden kann, liegt ein offensichtliches Architekturproblem vor. HTTP ist das aktuelle Vehikel für Geld. Die gesamte digitale Wirtschaft wird über HTTP transportiert. Eine Verlangsamung auf HTTP oder DNS bedeutet eine drastisch langsamere globale Wirtschaft. DNS und HTTP sind von Natur aus defekt, haben eine schlechte Skalierbarkeit, sind furchtbar langsam, verfügen über keine modernen Funktionen, beanspruchen Bandbreite und kosten Verbraucher und Unternehmen Milliarden. Wenn wir dieses Problem nicht lösen, werden wir einen massiven Schlag für die Wirtschaft erleben. Wenn man alle Dollarzeichen berücksichtigt, wird einem schnell klar, dass ein langsameres Web eine globale humanitäre Krise ist.
 
-1.  [A one second delay could cost Amazon 1.6BB in sales.](https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales)
-2.  [_“10 years ago, Amazon found that every 100ms of latency cost them 1% in sales”_](https://www.gigaspaces.com/blog/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/)
-3.  [_“Fast forward 10 years later, a 2017 Akamai study shows that every 100-millisecond delay in website load time can hurt conversion rates by 7% – that is a significant drop in sales – 6% – from the time when Amazon first talked about latency in seconds and milliseconds. This goes to show that things aren’t getting any easier for online retailers as user experience is becoming critical to e-commerce success.”_](https://www.akamai.com/us/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp)
+1.  [Eine einsekündige Verzögerung könnte Amazon rund 1.6B in Verkäufen kosten.](https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales)
+2.  [Vor 10 Jahren hat Amazon herausgefunden, dass es dem Unternehmen ca. 1% an Verkäufen kostet bei jeder 100ms Verzögerung](https://www.gigaspaces.com/blog/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/)
+3.  [10 Jahre vorgespult, eine 2017 Akamai Studie zeigt, dass eine Verzögerung alle 100ms des Ladens von Websiten die Konversionsrate um 7% beschädigen kann – eine gewaltige Minderung der Verkäufe – 6% – seit dem Zeitpunkt von dem Amazon als erstes von Netzwerk Verspätungen gesprochen hat. Dies zeigt eindeutig, dass es für online Unternehmen keinesfalls leichter gemacht wird wobei die Benutzerfreundlichkeit zunehmend wichtiger für einen kommerziellen Erfolg wird.](https://www.akamai.com/us/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp)
 
-###### DAS FEHLER IST DAS DEZENTRALISIERTE WEB AKA WEB 3.0
+###### DER FEHLER IST DAS DEZENTRALISIERTE WEB AKA WEB 3.0
 Wir wissen, dass die globale Wirtschaft ein leistungsfähiges und kostengünstiges Web benötigt. Wenn ein rein dezentrales Web das moderne Web ersetzen würde, würde dies die Bandbreitenkrise beschleunigen und uns zu einem dystopischen Web führen. Der Begriff Web 3.0 ist keine Zauberkugel, keine revolutionäre Idee oder Lösung. Es ist ein Geldraub. Trades finden in Nanosekunden statt. Die Weltwirtschaft hat keine Zeit, Sekunden oder Minuten auf eine Blockierungszeit zu warten, um zu überprüfen und sich dann im Netzwerk zu verbreiten. Ein Ersatz für das Internet sollte für Verbraucher nicht langsamer und teurer sein. Web 3.0 kostet mehr und sie möchten sich gerne hinter Dingen verstecken, bei denen alles an der Kette hängt. Das Starten einer App kostet sehr wenig. In Wirklichkeit bekommen Sie, wofür Sie bezahlen. Web 3.0 gleicht die Kosten für Benutzer anstelle der Dienste aus, was ebenfalls zu einem schlechteren Dienst führt. Ein weiteres häufiges Argument besteht darin, Benutzern die Kontrolle über ihre Daten zu ermöglichen. Das ist kein Problem, begrüßen Sie die homomorphe Verschlüsselung. Anstatt dieses Problem nur aus der Topologie heraus anzugehen, müssen wir in allen Aspekten des Webs Innovationen vornehmen und mehr von unseren Webservices verlangen. Das Topologieproblem des Webs ist im Vergleich zu seinem veralteten Technologieproblem geringfügig. Wenn sich diese Web 3.0-Projekte wirklich um das Ändern des Webs kümmern würden, würden sie sich auf die tatsächlichen Probleme konzentrieren. ** Beide Topologien haben ihre Anwendungsfälle, aber zusammen sind sie eine Lösung für ein ständig wachsendes Problem, das nicht überprüft wurde. **
 
 ## UNIVERSAL WEB CRYPTOGRAPHY([SODIUM-NATIVE](https://github.com/sodium-friends/sodium-native))
@@ -62,7 +62,7 @@ UDSP ist ein UDP-basiertes, bidirektionales, verschlüsseltes und zuverlässiges
 Wie in der Einleitung erwähnt: Die Anforderungen der Benutzer haben sich geändert und unsere Anforderungen an das Web sind gestiegen. Diese Änderungen machen HTTP zu einem großen Engpass. Der HTTP-Standard selbst und TCP sind große Probleme. Bei großen Rechenzentren, die große Datenmengen von einem Endpunkt zum anderen verschieben, treten Latenz- und Kostenprobleme im Zusammenhang mit veralteter Internetarchitektur auf. HTTP ist besonders problematisch, wenn Benutzer einen geringen Durchsatz, eine begrenzte Bandbreite, eine verschlechterte Netzwerkkonnektivität oder eine Echtzeitreaktion benötigen.
 
 ##### Die Lösung
-Der erste Schritt beim Aufbau des Universal Web besteht darin, HTTP vollständig durch UDSP zu ersetzen. UDSP ist ein UDP-basiertes, bidirektionales, verschlüsseltes und zuverlässiges Datentransportprotokoll mit geringer Latenz, Echtzeit. Im Universal Web wird für die gesamte Kommunikation, das Streaming oder die Übertragung von Daten jeglicher Art UDSP verwendet. Beim Besuch einer Website im Universal Web wird UDSP als Protokoll anstelle von HTTP verwendet. Bestimmte UDSP-Client- und Servermodule sind erforderlich, um eine Website im Sentivate-Netzwerk zu besuchen oder zu hosten. UDSP ist die Grundlage und das Blut des Sentivate-Netzwerks.
+Der erste Schritt beim Aufbau des Universal Web besteht darin, HTTP vollständig durch UDSP zu ersetzen. UDSP ist ein UDP-basiertes, bidirektionales, verschlüsseltes und zuverlässiges Datentransportprotokoll mit geringer Latenz, Echtzeit. Im Universal Web wird für die gesamte Kommunikation, das Streaming oder die Übertragung von Daten jeglicher Art UDSP verwendet. Beim Besuch einer Website im Universal Web wird UDSP als Protokoll anstelle von HTTP verwendet. Bestimmte UDSP-Client- und Servermodule sind erforderlich, um eine Website im Sentivate-Netzwerk zu besuchen oder zu hosten. UDSP ist die Grundlage und der Blutkreislauf des Sentivate-Netzwerks.
 
 UDSP bietet dynamische Zuverlässigkeit auf Verbindungsebene oder auf Anfragebasis, die zwischen den beteiligten Parteien vereinbart wird. UDSP erzwingt die Verschlüsselung, dh alle UDSP-Verbindungen werden standardmäßig verschlüsselt, ohne Ausnahmen. UDSP unterstützt IPv6, Multiplexing und Multihoming. UDSP verwendet kryptografische Schlüsselpaare und XChaCha20, um eine Verbindung herzustellen.
 
@@ -90,7 +90,7 @@ Der Domain Registrar (DR) wird zum Registrieren einer Domain und zum Verwalten d
 ### DOMAIN INFORMATION SYSTEM
 ###### QUERY DOMAIN ROUTING UND CRYPTOGRAPHY
 
-Das Domain Information System (DIS) gibt domänenspezifische Informationen in Form eines Domänenzertifikats von lesbaren Hostnamen zurück. Der DIS gibt das Domain-Zertifikat zurück, das kryptografische Details und Routing-Informationen enthält. Durch Einbeziehen der Hostnamen-Kryptographie zusammen mit Routing-Informationen ist 0-RTT möglich, ohne dass der Client die Domäne zuvor besucht haben muss. Dies ist ein einzigartiger Vorteil gegenüber TLS 1.3, da 0-RTT standardmäßig verfügbar ist, wenn wie in TLS 1.3 zuvor die Site besucht werden müsste. Bevor Clients eine Verbindung zu einer Website herstellen, müssen sie zuerst den DIS mit einem von Menschen lesbaren Hostnamen abfragen. Der DIS verfügt über zentrale Server und ein dezentrales Netzwerk, um Clients den schnellstmöglichen Zugriff auf Domänenzertifikate zu ermöglichen.
+Das Domain Informations System (DIS) gibt domänenspezifische Informationen in Form eines Domänenzertifikats von lesbaren Hostnamen zurück. Der DIS gibt das Domain-Zertifikat zurück, das kryptografische Details und Routing-Informationen enthält. Durch Einbeziehen der Hostnamen-Kryptographie zusammen mit Routing-Informationen ist 0-RTT möglich, ohne dass der Client die Domäne zuvor besucht haben muss. Dies ist ein einzigartiger Vorteil gegenüber TLS 1.3, da 0-RTT standardmäßig verfügbar ist, wenn wie in TLS 1.3 zuvor die Site besucht werden müsste. Bevor Clients eine Verbindung zu einer Website herstellen, müssen sie zuerst den DIS mit einem von Menschen lesbaren Hostnamen abfragen. Der DIS verfügt über zentrale Server und ein dezentrales Netzwerk, um Clients den schnellstmöglichen Zugriff auf Domänenzertifikate zu ermöglichen.
 
 Die DIS fungiert als weitere Schutzschicht vor böswilligen Attacken im Zusammenhang mit Zertifikaten. Wenn ungültige Zertifikate verwendet werden, um Informationen vom DIS anzufordern, um zu einem Dienst zu gelangen, verweigert der DIS einfach die Rückgabe einer Antwort.
 
@@ -99,39 +99,53 @@ Die dezentralen Knoten, die Domänenzertifikate bereitstellen, haben die Möglic
 ![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
 
 ### DOMAINS
-###### HUMAN READABLE HOSTNAMES
+###### Menschlich lesbare Benutzernamen 
 
-Domains on Sentivate have full extension names and can have single full names for trademarked entities. The domain rules and regulations are designed to organize the web, free up domain names for new companies, protect trademarks, limit malicious activity, and make extensions more descriptive.
+Domains auf Sentivate haben volle erweiterungs Namen und können ebenfalls einzelne Namen für Marken beinhalten. Die Domain Regeln sind designt um das Web zu organisieren. Freue Domain Namen für neue Unternehmen, beschützte Marken, limitierte Gefährliche Aktivitäten und es können Erweiterungen detaillierter Beschrieben werden. 
 
-For example, one can navigate to Amazon by simply typing Amazon into the Sentivate browser. Domain rules are stricter on the Sentivate network. Domain squatting is entirely disallowed, there is a use it or lose it policy. Domain content or service must be relevant to the domain extension. For example, Amazon's store must use the store domain extension, "Amazon.store". There are shorthand domain extensions available for certain domains. For example, Amazon's company website must utilize the company extension, Amazon.company or the shorthand variant Amazon.com. Bitcoin, Ethereum, and Litecoin are cryptocurrencies and sites dedicated to them must use the cryptocurrency extension. However, a news site related to say bitcoin must use the .news and or .blog extension. Any domain that may have random and or arbitrary content must use the .abstract extension.
+Zum Beispiel, ein einfaches Suchen von Amazon im Sentivate Browser reicht aus um sofort auf die Amazon Seite zu gelangen. 
+Die Domain Regeln sind strikter im Sentivate Netzwerk. Das alleinige Dasein der Domain ohne Gebrauch ist nicht erlaubt, denn es gibt eine "benutze es" oder "verliere es" Politik. Ebenso muss der Domain Inhalt und Service im Zusammenhang mit der Domain Extension stehen. Zum Beispiel, Amazons Geschäft Website muss die Domain Extension "Amazon.Geschäft" benutzen. Es sind im Vorfeld Kürzungen der Domains bereits vorhanden. Zum Beispiel muss Amazon als Unternehmen die Extension "Amazon.Unternehmen" benutzen oder die Kürzung "Amazon.com". Kryptowährungen wie Bitcoin, Ethereum und Litecoin müssen dementsprechend die Extensions für Kryptowährungen benutzen. Eine News Site muss die extention ".news" oder ".blog" benutzen. Jede Domain die willkürliche Themen anbietet muss die Extension ".abstract" benutzen. 
 
-## UNIVERSAL IDENTITY SYSTEM
+## UNIVERSELLES IDENTITÄTS SYSTEM
 
-### IDENTITY CERTIFICATES
+### IDENTITÄTS ZERTIFIKATE
 ###### EPHEMERAL & MASTER KEY PAIRS
 
-Identity certificates, (IC), are documents which provide cryptographic details that represent you on the network and are signed by a Identity Registrar. An identity certificate has two cryptographic key pairs: Master and Ephemeral. A master key pair is used specifically for signing ephemeral certificates and is the core identifying key pair. Ephemeral key pairs can be replaced at the owner's discretion. Identity certificates cryptographically authenticate & authorize clients on the network.
+Identitäts Zertifikate (IC) sind Dokumente die kryptographische Details anbieten die Sie auf dem Netzwerk repräsentieren und die vom Identitäts Register verifiziert werden. 
+Ein Identitäts Zertifikat hat immer zwei kryptographische Schlüssel: Master und Ephemeral. Ein Master Schlüssel ist spezifisch dazu da um ephemeral Zertifikate zu bestätigen und ist zudem die Grundbasis des Schlüsselpaares. Ephemeral Schlüssel Paare können ersetzt werden wenn der Benutzer dies wünscht. 
 
-Ephemeral Certificates, (EC), are a sub-certificate to the Master Certificate. EC's act as profiles which are used to access user defined services. For example, wallet certificate, banking certificate, general web browsing certificate or for every service. However, one can choose to utilize one single ephemeral certificate for all services. ECs are used for the key exchange process which sets up a bi-directional UDSP connection between the origin and host.
+Identitäts Zertifikate authentifizieren kryptographisch & authorisieren Klienten auf dem Netzwerk. 
 
-Users can instantly signup, login, and purchase an item with their identity certificate. Servers require a client certificate upon connection to establish a successful UDSP handshake.
+Ephermal Zertifikate (EC), sind unterstützende Zertifikate zum Master Zertifikat. EC's zeigen sich als Profile die dazu benutzt werden um Benutzer definierte Dienste zu benutzen. Zum Beispiel, Wallet Zertifizierung, Banking Zertifikate, generelle Web browsing Zertifikate oder für jeden einzelnen Service. Es kann aber lediglich auch ein EC für alles Service benutzt werden.
+EC's werden also für den Schlüssel Austausch Prozess benutzt, der für die UDSP Verbindung zwischen dem Original und dem Anbieter steht.  
 
-Identity certificates form the basis for a decentralized reputation system, which can publicly record good & bad behavior associated with specific certificates. A honeypot can be used to block known bad actors from accessing a service further securing the network.
+Benutzer können sich sofort Einschreiben, Einloggen und mit ihrem Identitäts Zertifikat käufe ausführen. Die Server benötigen bei Verbindung einen Klienten Upgrade um sich erfolgreich mit dem UDSP Netzwerk zu verbinden. 
 
-Identity certificates can be linked to real world identities and assets. Making Sentivate an ideal platform for secure, private, and verifiable voting in elections. Stores and companies can have verified ICs which allow users to directly pay or donate through Viat.
+Ebenso dient das Zertifikats Netzwerk als ein dezentrales Ruf System. Es wird gutes als auch schlechtes Benehmen öffentlich aufgezeichnet und mit dem spezifischem Zertifikat verknüpft. 
 
-### IDENTITY REGISTRAR
-###### VALIDATE AND SIGN
+Es können also bekannte schlechte Schauspieler blockiert werden um somit das Netzwerk noch weiter zu sichern. 
 
-The Identity Registrar, (IR), is a service which signs certificates & is the first layer of protection for the network. The IR protects the network by filtering faulty certificates, stopping Sybil attacks, and nefarious actors. The Identity Registrar ensures malicious certificates aren’t signed which allows services to efficiently deny their connection attempts. False signatures can be denied by the DIS and therefore potentially protect a service and save some of its resources before hand. 
+Identizitäts Zertifikate können mit echten Identitäten und Vermögenswerten verbunden werden. Dies macht Sentivate zu einer idealen Platform die sicher und privat ist. Zum Beispiel mit überprüfbaren Wahlen in Elektionen. 
 
-A decentralized network and acyclic blockchain will be leveraged to help validate newly submitted certificates for signing. If the certificated is successfully vetted by the network the IR signs the certificate. Then it can be successfully used by services and the DIS. During the initial handshake, the first packet contains the certificates required to establish a UDSP stream. If signatures are successfully validated the rest of the handshake process continues else it fails.
+Geschäfte und Unternehmen haben verifizierte ICs die es Benutzern erlauben direkt mit Viat zu zahlen oder zu spenden. 
 
-Active certificates will continually be updated and signed. When a certificate is re-signed, another field is added to the certificate which shows the elapsed time since the previous signing of the certificate. This provides services with an extra layer of trust for certain certificates. 
+### IDENTITÄTS REGISTER
+###### BESTÄTIGEN UND UNTERZEICHNEN
+
+Das Identitäts Registrar (IR), ist ein Service, der Zertifikate bestätigt & ist zudem die erste Schutzschicht des Netzwerks.
+Das IR beschützt das Netzwerk indem es fehlerhafte Zertifikate herausfiltert, Sybil Attacken aufhält und schädliche Täter stoppt. Das IR versichert, dass fragwürdige Zertifikate erst gar nicht bestätigt werden welches dem Service erlaubt die Transaktion sofort einzustellen. Falsche Signaturen können vom DIS abgelehnt werden und so potenziellen Schutz für einen Service gewährleisten und somit die Ressource im Vorfeld sicherstellen.
+
+Ein dezentrales Netzwerk und eine acylic Blockchain wird benutzt um zu helfen neue Zertifikate zu bestätigen und diese zu Signieren. Falls ein Zertifikat erfolgreich vom Netzwerk bestätigt wurde, wird es vom IR signiert. Somit kann es erfolgreich von Servicen und dem DIS benutzt werden.  
+
+Während der ersten initialisierung, beinhaltet das erste Packet das Zertifikat das benötigt wird um den UDSP Verbindung herzustellen.
+
+Falls die Signaturen erfolgreich verlaufen, wird der Rest des Prozesses initialisiert, falls dies nicht geschieht wird der Prozess erst gar nicht eingeleitet. 
+
+Aktive Zertifikate werden ständig upgedated und bestätigt. Wenn ein Zertifikat erneut bestätigt wird, wird ein neues Feld hinzugefügt welches die Zeit seit der letzten Bestätigung darstellt. Dies bietet einen zusätzlichen Schutz und schafft Vertrauen in die Zertifikate. 
+
 ## ENTWICKLUNG
 
  
-
 ### hApps
 ###### HYBRID UNIVERSAL WEB APPS
 
