@@ -1,7 +1,8 @@
 
 # Sentivate Network White Paper - voorlopige versie
 
-![Logo](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/SentivateCure.png)
+![Logo](https://github.com/s![Logo](https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png)
+entivate/Sentivate-Network-White-Paper/blob/master/images/SentivateCure.png)
 
 ##### TITLE:  SENTIVATE - Het Universele Web. 
 #####  ABSTRACT
