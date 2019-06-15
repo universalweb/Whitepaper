@@ -1,11 +1,11 @@
 
 # Sentivate Network White Paper
 
-![Logo](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/SNTVTbig.png)
+![Logo](https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png)
 
 ##### SENTIVATE - Le Web universel.
 #####  ABSTRAIT
-Sentivate est un site Web hybride (centralisé focalisé mais renforcé par des composants décentralisés) conçu pour être un remplacement viable et réaliste du Web moderne. Le réseau est conçu pour aller au-delà des capacités qu’un réseau centralisé ou décentralisé pourrait offrir a lui seul. Sentivate traite directement les problèmes suivants : crise de bande passante, protocoles obsolètes, DNS cassé, Manque de responsabilité, manque d’identité, sécurité réactive, Règles de domaine, et catégorisation du Web.
+Sentivate est un Web hybride (centralisé focalisé mais renforcé par des composants décentralisés) conçu pour être un remplacement viable et réaliste du Web moderne. Le réseau est conçu pour aller au-delà des capacités qu’un réseau centralisé ou décentralisé pourrait offrir a lui seul. Sentivate traite directement les problèmes suivants : crise de bande passante, protocoles obsolètes, DNS cassé, Manque de responsabilité, manque d’identité, sécurité réactive, Règles de domaine, et catégorisation du Web.
 
 ##### Focaliser
 Cette page blanche se focalise sur la conception du réseau de base qui sert le réseau et les composants de base pour Viat, hApps, et le Web universel. Une page blanche supplémentaire sera publiée uniquement sur Viat, Toute la technologie se focalise à assurer que Sentivate soit révolutionnaire, et non pas un remplacement évolutionniste de l'architecture de l’internet moderne.
