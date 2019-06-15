@@ -1,7 +1,7 @@
 
 # Sentivate 网络项目白皮书 —— 本白皮书持续改进中
 
-![Logo](https://sentivate.com/wp-content/uploads/brizy/12/assets/images/iW=1200&iH=any/70e94477b15f379a2717c387bf335188.png)
+![Logo](https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png)
 
 #####  摘要
 Sentivate是一个混合型网络（主体为中心化，通过去中心化的组件增强功能），是对现存当代网络的一种兼具现实性和可行性的替代方案。该网络旨在超越任何单一中心化或去中心化网络所能提供的功能。 Sentivate直接解决了以下问题：带宽危机，过时协议，破坏的DNS，缺乏问责制，缺乏用户身份，被动型安全机制，域规则和Web分类。
