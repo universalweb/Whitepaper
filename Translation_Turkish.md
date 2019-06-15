@@ -51,7 +51,7 @@ Küresel ekonominin yüksek performanslı ve ucuz bir ağ gerektirdiğini biliyo
         - Gönderenin gizli anahtarını ve alıcının genel anahtarını kullanarak gönderenle alıcı arasında paylaşılan bir sırrı hesaplar (veya tersi)
 
 ## Hibrit ağ
-![Sentivate Hibrit ağ](https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png)
+![Sentivate Hibrit ağ](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/turkish_1.jpg)
 
 ## PROTOKOL
 
@@ -72,7 +72,7 @@ UDSP, gerçek zamanlı web ve Dispersed Computing'e öncelik veriyor. Bağlantı
 
 UDSP, paketlerin içinde, sağlayıcıların ve çözücülerin VIAT kazanmasını sağlayan isteğe bağlı bulmacalara sahiptir. Yapbozlar değişkenlik gösterebilir ve bu nedenle yapbozlar Dinamik Çalışma Kanıtıdır. Bulmacalar kapsüllenebilir veya bulmacayı çözmek için gerekli olan verilere işaret edebilir. Bu işlevsellik, VIAT için bir sonraki beyaz makalede açıklanacaktır. Yapbozlar ayrıca tıkanıklık kontrolü ve DDOS saldırılarından gelebilecek olası zararları sınırlamanın bir yolu olarak da işlev görür. Sentivate, çeşitli bulmaca türlerinin paketlere sokulmasıyla tipik bir DDOS saldırısını kar haline getirir. Bir müşteri sunulan bulmacayı çözdüğünde, müşteri ve alan adı Viat ile ağ tarafından hesaba katılır. Bir sunucu DDOS saldırısı altındaysa, sunucu etki alanı için ödül bölünmesini dinamik olarak% 100'e kadar değiştirebilir. Bu, saldırganların daha fazla maddi zarara uğramasını ve kazanacak çok az şey olmasını sağlar. Bulmacalar, her iki tarafın da iyi niyetle davranmaya teşvik edilmesini sağlar.
 
-![CLIENT CONNECTION](https://sentivate.com/wp-content/uploads/2018/09/DISHyrbid.png)
+![CLIENT CONNECTION](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/turkish_2.jpg)
 
 ## UNIVERSAL DOMAIN SİSTEMİ
 
@@ -98,7 +98,7 @@ DİS, kötü niyetli sertifika ile ilgili saldırılara karşı başka bir savun
 
 Etki alanı sertifikaları sağlayan merkezi olmayan düğümlerin hizmetleri aracılığıyla Viat kazanma şansı var. Bu işlevsellik Viat teknik incelemesiyle derinlemesine ele alınacak.
 
-![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
+![DIS](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/turkish_3.jpg)
 
 ### DOMAINS
 ###### İNSAN OKUMA HOSTNAMLARI
