@@ -11,7 +11,7 @@ Sentivate is een hybride web (gecentraliseerd gericht maar versterkt door gedece
 Deze whitepaper is gericht op het ontwerp van de netwerkfundamenten die dienst zullen doen als basisnetwerk en de componenten voor Viat (blockchain token), hApps en Universal Web. 
 Een extra whitepaper wordt later gepubliceerd voor Viat. Alle technologie is erop gericht ervoor te zorgen dat Sentivate revolutionair is opgebouwd, dit in regenstelling tot een evolutionaire vervanging in moderne internetarchitectuur.
 
-## INTRODUCTIE
+## INLEIDING
 ##### DE TOESTAND VAN THE WORLD WIDE WEB
 
 Op dit moment merken we dat we doorgaan met het gebruik van een verouderd en voorbijgestreeft medium van onderling verbonden communicatie op wereldschaal. De eisen van de mensheid nemen exponentieel toe, waaraan het World Wide Web eenvoudigweg niet kan voldoen. Terwijl we doorgaan met groeien, evolueren en het zonnestelsel overstijgen, wordt onze imperatieve taak een revolutie in de technologie waarvan we afhankelijk zijn.
