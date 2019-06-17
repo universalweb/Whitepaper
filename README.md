@@ -14,5 +14,9 @@
 -  [Turkish version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_turkish.md)
 -  [Italian version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_italian.md)
 -  [Portuguese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_portuguese.md)
+-  [Arabic version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Arabic.pdf)
+-  [Hindi version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Hindi.md)
+-  [Japanese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Japanese.md)
+
 
 If you want to contribute to a translation (proofread, typo's or new translations) - please feel free to Pull Request and do your thing. Mind styling - always start from the original English version.
