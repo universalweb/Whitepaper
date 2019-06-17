@@ -50,7 +50,7 @@ Sappiamo che l'economia globale richiede un web performante e conveniente. Se un
         - Calcola un segreto condiviso tra il mittente e il destinatario, utilizzando la chiave segreta del mittente e la chiave pubblica del destinatario (o viceversa).
 
 ## LA RETE IBIRDA
-![Sentivate La Rete Ibrida](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/italian_1.jpg)
+![Sentivate La Rete Ibrida](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/italian_1.png)
 
 ## PROTOCOLLO
 
@@ -71,7 +71,7 @@ UDSP dà la priorità al web in tempo reale e al Dispersed Computing. Poiché le
 
 UDSP ha dei puzzle opzionali inclusi nei pacchetti che consentono ai provider e ai solvers di guadagnare VIAT. I puzzle possono variare e quindi i puzzle sono un Proof-of-Work dinamico. I puzzle possono essere incapsulati o puntare ai dati necessari per risolvere il puzzle. Questa funzionalità sarà descritta nel prossimo  articolo per VIAT. Gli enigmi funzionano anche come controllo della congestione e un modo per ridurre  i potenziali danni dagli attacchi DDOS. Sentivate trasforma un tipico attacco DDOS in profitto con l'introduzione di vari tipi di puzzle in pacchetti. Quando un client risolve il puzzle servito, il client e il dominio vengono accreditati dalla rete con Viat. Se un server è sottoposto a un attacco DDOS, il server può modificare dinamicamente la divisione premio fino al 100% per il dominio. Ciò garantisce che gli attaccanti subiscano maggiori perdite finanziarie e abbiano poco da guadagnare. I puzzle assicurano che entrambe le parti abbiano un incentivo ad agire in buona fede.
 
-![CLIENT CONNECTION](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/italian_2.jpg)
+![CLIENT CONNECTION](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/italian_2.png)
 
 ## SISTEMA DI DOMINIO UNIVERSALE
 
@@ -96,14 +96,14 @@ Il DIS funge da ulteriore livello di difesa dagli attacchi relativi ai certifica
 
 I nodi decentralizzati che forniscono certificati di dominio hanno la possibilità di guadagnare Viat attraverso i loro servizi. Questa funzionalità verrà approfondita con il carta bianca viat.
 
-![DIS](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/italian_3.jpg)
+![DIS](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/italian_3.png)
 
-### Dominio
-###### HUMAN READABLE HOSTNAMES
+### I SETTORI
+###### NOMI DI  OSPITI LEGGIBILI
 
-Domains on Sentivate have full extension names and can have single full names for trademarked entities. The domain rules and regulations are designed to organize the web, free up domain names for new companies, protect trademarks, limit malicious activity, and make extensions more descriptive.
+Il dominio su Sentivate hanno nomi di estensioni completi e possono avere nomi singoli completi per le entità associate ai marchi. Le regole e i regolamenti del dominio sono progettati per organizzare il Web, liberare i nomi di dominio per le nuove aziende, proteggere i marchi, limitare le attività dannose e rendere le estensioni più descrittive.
 
-For example, one can navigate to Amazon by simply typing Amazon into the Sentivate browser. Domain rules are stricter on the Sentivate network. Domain squatting is entirely disallowed, there is a use it or lose it policy. Domain content or service must be relevant to the domain extension. For example, Amazon's store must use the store domain extension, "Amazon.store". There are shorthand domain extensions available for certain domains. For example, Amazon's company website must utilize the company extension, Amazon.company or the shorthand variant Amazon.com. Bitcoin, Ethereum, and Litecoin are cryptocurrencies and sites dedicated to them must use the cryptocurrency extension. However, a news site related to say bitcoin must use the .news and or .blog extension. Any domain that may have random and or arbitrary content must use the .abstract extension.
+Ad esempio, è possibile navigare su Amazon semplicemente digitando Amazon nel browser di Sentivate. Le regole di dominio sono più rigide sulla rete di Sentivate. L'abuso dei domini è completamente vietato, c'è una guida d’ uso o una politica  di abbandono. Il contenuto o il servizio del dominio devono essere pertinenti all'estensione del dominio. Ad esempio, lo store di Amazon deve utilizzare l'estensione del dominio del negozio, "Amazon.store". Esistono estensioni di dominio abbreviate disponibili per determinati domini. Ad esempio, il sito Web aziendale di Amazon deve utilizzare l'estensione aziendale, Amazon.company o la variante abbreviata Amazon.com. Bitcoin, Ethereum e Litecoin sono criptovalute e i siti a loro dedicati devono utilizzare l'estensione criptovaluta. Tuttavia, un sito di notizie relativo al bitcoin deve usare l'estensione .news e/o blog. Qualsiasi dominio che può avere contenuti casuali e / o arbitrari deve utilizzare l'estensione abstract.
 
 ## SISTEMA DI IDENTITÀ UNIVERSALE
 
