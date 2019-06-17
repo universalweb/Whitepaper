@@ -50,7 +50,7 @@ Sappiamo che l'economia globale richiede un web performante e conveniente. Se un
         - Calcola un segreto condiviso tra il mittente e il destinatario, utilizzando la chiave segreta del mittente e la chiave pubblica del destinatario (o viceversa).
 
 ## LA RETE IBIRDA
-![Sentivate La Rete Ibrida](https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png)
+![Sentivate La Rete Ibrida](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/italian_1.jpg)
 
 ## PROTOCOLLO
 
@@ -71,7 +71,7 @@ UDSP dà la priorità al web in tempo reale e al Dispersed Computing. Poiché le
 
 UDSP ha dei puzzle opzionali inclusi nei pacchetti che consentono ai provider e ai solvers di guadagnare VIAT. I puzzle possono variare e quindi i puzzle sono un Proof-of-Work dinamico. I puzzle possono essere incapsulati o puntare ai dati necessari per risolvere il puzzle. Questa funzionalità sarà descritta nel prossimo  articolo per VIAT. Gli enigmi funzionano anche come controllo della congestione e un modo per ridurre  i potenziali danni dagli attacchi DDOS. Sentivate trasforma un tipico attacco DDOS in profitto con l'introduzione di vari tipi di puzzle in pacchetti. Quando un client risolve il puzzle servito, il client e il dominio vengono accreditati dalla rete con Viat. Se un server è sottoposto a un attacco DDOS, il server può modificare dinamicamente la divisione premio fino al 100% per il dominio. Ciò garantisce che gli attaccanti subiscano maggiori perdite finanziarie e abbiano poco da guadagnare. I puzzle assicurano che entrambe le parti abbiano un incentivo ad agire in buona fede.
 
-![CLIENT CONNECTION](https://sentivate.com/wp-content/uploads/2018/09/DISHyrbid.png)
+![CLIENT CONNECTION](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/italian_2.jpg)
 
 ## SISTEMA DI DOMINIO UNIVERSALE
 
@@ -96,7 +96,7 @@ Il DIS funge da ulteriore livello di difesa dagli attacchi relativi ai certifica
 
 I nodi decentralizzati che forniscono certificati di dominio hanno la possibilità di guadagnare Viat attraverso i loro servizi. Questa funzionalità verrà approfondita con il carta bianca viat.
 
-![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
+![DIS](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/italian_3.jpg)
 
 ### Dominio
 ###### HUMAN READABLE HOSTNAMES
