@@ -5,6 +5,7 @@
 ##### White Paper translations 
 ##### Available White Paper translations 
 -  [English version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/WhitePaper.md)
+-  [German version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_German.md)
 -  [Vietnamese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Vietnamese.md)
 -  [Dutch version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Dutch.md)
 -  [Russian version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Russian.md)
@@ -13,6 +14,12 @@
 -  [Polish version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Polish.md)
 -  [Spanish version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Spanish.md)
 -  [French version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_French.md)
+-  [Turkish version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_turkish.md)
+-  [Italian version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_italian.md)
+-  [Portuguese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_portuguese.md)
+-  [Arabic version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Arabic.pdf)
+-  [Hindi version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Hindi.md)
+-  [Japanese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Japanese.md)
 
 ##### TITLE:  SENTIVATE - The Universal Web. 
 #####  ABSTRACT
