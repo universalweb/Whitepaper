@@ -1,5 +1,5 @@
 
-# Sentivate Network White Paper
+# White paper sulla rete Sentivate
 
 ![Logo](https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png)
 
