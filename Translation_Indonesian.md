@@ -1,179 +1,158 @@
 
-# Sentivate Network White Paper
+# Laporan Resmi Jaringan Sentivate
 
 ![Logo](https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png)
-##### White Paper translations 
-##### Available White Paper translations 
--  [English version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/WhitePaper.md)
--  [German version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_German.md)
--  [Vietnamese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Vietnamese.md)
--  [Dutch version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Dutch.md)
--  [Russian version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Russian.md)
--  [Korean version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Korean.md)
--  [Chinese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Chinese.md)
--  [Polish version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Polish.md)
--  [Spanish version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Spanish.md)
--  [French version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_French.md)
--  [Turkish version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_turkish.md)
--  [Italian version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_italian.md)
--  [Portuguese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_portuguese.md)
--  [Arabic version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Arabic.pdf)
--  [Hindi version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Hindi.md)
--  [Japanese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Japanese.md)
 
-##### TITLE:  SENTIVATE - The Universal Web. 
-#####  ABSTRACT
-Sentivate is a hybrid web (centralized focused but enhanced by decentralized components) built to be a viable & realistic replacement for the modern web. The network is designed to go beyond the capabilities that any solely centralized or decentralized network could offer. Sentivate addresses the following issues directly: bandwidth crisis, outdated protocols, broken DNS, lack of accountability, lack of identity, reactive security, Domain rules, and web categorization.
+##### JUDUL: SENTIVATE – Sebuah Jaringan Universal 
+#####  ABSTRAK
+Sentivate adalah jaringan hybrid (Berfokus pada sentralisasi jaringan tapi juga ditingkatkan dengan komponen yang bersifat desentralisasi) dibuat sebagai pengganti yang lebih sesuai dan mumpuni untuk jaringan internet modern. Jaringan ini dirancang untuk memberikan layanan yang lebih baik dibanding layanan yang diberikan oleh jaringan yang hanya bersifat sentralisasi ataupun desentralisasi. Sentivate dapat langsung menyelesaikan masalah-masalah seperti: masalah krisis bandwith, protokol yang ketinggalan zaman, DNS yang rusak, kurangnya akuntabilitas, kurangnya identitas, keamanan reaktif, aturan Domain, dan pengkategorian jaringan.  
 
-##### FOCUS
-This white paper is focused on the core network design that serves as the base network & components for Viat, hApps, and the Universal Web. An additional white paper will be released solely on Viat. All technology is focused on ensuring that Sentivate is a revolutionary, and not an evolutionary replacement in modern Internet architecture. 
+##### FOKUS
+Laporan resmi ini akan berfokus pada rancangan jaringan inti yang merupakan jaringan dasar dan komponen pada Viat, hApps, dan Jaringan Universal. Laporan resmi tambahan akan dikeluarkan khusus untuk Viat. Semua teknologi yang digunakan bertujuan untuk memastikan bahwa Sentivate adalah sebuah pengganti revolusioner, bukan evolusioner, dalam arsitektur Internet modern.
 
-## INTRODUCTION
-##### THE STATE OF THE WORLD WIDE WEB
+## PENDAHULUAN
+##### KONDISI WORLD WIDE WEB (WWW)
 
-At present, we find ourselves continuing to utilize a ruinous medium of interconnected communication on a global scale. Humanity’s demands are exponentially increasing of which the World Wide Web simply can’t meet. As we continue to grow, evolve, and venture beyond the solar system, our imperative task becomes revolutionizing the technology we depend on.
+Saat ini, kita masih menggunakan media yang buruk untuk saling berkomunikasi secara global. Permintaan-permintaan masyarakat meningkat sangat tajam sehingga tak lagi mampu ditangani oleh jaringan internet dunia atau world wide web (www). Karena kita terus berkembang, berubah dan bahkan berkelana hingga keluar sistem tata surya, maka tugas utama kita adalah merevolusi teknologi yang kita gunakan.  
 
-The current state of the World Wide Web is deprecationary. If humanity continues to monkey-patch existing problems the Internet will remain the “wild wild west”. Humanity’s ever-increasing demands will never be met by the current state of the Web. We must start thinking in revolutionary terms and not evolutionary. The solution is a complete replacement of contemporary systems, browsers, languages, protocols, and platforms with increased security, speed, efficiency, accountability, trust, identity, capability, and reliability. In order to transition into a new age of information we must replace that which we have become all too comfortable with.
+Keadaan Jaringan Internet Dunia (www) saat ini sudah ketinggalan zaman. Jika manusia hanya melakukan perbaikan lokal saja pada masalah yang ada maka internet akan tetap menjadi “Jaringan Berbahaya Dunia”. Tuntutan masyarakat yang terus meningkat tidak akan pernah dipenuhi oleh keadaan Jaringan Internet saat ini. Kita harus mulai memikirkan cara revolusioner dan bukan cara evolusioner. Solusinya adalah penggantian secara menyeluruh sistem yang ada saat ini, aplikasi untuk menjejalah internet, bahasa, protokol, dan media yang digunakan dengan peningkatan pada keamanan, kecepatan, efisiensi, akuntabilitas, kepercayaan, identitas, kemampuan dan keandalannya. Untuk berpindah ke era baru sistem informasi kita harus rela menganti semua hal yang selama ini telah nyaman kita gunakan.
 
-###### BANDWIDTH CRISIS
-[Bandwidth is limited, our needs are out growing our networks.](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/)  To solve this issue we need modern revolutionary technology to replace existing components. If we don’t, fast lanes & prioritization of data is our only option. All those fears that folks have of the repeal of Net Neutrality will be our only hope at keeping the web spinning. The inevitable rise of IoT, more devices per-person, more devices per-household, self-driving cars, car insurance analytics, & developing countries coming online suck up bandwidth we don’t have.
+###### KRISIS PADA BANDWITH
+[Bandwith atau transfer data itu terbatas, kebutuhan kita telah melampaui pertumbuhan jaringan internet.](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/) Untuk mengatasi masalah ini kita membutuhkan teknologi revolusioner modern untuk menggantikan komponen yang sudah ada. Jika tidak, jalur cepat & penentuan prioritas data adalah satu-satunya pilihan untuk mengatasinya. Ketakutan masyarakat akan hilangnya Netralitas Internet adalah harapan kita satu-satunya untuk tetap membuat jaringan internet tetap bekerja. Kebangkitan IoT (Internet pada Benda), lebih banyaknya gadget yang digunakan per individu, lebih banyaknya gadget pada setiap rumah tangga, mobil yang berjalan sendiri, analisis asuransi kendaraan, & negara-negara berkembang yang telah masuk pada dunia maya menyedot penggunaan bandwith yang tidak kita miliki.
 
-###### THE OUTDATED WEB WE RELY ON IS EATING ITSELF
-HTTP & DNS were built a long time ago without the consideration of modern demands in mind. More and more bandwidth is being sucked up, HTTP continues to show its long scalability issues, and DNS is not trustworthy or scalable. If half of the web can be shut down from DoS-ing specific DNS servers there's an obvious architectural problem. HTTP is the current vehicle for money. The entire digital economy is transported over HTTP. Any slowing down to HTTP or DNS means a drastically slower global economy. DNS & HTTP are inherently broken, have poor scalability, are dreadfully slow, lack modern features, eat up bandwidth, and cost consumers & businesses billions. If we don't solve this issue we will experience a massive blow to the economy. When you factor in all the dollar signs one soon realizes that a slower web is a global humanitarian crisis. 
+###### JARINGAN INTERNET LAWAS YANG KITA ANDALKAN JUSTRU MENJADI MASALAH 
+HTTP & DNS dibuat sejak lama tanpa memikirkan tuntutan masyarakat modern. Dengan semakin banyaknya bandwith yang disedot terus menerus, HTTP akan terus menunjukkan banyak masalah pada skalabilitas, dan DNS tidak dapat dipercaya atau diskalakan. Jika separuh dari jaringan laman internet dapat dimatikan dengan DoS pada server DNS tertentu maka ada masalah arsitektur yang nyata. HTTP saat ini adalah kendaraan yang membawa uang. Seluruh ekonomi digital disalurkan melalui HTTP. Jika terjadi perlambatan pada HTTP atau DNS maka akan sangat berdampak pada perlambatan ekonomi dunia. DNS dan HTTP pada dasarnya tidak berfungsi dengan baik, mempunyai skalabilitas yang jelek, sangat lamban, fitur modern yang masih kurang, konsumsi bandwith yang tinggi, dan membuat konsumen & unit bisnis harus menghabiskan biaya miliaran. Jika kita tidak menyelesaikan masalah ini maka kita akan mengalami masalah ekonomi yang luar biasa. Jika menghitung semua biaya, maka akan segera disadari bahwa jaringan internet yang lambat adalah sebuah bentuk krisis kemanusian global.
 
-1.  [A one second delay could cost Amazon 1.6BB in sales.](https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales)
-2.  [_“10 years ago, Amazon found that every 100ms of latency cost them 1% in sales”_](https://www.gigaspaces.com/blog/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/)
-3.  [_“Fast forward 10 years later, a 2017 Akamai study shows that every 100-millisecond delay in website load time can hurt conversion rates by 7% – that is a significant drop in sales – 6% – from the time when Amazon first talked about latency in seconds and milliseconds. This goes to show that things aren’t getting any easier for online retailers as user experience is becoming critical to e-commerce success.”_](https://www.akamai.com/us/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp)
+1.  [Keterlambatan 1 detik saja dapat merugikan penjualan Amazon hingga 1.6MM.](https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales)
+2.  [_“10 tahun lalu, Amazon menemukan bahwa setiap keterlambatan 100milidetik merugikan mereka hingga 1% dalam penjualan”_](https://www.gigaspaces.com/blog/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/)
+3.  [_“3.	“Pada 10 tahun kemudian, Sebuah penelitian oleh Akamai pada tahun 2019 menunjukkan  bahwa setiap keterlambatan 100-milidetik pada waktu muat halaman website dapat berdampak pada tingkat konversi hingga 7%- yang merupakan tingkat penurunan yang cukup tinggi - 6% - dari saat Amazon pertama kali membahas tentang keterlambatan dalam hitungan detik dan milidetik. Hal ini menunjukkan bahwa penjual online akan banyak mengalami kendala karena pengalaman pengguna menjadi sangat penting dalam kesuksesan bisnis di dunia internet.”_](https://www.akamai.com/us/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp)
 
-###### THE FAILURE THAT IS THE DECENTRALIZED WEB AKA WEB 3.0
-We know that the global economy requires a performant & inexpensive web. If a solely decentralized web replaced the modern web, then it would accelerate the bandwidth crisis and bring us to a dystopian web. The term Web 3.0 is not a magic globe, a revolutionary idea, or a solution; it's a cash grab. Trades are happening in nanoseconds the global economy doesn't have time to wait seconds or minutes for a block time to verify and then propagate through the network. A replacement for the web shouldn't be slower and more expensive for consumers. Web 3.0 costs more and they like to hide behind things like it's all on-chain and costs very little to launch an app. The reality is, you get what you pay for. Web 3.0 offsets costs to users instead of the services, which also results in a poorer service. Another common argument is to allow users to control their data. That's no problem, say hello to homomorphic encryption. Instead of tackling this issue from just topology, we need to innovate in every aspect of the web and ask more from our web services. The web's topology problem is minor compared to it's outdated technology problem. If these Web 3.0 projects actually cared about changing the web they would focus on the actual issues. **Both topologies have their use cases but together they are a solution to an ever growing problem that has gone unchecked.**
+###### KEGAGALAN TERSEBUT ADALAH WEB YANG TERDESENTRALISASI ALIAS WEB 3.0
+Kita tahu bahwa perekonomian global membutuhkan jaringan internet yang berkinerja baik & harga yang murah. Jika hanya sebuah jaringan terdesentralisasi yang menggantikan jaringan modern, maka hal tersebut dapat memperparah masalah krisis bandwith dan membawa kita pada jaringan yang tidak kita harapkan. Istilah Jaringan 3.0 bukanlah sebuah bola kristal ajaib, sebuah ide revolusioner dan sebuah solusi; ia merupakan pengumpul uang tunai. Perdagangan terjadi dalam setiap nanodetik, perekonomian dunia tidak harus menunggu selama hitungan detik atau menit untuk memverifikasi dan lalu menyebarkannya melalui jaringan internet. Sebuah pengganti untuk jaringan internet tidak boleh lebih lambat dan lebih mahal bagi konsumen. Jaringan Web 3.0 menghabiskan biaya lebih banyak dan nampaknya mereka suka bersembunyi dibalik tampilan yang terhubung dengan baik dan hanya menghabiskan biaya sedikit untuk menjalankan sebuah aplikasi. Pada kenyataanya, anda akan mendapatkan apa yang anda bayarkan. Jaringan Web 3.0 membebankan biaya pada pengguna atas layanan yang diberikan, yang juga menghasilkan layanan yang lebih buruk. Permasalahan mendasar lainnya adalah membiarkan pengguna untuk mengontrol data mereka. Hal tersebut bukanlah sebuah masalah, silahkan berkenalan dengan enkripsi homomorpik. Daripada hanya mengatasi masalah hanya dari topologinya saja, kita harus berinovasi pada setiap aspek jaringan dan menuntut lebih pada jaringan yang kita miliki tersebut. Masalah topologi jaringan hanya merupakan masalah kecil jika dibandingkan dengan masalah teknologi yang sudah ketinggalan zaman. Jika proyek Jaringan Web 3.0 ini benar-benar ingin melakukan perubahan pada jaringan internet mereka akan fokus pada masalah yang sebenarnya. **Kedua topologi mempunyai persoalan masing-masing tetapi jika digunakan secara bersama mereka dapat menjadi solusi terhadap perkembangan masalah yang semakin tak terkendali.**
 
-## UNIVERSAL WEB CRYPTOGRAPHY ([SODIUM-NATIVE](https://github.com/sodium-friends/sodium-native))
+## CRYPTOGRAPHY WEB UNIVERSAL ([SODIUM-NATIVE](https://github.com/sodium-friends/sodium-native))
 
--  Key Signatures
-    -   Single-part signature: Ed25519
-    -   Multi-part signature: Ed25519ph
--  Packet Encryption
-	- Authenticated Encryption with Additional Data
-    - Encrypts a message with a key and a nonce to keep it confidential
-    - Computes an authentication tag. This tag is used to make sure that the message, as well as optional, non-confidential (non-encrypted) data, haven’t been tampered with.
-    - Encryption: XChaCha20 stream cipher
-    - Authentication: Poly1305 MAC
+-  Penanda Kunci
+    -   Penanda Bagian-Tunggal: Ed25519
+    -   Penanda Bagian-Majemuk: Ed25519ph
+-  Enkripsi Paket
+    - Enkripsi Terpercaya dengan Data Tambahan
+    - Mengekripsi sebuah pesan dengan kunci dan deretan angka yang berupa Nonce untuk menjaga kerahasiaannya
+    - Menghitung sebuah penanda keaslian. Penanda ini digunakan untuk memastikan bahwa pesan, begitu juga jika diperlukan, data yang tidak rahasia (tidak terenkripsi), tidak mengalami kerusakan.
+    - Enkripsi: XChaCha20 pembuatan sandi pada aliran
+    - Otentikasi: Poly1305 MAC
 
-- Key exchange – Shared Session Secret Keys
+- Pertukaran Kunci- Kunci Rahasia Sesi Bersama
     - BLAKE2B-512
-        - BLAKE2 is a cryptographic hash function **faster than MD5, SHA-1, SHA-2, and SHA-3**, yet is at least as secure as the latest standard SHA-3
-        - Optimized for 64-bit platforms—including NEON-enabled ARMs—and produces digests of any size between 1 and 64 bytes
-    - X25519 – Ephemeral Key Pair
-        - Computes a secret shared between the sender and receiver, using the sender’s secret key and the receiver’s public key (or vice versa)
+        - BLAKE2 adalah hash kriptografis yang berfungsi lebih cepat daripada MD5, SHA-1, SHA-2, and SHA-3, tetapi ia paling tidak memiliki standar keamanan yang sama dengan SHA-3 yang terbaru
+        - Dioptimalkan untuk platform 64-bit—termasuk NEON yang mendukung ARM—dan menghasilkan keluaran dalam ukuran antara 1 dan 64 bit.
+    - X25519 – Pasangan Kunci Ephemeral
+        - Menghitung rahasia yang digunakan bersama antara pengirim dan penerima, menggunakan kunci rahasia pengirim dan kunci umum penerima (atau sebaliknya)
 
-## HYBRID NETWORK
-![Sentivate Hybrid Network](https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png)
+## JARINGAN HYBRID 
+![Sentivate Jaringan Hybrid](https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png)
 
-## PROTOCOL
+## PROTOKOL
 
-### Universal Data Stream Protocol
-###### Data Transport Protocol 
+### Protokol Aliran Data Universal 
+###### Protokol Penyaluran Data 
 
-UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol. 
+UDSP adalah Protokol Penyaluran Data sebuah UDP berbasis latensi rendah, langsung, dua arah, terenkripsi dan terpercaya.
 
-##### The Problem
-As mentioned in the introduction: User’s demands have changed and our requirements of the web have grown. These changes make HTTP a major bottleneck. The HTTP standard itself and TCP are both huge issues. Large data centers moving copious amounts of data from one end-point to the other have latency and cost issues associated with outdated Internet architecture. HTTP is especially problematic when users are experiencing low throughput, limited bandwidth, degraded network connectivity, or requiring a near real-time response. 
+##### Permasalahan
+Seperti yang disebutkan pada pendahuluan: tuntutan pengguna telah berubah dan kebutuhan kita akan jaringan internet telah berkembang. Perubahan ini membuat HTTP menjadi sebuah hambatan besar. Standar HTTP itu sendiri dan TCP merupakan dua permasalahan besar. Banyak Pusat data yang memindahkan data dalam jumlah besar dari satu titik ke titik lainnya memiliki masalah latensi dan biaya terkait arsitektur internet yang sudah ketinggalan zaman. HTTP khususnya bermasalah saat pengguna mengalami throughput rendah, bandwith terbatas, konektivitas jaringan yang menurun, atau membutuhkan respon secepat mungkin.
 
-##### The Solution
-The first step in the construction of the Universal Web is to replace HTTP entirely with UDSP. UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol. On the Universal Web all communication, streaming, or transferring of any type of data utilizes UDSP. When visiting a site on the Universal Web UDSP is the protocol used instead of HTTP. Specific UDSP client and server modules are required to visit or host a website on the Sentivate Network. UDSP is the foundation and life blood of the Sentivate Network.
+##### Solusi
+Langkah pertama dalam pembuatan Jaringan Web Universal adalah mengganti HTTP secara keseluruhan dengan UDSP. UDSP adalah Protokol Penyaluran Data sebuah UDP berbasis latensi rendah, langsung, dua arah, terenkripsi dan terpercaya, Pada jaringan web Universal semua komunikasi, streaming atau pentransferan segala jenis data memanfaatkan UDSP. Ketika menggunjungi sebuah situs pada Jaringan Web Universal maka UDSP akan digunakan sebagai ganti HTTP. Modul spesifik klien dan server dibutuhkan untuk mengunjungi atau membuat website pada jaringan Sentivate. UDSP adalah fondasi dan jiwa dari Jaringan Sentivate.
 
-UDSP is capable of dynamic reliability on a connection level, or on a per-request basis which is agreed upon between the involved parties. UDSP enforces encryption which means all UDSP connections are encrypted by default, no exceptions. UDSP supports IPv6, Multiplexing, and Multihoming. UDSP relies on cryptographic keypairs and XChaCha20 to establish a connection.
+UDSP mampu memberikan kepercayaan dinamis pada sebuah tingkat koneksi, atau pada tingkat yang diinginkan yang telah disetujui antar pihak yang terlibat. UDSP menggunakan enkripsi yang berarti semua koneksi pada UDSP sudah dienkripsi dari awal, tanpa terkecuali. UDSP mendukung IPv6, multiplexing, dan Multihoming. UDSP bergantung pada pasangan kunci Kriptografis dan XChaCha20 untuk membangun sebuah koneksi.
 
-UDSP prioritizes the real-time web and Dispersed Computing. Since connections are bi-directional streams and less chatty this makes the network less clogged and ensures low-latency for the livelihood of the connection. UDSP is far less chatty than HTTP and can be programmatically set to adjust it's own reliability standards. This makes UDSP a highly useful protocol where high-throughput, low-latency, and high reliability are required. Due to UDSP's programmatically dynamic nature, it's efficacious in situations of highly variable and or degraded network connectivity.
+UDSP mengutamakan jaringan web yang langsung tampil dan Komputasi Tersebar. Karena koneksinya berupa aliran dua arah dan tidak terlalu sibuk sehingga membuat jaringannya jarang mengalami penyumbatan dan memastikan latensi rendah agar koneksi lebih hidup. UDSP lebih lancar dibanding HTTP dan dapat diatur secara sistematis untuk menyesuaikan standar kemampuannya. Hal tersebut menjadikan UDSP sebuah protokol yang sangat bermanfaat ketika yang dibutuhkan adalah throughput yang tinggi, latensi yang rendah, dan kepercayaan yang tinggi. Karena UDSP sifatnya dinamis, penggunaannya sangat efisien pada situasi yang sangat bervariasi dan atau koneksi jaringan yang memburuk.
 
-UDSP has optional puzzles included in the packets which allow providers and solvers to earn VIAT. Puzzles can vary and thus the puzzles are a Dynamic-Proof-of-Work. The puzzles may be encapsulated or point to data that is required for solving the puzzle. This functionality will be described in the next white paper for VIAT. The puzzles also function as congestion control and a way to limit the potential damages from DDOS attacks. Sentivate turns a typical DDOS attack into profit by the introduction of various puzzle types into packets. When a client solves the served puzzle the client and domain are credited by the network with Viat. If a server is under DDOS attack then the server can dynamically change the reward split up-to 100% for the domain. This ensures the attackers suffer more financial loss and have little to gain. Puzzles ensure that both parties have an incentive to act in good faith. 
+UDSP memiliki teka-teki yang bersifat pilihan yang dimasukkan dalam paket yang memungkinkan penyedia dan penggunanya mendapatkan VIAT. Teka-teki yang digunakan dapat bervariasi dan teka-teki tersebut adalah Bentuk-Kinerja-Yang-Dinamis. Teka-teki ini mungkin terlindung dalam kapsul atau merujuk pada data yang dibutuhkan untuk memecahkan teka-teki tersebut. Fungsi tersebut akan dijelaskan pada laporan resmi berikutnya tentang VIAT. Teka-teki ini juga berfungsi sebagai pengontrol kepadatan dan cara membatasi kemungkinan terjadinya kerusakan dari serangan DDOS. Sentivate mengubah serangan DDOS tertentu menjadi sebuah kelebihan dengan mengenalkan berbagai macam teka-teki ke dalam bentuk paket. Ketika klien berhasil memecahkan teka-teki yang diberikan, klien dan domain tersebut akan diberikan jaringan yang menggunakan Viat. Jika server ini mengalami serangan dari DDOS maka server dapat dengan mudah mengubah pembagian yang diberikan hingga 100% pada domain. Hal ini memastikan penyerang tersebut mengalami kerugian finasial yang lebih banyak dan hanya memperoleh sedikit keuntungan. Teka-teki ini memastikan bahwa kedua belah pihak mendapatkan insentif bertindak dengan itikad baik.
 
 ![CLIENT CONNECTION](https://sentivate.com/wp-content/uploads/2018/09/DISHyrbid.png)
 
-## UNIVERSAL DOMAIN SYSTEM
+## SISTEM DOMAIN UNIVERSAL
 
-### DOMAIN CERTIFICATES
-###### ROUTING & CRYPTOGRAPHIC PARAMETERS
+### SERTIFIKAT DOMAIN 
+###### PARAMETER ROUTING DAN KRIPTOGRAFI
 
-Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, and an authorized Domain Registrar. In order to establish a successful handshake, the domain certificate and a valid signature is required.
+Sertifikat domain menyediakan routing, kriptografi dan detail tambahan yang terkait dengan sebuah nama penyedia /hostname. Sertifikat domain ditandai dengan 3 atau lebih pasangan kunci: Ephemeral, Master dan sebuah registrar domain resmi. Untuk membuat hubungan awal berhasil, maka diperlukan sertifikat domain dan penanda yang valid.
 
-The domain's ephemeral certificate also acts as a wallet which stores funds for any puzzles it distributes to clients. A portion of the mined Viat is sent to the ephemeral certificates wallet address. 
+Sertifikat doman ephemeral juga berfungsi sebagai dompet yang menyimpan dana untuk setiap teka-teki yang diberikan pada klien. Sebagian Viat yang ditambang dikirim ke alamat dompet sertifikat ephemeral.
 
-### DOMAIN REGISTRAR
-###### UPLOAD & SIGN DOMAIN CERTIFICATES
+### REGISTRAR DOMAIN 
+###### SERTIFIKAT UPLOAD DAN PENANDA DOMAIN
 
-The Domain Registrar, (DR), is used to register a domain and manage a domain's public certificate. The DR validates & signs the public certificates associated with the hostname. The DR then passes the certificate to the Domain Information System which stores the certificate for distribution.
+Registrar Domain, (RD), digunakan untuk mendaftarkan domain dan mengatur sertifikat publik sebuah domain. RD digunakan untuk memvalidasi dan menandai sertifikat publik yang terkait dengan nama penyedia, RD kemudian akan meneruskan sertifikat pada Sistem Informasi Domain yang menyimpan sertifikat yang akan didistribusikan.
 
+### SISTEM INFORMASI DOMAIN
+###### PERMINTAAN ROUTING DOMAIN DAN KRIPTOGRAFI
 
-### DOMAIN INFORMATION SYSTEM
-###### QUERY DOMAIN ROUTING AND CRYPTOGRAPHY
+Sistem Informasi Domain, (SID), mengembalikan informasi spesifik domain ke bentuk sertifikat domain dari nama penyedia yang dapat dibaca oleh manusia. SID mengembalikan sertifikat domain termasuk detail kriptogafi & informasi routing. Dengan memasukkan kriptografi nama penyedia bersama dengan informasi routing, 0-RTT dapat terjadi tanpa mengharuskan klien mengunjungi domain tersebut sebelumnya. Hal ini merupakan kelebihan tersendiri dibandingkan TLS 1.3 yang menyediakan 0-RTT secara otomatis karena pada TLS 1.3 seseorang harus mengunjungi situs tersebut sebelumnya. SID mempunyai server tersentralisasi dan jaringan yang terdesentralisasi untuk memastikan klien dapat mengakses sertifikat domain dengan cara yang sangat cepat.
 
-The Domain Information System, (DIS), returns domain-specific information in the form of a domain certificate from human-readable hostnames. The DIS returns the domain’s certificate which includes cryptographic details & routing information. By including the hostnames cryptography along with routing information, 0-RTT is possible without requiring the client to have visited the domain prior. This is a unique advantage over TLS 1.3 in that 0-RTT is available by default where as in TLS 1.3 one would need to have visited the site prior. Before clients connect to a website they must first query the DIS with a human-readable hostname. The DIS has centralized servers and a decentralized network to provide clients with the fastest possible way to access domain certificates. 
+SID bertindak juga sebagai lapisan pertahanan dari serangan berbahaya terkait sertifikat. Ketika sertifikat tidak valid digunakan untuk meminta informasi dari SID untuk pergi ke layanan, SID akan segera memberikan respon penolakan.
 
-The DIS acts as another layer of defence from malicious certificate related attacks. When invalid certificates are used to request information from the DIS to go to a service the DIS simply denys returning a response.
-
-The decentralized nodes providing domain certificates have a chance to earn Viat through their services. This functionality will be covered in-depth with the Viat white paper.
+Node terdesentralisasi membuat sertifikat domain berkesempatan memperoleh Viat melalui layanan mereka. Fungsi ini akan dibahas secara mendalam pada laporan resmi terkait Viat.
 
 ![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
 
-### DOMAINS
-###### HUMAN READABLE HOSTNAMES
+### DOMAIN
+###### NAMA HOST YANG DAPAT DIBACA MANUSIA
 
-Domains on Sentivate have full extension names and can have single full names for trademarked entities. The domain rules and regulations are designed to organize the web, free up domain names for new companies, protect trademarks, limit malicious activity, and make extensions more descriptive.
+Domain pada Sentivate memiliki nama ekstensi penuh dan dapat memiliki nama lengkap tunggal untuk entitas merek dagang. Aturan dan peraturan domain dirancang untuk mengatur web, mengosongkan nama domain untuk perusahaan baru, melindungi merek dagang, membatasi aktivitas berbahaya dan membuat ekstensi lebih deskriptif lagi.
 
-For example, one can navigate to Amazon by simply typing Amazon into the Sentivate browser. Domain rules are stricter on the Sentivate network. Domain squatting is entirely disallowed, there is a use it or lose it policy. Domain content or service must be relevant to the domain extension. For example, Amazon's store must use the store domain extension, "Amazon.store". There are shorthand domain extensions available for certain domains. For example, Amazon's company website must utilize the company extension, Amazon.company or the shorthand variant Amazon.com. Bitcoin, Ethereum, and Litecoin are cryptocurrencies and sites dedicated to them must use the cryptocurrency extension. However, a news site related to say bitcoin must use the .news and or .blog extension. Any domain that may have random and or arbitrary content must use the .abstract extension.
+Sebagai contoh, seseorang dapat dengan mudah mengakses Amazon dengan hanya mengetikkan Amazon pada halaman penjelajah di Sentivate. Aturan domain sangat ketat pada jaringan Sentivate. Domain yang menggantung sama sekali tidak dibiarkan, ada penerapan kebijakan yang bersifat pilihan, gunakan atau tinggalkan. Muatan atau layanan domain harus sesuai dengan ekstensi domain. Sebagai contoh, Toko Amazon harus menggunakan ekstensi domain toko (store), “Amazon.store”. Terdapat ekstensi berupa nama singkat domain yang tersedia untuk domain tertentu. Contohnya, Website Perusahaan Amazon harus menggunakan ekstensi perusahaan, Amazon.company atau bentuk singkatnya, Amazon.com. Bitcoin, Ethereum dan Litecoin adalah mata uang kripto dan situs yang digunakan oleh mereka harus menggunakan ekstensi mata uang kripto. Namun, sebuah situs berita yang terkait dengan bitcoin harus menggunakan ekstensi .news dan atau .blog. Domain lain yang mungkin memiliki konten yang acak dan atau tak beraturan harus menggunakan ekstensi abstrak.
 
-## UNIVERSAL IDENTITY SYSTEM
+## SISTTEM IDENTITAS UNIVERSAL
 
-### IDENTITY CERTIFICATES
-###### EPHEMERAL & MASTER KEY PAIRS
+### SERTIFIKAT IDENTITAS
+###### EPHEMERAL DAN PASANGAN KUNCI MASTER
 
-Identity certificates, (IC), are documents which provide cryptographic details that represent you on the network and are signed by a Identity Registrar. An identity certificate has two cryptographic key pairs: Master and Ephemeral. A master key pair is used specifically for signing ephemeral certificates and is the core identifying key pair. Ephemeral key pairs can be replaced at the owner's discretion. Identity certificates cryptographically authenticate & authorize clients on the network.
+Sertifikat Identitas, (CI), adalah dokumen yang memberikan detail kriptografi yang mewakilkan diri anda di jaringan internet dan ditandai dengan sebuah Registrar Identitas. Sertitifikat identitas memiliki dua pasangan kriptografi : Master dan Ephemeral. Sepasang kunci Master digunakan khusus untuk menandai sertifikat ephemeral dan merupakan pasangan kunci pengenal utama. Pasangan kunci Ephemeral dapat diganti berdasarkan keinginan pemilik. Sertifikat Identitas secara kriptografis mengotentikasi & mengotorisasi klien pada jaringan.
 
-Ephemeral Certificates, (EC), are a sub-certificate to the Master Certificate. EC's act as profiles which are used to access user defined services. For example, wallet certificate, banking certificate, general web browsing certificate or for every service. However, one can choose to utilize one single ephemeral certificate for all services. ECs are used for the key exchange process which sets up a bi-directional UDSP connection between the origin and host.
+Sertifikat Ephemeral, (SE), adalah sub-sertifikat pada Sertifikat Master. SE berfungsi sebagai profil yang digunakan untuk mengakses layanan yang diinginkan oleh pengguna. Sebagai contoh, sertifikat dompet, sertifikat bank, sertifikat penjelajahan internet secara umum atau untuk semua layanan. Meskipun demikian, seseorang dapat memilih untuk mengunakan hanya satu jenis sertifikat ephemeral untuk semua layanan. SE digunakan pada proses pertukaran kunci yang diatur oleh koneksi dua ara UDSP antara sumber asal dan penyedia/host.
 
-Users can instantly signup, login, and purchase an item with their identity certificate. Servers require a client certificate upon connection to establish a successful UDSP handshake.
+Pengguna dapat langsung mendaftar, masuk, dan membeli sebuah item dengan sertifikat identitas mereka. Server membutuhkan sertifikat klien pada koneksi tersebut untuk membuat sebuah hubungan UDSP yang berhasil.
 
-Identity certificates form the basis for a decentralized reputation system, which can publicly record good & bad behavior associated with specific certificates. A honeypot can be used to block known bad actors from accessing a service further securing the network.
+Sertifikat Identitas menjadi dasar untuk sistem bereputasi desentralisasi, yang dapat secara terbuka mencatat perilaku baik dan buruk terkait sertifikat tertentu. Sebuah honeypot dapat digunakan untuk memblokir aktor jahat yang sudah dikenali dari mengakses sebuah layanan sekaligus mengamankan jaringan tersebut.
 
-Identity certificates can be linked to real world identities and assets. Making Sentivate an ideal platform for secure, private, and verifiable voting in elections. Stores and companies can have verified ICs which allow users to directly pay or donate through Viat.
+Sertifikat Identitas dapat dihubungkan dengan aset dan identitas dunia nyata. Menjadikan Sentivate sebagai platform ideal yang aman, rahasia dan terpercaya dalam pemilu. Toko dan perusahaan dapat memiliki SI terverifikasi yang memungkinkan pengguna dapat membayar atau berdonasi secara langsung melalui Viat.
 
-### IDENTITY REGISTRAR
-###### VALIDATE AND SIGN
+### REGISTRAR IDENTITAS
+###### VALIDASI DAN PENANDA
 
-The Identity Registrar, (IR), is a service which signs certificates & is the first layer of protection for the network. The IR protects the network by filtering faulty certificates, stopping Sybil attacks, and nefarious actors. The Identity Registrar ensures malicious certificates aren’t signed which allows services to efficiently deny their connection attempts. False signatures can be denied by the DIS and therefore potentially protect a service and save some of its resources before hand. 
+Registrar Identitas, (RI), adalah sebuah layanan yang menandai sertifikat & merupakan lapisan pertama perlindungan pada jaringan. RI melindungi jaringan dengan menyaring sertifikat yang bermasalah, menghentikan serangan Sybil, dan aktor jahat lainnya. Registrar Identitas memastikan bahwa sertifikat berbahaya tidak ditandai sehingga membuat layanan dengan cepat menolak usaha mereka untuk terhubung. Tandatangan palsu dapat ditolak oleh SID dan oleh karena itu dapat juga melindungi sebuah layanan dan menyelamatkan beberapa sumberdaya yang dimilikinya terlebih dahulu.
 
-A decentralized network and acyclic blockchain will be leveraged to help validate newly submitted certificates for signing. If the certificated is successfully vetted by the network the IR signs the certificate. Then it can be successfully used by services and the DIS. During the initial handshake, the first packet contains the certificates required to establish a UDSP stream. If signatures are successfully validated the rest of the handshake process continues else it fails.
+Sebuah jarigan terdesentralisasi dan blockchain asiklik akan dimanfaatkan untuk membantu memvalidasi sertifikat yang baru saja dikumpulkan untuk ditandai. Jika sertifikat tersebut berhasil diperiksa oleh jaringan, maka RI akan menandatangani sertifikat tersebut. Lalu kemudian ia dapat berhasil digunakan oleh layanan dan SID. Selama penghubungan awal, paket pertama yang memuat sertifikat dibutuhkan untuk membuat aliran UDSP. Jika tandatangan berhasil divalidasi maka penghubungan selanjutnya berlanjut sedang yang lainnya gagal.
 
-Active certificates will continually be updated and signed. When a certificate is re-signed, another field is added to the certificate which shows the elapsed time since the previous signing of the certificate. This provides services with an extra layer of trust for certain certificates. 
+Sertifikat aktif akan terus diperbaharui dan ditandatangani. Ketika sebuah sertifikat ditandatangani ulang, informasi lain akan ditambahkan pada sertifikat tersebut yang menunjukkan waktu yang digunakan sejak penandatangan sertifikat sebelumnya. Hal ini memberikan layanan dengan tingkat kepercayaan ekstra untuk sertifikat tertentu.
 
-## DEVELOPMENT
-
- 
+## PENGEMBANGAN
 
 ### hApps
-###### HYBRID UNIVERSAL WEB APPS
+###### APLIKASI WEB UNIVERSAL HYBRID 
 
-Hybrid apps are self-constructing, streaming single-page-applications. Hybrid apps are built using reactive, dynamic, and modular development methodologies. hApps have all the benefits of centralized & decentralized networks ensuring the highest scalability potential.
+Aplikasi Hybrid (hApps) adalah aplikasi yang membentuk dirinya sendiri dengan saluran halaman tunggal. Aplikasi Hybrid ini dibangun dengan metodologi pengembangan reaktif, dinamis dan modular. hApps memiliki semua keunggulan dari jaringan sentralisasi & desentralisasi yang memastikan potensi skalabilitas tertinggi dapat dicapai.
 
-hApps’ assets are contained in their own file and are streamed to the client on an as needed basis. hApps are streamed and built over time much like a bridge building itself as you walk across. Only one initial page load takes place and thereafter pages are dynamically built as needed similar to Single-page-apps. Only exactly when the client needs the resource is when it will be fetched and delivered.
+Aset hApps terdapat dalam file mereka sendiri dan diberikan ke klien saat mereka membutuhkannya. hApps dialirkan dan dibangun secara berkala seperti sebuah jembatan yang membangun dirinya sendiri saat kita berjalan di atasnya. Hanya satu halaman pembuka yang dimuat dan selanjutnya halaman secara dinamis akan dibuat jika dibutuhkan seperti halnya aplikasi satu-halaman. Hanya ketika klien benar-benar membutuhkan informasi/kontennya maka informasi itu akan diambil dan diberikan.
 
-Sentivate’s components allow for highly modular asset streaming. For example, components can share the same CSS or HTML assets which ensures shared assets are only downloaded once and the duplicate code is never sent over the wire. Server loads and bandwidth is drastically decreased with this methodology as now the client is only pulling exactly what is needed.
+Komponen Sentivate memungkinkan aliran aset yang sangat modular. Sebagai contoh, komponen dapat berbagi aset CSS atau HTML yang sama yang memastikan aset bersama hanya diunduh sekali dan kode duplikat tidak dikirimkan melalui jaringan. Beban server dan bandwith berkurang drastis dengan cara ini karena dengan ini klien hanya mengambil apa yang benar-benar mereka perlukan.
 
-Hybrid Apps can utilize an opt-in decentralized P2P CDN for assets in addition to the destination service. Making use of a Hybrid Content Delivery Network means that hybrid apps have high availability, scalability, and more bandwidth.
+Aplikasi Hybrid dapat memanfaatkan pilihan pada CDN P2P desentralisasi untuk aset selain layanan tujuan. Dengan menggunakan Jaringan Pengiriman Konten Hybrid berarti aplikasi hybrid memiliki tingkat ketersediaan tinggi, skalabilitas dan lebih banyak bandwith.
 
-hApps validate, authenticate, and authorize clients automatically during the initial connection handshake. hApps backends can store and reference clients by their public key or full certificates. Think of it as oAuth for the entire Internet. Services no longer need to worry about hashing, storing, and or encrypting passwords. Clients can quickly login on the click of a button or automatically by simply connecting to the service. Users no longer need to remember or create complex passwords as using their keypair is more secure and easier to use. If services do not require you to have a username they can simply rely on your public key as your identifying name. This means that for some services users don't have to create a username and password during the registration process.
+hApps memvalidasi, mengotentikasi, dan mengotorisasi klien secara otomatis selama proses awal penghubungan jaringan. Backend pada hApp dapat menyimpan dan mereferensikan klien dengan kunci publik mereka atau sertifikat penuh. Anggap saja itu sebagai oAuth untuk seluruh jaringan internet. Layanan tidak lagi perlu mengkhawatirkan tentang hashing, penyimpanan dan atau enkripsi sandi. Klien dapat dengan cepat masuk dengan hanya sekali klik atau dengan otomatis terhubung dengan layanan. Pengguna tidak lagi perlu mengingat atau membuat kata sandi yang rumit karena dengan menggunakan pasangan kunci mereka akan lebih aman dan mudah untuk digunakan. Jika layanan tidak mengharuskan anda untuk memiliki nama pengguna mereka dapat langsung menggunakan kunci publik anda sebagai nama pengidentifikasi anda. Hal ini berarti bahwa bagi beberapa layanan pengguna tidak harus membuat nama pengguna dan kata sandi selama proses registrasi.
 
 ## VIAT
 
-### NATIVE CRYPTOCURRENCY
-Viat is the native cryptocurrency on the Sentivate Network. Viat has a hybrid blockchain. Viat’s core systems are decentralized focused but enhanced by centralized components (the opposite of Sentivate’s Web). Viat is designed to be fast, secure, and have some of the lowest transaction fees available. Viat’s centralized portions can process instant transactions, provide wallet security, and alleviate network congestion when the decentralized network is under heavy load. However, these centralized features are opt-in only allowing users to forge their own path.
+### MATA UANG KRIPTO ASLI
+Viat adalah mata uang kripto asli pada Jaringan Sentivate. Viat memiliki blockchain hybrid. Sistem utama Viat berfokus desentralisasi yang ditingkatkan dengan dukungan komponen sentralisasi (berlawanan dengan Web Sentivate). Viat dirancang agar dapat berfungsi dengan cepat, aman dan memiliki beberapa biaya transaksi yang paling rendah. Porsi sentralisasi Viat dapat memproses transaksi secara instan, menyediakan keamanan dompet, dan mengurangi kepadatan jaringan ketika jaringan terdesentralisasi sedang mengalami muatan berlebih. Meskipun begitu, fitur tersentralisasi ini pilihan yang hanya membolehkan pengguna untuk mengatur jalan mereka sendiri.
 
 
-### MINING 
-Viat has a dynamic proof of work which can be mined two ways. Direct mining is the main method, which will be explained in the Viat white paper, & the second method is through the use of packet puzzles in UDSP. Packet puzzles allow for passive mining of Viat while browsing the Universal Web. However, it’s not enabled by default. The situations which arise that enable packet puzzles are: upon connection handshake, connection liveliness check, DDoS protection, congestion control, and or the service chooses to enable it for their own reasons. It is up to the service to enable packet puzzles. This ensures that there is no need for constant mining in the background and gives real purpose to the mining process. Otherwise, it would be on all the time sucking up resources & eating into battery life.
+### PERTAMBANGAN
+Viat memiliki sebuah bukti kinerja yang dinamis yang dapat ditambang melalui dua cara. Pertambangan langsung adalah cara utama, yang akan dijelaskan pada laporan resmi Viat, & cara kedua adalah melalui penggunaan teka-teki paket di UDSP. Teka-teki paket memungkinkan untuk pertambangan pasif Viat sambil menjelajahi jaringan web universal. Namun, hal itu tidak diaktifkan secara langsung. Situasi yang memungkinkan paket teka-teki diaktifkan adalah: setelah koneksi awal terjadi, cek koneksi keaktifan, perlindungan DDoS, kontrol terhadap kepadatan, dan atau layanan memilih untuk mengaktifkannya dengan alasan mereka sendiri. Semua tergantung pada layanan untuk mengaktifkan paket teka-teka tersebut. Hal ini memastikan bahwa tidak perlu adanya penambangan yang konstan di latar belakang dan memberikan tujuan yang jelas pada proses penambangan. Jika tidak, mereka akan selalu mengisap semua sumberdaya & menghabiskan daya baterai.
  
 
-### INTEROPERABILITY 
-Identity & Domain certificates also double as Viat wallet keys. This allows users to not only instantly sign into a service during a connection handshake, but also provide a way to purchase goods from services, tip sites, and or refund clients. Viat is an integral part of the full functionality of the Universal Web without it only part of the picture is there.
+### INTEROPERABILITAS
+Sertifikat Identitas & Domain juga digandakan seperti kunci dompet Viat. Hal ini memungkinkan pengguna untuk tidak hanya masuk ke layanan secara langsung selama proses penghubungan awal, tapi juga menyediakan cara untuk membeli barang dari layanan, situs puncak, dan atau mengambalikan dana klien. Viat merupakan bagian integral dari fungsi menyeluruh Jaringan Web Universal tanpanya hanya ada sebagai gambar saja ada disitu.
