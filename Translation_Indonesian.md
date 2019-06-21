@@ -50,7 +50,7 @@ Kita tahu bahwa perekonomian global membutuhkan jaringan internet yang berkinerj
         - Menghitung rahasia yang digunakan bersama antara pengirim dan penerima, menggunakan kunci rahasia pengirim dan kunci umum penerima (atau sebaliknya)
 
 ## JARINGAN HYBRID 
-![Sentivate Jaringan Hybrid](https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png)
+![Sentivate Jaringan Hybrid](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/indo_1.png)
 
 ## PROTOKOL
 
@@ -71,7 +71,7 @@ UDSP mengutamakan jaringan web yang langsung tampil dan Komputasi Tersebar. Kare
 
 UDSP memiliki teka-teki yang bersifat pilihan yang dimasukkan dalam paket yang memungkinkan penyedia dan penggunanya mendapatkan VIAT. Teka-teki yang digunakan dapat bervariasi dan teka-teki tersebut adalah Bentuk-Kinerja-Yang-Dinamis. Teka-teki ini mungkin terlindung dalam kapsul atau merujuk pada data yang dibutuhkan untuk memecahkan teka-teki tersebut. Fungsi tersebut akan dijelaskan pada laporan resmi berikutnya tentang VIAT. Teka-teki ini juga berfungsi sebagai pengontrol kepadatan dan cara membatasi kemungkinan terjadinya kerusakan dari serangan DDOS. Sentivate mengubah serangan DDOS tertentu menjadi sebuah kelebihan dengan mengenalkan berbagai macam teka-teki ke dalam bentuk paket. Ketika klien berhasil memecahkan teka-teki yang diberikan, klien dan domain tersebut akan diberikan jaringan yang menggunakan Viat. Jika server ini mengalami serangan dari DDOS maka server dapat dengan mudah mengubah pembagian yang diberikan hingga 100% pada domain. Hal ini memastikan penyerang tersebut mengalami kerugian finasial yang lebih banyak dan hanya memperoleh sedikit keuntungan. Teka-teki ini memastikan bahwa kedua belah pihak mendapatkan insentif bertindak dengan itikad baik.
 
-![CLIENT CONNECTION](https://sentivate.com/wp-content/uploads/2018/09/DISHyrbid.png)
+![CLIENT CONNECTION](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/indo_2.png)
 
 ## SISTEM DOMAIN UNIVERSAL
 
@@ -96,7 +96,7 @@ SID bertindak juga sebagai lapisan pertahanan dari serangan berbahaya terkait se
 
 Node terdesentralisasi membuat sertifikat domain berkesempatan memperoleh Viat melalui layanan mereka. Fungsi ini akan dibahas secara mendalam pada laporan resmi terkait Viat.
 
-![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
+![DIS](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/indo_3.png)
 
 ### DOMAIN
 ###### NAMA HOST YANG DAPAT DIBACA MANUSIA
