@@ -1,51 +1,37 @@
 
-# Sentivate Network White Paper
+# Sentivate Network ホワイトペーパー　日本語版
 
 ![Logo](https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png)
-##### White Paper translations 
-##### Available White Paper translations 
--  [English version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/WhitePaper.md)
--  [German version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_German.md)
--  [Vietnamese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Vietnamese.md)
--  [Dutch version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Dutch.md)
--  [Russian version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Russian.md)
--  [Korean version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Korean.md)
--  [Chinese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Chinese.md)
--  [Polish version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Polish.md)
--  [Spanish version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Spanish.md)
--  [French version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_French.md)
--  [Turkish version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_turkish.md)
--  [Italian version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_italian.md)
--  [Portuguese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_portuguese.md)
--  [Arabic version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Arabic.pdf)
--  [Hindi version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Hindi.md)
--  [Japanese version](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/Translation_Japanese.md)
 
-##### TITLE:  SENTIVATE - The Universal Web. 
-#####  ABSTRACT
-Sentivate is a hybrid web (centralized focused but enhanced by decentralized components) built to be a viable & realistic replacement for the modern web. The network is designed to go beyond the capabilities that any solely centralized or decentralized network could offer. Sentivate addresses the following issues directly: bandwidth crisis, outdated protocols, broken DNS, lack of accountability, lack of identity, reactive security, Domain rules, and web categorization.
 
-##### FOCUS
-This white paper is focused on the core network design that serves as the base network & components for Viat, hApps, and the Universal Web. An additional white paper will be released solely on Viat. All technology is focused on ensuring that Sentivate is a revolutionary, and not an evolutionary replacement in modern Internet architecture. 
+#####  要旨
+Sentivateは、現代のWebに代わる実用的で現実的なものとして構築されたハイブリッドWeb（集中型であるが、分散型コンポーネントによって強化されている）です。 ネットワークは、中央集中型または分散型のネットワークが提供できる機能を超えるように設計されています。 Sentivateは、帯域幅の危機、古いプロトコル、壊れたDNS、説明責任の欠如、アイデンティティの欠如、反応的セキュリティ、ドメインルール、およびWeb分類などの問題に直接対処します。
 
-## INTRODUCTION
-##### THE STATE OF THE WORLD WIDE WEB
+##### 焦点
+このホワイトペーパーは、Viat、hApp、およびUniversal Webのベースネットワークおよびコンポーネントとして機能するコアネットワーク設計に焦点を当てています。 追加のホワイトペーパーはViatでのみ公開されます。 すべての技術は、Sentivateが革命的であり、現代のインターネットアーキテクチャの進化的な代替物ではないことを保証することに焦点を当てています。
 
-At present, we find ourselves continuing to utilize a ruinous medium of interconnected communication on a global scale. Humanity’s demands are exponentially increasing of which the World Wide Web simply can’t meet. As we continue to grow, evolve, and venture beyond the solar system, our imperative task becomes revolutionizing the technology we depend on.
+## 前書き
+##### World Wide Webの状態
 
-The current state of the World Wide Web is deprecationary. If humanity continues to monkey-patch existing problems the Internet will remain the “wild wild west”. Humanity’s ever-increasing demands will never be met by the current state of the Web. We must start thinking in revolutionary terms and not evolutionary. The solution is a complete replacement of contemporary systems, browsers, languages, protocols, and platforms with increased security, speed, efficiency, accountability, trust, identity, capability, and reliability. In order to transition into a new age of information we must replace that which we have become all too comfortable with.
+現在、私たちは世界規模で相互接続されたコミュニケーションの荒れ放題なメディアを利用し続けています。
+人々の要求は指数関数的に増加しており、そのうちワールドワイドウェブは単に満たすことができなくなるでしょう。
+私たちが太陽をも超える成長をし、進化を遂げ、冒険し続けるにつれて、私たちの仕事は人々に不可欠な、依存している技術に革命を起こすようになります。
+World Wide Webの現在の状態はオススメできません。 人々がが既存の問題にモンキーパッチを当て続けているならば、インターネットは “wild wild west”であり続けるでしょう。 増え続ける人々の要求は、現在のウェブでは決して満たされないでしょう。
+私たちは進化的ではなく革命的な観点から考え始めなければなりません。 このソリューションは、セキュリティ、スピード、効率、説明責任、信頼、アイデンティティ、機能、および信頼性が向上した、現代のシステム、ブラウザ、言語、プロトコル、およびプラットフォームを完全に置き換えたものです。 新しい時代の情報へと移行するためには、私たちが慣れすぎてしまったものから変わる必要があります。
 
-###### BANDWIDTH CRISIS
-[Bandwidth is limited, our needs are out growing our networks.](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/)  To solve this issue we need modern revolutionary technology to replace existing components. If we don’t, fast lanes & prioritization of data is our only option. All those fears that folks have of the repeal of Net Neutrality will be our only hope at keeping the web spinning. The inevitable rise of IoT, more devices per-person, more devices per-household, self-driving cars, car insurance analytics, & developing countries coming online suck up bandwidth we don’t have.
+###### 帯域幅の危機
+[帯域幅は限られているものの、私たちのニーズはネットワークを拡大しています。](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/)  この問題を解決するには、既存のコンポーネントを置き換えるための新たな革新的技術が必要です。
+そうでなければ、高速レーンとデータの優先順位付けが唯一の選択肢です。 人々がネット中立性の廃止を持っていることへの恐れは、ウェブを循環させ続けることに対する我々の唯一の希望になるでしょう。
+  IoTの増加、1人当たりのデバイス数、1世帯当たりのデバイス数の増加、自動運転車、自動車保険分析、および開発途上国のオンライン化により、帯域幅が不足しています。
 
-###### THE OUTDATED WEB WE RELY ON IS EATING ITSELF
-HTTP & DNS were built a long time ago without the consideration of modern demands in mind. More and more bandwidth is being sucked up, HTTP continues to show its long scalability issues, and DNS is not trustworthy or scalable. If half of the web can be shut down from DoS-ing specific DNS servers there's an obvious architectural problem. HTTP is the current vehicle for money. The entire digital economy is transported over HTTP. Any slowing down to HTTP or DNS means a drastically slower global economy. DNS & HTTP are inherently broken, have poor scalability, are dreadfully slow, lack modern features, eat up bandwidth, and cost consumers & businesses billions. If we don't solve this issue we will experience a massive blow to the economy. When you factor in all the dollar signs one soon realizes that a slower web is a global humanitarian crisis. 
+###### 私たちは時代遅れのネットワークに侵食されています
+HTTPとDNSは、現代の要求を考慮せずに、ずっと前に構築されました。 ますます多くの帯域幅が奪われ、HTTPはその長いスケーラビリティの問題を示し続けており、DNSは信頼できるものでもスケーラブルでもありません。 Webの半分がDoS特定のDNSサーバーからシャットダウンされる可能性がある場合、明らかなアーキテクチャ上の問題があります。 HTTPは現在のお金の媒体です。 デジタルエコノミー全体がHTTPを介して転送されます。 HTTPやDNSに速度が落ちるということは、世界経済が劇的に遅くなることを意味します。 DNSとHTTPは本質的に壊れており、スケーラビリティが低く、非常に遅く、最新の機能が欠けており、帯域幅を使い果たし、そして消費者や企業に何十億ものコストをかけています。 この問題を解決しなければ、経済に大きな打撃を受けるでしょう。 すべてのドル記号を考慮に入れると、より遅いWebが世界的な人道的危機であることがすぐにわかります。
 
-1.  [A one second delay could cost Amazon 1.6BB in sales.](https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales)
-2.  [_“10 years ago, Amazon found that every 100ms of latency cost them 1% in sales”_](https://www.gigaspaces.com/blog/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/)
-3.  [_“Fast forward 10 years later, a 2017 Akamai study shows that every 100-millisecond delay in website load time can hurt conversion rates by 7% – that is a significant drop in sales – 6% – from the time when Amazon first talked about latency in seconds and milliseconds. This goes to show that things aren’t getting any easier for online retailers as user experience is becoming critical to e-commerce success.”_](https://www.akamai.com/us/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp)
+1.  [1秒の遅れはAmazonの売上高に換算すると1億6000万ドルに達する可能性があります。](https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales)
+2.  [_10年前、Amazonは100ミリ秒の待ち時間ごとに売上の1％が減少していた](https://www.gigaspaces.com/blog/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/)
+3.  [_“10年後の2017年のアカマイの調査によると、ウェブサイトのロード時間が100ミリ秒遅れるごとに、コンバージョン率が7％、つまり売上の大幅な減少（6％）が見られました。 秒とミリ秒 これは、電子商取引の成功にユーザーエクスペリエンスが不可欠になるにつれて、物事がオンライン小売業者にとってそれほど簡単になっていないことを示しています。”_](https://www.akamai.com/us/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp)
 
-###### THE FAILURE THAT IS THE DECENTRALIZED WEB AKA WEB 3.0
+###### WEB3.0であることの失敗
 We know that the global economy requires a performant & inexpensive web. If a solely decentralized web replaced the modern web, then it would accelerate the bandwidth crisis and bring us to a dystopian web. The term Web 3.0 is not a magic globe, a revolutionary idea, or a solution; it's a cash grab. Trades are happening in nanoseconds the global economy doesn't have time to wait seconds or minutes for a block time to verify and then propagate through the network. A replacement for the web shouldn't be slower and more expensive for consumers. Web 3.0 costs more and they like to hide behind things like it's all on-chain and costs very little to launch an app. The reality is, you get what you pay for. Web 3.0 offsets costs to users instead of the services, which also results in a poorer service. Another common argument is to allow users to control their data. That's no problem, say hello to homomorphic encryption. Instead of tackling this issue from just topology, we need to innovate in every aspect of the web and ask more from our web services. The web's topology problem is minor compared to it's outdated technology problem. If these Web 3.0 projects actually cared about changing the web they would focus on the actual issues. **Both topologies have their use cases but together they are a solution to an ever growing problem that has gone unchecked.**
 
 ## UNIVERSAL WEB CRYPTOGRAPHY ([SODIUM-NATIVE](https://github.com/sodium-friends/sodium-native))
