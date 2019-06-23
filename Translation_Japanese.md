@@ -32,134 +32,140 @@ HTTPとDNSは、現代の要求を考慮せずに、ずっと前に構築され�
 3.  [_“10年後の2017年のアカマイの調査によると、ウェブサイトのロード時間が100ミリ秒遅れるごとに、コンバージョン率が7％、つまり売上の大幅な減少（6％）が見られました。 秒とミリ秒 これは、電子商取引の成功にユーザーエクスペリエンスが不可欠になるにつれて、物事がオンライン小売業者にとってそれほど簡単になっていないことを示しています。”_](https://www.akamai.com/us/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp)
 
 ###### WEB3.0であることの失敗
-We know that the global economy requires a performant & inexpensive web. If a solely decentralized web replaced the modern web, then it would accelerate the bandwidth crisis and bring us to a dystopian web. The term Web 3.0 is not a magic globe, a revolutionary idea, or a solution; it's a cash grab. Trades are happening in nanoseconds the global economy doesn't have time to wait seconds or minutes for a block time to verify and then propagate through the network. A replacement for the web shouldn't be slower and more expensive for consumers. Web 3.0 costs more and they like to hide behind things like it's all on-chain and costs very little to launch an app. The reality is, you get what you pay for. Web 3.0 offsets costs to users instead of the services, which also results in a poorer service. Another common argument is to allow users to control their data. That's no problem, say hello to homomorphic encryption. Instead of tackling this issue from just topology, we need to innovate in every aspect of the web and ask more from our web services. The web's topology problem is minor compared to it's outdated technology problem. If these Web 3.0 projects actually cared about changing the web they would focus on the actual issues. **Both topologies have their use cases but together they are a solution to an ever growing problem that has gone unchecked.**
+私たちは、世界経済が高性能で安価なウェブを必要としていることを知っています。
+現代のWebを単独で分散したWebに置き換えた場合、それは帯域幅の危機を加速させ、私たちをWebの暗黒時代へと導きます。
+Web 3.0という用語は、魔法の世界、革新的なアイデア、または解決策ではありません。それはお金で解決する世界です。
+取引はナノ秒単位で行われており、世界経済は、検証してからネットワークを介して伝播するまでに数秒から数分待つ時間がありません。
+Webに代わるものは、消費者にとっては遅くて高価ではありません。
+Web 3.0はもっと高価であり、彼らはすべてが連鎖的であり、アプリを立ち上げるのにほとんど費用がかからないようなことをうたいます。
+現実には、あなたがお金を払ったものを手に入れます。 Web 3.0は、サービスではなくユーザーにコストを相殺させます。これもまた、サービスの質を低下させます。もう1つの一般的な議論は、ユーザーが自分のデータを制御できるようにすることです。これは準同型暗号化の問題です。単なるトポロジーからこの問題に取り組むのではなく、Webのあらゆる面で革新を行い、Webサービスからより多くのことを求める必要があります。 Webのトポロジーの問題は、古い技術の問題と比べて軽微です。これらのWeb 3.0プロジェクトが実際にWebの変更を気にかけているのであれば、実際の問題に焦点を当てることになります。 **これら両方のトポロジーには実際の使用例があり、これらが一緒になって増大する問題を解決します。**
 
-## UNIVERSAL WEB CRYPTOGRAPHY ([SODIUM-NATIVE](https://github.com/sodium-friends/sodium-native))
+## 一般的なネットワーク暗号化 ([SODIUM-NATIVE](https://github.com/sodium-friends/sodium-native))
 
--  Key Signatures
-    -   Single-part signature: Ed25519
-    -   Multi-part signature: Ed25519ph
--  Packet Encryption
-	- Authenticated Encryption with Additional Data
-    - Encrypts a message with a key and a nonce to keep it confidential
-    - Computes an authentication tag. This tag is used to make sure that the message, as well as optional, non-confidential (non-encrypted) data, haven’t been tampered with.
-    - Encryption: XChaCha20 stream cipher
-    - Authentication: Poly1305 MAC
+-  キーシグネチャー
+    -   シングルパート シグネチャー: Ed25519
+    -   マルチパート シグネチャー: Ed25519ph
+- パケット暗号化
+ - 追加データによる認証暗号化
+      - 秘密にしておくためにメッセージを鍵と一回だけで暗号化する
+      - 認証タグを計算します。 このタグは、メッセージ、およびオプションの機密ではない（暗号化されていない）データが改ざんされていないことを確認するために使用されます。
+      - 暗号化：XChaCha20ストリーム暗号
+    - 認証: Poly1305 MAC
 
-- Key exchange – Shared Session Secret Keys
-    - BLAKE2B-512
-        - BLAKE2 is a cryptographic hash function **faster than MD5, SHA-1, SHA-2, and SHA-3**, yet is at least as secure as the latest standard SHA-3
-        - Optimized for 64-bit platforms—including NEON-enabled ARMs—and produces digests of any size between 1 and 64 bytes
-    - X25519 – Ephemeral Key Pair
-        - Computes a secret shared between the sender and receiver, using the sender’s secret key and the receiver’s public key (or vice versa)
+- 鍵交換 - 共有セッション秘密鍵
+      -  BLAKE2B-512
+          -  BLAKE2は、MD5、SHA-1、SHA-2、およびSHA-3よりも高速な暗号化ハッシュ関数**ですが、少なくとも最新の標準SHA-3と同じくらい安全です。
+          -  NEON対応のARMを含む64ビットプラットフォームに最適化されており、1〜64バイトのサイズのダイジェストを生成します。
+      -  X25519  - 一時キーペア
+          - 送信者の秘密鍵と受信者の公開鍵（またはその逆）を使用して、送信者と受信者の間で共有されている秘密を計算します。
 
-## HYBRID NETWORK
-![Sentivate Hybrid Network](https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png)
+## ハイブリッドネットワーク
+![Sentivate Hybrid Network](https://github.com/Cryp-Jake/Sentivate-Network-White-Paper/blob/master/images/japanese_01.png)
 
-## PROTOCOL
+## プロトコル
 
-### Universal Data Stream Protocol
-###### Data Transport Protocol 
+### ユニバーサルデータプロトコル
+###### データ転送プロトコル 
 
-UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol. 
+UDSPは、UDPベースの低遅延、リアルタイム、双方向、暗号化、および信頼性の高いデータ転送プロトコルです。
 
-##### The Problem
-As mentioned in the introduction: User’s demands have changed and our requirements of the web have grown. These changes make HTTP a major bottleneck. The HTTP standard itself and TCP are both huge issues. Large data centers moving copious amounts of data from one end-point to the other have latency and cost issues associated with outdated Internet architecture. HTTP is especially problematic when users are experiencing low throughput, limited bandwidth, degraded network connectivity, or requiring a near real-time response. 
+##### 問題
+導入部で述べたように、ユーザーの要求は変わり、Webに対する私たちの要求は大きくなりました。 これらの変更により、HTTPは大きなボトルネックになります。 HTTP標準自体とTCPはどちらも大きな問題です。 一方のエンドポイントからもう一方のエンドポイントに大量のデータを移動する大規模データセンターでは、古いインターネットアーキテクチャに関連した遅延とコストの問題があります。 HTTPは、ユーザーが低スループット、帯域幅の制限、ネットワーク接続性の低下、またはほぼリアルタイムの応答を必要としている場合に特に問題になります。
 
-##### The Solution
-The first step in the construction of the Universal Web is to replace HTTP entirely with UDSP. UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol. On the Universal Web all communication, streaming, or transferring of any type of data utilizes UDSP. When visiting a site on the Universal Web UDSP is the protocol used instead of HTTP. Specific UDSP client and server modules are required to visit or host a website on the Sentivate Network. UDSP is the foundation and life blood of the Sentivate Network.
+##### 解決策
+Universal Webの構築における最初のステップは、HTTPを完全にUDSPに置き換えることです。 UDSPは、UDPベースの低遅延、リアルタイム、双方向、暗号化、および信頼性の高いデータ転送プロトコルです。 Universal Webでは、あらゆる種類のデータのすべての通信、ストリーミング、または転送は、UDSPを利用する。 Universal Web上のサイトにアクセスするときには、HTTPの代わりにUDSPが使用されます。 Sentivateネットワーク上のWebサイトを訪問またはホストするには、特定のUDSPクライアントおよびサーバーモジュールが必要です。 UDSPは、Sentivate Networkの基盤であり生命線です。
 
-UDSP is capable of dynamic reliability on a connection level, or on a per-request basis which is agreed upon between the involved parties. UDSP enforces encryption which means all UDSP connections are encrypted by default, no exceptions. UDSP supports IPv6, Multiplexing, and Multihoming. UDSP relies on cryptographic keypairs and XChaCha20 to establish a connection.
+UDSPは、接続レベルで、または関係者間で合意された要求ごとに動的な信頼性があります。 UDSPはすべてのUDSP接続がデフォルトで暗号化されていることを意味します。例外はありません。 UDSPはIPv6、多重化、およびマルチホームをサポートしています。 UDSPは、接続を確立するために暗号鍵ペアとXChaCha20に依存しています。
 
-UDSP prioritizes the real-time web and Dispersed Computing. Since connections are bi-directional streams and less chatty this makes the network less clogged and ensures low-latency for the livelihood of the connection. UDSP is far less chatty than HTTP and can be programmatically set to adjust it's own reliability standards. This makes UDSP a highly useful protocol where high-throughput, low-latency, and high reliability are required. Due to UDSP's programmatically dynamic nature, it's efficacious in situations of highly variable and or degraded network connectivity.
+UDSPは、リアルタイムWebと分散コンピューティングを優先します。 接続は双方向のストリームであり、煩わしさが少ないので、ネットワークの目詰まりが少なくなり、接続の生計のための低遅延が保証されます。 UDSPはHTTPよりもはるかに曖昧ではなく、プログラムで独自の信頼性標準を調整するように設定できます。 これにより、UDSPは、ハイスループット、低レイテンシ、および高い信頼性が要求される非常に有用なプロトコルになります。 UDSPのプログラム的に動的な性質のために、それは非常に変化しやすいそして/または低下したネットワーク接続性の状況で効果的です。
 
-UDSP has optional puzzles included in the packets which allow providers and solvers to earn VIAT. Puzzles can vary and thus the puzzles are a Dynamic-Proof-of-Work. The puzzles may be encapsulated or point to data that is required for solving the puzzle. This functionality will be described in the next white paper for VIAT. The puzzles also function as congestion control and a way to limit the potential damages from DDOS attacks. Sentivate turns a typical DDOS attack into profit by the introduction of various puzzle types into packets. When a client solves the served puzzle the client and domain are credited by the network with Viat. If a server is under DDOS attack then the server can dynamically change the reward split up-to 100% for the domain. This ensures the attackers suffer more financial loss and have little to gain. Puzzles ensure that both parties have an incentive to act in good faith. 
+UDSPには、プロバイダーとソルバーがVIATを獲得することを可能にするオプションのパズルがパケットに含まれています。 パズルはさまざまである可能性があるため、パズルは動的作業証明です。 パズルはカプセル化されていても、パズルを解くために必要なデータを指していてもよい。 この機能は、次のVIATのホワイトペーパーで説明されています。 パズルはまた輻輳制御およびDDOS攻撃からの潜在的な損害を制限する方法として機能します。 Sentivateは、さまざまな種類のパズルをパケットに導入することで、典型的なDDOS攻撃を利益に変えます。 クライアントがサーブされたパズルを解くと、クライアントとドメインはViatのネットワークによってクレジットされます。 サーバーがDDOS攻撃を受けている場合、サーバーはそのドメインに対して最大100％の報酬分割を動的に変更できます。 これにより、攻撃者はより多くの金銭的損失を被り、ほとんど利益を得ることができなくなります。 パズルは、両当事者が誠意を持って行動する動機を持つことを保証します。
 
-![CLIENT CONNECTION](https://sentivate.com/wp-content/uploads/2018/09/DISHyrbid.png)
+![クライアントコネクション](https://github.com/Cryp-Jake/Sentivate-Network-White-Paper/blob/master/images/japanese_02.png)
 
-## UNIVERSAL DOMAIN SYSTEM
+## ユニバーサルドメインシステム
 
-### DOMAIN CERTIFICATES
-###### ROUTING & CRYPTOGRAPHIC PARAMETERS
+### ドメイン証明書
+###### ルーティングと暗号化パラメータ
 
-Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, and an authorized Domain Registrar. In order to establish a successful handshake, the domain certificate and a valid signature is required.
+ドメイン証明書は、ルーティング、暗号化、およびホスト名に関連する追加の詳細を提供します。 ドメイン証明書は、Ephemeral、Master、および認定されたDomain Registrarの3つ以上の鍵ペアによって署名されています。 成功したハンドシェイクを確立するためには、ドメイン証明書と有効な署名が必要です。
 
-The domain's ephemeral certificate also acts as a wallet which stores funds for any puzzles it distributes to clients. A portion of the mined Viat is sent to the ephemeral certificates wallet address. 
+ドメインの一時証明書は、クライアントに配布するパズルの資金を保管する財布としても機能します。 採掘されたViatの一部は一時証明書のウォレットアドレスに送信されます。
 
-### DOMAIN REGISTRAR
-###### UPLOAD & SIGN DOMAIN CERTIFICATES
+### ドメイン登録
+###### ドメイン証明書のアップロードとサインイン
 
-The Domain Registrar, (DR), is used to register a domain and manage a domain's public certificate. The DR validates & signs the public certificates associated with the hostname. The DR then passes the certificate to the Domain Information System which stores the certificate for distribution.
+ドメイン登録機関（DR）は、ドメインを登録し、ドメインの公開証明書を管理するために使用されます。 DRは、ホスト名に関連付けられている公開証明書を検証して署名します。 その後、DRは証明書をドメイン情報システムに渡し、ドメイン情報システムはその証明書を配布用に保存します。
 
 
-### DOMAIN INFORMATION SYSTEM
-###### QUERY DOMAIN ROUTING AND CRYPTOGRAPHY
+### ドメイン情報システム
+###### ドメインの照会および暗号化
 
-The Domain Information System, (DIS), returns domain-specific information in the form of a domain certificate from human-readable hostnames. The DIS returns the domain’s certificate which includes cryptographic details & routing information. By including the hostnames cryptography along with routing information, 0-RTT is possible without requiring the client to have visited the domain prior. This is a unique advantage over TLS 1.3 in that 0-RTT is available by default where as in TLS 1.3 one would need to have visited the site prior. Before clients connect to a website they must first query the DIS with a human-readable hostname. The DIS has centralized servers and a decentralized network to provide clients with the fastest possible way to access domain certificates. 
+ドメイン情報システム（DIS）は、人間が読めるホスト名からドメイン証明書の形式でドメイン固有の情報を返します。 DISは暗号の詳細とルーティング情報を含むドメインの証明書を返します。 ルーティング情報とともにホスト名の暗号化を含めることで、クライアントが事前にドメインを訪問したことがなくても、0-RTTが可能です。 これは、TLS 1.3の場合と同様に事前にサイトにアクセスしている必要がある場合に、デフォルトで0-RTTが使用可能であるという点で、TLS 1.3よりも優れた利点です。 クライアントがWebサイトに接続する前に、まず人間が読めるホスト名でDISに問い合わせる必要があります。 DISは、クライアントにドメイン証明書にアクセスするための最速の方法を提供するために、集中型サーバーと分散型ネットワークを備えています。
 
-The DIS acts as another layer of defence from malicious certificate related attacks. When invalid certificates are used to request information from the DIS to go to a service the DIS simply denys returning a response.
+DISは、悪質な証明書関連の攻撃からのもう1つの防御層として機能します。 無効な証明書を使用してサービスにアクセスするためにDISに情報を要求すると、DISは単に応答を返すことを拒否します。
 
-The decentralized nodes providing domain certificates have a chance to earn Viat through their services. This functionality will be covered in-depth with the Viat white paper.
+ドメイン証明書を提供する分散ノードは、それらのサービスを通じてViatを獲得する機会があります。 この機能については、Viatのホワイトペーパーで詳しく説明します。
 
-![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
+![DIS](https://github.com/Cryp-Jake/Sentivate-Network-White-Paper/blob/master/images/japanese_03.png)
 
-### DOMAINS
-###### HUMAN READABLE HOSTNAMES
+### ドメイン
+###### 人々が読むことのできるホストネーム
 
-Domains on Sentivate have full extension names and can have single full names for trademarked entities. The domain rules and regulations are designed to organize the web, free up domain names for new companies, protect trademarks, limit malicious activity, and make extensions more descriptive.
+Sentivate上のドメインは完全な拡張子名を持ち、商標登録されたエンティティに対して単一の完全名を持つことができます。 ドメインの規則と規制は、Webの整理、新会社のドメイン名の解放、商標の保護、悪意のある行為の制限、および拡張機能の説明を目的としています。
 
-For example, one can navigate to Amazon by simply typing Amazon into the Sentivate browser. Domain rules are stricter on the Sentivate network. Domain squatting is entirely disallowed, there is a use it or lose it policy. Domain content or service must be relevant to the domain extension. For example, Amazon's store must use the store domain extension, "Amazon.store". There are shorthand domain extensions available for certain domains. For example, Amazon's company website must utilize the company extension, Amazon.company or the shorthand variant Amazon.com. Bitcoin, Ethereum, and Litecoin are cryptocurrencies and sites dedicated to them must use the cryptocurrency extension. However, a news site related to say bitcoin must use the .news and or .blog extension. Any domain that may have random and or arbitrary content must use the .abstract extension.
+たとえば、Sentivateブラウザに「Amazon」と入力するだけで、Amazonに移動できます。 ドメインルールはSentivateネットワーク上でより厳格です。 ドメインスクワットは完全に許可されていません、それを使用するか、それを失うポリシーがあります。 ドメインコンテンツまたはサービスはドメイン拡張に関連している必要があります。 たとえば、Amazonのストアでは、ストアドメインの拡張子 "Amazon.store"を使用する必要があります。 特定のドメインには、省略形のドメイン拡張子があります。 たとえば、Amazonの会社のWebサイトでは、会社の拡張子であるAmazon.companyまたは短縮形のAmazon.comを使用する必要があります。 Bitcoin、Ethereum、およびLitecoinは暗号通貨であり、専用のサイトでは暗号通貨拡張を使用する必要があります。 ただし、bitcoinに関連するニュースサイトでは、.newsまたは.blog拡張子を使用する必要があります。 ランダムまたは任意のコンテンツを持つ可能性があるドメインは、.abstract拡張子を使用する必要があります。
 
-## UNIVERSAL IDENTITY SYSTEM
+## ユニバーサルIDシステム
 
-### IDENTITY CERTIFICATES
-###### EPHEMERAL & MASTER KEY PAIRS
+### 身分証明書
+###### 一時キーペアおよびマスターキーペア
 
-Identity certificates, (IC), are documents which provide cryptographic details that represent you on the network and are signed by a Identity Registrar. An identity certificate has two cryptographic key pairs: Master and Ephemeral. A master key pair is used specifically for signing ephemeral certificates and is the core identifying key pair. Ephemeral key pairs can be replaced at the owner's discretion. Identity certificates cryptographically authenticate & authorize clients on the network.
+アイデンティティ証明書（IC）は、ネットワーク上であなたを代表する暗号化の詳細を提供し、アイデンティティ登録機関によって署名された文書です。 ID証明書には、マスターと一時の2つの暗号キーペアがあります。 マスターキーペアは、一時証明書の署名に特に使用され、コアを識別するキーペアです。 一時キーペアは、所有者の判断で置き換えることができます。 アイデンティティ証明書は、暗号化によってネットワーク上のクライアントを認証および承認します。
 
-Ephemeral Certificates, (EC), are a sub-certificate to the Master Certificate. EC's act as profiles which are used to access user defined services. For example, wallet certificate, banking certificate, general web browsing certificate or for every service. However, one can choose to utilize one single ephemeral certificate for all services. ECs are used for the key exchange process which sets up a bi-directional UDSP connection between the origin and host.
+一時証明書（EC）は、マスター証明書の下位証明書です。 ECは、ユーザー定義サービスにアクセスするために使用されるプロファイルとして機能します。 たとえば、財布の証明書、銀行の証明書、一般的なWeb閲覧証明書、またはあらゆるサービス用です。 ただし、すべてのサービスに対して1つの一時的な証明書を使用することを選択できます。 ECは、オリジンとホストの間に双方向のUDSP接続を確立する鍵交換プロセスに使用されます。
 
-Users can instantly signup, login, and purchase an item with their identity certificate. Servers require a client certificate upon connection to establish a successful UDSP handshake.
+ユーザーはすぐにサインアップ、ログイン、そして自分の身分証明書を使って商品を購入することができます。 サーバーは、接続時にUDSPハンドシェイクを成功させるためにクライアント証明書を要求します。
 
-Identity certificates form the basis for a decentralized reputation system, which can publicly record good & bad behavior associated with specific certificates. A honeypot can be used to block known bad actors from accessing a service further securing the network.
+アイデンティティ証明書は、特定の証明書に関連した良い行動と悪い行動を公に記録することができる分散型レピュテーションシステムの基礎を形成します。 ハニーポットを使用すると、既知の悪意のある行為者がサービスを利用してネットワークをさらに保護することをブロックできます。
 
-Identity certificates can be linked to real world identities and assets. Making Sentivate an ideal platform for secure, private, and verifiable voting in elections. Stores and companies can have verified ICs which allow users to directly pay or donate through Viat.
+アイデンティティ証明書は、実社会のアイデンティティおよび資産にリンクさせることができます。 Sentivateを安全でプライベート、そして検証可能な選挙投票に理想的なプラットフォームにする。 店舗や企業は、ユーザーがViatを通じて直接支払いまたは寄付することを可能にするICを検証することができます。
 
-### IDENTITY REGISTRAR
-###### VALIDATE AND SIGN
+### アイデンティティ登録
+###### 検証と署名
 
-The Identity Registrar, (IR), is a service which signs certificates & is the first layer of protection for the network. The IR protects the network by filtering faulty certificates, stopping Sybil attacks, and nefarious actors. The Identity Registrar ensures malicious certificates aren’t signed which allows services to efficiently deny their connection attempts. False signatures can be denied by the DIS and therefore potentially protect a service and save some of its resources before hand. 
+アイデンティティ登録（IR）は証明書に署名するサービスであり、これはネットワークを保護する最初の層です。 IRは、誤った証明書をフィルタリングし、Sybil攻撃を阻止し、悪意のある行為者を阻止することによってネットワークを保護します。 IRは、悪意のある証明書が署名されていないことを保証します。これにより、サービスは接続試行を効率的に拒否できます。 偽の署名はDISによって拒否される可能性があるため、潜在的にサービスを保護し、手元にあるそのリソースの一部を節約できます。
 
-A decentralized network and acyclic blockchain will be leveraged to help validate newly submitted certificates for signing. If the certificated is successfully vetted by the network the IR signs the certificate. Then it can be successfully used by services and the DIS. During the initial handshake, the first packet contains the certificates required to establish a UDSP stream. If signatures are successfully validated the rest of the handshake process continues else it fails.
+新たに送信された証明書を署名用に検証するために、分散ネットワークと非環式ブロックチェーンが利用されます。 認証された人がネットワークによって正しく検証された場合、IRは証明書に署名します。 それからそれはサービスおよびDISによって首尾よく使用することができます。 最初のハンドシェイク中、最初のパケットには、UDSPストリームを確立するために必要な証明書が含まれています。 署名の検証に成功すると、残りのハンドシェイクプロセスは続行されます。それ以外の場合は失敗します。
 
-Active certificates will continually be updated and signed. When a certificate is re-signed, another field is added to the certificate which shows the elapsed time since the previous signing of the certificate. This provides services with an extra layer of trust for certain certificates. 
+アクティブな証明書は継続的に更新され署名されます。 証明書が再署名されると、前回の証明書の署名からの経過時間を示す別のフィールドが証明書に追加されます。 これにより、特定の証明書に対する追加の信頼層がサービスに提供されます。
 
-## DEVELOPMENT
+## 開発
 
  
 
 ### hApps
 ###### HYBRID UNIVERSAL WEB APPS
 
-Hybrid apps are self-constructing, streaming single-page-applications. Hybrid apps are built using reactive, dynamic, and modular development methodologies. hApps have all the benefits of centralized & decentralized networks ensuring the highest scalability potential.
+Hybrid appsは自己構築型のストリーミング単一ページアプリケーションです。 ハイブリッドアプリケーションは、リアクティブ、動的、およびモジュール式の開発方法を使用して構築されています。 hAppには、集中型および分散型ネットワークのすべての利点があり、最大限のスケーラビリティを実現できます。
 
-hApps’ assets are contained in their own file and are streamed to the client on an as needed basis. hApps are streamed and built over time much like a bridge building itself as you walk across. Only one initial page load takes place and thereafter pages are dynamically built as needed similar to Single-page-apps. Only exactly when the client needs the resource is when it will be fetched and delivered.
+hAppsのアセットは独自のファイルに含まれており、必要に応じてクライアントにストリーミングされます。 hAppは、渡り歩く橋自体のように、時間の経過とともにストリーミングおよび構築されます。 最初の1ページの読み込みのみが行われ、その後、シングルページアプリと同様に、必要に応じてページが動的に構築されます。 クライアントがリソースを必要とするときだけが、リソースが取得されて配信されるときです。
 
-Sentivate’s components allow for highly modular asset streaming. For example, components can share the same CSS or HTML assets which ensures shared assets are only downloaded once and the duplicate code is never sent over the wire. Server loads and bandwidth is drastically decreased with this methodology as now the client is only pulling exactly what is needed.
+Sentivateのコンポーネントは高度にモジュール化されたアセットストリーミングを可能にします。 たとえば、コンポーネントが同じCSSまたはHTMLアセットを共有することで、共有アセットが一度だけダウンロードされ、重複コードがネットワーク経由で送信されることはありません。 この方法では、クライアントが必要なものだけを引き出すため、サーバーの負荷と帯域幅が大幅に削減されます。
 
-Hybrid Apps can utilize an opt-in decentralized P2P CDN for assets in addition to the destination service. Making use of a Hybrid Content Delivery Network means that hybrid apps have high availability, scalability, and more bandwidth.
+Hybrid Appsは、目的地サービスに加えて、オプトイン分散型P2P CDNを資産に利用できます。 ハイブリッドコンテンツ配信ネットワークを利用することは、ハイブリッドアプリケーションが高可用性、スケーラビリティ、およびより多くの帯域幅を持つことを意味します。
 
-hApps validate, authenticate, and authorize clients automatically during the initial connection handshake. hApps backends can store and reference clients by their public key or full certificates. Think of it as oAuth for the entire Internet. Services no longer need to worry about hashing, storing, and or encrypting passwords. Clients can quickly login on the click of a button or automatically by simply connecting to the service. Users no longer need to remember or create complex passwords as using their keypair is more secure and easier to use. If services do not require you to have a username they can simply rely on your public key as your identifying name. This means that for some services users don't have to create a username and password during the registration process.
+hAppsは、最初の接続ハンドシェイク中にクライアントを自動的に検証、認証、および承認します。 hAppsバックエンドは、公開キーまたは完全な証明書によってクライアントを保存および参照できます。 インターネット全体に対するoAuthと考えてください。 サービスは、パスワードのハッシュ化、保存、暗号化について心配する必要がなくなりました。 クライアントはボタンをクリックするだけで素早くログインすることも、サービスに接続するだけで自動的にログインすることもできます。 キーペアを使用する方が安全で使いやすいため、ユーザーは複雑なパスワードを覚えたり作成したりする必要がなくなりました。 サービスがあなたにユーザ名を持たせることを要求しないならば、それらはあなたの識別名としてあなたの公開鍵に単に頼ることができます。 これは、サービスによっては、登録プロセス中にユーザーがユーザー名とパスワードを作成する必要がないことを意味します。
 
 ## VIAT
 
 ### NATIVE CRYPTOCURRENCY
-Viat is the native cryptocurrency on the Sentivate Network. Viat has a hybrid blockchain. Viat’s core systems are decentralized focused but enhanced by centralized components (the opposite of Sentivate’s Web). Viat is designed to be fast, secure, and have some of the lowest transaction fees available. Viat’s centralized portions can process instant transactions, provide wallet security, and alleviate network congestion when the decentralized network is under heavy load. However, these centralized features are opt-in only allowing users to forge their own path.
+ViatはSentivateネットワーク上のネイティブ暗号通貨です。 Viatはハイブリッドブロックチェーンを持っています。 Viatのコアシステムは、集中型ではありますが集中型コンポーネントによって強化されています（SentivateのWebの逆）。 Viatは速く、安全で、利用可能な最低の取引手数料を持つように設計されています。 Viatの集中管理された部分は、インスタントトランザクションを処理し、ウォレットセキュリティを提供し、分散型ネットワークに大きな負荷がかかっているときにネットワークの輻輳を緩和することができます。 ただし、これらの一元化された機能はオプトインであり、ユーザーは自分の道を偽造することしかできません。
 
 
-### MINING 
-Viat has a dynamic proof of work which can be mined two ways. Direct mining is the main method, which will be explained in the Viat white paper, & the second method is through the use of packet puzzles in UDSP. Packet puzzles allow for passive mining of Viat while browsing the Universal Web. However, it’s not enabled by default. The situations which arise that enable packet puzzles are: upon connection handshake, connection liveliness check, DDoS protection, congestion control, and or the service chooses to enable it for their own reasons. It is up to the service to enable packet puzzles. This ensures that there is no need for constant mining in the background and gives real purpose to the mining process. Otherwise, it would be on all the time sucking up resources & eating into battery life.
+### マイニング 
+Viatには2つの方法でマイニングできる動的な作業証明があります。 直接採掘が主な方法であり、それはViatのホワイトペーパーで説明されています。そして2番目の方法はUDSPでパケットパズルを使用することです。 パケットパズルを使用すると、ユニバーサルWebを閲覧しながらViatをパッシブマイニングできます。 ただし、デフォルトでは有効になっていません。 パケットパズルを可能にする状況は、接続ハンドシェイク、接続の活性チェック、DDoS保護、輻輳制御、またはサービスが独自の理由で有効にすることを選択したときに発生します。 パケットパズルを有効にするのはサービス次第です。 これにより、バックグラウンドで常時マイニングを行う必要がなくなり、マイニングプロセスに真の目的がもたらされます。 そうでなければ、それは常にリソースを吸い、バッテリー寿命に食い込むでしょう。
  
 
-### INTEROPERABILITY 
-Identity & Domain certificates also double as Viat wallet keys. This allows users to not only instantly sign into a service during a connection handshake, but also provide a way to purchase goods from services, tip sites, and or refund clients. Viat is an integral part of the full functionality of the Universal Web without it only part of the picture is there.
+### 相互運用性 
+アイデンティティとドメインの証明書も、Viatウォレットキーとしての役割を果たします。 これにより、ユーザーは接続ハンドシェイク中に即座にサービスにサインインするだけでなく、サービス、チップサイト、またはクライアントに返金する商品を購入する方法も提供できます。 ViatはUniversal Webの全機能の不可欠な部分であり、それ以外の部分はありません。
