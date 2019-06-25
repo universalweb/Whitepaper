@@ -3,22 +3,23 @@
 
 ![Logo](https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png)
 
-##### TITLE:  SENTIVATE - The Universal Web. 
-#####  ABSTRACT
-Sentivate is a hybrid web (centralized focused but enhanced by decentralized components) built to be a viable & realistic replacement for the modern web. The network is designed to go beyond the capabilities that any solely centralized or decentralized network could offer. Sentivate addresses the following issues directly: bandwidth crisis, outdated protocols, broken DNS, lack of accountability, lack of identity, reactive security, Domain rules, and web categorization.
+##### หัวข้อ: SENTIVATE - The Universal Web
+#####  บทคัดย่อ
+Sentivate คือเว็บแบบไฮบริด (เน้นส่วนกลางแต่เสริมด้วยส่วนประกอบกระจายศูนย์) ที่ถูกสร้างขึ้นมาเพื่อแทนเว็บแบบโมเดิร์น เครือข่ายได้รับการออกแบบมาเพื่อก้าวข้ามขีดจำกัดของระบบเครือข่ายทั้งแบบรวมศูนย์กลางและกระจายศูนย์ Sentivate ได้ระบุปัญหาทั้งหมดโดยตรง อันได้แก่ วิกฤติแบนด์วิธ, โปรโตคอลที่ล้าสมัย, DNS พัง, การขาดความรับผิดชอบ, ขาดตัวตน, Reactive Security, กฎของโดเมน และ Web Categorization
 
-##### FOCUS
-This white paper is focused on the core network design that serves as the base network & components for Viat, hApps, and the Universal Web. An additional white paper will be released solely on Viat. All technology is focused on ensuring that Sentivate is a revolutionary, and not an evolutionary replacement in modern Internet architecture. 
+##### จุดประสงค์
+White Paper นี้จะเน้นไปที่การออกแบบเครือข่ายหลักที่ให้บริการเป็นเครือข่ายและส่วนประกอบหลักสำหรับ Viat, hApps และ Universal Web ส่วน White Paper เพิ่มเติมจะปล่อยบน Viat เท่านั้น เทคโนโลยีทั้งหมดมุ่งเน้นให้เห็นว่า Sentivate คือการปฏิวัติ ไม่ใช่การวิวัฒนาการในสถาปัตยกรรมอินเทอร์เน็ตที่ทันสมัย
 
-## INTRODUCTION
-##### THE STATE OF THE WORLD WIDE WEB
+## บทนำ
+##### สถานะของ WORLD WIDE WEB
 
-At present, we find ourselves continuing to utilize a ruinous medium of interconnected communication on a global scale. Humanity’s demands are exponentially increasing of which the World Wide Web simply can’t meet. As we continue to grow, evolve, and venture beyond the solar system, our imperative task becomes revolutionizing the technology we depend on.
+ในปัจจุบันเรายังพบว่า เรายังคงใช้ประโยชน์จากการสื่อสารที่เชื่อมโยงกันในระดับโลก ความต้องการของมนุษย์นั้นเพิ่มขึ้นอย่างมาก และ World Wide Web ไม่สามารถตอบสนองความต้องการได้ ในขณะที่เรายังคงเติบโต พัฒนา และลงทุนเสี่ยง 
 
-The current state of the World Wide Web is deprecationary. If humanity continues to monkey-patch existing problems the Internet will remain the “wild wild west”. Humanity’s ever-increasing demands will never be met by the current state of the Web. We must start thinking in revolutionary terms and not evolutionary. The solution is a complete replacement of contemporary systems, browsers, languages, protocols, and platforms with increased security, speed, efficiency, accountability, trust, identity, capability, and reliability. In order to transition into a new age of information we must replace that which we have become all too comfortable with.
+ภารกิจหลักของเรากลายเป็นการปฏิวัติเทคโนโลยีที่เรายังใช้มันอยู่ทุกวัน
+สถานะปัจจุบันของ World Wide Web นั้นล้าสมัยไปแล้ว ถ้าหากผู้คนยังใช้การแก้ปัญหาแบบขอไปทีอยู่แบบนี้ อินเทอร์เน็ตจะไม่เหลืออะไรเลย ความต้องการที่เพิ่มขึ้นของมนุษยชาติจะไม่มีวันได้รับการสนองจากเว็บไซต์ในปัจจุบัน เราต้องเริ่ม เราต้องเริ่มคิดที่ในแง่ของปฏิวัติ ไม่ใช่วิวัฒนาการ วิธีการแก้ปัญหาก็คือการเปลี่ยนระบบ, เบราว์เซอร์, โปรโตคอล และแพลตฟอร์มใหม่ทั้งหมดด้วยความปลอดภัย, ความเร็ว, ประสิทธิภาพ, ความรับผิดชอบ, ความไว้วางใจ, เอกลักษณ์, ขีดจำกัด และ ความน่าเชื่อถือที่มากขึ้น การที่จะเปลี่ยนไปสู่ยุคใหม่ของข้อมูลนั้น เราจำเป็นต้องยอมทิ้งในสิ่งที่เราทุกคนคุ้นเคยมาอย่างยาวนานเพื่อสิ่งที่ดีกว่า
 
-###### BANDWIDTH CRISIS
-[Bandwidth is limited, our needs are out growing our networks.](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/)  To solve this issue we need modern revolutionary technology to replace existing components. If we don’t, fast lanes & prioritization of data is our only option. All those fears that folks have of the repeal of Net Neutrality will be our only hope at keeping the web spinning. The inevitable rise of IoT, more devices per-person, more devices per-household, self-driving cars, car insurance analytics, & developing countries coming online suck up bandwidth we don’t have.
+###### วิกฤติ BANDWIDTH
+[Bandwidth นั้นมีจำกัด ความต้องการของเรามีมากกว่าเครือข่ายที่มีอยู่ ](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/)  To solve this issue we need modern revolutionary technology to replace existing components. If we don’t, fast lanes & prioritization of data is our only option. All those fears that folks have of the repeal of Net Neutrality will be our only hope at keeping the web spinning. The inevitable rise of IoT, more devices per-person, more devices per-household, self-driving cars, car insurance analytics, & developing countries coming online suck up bandwidth we don’t have.
 
 ###### THE OUTDATED WEB WE RELY ON IS EATING ITSELF
 HTTP & DNS were built a long time ago without the consideration of modern demands in mind. More and more bandwidth is being sucked up, HTTP continues to show its long scalability issues, and DNS is not trustworthy or scalable. If half of the web can be shut down from DoS-ing specific DNS servers there's an obvious architectural problem. HTTP is the current vehicle for money. The entire digital economy is transported over HTTP. Any slowing down to HTTP or DNS means a drastically slower global economy. DNS & HTTP are inherently broken, have poor scalability, are dreadfully slow, lack modern features, eat up bandwidth, and cost consumers & businesses billions. If we don't solve this issue we will experience a massive blow to the economy. When you factor in all the dollar signs one soon realizes that a slower web is a global humanitarian crisis. 
