@@ -45,7 +45,7 @@ Znamo da globalna ekonomija zahteva uspešnu i jeftinu mrežu. Ako bi isključiv
 - Key exchange – Shared Session Secret Keys
     - BLAKE2B-512
         - KE BLAKE2 je kriptografska heš funkcija koja je brža od MD5, SHA-1, SHA-2 i    SHA-3, ali je barem tako sigurna kao i najnoviji standard SHA-3
-        - 	Ized Optimizovano za 64-bitne platforme - uključujući ARM-ove sa NEON-om - i proizvodi digestije bilo koje veličine između 1 i 64 bajta
+        - Ized Optimizovano za 64-bitne platforme - uključujući ARM-ove sa NEON-om - i proizvodi digestije bilo koje veličine između 1 i 64 bajta
     - Ks25519 - Ephemeral Kei Pair
         - A Izračunava tajnu koju deli pošiljalac i primalac, koristeći tajni   ključ pošiljaoca i javni ključ primaoca (ili obrnuto)
 
