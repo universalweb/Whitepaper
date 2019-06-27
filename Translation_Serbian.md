@@ -1,4 +1,4 @@
-
+﻿
 # Sentivate Mreža
 
 ![Logo](https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png)
@@ -50,7 +50,7 @@ Znamo da globalna ekonomija zahteva uspešnu i jeftinu mrežu. Ako bi isključiv
         - A Izračunava tajnu koju deli pošiljalac i primalac, koristeći tajni   ključ pošiljaoca i javni ključ primaoca (ili obrnuto)
 
 ## HYBRID MREŽA
-![Sentivate HYBRID MREŽA](https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png)
+![Sentivate HYBRID MREŽA](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/serbian_1.jpg)
 
 ## PROTOKOL
 
@@ -71,7 +71,7 @@ UDSP daje prioritet web-u realnom vremenu i disperzovanom računanju. Pošto su 
 
 UDSP ima izborne slagalice uključene u pakete koji omogućavaju provajderima i solversima da zarade VIAT. Slagalice se mogu razlikovati i tako su zagonetke dinamičan dokaz rada. Zagonetke mogu biti zatvorene ili ukazati na podatke koji su potrebni za rješavanje zagonetke. Ova funkcionalnost će biti opisana u sledećem belom papiru za VIAT. Zagonetke takođe funkcionišu kao kontrola zagušenja i način da se ograniče potencijalne štete od DDOS napada. Sentivate pretvara tipičan DDOS napad u profit uvođenjem različitih tipova slagalica u pakete. Kada klijent reši posluženu zagonetku, klijent i domen se pripisuju mreži sa Viat. Ako je server pod DDOS napadom, onda server može dinamički da promeni nagradu podeljenu do 100% za domen. To osigurava da napadači trpe više finansijskih gubitaka i da imaju malo koristi. Slagalice osiguravaju da obe strane imaju podsticaj da deluju u poverenju.
 
-![CLIENT CONNECTION](https://sentivate.com/wp-content/uploads/2018/09/DISHyrbid.png)
+![CLIENT CONNECTION](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/serbian_2.jpg)
 
 ## UNIVERZALNI SISTEM DOMENA
 
@@ -96,7 +96,7 @@ DIS deluje kao još jedan sloj odbrane od napada zlonamernih certifikata. Kada s
 
 Decentralizirani čvorovi koji pružaju certifikate domena imaju šansu da zarade Viat kroz svoje usluge. Ova funkcionalnost će biti detaljno pokrivena sa Viat belim papirom.
 
-![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
+![DIS](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/serbian_3.jpg)
 
 ### DOMENI
 ###### ČITLJIVA IMENA HOSTA
