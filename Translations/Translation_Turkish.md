@@ -5,10 +5,10 @@
 
 ##### BAŞLIK: SENTIVATE- Evrensel Web
 #####  ÖZET
-SSentivate, günümüz web teknolojisinin yerini almak için geliştirilmiş uygulanabilir ve gerçekçi bir alternatiftir. Sentivate ağı, merkezi veya merkezi olmayan ağların (centralized/decentralized) herhangi birinin sunabileceklerinin ötesine geçmek için dizayn edilmiş, merkezi odaklı fakat merkezi olmayan bileşenlerle geliştirilmiş karma bir ağdır. Sentivate; bant genişliği, geçerliliğini yitirmiş protokoller, arızalı DNS, hesap verebilirlik eksikliği, sertifika eksikliği, tepkili güvenlik, alan adı kuralları ve web kategorizasyonu gibi sorunlara doğrudan odaklanmaktadır.
+Sentivate, günümüz web teknolojisinin yerini almak için geliştirilmiş uygulanabilir ve gerçekçi bir alternatiftir. Sentivate ağı, merkezi veya merkezi olmayan ağların (centralized/decentralized) herhangi birinin sunabileceklerinin ötesine geçmek için dizayn edilmiş, merkezi odaklı fakat merkezi olmayan bileşenlerle geliştirilmiş karma bir ağdır. Sentivate; bant genişliği, geçerliliğini yitirmiş protokoller, arızalı DNS, hesap verebilirlik eksikliği, sertifika eksikliği, tepkili güvenlik, alan adı kuralları ve web kategorizasyonu gibi sorunlara doğrudan odaklanmaktadır.
 
 ##### ODAK
-Bu beyaz sayfa, Viat, hApps ve Universal Web için ana ağ ve bileşenler olarak hizmet veren çekirdek ağ tasarımına odaklanmıştır. Ek bir beyaz sayfa yalnızca Viat'ta yayınlanacaktır. Tüm teknolojiler, Sentivate'in modern bir internet mimarisinde evrimsel bir değişim değil devrimci olmasını sağlamaya odaklanmıştır.
+Bu dökümanda, VIAT’a hizmet edecek temel ağ ve bileşenleri, hApps (hibrit uygulamalar) ve Sentivate evrensel web'i için gerekli çekirdek ağ tasarımı irdelenmiştir. VIAT için ayrıca bir whitepaper yayınlanacaktır. Tüm bu teknolojiler, Sentivate’in günümüz internet mimarisinin yerini alacak evrilmiş bir hali olmasının ötesinde, devrim yaratmasını sağlamaya odaklanmıştır.
 
 ## TANITIM
 ##### DÜNYA ÇAPINDA AĞ DURUMU
