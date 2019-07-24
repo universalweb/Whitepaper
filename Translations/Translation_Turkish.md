@@ -10,7 +10,7 @@ Sentivate, günümüz web teknolojisinin yerini almak için geliştirilmiş uygu
 ##### ODAK
 Bu dökümanda, VIAT’a hizmet edecek temel ağ ve bileşenleri, hApps (hibrit uygulamalar) ve Sentivate evrensel web'i için gerekli çekirdek ağ tasarımı irdelenmiştir. VIAT için ayrıca bir whitepaper yayınlanacaktır. Tüm bu teknolojiler, Sentivate’in günümüz internet mimarisinin yerini alacak evrilmiş bir hali olmasının ötesinde, devrim yaratmasını sağlamaya odaklanmıştır.
 
-## TANITIM
+## GİRİŞ
 ##### WWW (DÜNYA ÇAPINDA AĞ) DURUMU
 
 Günümüzde, yıkık dökük, iflas etmek üzere olan, birbirlerine bağlı iletişim araçlarının küresel ölçekte kullanılmaya devam edildiğini görmekteyiz. İnsanlığın talepleri Dünya Çapında Ağ’ın karşılayamayacağı derecede her geçen gün katlanarak artmaktadır. Gelişime, değişime ve güneş sisteminin ötesine geçmeye devam ettikçe, bağımlı olduğumuz teknolojide devrim yaratmak bir zorunluluk haline gelmiştir.
