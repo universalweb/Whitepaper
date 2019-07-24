@@ -11,9 +11,9 @@ Sentivate, günümüz web teknolojisinin yerini almak için geliştirilmiş uygu
 Bu dökümanda, VIAT’a hizmet edecek temel ağ ve bileşenleri, hApps (hibrit uygulamalar) ve Sentivate evrensel web'i için gerekli çekirdek ağ tasarımı irdelenmiştir. VIAT için ayrıca bir whitepaper yayınlanacaktır. Tüm bu teknolojiler, Sentivate’in günümüz internet mimarisinin yerini alacak evrilmiş bir hali olmasının ötesinde, devrim yaratmasını sağlamaya odaklanmıştır.
 
 ## TANITIM
-##### DÜNYA ÇAPINDA AĞ DURUMU
+##### WWW (DÜNYA ÇAPINDA AĞ) DURUMU
 
-Şu anda, kendimizi küresel ölçekte harap bir birbirine bağlı iletişim aracını kullanmaya devam ettiğimizi görüyoruz. İnsanlığın talepleri katlanarak artmaktadır ve World Wide Web'in kolaylıkla karşılayamayacağı bir konudur. Büyümeye, evrimleşmeye ve güneş sisteminin ötesine geçmeye devam ettikçe, zorunlu görevimiz güvendiğimiz teknolojide devrim yaratıyor.
+Günümüzde, yıkık dökük, iflas etmek üzere olan, birbirlerine bağlı iletişim araçlarının küresel ölçekte kullanılmaya devam edildiğini görmekteyiz. İnsanlığın talepleri Dünya Çapında Ağ’ın karşılayamayacağı derecede her geçen gün katlanarak artmaktadır. Gelişime, değişime ve güneş sisteminin ötesine geçmeye devam ettikçe, bağımlı olduğumuz teknolojide devrim yaratmak bir zorunluluk haline gelmiştir.
 
 World Wide Web'in şu anki durumu önemsizdir. Eğer insanlık mevcut sorunları tespit etmeye devam ederse, İnternet “vahşi vahşi batı” olarak kalacaktır. İnsanlığın giderek artan talepleri, Web'in şu andaki durumu tarafından asla karşılanmayacak. Evrimsel değil, devrimci terimlerle düşünmeye başlamalıyız. Çözüm, artan güvenlik, hız, verimlilik, hesap verebilirlik, güven, kimlik, yetenek ve güvenilirlik ile çağdaş sistemlerin, tarayıcıların, dillerin, protokollerin ve platformların tamamen değiştirilmesidir. Yeni bir bilgi çağına geçebilmek için, fazlasıyla rahat ettiğimizin yerine geçmeliyiz.
 
