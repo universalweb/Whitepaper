@@ -1,11 +1,11 @@
 
-# SENTIVATE AĞ BEYAZ KAĞIT
+# SENTIVATE WHITEPAPER
 
 ![Logo](https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png)
 
 ##### BAŞLIK: SENTIVATE- Evrensel Web
 #####  ÖZET
-Sentivate, modern web için uygulanabilir ve gerçekçi bir alternatif olarak inşa edilmiş, karma bir ağdır (merkezi odaklı fakat merkezi olmayan bileşenlerle geliştirilmiş). Ağ, yalnızca merkezi veya merkezi olmayan bir ağın sunabileceği özelliklerin ötesine geçmek üzere tasarlanmıştır. Sentivate doğrudan aşağıdaki sorunları ele alır: bant genişliği krizi, eski protokoller, hatalı DNS, hesap verebilirlik eksikliği, kimlik eksikliği, reaktif güvenlik, Etki alanı kuralları ve web kategorizasyonu.
+SSentivate, günümüz web teknolojisinin yerini almak için geliştirilmiş uygulanabilir ve gerçekçi bir alternatiftir. Sentivate ağı, merkezi veya merkezi olmayan ağların (centralized/decentralized) herhangi birinin sunabileceklerinin ötesine geçmek için dizayn edilmiş, merkezi odaklı fakat merkezi olmayan bileşenlerle geliştirilmiş karma bir ağdır. Sentivate; bant genişliği, geçerliliğini yitirmiş protokoller, arızalı DNS, hesap verebilirlik eksikliği, sertifika eksikliği, tepkili güvenlik, alan adı kuralları ve web kategorizasyonu gibi sorunlara doğrudan odaklanmaktadır.
 
 ##### ODAK
 Bu beyaz sayfa, Viat, hApps ve Universal Web için ana ağ ve bileşenler olarak hizmet veren çekirdek ağ tasarımına odaklanmıştır. Ek bir beyaz sayfa yalnızca Viat'ta yayınlanacaktır. Tüm teknolojiler, Sentivate'in modern bir internet mimarisinde evrimsel bir değişim değil devrimci olmasını sağlamaya odaklanmıştır.
