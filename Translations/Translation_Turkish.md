@@ -1,19 +1,19 @@
 
-# SENTIVATE AĞ BEYAZ KAĞIT
+# SENTIVATE WHITEPAPER
 
 ![Logo](https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png)
 
 ##### BAŞLIK: SENTIVATE- Evrensel Web
 #####  ÖZET
-Sentivate, modern web için uygulanabilir ve gerçekçi bir alternatif olarak inşa edilmiş, karma bir ağdır (merkezi odaklı fakat merkezi olmayan bileşenlerle geliştirilmiş). Ağ, yalnızca merkezi veya merkezi olmayan bir ağın sunabileceği özelliklerin ötesine geçmek üzere tasarlanmıştır. Sentivate doğrudan aşağıdaki sorunları ele alır: bant genişliği krizi, eski protokoller, hatalı DNS, hesap verebilirlik eksikliği, kimlik eksikliği, reaktif güvenlik, Etki alanı kuralları ve web kategorizasyonu.
+Sentivate, günümüz web teknolojisinin yerini almak için geliştirilmiş, uygulanabilir ve gerçekçi bir alternatiftir. Sentivate ağı, merkezi veya merkezi olmayan ağların (centralized/decentralized) herhangi birinin sunabileceklerinin ötesine geçmek için dizayn edilmiş, merkezi odaklı fakat merkezi olmayan bileşenlerle geliştirilmiş karma bir ağdır. Sentivate; bant genişliği, geçerliliğini yitirmiş protokoller, arızalı DNS, hesap verebilirlik eksikliği, sertifika eksikliği, tepkili güvenlik, alan adı kuralları ve web kategorizasyonu gibi sorunlara doğrudan odaklanmaktadır.
 
 ##### ODAK
-Bu beyaz sayfa, Viat, hApps ve Universal Web için ana ağ ve bileşenler olarak hizmet veren çekirdek ağ tasarımına odaklanmıştır. Ek bir beyaz sayfa yalnızca Viat'ta yayınlanacaktır. Tüm teknolojiler, Sentivate'in modern bir internet mimarisinde evrimsel bir değişim değil devrimci olmasını sağlamaya odaklanmıştır.
+Bu dökümanda, VIAT’a hizmet edecek temel ağ ve bileşenleri, hApps (hibrit uygulamalar) ve Sentivate evrensel web'i için gerekli çekirdek ağ tasarımı irdelenmiştir. VIAT için ayrıca bir whitepaper yayınlanacaktır. Tüm bu teknolojiler, Sentivate’in günümüz internet mimarisinin yerini alacak evrilmiş bir hali olmasının ötesinde, devrim yaratmasını sağlamaya odaklanmıştır.
 
-## TANITIM
-##### DÜNYA ÇAPINDA AĞ DURUMU
+## GİRİŞ
+##### WWW (DÜNYA ÇAPINDA AĞ) DURUMU
 
-Şu anda, kendimizi küresel ölçekte harap bir birbirine bağlı iletişim aracını kullanmaya devam ettiğimizi görüyoruz. İnsanlığın talepleri katlanarak artmaktadır ve World Wide Web'in kolaylıkla karşılayamayacağı bir konudur. Büyümeye, evrimleşmeye ve güneş sisteminin ötesine geçmeye devam ettikçe, zorunlu görevimiz güvendiğimiz teknolojide devrim yaratıyor.
+Günümüzde, yıkık dökük, iflas etmek üzere olan, birbirlerine bağlı iletişim araçlarının küresel ölçekte kullanılmaya devam edildiğini görmekteyiz. İnsanlığın talepleri Dünya Çapında Ağ’ın karşılayamayacağı derecede her geçen gün katlanarak artmaktadır. Gelişime, değişime ve güneş sisteminin ötesine geçmeye devam ettikçe, bağımlı olduğumuz teknolojide devrim yaratmak bir zorunluluk haline gelmiştir.
 
 World Wide Web'in şu anki durumu önemsizdir. Eğer insanlık mevcut sorunları tespit etmeye devam ederse, İnternet “vahşi vahşi batı” olarak kalacaktır. İnsanlığın giderek artan talepleri, Web'in şu andaki durumu tarafından asla karşılanmayacak. Evrimsel değil, devrimci terimlerle düşünmeye başlamalıyız. Çözüm, artan güvenlik, hız, verimlilik, hesap verebilirlik, güven, kimlik, yetenek ve güvenilirlik ile çağdaş sistemlerin, tarayıcıların, dillerin, protokollerin ve platformların tamamen değiştirilmesidir. Yeni bir bilgi çağına geçebilmek için, fazlasıyla rahat ettiğimizin yerine geçmeliyiz.
 
