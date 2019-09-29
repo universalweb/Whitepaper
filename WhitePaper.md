@@ -59,8 +59,12 @@ We know that the global economy requires a performant & inexpensive web. If a so
     - Computes an authentication tag. This tag is used to make sure that the message, as well as optional, non-confidential (non-encrypted) data, haven’t been tampered with.
     - Encryption: XChaCha20 stream cipher
     - Authentication: Poly1305 MAC
-
+-  Hashing
+    -  BLAKE2b
+    	-  Standardized (RFC 7693) secure hash function that is as strong as SHA-3 but faster than SHA-1 and MD5.
+Unlike MD5, SHA-1 and SHA-256, this function is safe against hash length extension attacks.
 - Key exchange – Shared Session Secret Keys
+	- 16(MIN), 32 DEFAULT, 64(MAX) BYTES RANGE
     - BLAKE2B-512
         - BLAKE2 is a cryptographic hash function **faster than MD5, SHA-1, SHA-2, and SHA-3**, yet is at least as secure as the latest standard SHA-3
         - Optimized for 64-bit platforms—including NEON-enabled ARMs—and produces digests of any size between 1 and 64 bytes
