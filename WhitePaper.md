@@ -2,42 +2,62 @@
 <p align="center">
 <img src="https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png">
 </p>
-<h3 align="center">UNIVERSAL WEB REPUBLIC</h3>
+<h3 align="center">UNIVERSAL WEB REPUBLIC (UWR)</h3>
 <h6 align="center">WHITE PAPER</h6>
 <hr />
-<h6 align="center">THE UNIVERSAL WEB (UW)</h6>
+<h6 align="center">UNIVERSAL WEB (UW)</h6>
 <hr />
-##### ABSTRACT
+<h5>INTRODUCTION</h5>
 
-Sentivate is a hybrid web (centralized focused but enhanced by decentralized components) built to be a viable & realistic replacement for the modern web. The network is designed to go beyond the capabilities that any solely centralized or decentralized network could offer. Sentivate addresses the following issues directly: bandwidth crisis, outdated protocols, broken DNS, lack of accountability, lack of identity, reactive security, Domain rules, and web categorization.
+<p>The Universal Web is the Web reimagined. We have come to expect much of the Web from features it never had, weren't intended to have, and to a scale far beyond what it was initially designed for. The UW is built to be a viable & realistic replacement for the modern Web in every way and then some.</p>
 
-##### FOCUS
+<p>The UW addresses the following issues directly: bandwidth crisis, outdated protocols, broken DNS, lack of accountability, lack of identity, reactive security, Domain rules, and web categorization.</p>
 
-This white paper is focused on the core network design that serves as the base network & components for Viat, hApps, and the Universal Web. An additional white paper will be released solely on Viat. All technology is focused on ensuring that Sentivate is a revolutionary, and not an evolutionary replacement in modern Internet architecture.
+<p>At present, we find ourselves continuing to utilize a ruinous medium of interconnected communication on a global scale. Humanity’s demands are exponentially increasing of which the World Wide Web simply can’t meet. As we continue to grow, evolve, and venture beyond the solar system, our imperative task becomes revolutionizing the technology we depend on.</p>
 
-## INTRODUCTION
+<p>The current state of the World Wide Web is deprecationary. If humanity continues to monkey-patch existing problems the Internet will remain the “wild wild west”. Humanity’s ever-increasing demands will never be met by the current state of the Web. We must start thinking in revolutionary terms and not evolutionary. The solution is a complete replacement of contemporary systems, browsers, languages, protocols, and platforms with increased security, speed, efficiency, accountability, trust, identity, capability, and reliability. In order to transition into a new age of information we must replace that which we have become all too comfortable with.</p>
 
-##### THE STATE OF THE WORLD WIDE WEB
+<q>WE'RE OUTGROWING THE WORLD WIDE WEB</q>
 
-At present, we find ourselves continuing to utilize a ruinous medium of interconnected communication on a global scale. Humanity’s demands are exponentially increasing of which the World Wide Web simply can’t meet. As we continue to grow, evolve, and venture beyond the solar system, our imperative task becomes revolutionizing the technology we depend on.
+<p>HTTP & DNS were built a long time ago without the consideration of modern demands in mind. More and more bandwidth is being sucked up, HTTP continues to show its long known scalability issues, and DNS is lacking in security, performance, scalability, and features. If half of the web can be shut down from DoS-ing specific DNS servers there's an obvious architectural limitation. HTTPS is the current vehicle for our global economy it's essentially the armored car of the Web. The entire digital economy relies on and is transported over HTTPS any modifications to it will result in a change to the economy on a global scale. Any slowing down to the primary components of the Web, (HTTP & DNS), results in missed opportunities or stagnant economic growth across the planet especially in first world countries. DNS & HTTP limit the Web's potential, hinder scalability, are dreadfully slow compared to modern options, lack modern features, negate the ability to redesign core functionality, eat up bandwidth, and cost consumers & businesses billions. There are a plethora of issues and if we don't begin to address them we'll begin to experience an extremely degraded Web experience and at worse rapid economic stagnation. When you factor in all the dollar signs and worse case scenarios one soon realizes that ignoring the Web's shortcomings could result in a global humanitarian crisis for first world nations. There's a lot riding on the Web and when the Web suffers it has a ripple effect that affects us all.</p>
 
-The current state of the World Wide Web is deprecationary. If humanity continues to monkey-patch existing problems the Internet will remain the “wild wild west”. Humanity’s ever-increasing demands will never be met by the current state of the Web. We must start thinking in revolutionary terms and not evolutionary. The solution is a complete replacement of contemporary systems, browsers, languages, protocols, and platforms with increased security, speed, efficiency, accountability, trust, identity, capability, and reliability. In order to transition into a new age of information we must replace that which we have become all too comfortable with.
+<ul>
+<li><a href="https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales">A one second delay could cost Amazon 1.6BB in sales.</a></li>
+<li><a href="https://www.gigaspaces.com/blog/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/">“10 years ago, Amazon found that every 100ms of latency cost them 1% in sales”</a></li>
+<li><a href="https://www.akamai.com/us/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp">“Fast forward 10 years later, a 2017 Akamai study shows that every 100-millisecond delay in website load time can hurt conversion rates by 7% – that is a significant drop in sales – 6% – from the time when Amazon first talked about latency in seconds and milliseconds. This goes to show that things aren’t getting any easier for online retailers as user experience is becoming critical to e-commerce success.”</a></li>
+</ul>
+
+<br/>
+
+<h5>WEB 3.0 ISN'T THE ANSWER <small> - The Universal Web is.</small></h5>
+<p>As apposed to all solely decentralized blockchain based Webs typically referred to as "Web 3.0" or "Web3" the UW seeks to be a truly capable replacement and an ideological one. The UW isn't just a replacement in terms of offering the same functionality but in the true sense of the word. It's a revolutionary replacement capable of outperforming the modern Web using the exact same hardware. The UW doesn't require decentralized consensus as it's truly decentralized by default as is the Web today. A site on the Web today isn't contained in a centralized way much like a Web3 is contained by the rules and laws of the blockchain, network, or consensus algorithm.</p>
+
+<p>We'll summarize one of the core issues of Web3 with a simple logical assertion. Those in physics may appreciate or understand this more so than others. The shortest distance is a straight line between two points. From point A to B is much faster than having to stop midway to B and run a decentralized consensus process. The point is additional processing is always required in order to complete the most basic of requests. The additional step which is required in the Web 3.0 lanscape will always yield a slower result than what the Universal Web does. The UW provides you and the destination the freedom to communicate and operate on your own accord.</p>
+
+<p>We know that the global economy requires a performant & inexpensive web. If a solely decentralized web replaced the modern web, then it would accelerate the bandwidth crisis and bring us to a dystopian web. The term Web 3.0 is not a magic globe, a revolutionary idea, or a solution; it's a cash grab. Trades are happening in nanoseconds the global economy doesn't have time to wait seconds or minutes for a block time to verify and then propagate through the network. A replacement for the web shouldn't be slower and more expensive for consumers. Web 3.0 costs more and they like to hide behind things like it's all on-chain and costs very little to launch an app. The reality is, you get what you pay for. Web 3.0 offsets costs to users instead of the services, which also results in a poorer service. Another common argument is to allow users to control their data. That's no problem, say hello to homomorphic encryption. Instead of tackling this issue from just topology, we need to innovate in every aspect of the web and ask more from our web services. The web's topology problem is minor compared to it's outdated technology problem. If these Web 3.0 projects actually cared about changing the web they would focus on the actual issues.</p>
+
+<b>How the World Wide Web & Universal Web Work (FASTER)</b>
+<code>REQUEST => EXPECTED PROCESSING => REALITY</code>
+
+<b>How the "Web 3.0" Space Works (SLOWER)</b>
+<code>REQUEST => CONSENSUS ALGORITHM => EXPECTED PROCESSING => REALITY</code>
+
+<p>Web3's are limited to the design of their blockchain, decentralized topology, node capacity, and consensus algorithm. An important feature is missing from the Web3 lanscape and that's primarily freedom. The freedom to design an application and service that relies on one's own resources is entirely lacking in the Web3 world. Another feature that is lacking because it breaks the blockchain is deletion. Another missing feature which defeats the purpose of such Web3 network's principles and intentions is censorship or blacklisting. In the Web3s of today apps must be restricted to or confined to the networks blockchain, consensus algorithm, and rules. Essentially applications are limited by the rules of the network itself. Whereas in a Web based on equal opportunity rather than equal outcome such as the World Wide Web & the Universal Web applications are only limited by their own resources. Resources which they directly own, control, or freely participate in.</p>
+
+<p>The entirety of the "crypto" Web3 space consists of the polar opposite of what we are building. Because Web3 requires an additional process to form consensus regardless of how complex, fast, simple, or what advancements it makes in the future the fact that it exists means it will always take more time to complete a request in a Web3 world compared to the design of the modern World Wide Web or in our case the Universal Web. This is a huge error in rational thinking and clear and obvious logic that dictates that no such replacement should ever exist. Unless we are under tyrannical rule, have no care for speed, nor care for cost, and are being unilaterally censored there is no reason to replace the current topology with a solely blockchain decentralized based Web.</p>
+
+<h6>TLDR; Both topologies have their use cases but together they are a solution to an ever growing problem that has gone unchecked.</h6>
+
+<br/>
+
+<h5>EXPANDED TOPOLOGY</h5>
+<p>From a topology standpoint the UW is a hybrid web (centralized focused but enhanced by decentralized components). The network is designed to go beyond the capabilities that any solely centralized or decentralized network could offer. Centralized components provide early protections and ensure equal or better performance than the WWW. The WWW doesn't provide a unified way to take advantage of decentralized technology that can enhance its core functions. DNS is an existing function which can take advantage of decentralized technology to expand availability and increase performance. Delivery of typical static Web assets require a unified decentralized CDN so that all of the Web can participate. These decentralized options can be <p>From a topology standpoint the UW is a hybrid web (centralized focused but enhanced by decentralized components). The network is designed to go beyond the capabilities that any solely centralized or decentralized network could offer. Centralized components provide early protections and ensure equal or better performance than the WWW.</p>
+
+<p>The WWW doesn't provide a unified way to take advantage of decentralized technology that can enhance its core functions. DNS is an existing function which can take advantage of decentralized technology to expand availability and increase performance. Delivery of typical static Web assets require a unified decentralized CDN so that all of the Web can participate. These decentralized options can be incentivized by introducing a native integrated cryptocurrency hence Viat. By expanding the Web's topology to incorporate a hybrid approach it can take advantage of the features that come along with such networks yet it can also remain impervious to the downsides of it because it isn't reliant on them. Although the attack surface increases this allows clients and services to simply gravitate or lean on the centralized or decentralized varieties of individual components.</p>
 
 ###### BANDWIDTH CRISIS
 
 [Bandwidth is limited, our needs are out growing our networks.](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/) To solve this issue we need modern revolutionary technology to replace existing components. If we don’t, fast lanes & prioritization of data is our only option. All those fears that folks have of the repeal of Net Neutrality will be our only hope at keeping the web spinning. The inevitable rise of IoT, more devices per-person, more devices per-household, self-driving cars, car insurance analytics, & developing countries coming online suck up bandwidth we don’t have.
-
-###### THE OUTDATED WEB WE RELY ON IS EATING ITSELF
-
-HTTP & DNS were built a long time ago without the consideration of modern demands in mind. More and more bandwidth is being sucked up, HTTP continues to show its long scalability issues, and DNS is not trustworthy or scalable. If half of the web can be shut down from DoS-ing specific DNS servers there's an obvious architectural problem. HTTP is the current vehicle for money. The entire digital economy is transported over HTTP. Any slowing down to HTTP or DNS means a drastically slower global economy. DNS & HTTP are inherently broken, have poor scalability, are dreadfully slow, lack modern features, eat up bandwidth, and cost consumers & businesses billions. If we don't solve this issue we will experience a massive blow to the economy. When you factor in all the dollar signs one soon realizes that a slower web is a global humanitarian crisis.
-
-1.  [A one second delay could cost Amazon 1.6BB in sales.](https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales)
-2.  [_“10 years ago, Amazon found that every 100ms of latency cost them 1% in sales”_](https://www.gigaspaces.com/blog/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/)
-3.  [_“Fast forward 10 years later, a 2017 Akamai study shows that every 100-millisecond delay in website load time can hurt conversion rates by 7% – that is a significant drop in sales – 6% – from the time when Amazon first talked about latency in seconds and milliseconds. This goes to show that things aren’t getting any easier for online retailers as user experience is becoming critical to e-commerce success.”_](https://www.akamai.com/us/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp)
-
-###### THE FAILURE THAT IS THE DECENTRALIZED WEB AKA WEB 3.0
-
-We know that the global economy requires a performant & inexpensive web. If a solely decentralized web replaced the modern web, then it would accelerate the bandwidth crisis and bring us to a dystopian web. The term Web 3.0 is not a magic globe, a revolutionary idea, or a solution; it's a cash grab. Trades are happening in nanoseconds the global economy doesn't have time to wait seconds or minutes for a block time to verify and then propagate through the network. A replacement for the web shouldn't be slower and more expensive for consumers. Web 3.0 costs more and they like to hide behind things like it's all on-chain and costs very little to launch an app. The reality is, you get what you pay for. Web 3.0 offsets costs to users instead of the services, which also results in a poorer service. Another common argument is to allow users to control their data. That's no problem, say hello to homomorphic encryption. Instead of tackling this issue from just topology, we need to innovate in every aspect of the web and ask more from our web services. The web's topology problem is minor compared to it's outdated technology problem. If these Web 3.0 projects actually cared about changing the web they would focus on the actual issues. **Both topologies have their use cases but together they are a solution to an ever growing problem that has gone unchecked.**
 
 ## UNIVERSAL WEB CRYPTOGRAPHY ([SODIUM-NATIVE](https://github.com/sodium-friends/sodium-native))
 
@@ -165,17 +185,3 @@ Sentivate’s components allow for highly modular asset streaming. For example, 
 Hybrid Apps can utilize an opt-in decentralized P2P CDN for assets in addition to the destination service. Making use of a Hybrid Content Delivery Network means that hybrid apps have high availability, scalability, and more bandwidth.
 
 hApps validate, authenticate, and authorize clients automatically during the initial connection handshake. hApps backends can store and reference clients by their public key or full certificates. Think of it as oAuth for the entire Internet. Services no longer need to worry about hashing, storing, and or encrypting passwords. Clients can quickly login on the click of a button or automatically by simply connecting to the service. Users no longer need to remember or create complex passwords as using their keypair is more secure and easier to use. If services do not require you to have a username they can simply rely on your public key as your identifying name. This means that for some services users don't have to create a username and password during the registration process.
-
-## VIAT
-
-### NATIVE CRYPTOCURRENCY
-
-Viat is the native cryptocurrency on the Sentivate Network. Viat has a hybrid blockchain. Viat’s core systems are decentralized focused but enhanced by centralized components (the opposite of Sentivate’s Web). Viat is designed to be fast, secure, and have some of the lowest transaction fees available. Viat’s centralized portions can process instant transactions, provide wallet security, and alleviate network congestion when the decentralized network is under heavy load. However, these centralized features are opt-in only allowing users to forge their own path.
-
-### MINING
-
-Viat has a dynamic proof of work which can be mined two ways. Direct mining is the main method, which will be explained in the Viat white paper, & the second method is through the use of packet puzzles in UDSP. Packet puzzles allow for passive mining of Viat while browsing the Universal Web. However, it’s not enabled by default. The situations which arise that enable packet puzzles are: upon connection handshake, connection liveliness check, DDoS protection, congestion control, and or the service chooses to enable it for their own reasons. It is up to the service to enable packet puzzles. This ensures that there is no need for constant mining in the background and gives real purpose to the mining process. Otherwise, it would be on all the time sucking up resources & eating into battery life.
-
-### INTEROPERABILITY
-
-Identity & Domain certificates also double as Viat wallet keys. This allows users to not only instantly sign into a service during a connection handshake, but also provide a way to purchase goods from services, tip sites, and or refund clients. Viat is an integral part of the full functionality of the Universal Web without it only part of the picture is there.
