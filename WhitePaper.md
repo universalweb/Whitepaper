@@ -17,14 +17,67 @@
 
 <p>The current state of the World Wide Web is deprecation. If humanity continues to monkey-patch existing problems the Internet will remain the “wild wild west”. Humanity’s ever-increasing demands will never be met by the current state of the Web. We must start thinking in revolutionary terms and not evolutionary. The solution is a complete replacement of contemporary systems, browsers, languages, protocols, and platforms with increased security, speed, efficiency, accountability, trust, identity, capability, and reliability. In order to transition into a new age of information we must replace that which we have become all too comfortable with.</p>
 
-<q>WE'RE OUTGROWING THE WORLD WIDE WEB</q>
+<h5>BANDWIDTH CRISIS - <small>WE PREDICTED IT</small></h5>
+<p>Bandwidth is limited, our needs are out growing our networks.To solve this issue we need modern revolutionary technology to replace existing components. If we don’t, fast lanes & prioritization of data is our only option. All those fears that folks have of the repeal of Net Neutrality will be our only hope at keeping the Web spinning. The inevitable rise of IoT, more devices per-person, more devices per-household, self-driving cars, increasing populations, & developing countries coming online suck up bandwidth we don’t have.</p>
+
+<p>We predicted this crisis would occur and then COVID happened. COVID proved that the Web is already close to a breaking point due to the massive stress placed on the Internet from more users sucking up tremendous amounts of bandwidth. COVID proved the bandwidth crisis is very real and right around the corner. We said the bandwidth crisis was a very real concern from the very beginning.</p>
+
+<p>What we are building is the only true option left less we run the risk of economic stagnation, speed lanes, data prioritization, unusable slow performance, and extremely high fees. Imagine a first world nation with a class structure predicated upon Web access. Some will be granted usable fast Web access while others will be forced to crushing fees or extremely limited access. With the economy, job market, and society becoming increasingly dependent upon a fast cheap open Web any limited access to it could be disastrous for average people.</p>
+
+<h6>SOURCES</h6>
+<ul>
+    <li>
+        <a href="https://www.foxnews.com/story/experts-warn-internet-is-running-out-of-bandwidth">Experts Warn Internet Is Running Out of Bandwidth</a>
+    </li>
+    <li>
+        <a href="https://gadgets.ndtv.com/internet/news/coronavirus-impact-can-we-run-out-of-the-internet-because-of-people-working-from-home-2199980">Coronavirus Impact: Can We Run Out of the Internet Because of People Working From Home?</a>
+    </li>
+    <li>
+        <a href="https://www.wraltechwire.com/2020/08/03/bandwidth-reports-unprecedented-demand-for-its-services-during-covid-19/">Bandwidth reports ‘unprecedented demand’ for its services during COVID-19</a>
+    </li>
+    <li>
+        <a href="https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/">Bandwidth is limited, our needs are out growing our networks.</a>
+    </li>
+    <li>
+        <a target="_blank" href="https://morningconsult.com/opinions/competition-for-bandwidth-during-covid-19-is-crushing-america-5g-can-help/">Competition for Bandwidth During COVID-19 is Crushing America.</a>
+    </li>
+    <li>
+        <a href="https://www.inphi.com/bandwidth-in-the-age-of-covid-19/">COVID-19: How Cable's Internet Networks Are Performing</a>
+    </li>
+    <li>
+        <a href="https://www.oecd.org/coronavirus/policy-responses/keeping-the-internet-up-and-running-in-times-of-crisis-4017c4c9/">Keeping the Internet up and running in times of crisis</a>
+    </li>
+    <li>
+        <a href="https://www.wsj.com/articles/coronavirus-lockdown-tested-internets-backbone-11597503600">Broadband usage surged in mid-March as millions of Americans turned to the internet to work, learn and communicate at home</a>
+    </li>
+    <li>
+        <a href="https://itif.org/publications/2020/07/13/lessons-pandemic-broadband-policy-after-covid-19">U.S. broadband networks weathered the COVID-19 surge in traffic better than most peer nations. The pandemic should galvanize policymakers to ensure broadband can serve as an essential lifeline for everyone, including low-income and rural residents.</a>
+    </li>
+    <li>
+        <a href="https://www.fastly.com/blog/how-covid-19-is-affecting-internet-performance">How COVID-19 is affecting internet performance</a>
+    </li>
+    <li>
+        <a href="https://www.theguardian.com/media/2020/mar/26/netflix-is-reducing-streaming-quality-amid-coronavirus-how-will-it-affect-viewing-in-australia">Netflix is reducing streaming quality amid coronavirus.</a>
+    </li>
+    <li>
+        <a href="https://www.brookings.edu/blog/the-avenue/2020/03/30/covid-19-proves-we-need-to-continue-upgrading-americas-broadband-infrastructure/">COVID-19 proves we need to continue upgrading America’s broadband infrastructure</a>
+    </li>
+    <li>
+        <a href="https://www.brookings.edu/blog/the-avenue/2020/03/30/covid-19-proves-we-need-to-continue-upgrading-americas-broadband-infrastructure/">COVID-19 proves we need to continue upgrading America’s broadband infrastructure</a>
+    </li>
+    <li>
+        <a href="https://www.nytimes.com/2020/03/26/business/coronavirus-internet-traffic-speed.html">Surging Traffic Is Slowing Down Our Internet</a>
+    </li>
+</ul>
+
+<h6>TECH DEBT - <small>SLOW SPEEDS BIG IMPLICATIONS</small></h6>
 
 <p>HTTP & DNS were built a long time ago without the consideration of modern demands in mind. More and more bandwidth is being sucked up, HTTP continues to show its long known scalability issues, and DNS is lacking in security, performance, scalability, and features. If half of the web can be shut down from DoS-ing specific DNS servers there's an obvious architectural limitation. HTTPS is the current vehicle for our global economy it's essentially the armored car of the Web. The entire digital economy relies on and is transported over HTTPS any modifications to it will result in a change to the economy on a global scale. Any slowing down to the primary components of the Web, (HTTP & DNS), results in missed opportunities or stagnant economic growth across the planet especially in first world countries. DNS & HTTP limit the Web's potential, hinder scalability, are dreadfully slow compared to modern options, lack modern features, negate the ability to redesign core functionality, eat up bandwidth, and cost consumers & businesses billions. There are a plethora of issues and if we don't begin to address them we'll begin to experience an extremely degraded Web experience and at worse rapid economic stagnation. When you factor in all the dollar signs and worse case scenarios one soon realizes that ignoring the Web's shortcomings could result in a global humanitarian crisis for first world nations. There's a lot riding on the Web and when the Web suffers it has a ripple effect that affects us all.</p>
 
 <ul>
-<li><a href="https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales">A one second delay could cost Amazon 1.6BB in sales.</a></li>
-<li><a href="https://www.gigaspaces.com/blog/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/">“10 years ago, Amazon found that every 100ms of latency cost them 1% in sales”</a></li>
-<li><a href="https://www.akamai.com/us/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp">“Fast forward 10 years later, a 2017 Akamai study shows that every 100-millisecond delay in website load time can hurt conversion rates by 7% – that is a significant drop in sales – 6% – from the time when Amazon first talked about latency in seconds and milliseconds. This goes to show that things aren’t getting any easier for online retailers as user experience is becoming critical to e-commerce success.”</a></li>
+    <li><a href="https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales">A one second delay could cost Amazon 1.6BB in sales.</a></li>
+    <li><a href="https://www.gigaspaces.com/blog/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/">“10 years ago, Amazon found that every 100ms of latency cost them 1% in sales”</a></li>
+    <li><a href="https://www.akamai.com/us/en/about/news/press/2017-press/akamai-releases-spring-2017-state-of-online-retail-performance-report.jsp">“Fast forward 10 years later, a 2017 Akamai study shows that every 100-millisecond delay in website load time can hurt conversion rates by 7% – that is a significant drop in sales – 6% – from the time when Amazon first talked about latency in seconds and milliseconds. This goes to show that things aren’t getting any easier for online retailers as user experience is becoming critical to e-commerce success.”</a></li>
 </ul>
 
 <br/>
@@ -36,10 +89,10 @@
 
 <p>We know that the global economy requires a performant & inexpensive web. If a solely decentralized web replaced the modern web, then it would accelerate the bandwidth crisis and bring us to a dystopian web. The term Web 3.0 is not a magic globe, a revolutionary idea, or a solution; it's a cash grab. Trades are happening in nanoseconds the global economy doesn't have time to wait seconds or minutes for a block time to verify and then propagate through the network. A replacement for the web shouldn't be slower and more expensive for consumers. Web 3.0 costs more and they like to hide behind things like it's all on-chain and costs very little to launch an app. The reality is, you get what you pay for. Web 3.0 offsets costs to users instead of the services, which also results in a poorer service. Another common argument is to allow users to control their data. That's no problem, say hello to homomorphic encryption. Instead of tackling this issue from just topology, we need to innovate in every aspect of the web and ask more from our web services. The web's topology problem is minor compared to it's outdated technology problem. If these Web 3.0 projects actually cared about changing the web they would focus on the actual issues.</p>
 
-<b>How the World Wide Web & Universal Web Work (FASTER)</b>
+<b>How the World Wide Web & Universal Web Work <small>(FASTER)</small></b>
 <code>REQUEST => EXPECTED PROCESSING => REALITY</code>
 
-<b>How the "Web 3.0" Space Works (SLOWER)</b>
+<b>How the "Web 3.0" Space Works <small>(SLOWER)</small></b>
 <code>REQUEST => CONSENSUS ALGORITHM => EXPECTED PROCESSING => REALITY</code>
 
 <p>Web3's are limited to the design of their blockchain, decentralized topology, node capacity, and consensus algorithm. An important feature is missing from the Web3 lanscape and that's primarily freedom. The freedom to design an application and service that relies on one's own resources is entirely lacking in the Web3 world. Another feature that is lacking because it breaks the blockchain is deletion. Another missing feature which defeats the purpose of such Web3 network's principles and intentions is censorship or blacklisting. In the Web3s of today apps must be restricted to or confined to the networks blockchain, consensus algorithm, and rules. Essentially applications are limited by the rules of the network itself. Whereas in a Web based on equal opportunity rather than equal outcome such as the World Wide Web & the Universal Web applications are only limited by their own resources. Resources which they directly own, control, or freely participate in.</p>
@@ -48,18 +101,27 @@
 
 <h6>TLDR; Both topologies have their use cases but together they're a solution to an ever growing problem that has gone unchecked.</h6>
 
+<hr/>
+
+<h4>TECHNOLOGY</h4>
+
 <br/>
 
 <h5>EXPANDED TOPOLOGY</h5>
 <p>From a topology standpoint the UW is a hybrid web (centralized focused but enhanced by decentralized components). The network is designed to go beyond the capabilities that any solely centralized or decentralized network could offer. Centralized components provide early protections and ensure equal or better performance than the WWW. The WWW doesn't provide a unified way to take advantage of decentralized technology that can enhance its core functions. DNS is an existing function which can take advantage of decentralized technology to expand availability and increase performance. A new decentralized feature is the delivery of typical static Web assets via a Web wide decentralized CDN. Allowing all of the Web to participate is key to adoption and expantion. These decentralized options can be taken advantage of based on the client's and the service's discretion.</p>
 
+<br />
+
+<img align="center" src="https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png">
+<p align="center">TOPOLOGY OVERVIEW SUMMARY COMPARISON</p>
+<p align="center">THE BEST OF BOTH</p>
+<br />
+
 <p>The WWW doesn't provide a unified way to take advantage of decentralized technology that can enhance its core functions. DNS is an existing function which can take advantage of decentralized technology to expand availability and increase performance. Delivery of typical static Web assets require a unified decentralized CDN so that all of the Web can participate. These decentralized options can be incentivized by introducing a native integrated cryptocurrency hence Viat. By expanding the Web's topology to incorporate a hybrid approach it can take advantage of the features that come along with such networks yet it can also remain impervious to the downsides of it because it isn't reliant on them. Although the attack surface increases this allows clients and services to simply gravitate or lean on the centralized or decentralized varieties of individual components.</p>
 
-###### BANDWIDTH CRISIS
+<br />
 
-[Bandwidth is limited, our needs are out growing our networks.](https://www.scientificamerican.com/article/the-bandwidth-bottleneck-that-is-throttling-the-internet/) To solve this issue we need modern revolutionary technology to replace existing components. If we don’t, fast lanes & prioritization of data is our only option. All those fears that folks have of the repeal of Net Neutrality will be our only hope at keeping the web spinning. The inevitable rise of IoT, more devices per-person, more devices per-household, self-driving cars, car insurance analytics, & developing countries coming online suck up bandwidth we don’t have.
-
-## UNIVERSAL WEB CRYPTOGRAPHY ([SODIUM-NATIVE](https://github.com/sodium-friends/sodium-native))
+<h5><a href="https://github.com/sodium-friends/sodium-native">CRYPTOGRAPHY</a></h5>
 
 -   Key Signatures
     -   Single-part signature: Ed25519
@@ -80,10 +142,6 @@
         -   X25519 – Ephemeral Key Pair
             -   Computes a secret shared between the sender and receiver, using the sender’s secret key and the receiver’s public key (or vice versa)
 
-## HYBRID NETWORK
-
-![Sentivate Hybrid Network](https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png)
-
 ## PROTOCOL
 
 ### Universal Data Stream Protocol
@@ -91,10 +149,6 @@
 ###### Data Transport Protocol
 
 UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol.
-
-##### The Problem
-
-As mentioned in the introduction: User’s demands have changed and our requirements of the web have grown. These changes make HTTP a major bottleneck. The HTTP standard itself and TCP are both huge issues. Large data centers moving copious amounts of data from one end-point to the other have latency and cost issues associated with outdated Internet architecture. HTTP is especially problematic when users are experiencing low throughput, limited bandwidth, degraded network connectivity, or requiring a near real-time response.
 
 ##### The Solution
 
