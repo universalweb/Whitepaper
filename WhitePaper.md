@@ -142,23 +142,20 @@
         -   X25519 – Ephemeral Key Pair
             -   Computes a secret shared between the sender and receiver, using the sender’s secret key and the receiver’s public key (or vice versa)
 
-## PROTOCOL
+<br />
+<h5>PROTOCOL</h5>
 
-### Universal Data Stream Protocol
+<h6>Universal Data Stream Protocol- <small>(UDSP)</small></h6>
 
-###### Data Transport Protocol
+<p><b>UDSP is a UDP based low-latency, real-time, bi-directional, encryption enforced, and reliable Data Transport Protocol.</b></p>
 
-UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol.
+<p>The first step in the construction of the Universal Web is to replace HTTP entirely with UDSP. On the Universal Web all communication, streaming, or transferring of any type of data utilizes UDSP. When visiting a site on the Universal Web UDSP is the protocol used instead of HTTP. Specific UDSP client and server modules are required to visit or host a website on the Sentivate Network. UDSP is the foundation and blood cells of the Universal Web.</p>
 
-##### The Solution
+<p>UDSP is capable of dynamic reliability on a connection level, or on a per-request basis which is agreed upon between the involved parties. Unlike HTTP, UDSP enforces encryption which means all UDSP connections are encrypted by default, no exceptions. UDSP supports IPv6, Multiplexing,  Multihoming, and perfect-forward-secrecy.</p>
 
-The first step in the construction of the Universal Web is to replace HTTP entirely with UDSP. UDSP is a UDP based low-latency, real-time, bi-directional, encrypted, and reliable Data Transport Protocol. On the Universal Web all communication, streaming, or transferring of any type of data utilizes UDSP. When visiting a site on the Universal Web UDSP is the protocol used instead of HTTP. Specific UDSP client and server modules are required to visit or host a website on the Sentivate Network. UDSP is the foundation and life blood of the Sentivate Network.
+<p>UDSP is conceptually a merger of functionality and use that you would find in HTTP & Websockets. UDSP is designed to be kept open for the life cycle of the app and requests are to be sent over that one singular connection. Since connections are bi-directional streams and less chatty this makes the network less clogged and ensures low-latency for the livelihood of the connection. UDSP is far less chatty than HTTP and can be programmatically set to adjust it's own reliability standards. This makes UDSP a highly useful protocol where high-throughput, low-latency, and high reliability are required. Due to UDSP's programmatically dynamic nature, it's efficacious in situations of highly variable and or degraded network connectivity.</p>
 
-UDSP is capable of dynamic reliability on a connection level, or on a per-request basis which is agreed upon between the involved parties. UDSP enforces encryption which means all UDSP connections are encrypted by default, no exceptions. UDSP supports IPv6, Multiplexing, and Multihoming. UDSP relies on cryptographic keypairs and XChaCha20 to establish a connection.
-
-UDSP prioritizes the real-time web and Dispersed Computing. Since connections are bi-directional streams and less chatty this makes the network less clogged and ensures low-latency for the livelihood of the connection. UDSP is far less chatty than HTTP and can be programmatically set to adjust it's own reliability standards. This makes UDSP a highly useful protocol where high-throughput, low-latency, and high reliability are required. Due to UDSP's programmatically dynamic nature, it's efficacious in situations of highly variable and or degraded network connectivity.
-
-UDSP has optional puzzles included in the packets which allow providers and solvers to earn VIAT. Puzzles can vary and thus the puzzles are a Dynamic-Proof-of-Work. The puzzles may be encapsulated or point to data that is required for solving the puzzle. This functionality will be described in the next white paper for VIAT. The puzzles also function as congestion control and a way to limit the potential damages from DDOS attacks. Sentivate turns a typical DDOS attack into profit by the introduction of various puzzle types into packets. When a client solves the served puzzle the client and domain are credited by the network with Viat. If a server is under DDOS attack then the server can dynamically change the reward split up-to 100% for the domain. This ensures the attackers suffer more financial loss and have little to gain. Puzzles ensure that both parties have an incentive to act in good faith.
+<p>UDSP has optional puzzles included in the packets which allow providers and solvers to earn VIAT. Puzzles can vary and thus the puzzles are a Dynamic-Proof-of-Work. The puzzles may be encapsulated or point to data that is required for solving the puzzle. This functionality will be described in the next white paper for VIAT. The puzzles also function as congestion control and a way to limit the potential damages from DDOS attacks. Sentivate turns a typical DDOS attack into profit by the introduction of various puzzle types into packets. When a client solves the served puzzle the client and domain are credited by the network with Viat. If a server is under DDOS attack then the server can dynamically change the reward split up-to 100% for the domain. This ensures the attackers suffer more financial loss and have little to gain. Puzzles ensure that both parties have an incentive to act in good faith.</p>
 
 ![CLIENT CONNECTION](https://sentivate.com/wp-content/uploads/2018/09/DISHyrbid.png)
 
