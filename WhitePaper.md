@@ -2,13 +2,13 @@
 <p align="center">
 <img src="https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png">
 </p>
-<h3 align="center">UNIVERSAL WEB REPUBLIC (UWR)</h3>
-<h6 align="center">WHITE PAPER</h6>
+<h2 align="center">UNIVERSAL WEB REPUBLIC (UWR)</h2>
 <hr />
-<h6 align="center">UNIVERSAL WEB (UW)</h6>
-<hr /> 
-<h5>INTRODUCTION</h5>
+<h2 align="center">WHITE PAPER</h2>
+<hr />
+<h3 align="center">INTRODUCTION</h3>
 
+<h5>THE UNIVERSAL WEB (UW)</h5>
 <p>The Universal Web is the Web re-imagined. We have come to expect much of the Web from features it never had, weren't intended to have, and to a scale far beyond what it was initially designed for. The UW is built to be a viable & realistic replacement for the modern Web in every way and then some.</p>
 
 <p>The UW addresses the following issues directly: bandwidth crisis, outdated protocols, broken DNS, lack of accountability, lack of identity, reactive security, Domain rules, and web categorization.</p>
@@ -70,7 +70,7 @@
     </li>
 </ul>
 
-<h6>TECH DEBT - <small>SLOW SPEEDS BIG IMPLICATIONS</small></h6>
+<h4>TECH DEBT - <small>SLOW SPEEDS BIG IMPLICATIONS</small></h4>
 
 <p>HTTP & DNS were built a long time ago without the consideration of modern demands in mind. More and more bandwidth is being sucked up, HTTP continues to show its long known scalability issues, and DNS is lacking in security, performance, scalability, and features. If half of the web can be shut down from DoS-ing specific DNS servers there's an obvious architectural limitation. HTTPS is the current vehicle for our global economy it's essentially the armored car of the Web. The entire digital economy relies on and is transported over HTTPS any modifications to it will result in a change to the economy on a global scale. Any slowing down to the primary components of the Web, (HTTP & DNS), results in missed opportunities or stagnant economic growth across the planet especially in first world countries. DNS & HTTP limit the Web's potential, hinder scalability, are dreadfully slow compared to modern options, lack modern features, negate the ability to redesign core functionality, eat up bandwidth, and cost consumers & businesses billions. There are a plethora of issues and if we don't begin to address them we'll begin to experience an extremely degraded Web experience and at worse rapid economic stagnation. When you factor in all the dollar signs and worse case scenarios one soon realizes that ignoring the Web's shortcomings could result in a global humanitarian crisis for first world nations. There's a lot riding on the Web and when the Web suffers it has a ripple effect that affects us all.</p>
 
@@ -82,18 +82,20 @@
 
 <br/>
 
-<h5>WEB 3.0 ISN'T THE ANSWER <small> - The Universal Web is.</small></h5>
+<h4>WEB 3.0 ISN'T THE ANSWER <small> - The Universal Web is.</small></h4>
 <p>As apposed to all solely decentralized blockchain based Webs typically referred to as "Web 3.0" or "Web3" the UW seeks to be a truly capable replacement and an ideological one. The UW isn't just a replacement in terms of offering the same functionality but in the true sense of the word. It's a revolutionary replacement capable of outperforming the modern Web using the exact same hardware. The UW doesn't require decentralized consensus as it's truly decentralized by default as is the Web today. A site on the Web today isn't contained in a centralized way much like a Web3 is contained by the rules and laws of the blockchain, network, or consensus algorithm.</p>
 
 <p>We'll summarize one of the core issues of Web3 with a simple logical assertion. Those in physics may appreciate or understand this more so than others. The shortest distance is a straight line between two points. From point A to B is much faster than having to stop midway to B and run a decentralized consensus process. The point is additional processing is always required in order to complete the most basic of requests. The additional step which is required in the Web 3.0 lanscape will always yield a slower result than what the Universal Web does. The UW provides you and the destination the freedom to communicate and operate on your own accord.</p>
 
 <p>We know that the global economy requires a performant & inexpensive web. If a solely decentralized web replaced the modern web, then it would accelerate the bandwidth crisis and bring us to a dystopian web. The term Web 3.0 is not a magic globe, a revolutionary idea, or a solution; it's a cash grab. Trades are happening in nanoseconds the global economy doesn't have time to wait seconds or minutes for a block time to verify and then propagate through the network. A replacement for the web shouldn't be slower and more expensive for consumers. Web 3.0 costs more and they like to hide behind things like it's all on-chain and costs very little to launch an app. The reality is, you get what you pay for. Web 3.0 offsets costs to users instead of the services, which also results in a poorer service. Another common argument is to allow users to control their data. That's no problem, say hello to homomorphic encryption. Instead of tackling this issue from just topology, we need to innovate in every aspect of the web and ask more from our web services. The web's topology problem is minor compared to it's outdated technology problem. If these Web 3.0 projects actually cared about changing the web they would focus on the actual issues.</p>
+<br />
 
-<b>How the World Wide Web & Universal Web Work <small>(FASTER)</small></b>
-<code>REQUEST => EXPECTED PROCESSING => REALITY</code>
+<b>How the World Wide Web & Universal Web Work <small>(FASTER)</small></b><br />
+<code>REQUEST => EXPECTED PROCESSING => REALITY</code><br />
 
-<b>How the "Web 3.0" Space Works <small>(SLOWER)</small></b>
-<code>REQUEST => CONSENSUS ALGORITHM => EXPECTED PROCESSING => REALITY</code>
+<b>How the "Web 3.0" Space Works <small>(SLOWER)</small></b><br />
+<code>REQUEST => CONSENSUS ALGORITHM => EXPECTED PROCESSING => REALITY</code><br />
+<br />
 
 <p>Web3's are limited to the design of their blockchain, decentralized topology, node capacity, and consensus algorithm. An important feature is missing from the Web3 lanscape and that's primarily freedom. The freedom to design an application and service that relies on one's own resources is entirely lacking in the Web3 world. Another feature that is lacking because it breaks the blockchain is deletion. Another missing feature which defeats the purpose of such Web3 network's principles and intentions is censorship or blacklisting. In the Web3s of today apps must be restricted to or confined to the networks blockchain, consensus algorithm, and rules. Essentially applications are limited by the rules of the network itself. Whereas in a Web based on equal opportunity rather than equal outcome such as the World Wide Web &  Universal Web applications are only limited by their own resources. Resources which they directly own, control, or freely participate in.</p>
 
@@ -101,14 +103,14 @@
 
 <hr/>
 
-<h4>TECHNOLOGY</h4>
+<h3 align="center">TECHNOLOGY</h3>
 
 <br/>
 
-<h5>EXPANDED TOPOLOGY</h5>
+<h4>EXPANDED TOPOLOGY</h4>
 <p>From a topology standpoint the UW is a hybrid web (centralized focused but enhanced by decentralized components). The network is designed to go beyond the capabilities that any solely centralized or decentralized network could offer. Centralized components provide early protections and ensure equal or better performance than the WWW. The WWW doesn't provide a unified way to take advantage of decentralized technology that can enhance its core functions. DNS is an existing function which can take advantage of decentralized technology to expand availability and increase performance. A new decentralized feature is the delivery of typical static Web assets via a Web wide decentralized CDN. Allowing all of the Web to participate is key to adoption and expantion. These decentralized options can be taken advantage of based on the client's and the service's discretion.</p>
 
-<h6>TLDR; Both topologies have their use cases but together they're a solution.</h6>
+<h5>TLDR; Both topologies have their use cases but together they're a solution for the Web.</h5>
 
 <br />
 
@@ -121,7 +123,11 @@
 
 <br />
 
-<h5><a href="https://github.com/sodium-friends/sodium-native">CRYPTOGRAPHY</a></h5>
+<img src="https://sentivate.com/wp-content/uploads/2018/09/DISHyrbid.png" />
+
+<br />
+
+<h4><a href="https://github.com/sodium-friends/sodium-native">CRYPTOGRAPHY</a></h4>
 
 -   Key Signatures
     -   Single-part signature: Ed25519
@@ -143,9 +149,9 @@
             -   Computes a secret shared between the sender and receiver, using the sender’s secret key and the receiver’s public key (or vice versa)
 
 <br />
-<h5>PROTOCOL</h5>
+<h4>PROTOCOL</h4>
 
-<h6>Universal Data Stream Protocol- <small>(UDSP)</small></h6>
+<h5>UNIVERSAL DATA STREAM PROTOCOL - <small>(UDSP)</small></h5>
 
 <p><b>UDSP is a UDP based low-latency, real-time, bi-directional, encryption enforced, and reliable Data Transport Protocol.</b></p>
 
@@ -153,49 +159,64 @@
 
 <p>UDSP is capable of dynamic reliability on a connection level, or on a per-request basis which is agreed upon between the involved parties. Unlike HTTP, UDSP enforces encryption which means all UDSP connections are encrypted by default, no exceptions. UDSP supports IPv6, Multiplexing, Multihoming, and perfect-forward-secrecy.</p>
 
-<p>UDSP is conceptually a merger of the functionality you'd expect from HTTP & Websockets. UDSP is designed to be kept open for the life cycle of the app and requests are to be sent over that one singular connection. Since connections are bi-directional streams and less chatty this makes the network less clogged and ensures low-latency for the livelihood of the connection. UDSP is far less chatty than HTTP and can be programmatically set to adjust it's own reliability standards. This makes UDSP a highly useful protocol where high-throughput, low-latency, and high reliability are required. Due to UDSP's programmatically dynamic nature, it's efficacious in situations of highly variable and or degraded network connectivity.</p>
+<p>UDSP is conceptually a merger of the functionality you'd expect from HTTP & Websockets. UDSP is designed to be kept open for the life cycle of the app and requests are to be sent over that one singular connection. Since connections are bi-directional streams and less chatty this conserves bandwidth and ensures low-latency for the livelihood of the connection. UDSP is far less chatty than HTTP and can be programmatically set to adjust it's own reliability standards. This makes UDSP a highly useful protocol where high-throughput, low-latency, and high reliability are required. Due to UDSP's programmatic dynamic nature, it's efficacious in situations of highly variable and or degraded network connectivity.</p>
 
 <p>UDSP has optional puzzles included in the packets which allow providers and solvers to earn VIAT. Puzzles can vary and thus the puzzles are a Dynamic-Proof-of-Work. The puzzles may be encapsulated or point to data that is required for solving the puzzle. This functionality will be described in the next white paper for VIAT. The puzzles also function as congestion control and a way to limit the potential damages from DDOS attacks. Sentivate turns a typical DDOS attack into profit by the introduction of various puzzle types into packets. When a client solves the served puzzle the client and domain are credited by the network with Viat. If a server is under DDOS attack then the server can dynamically change the reward split up-to 100% for the domain. This ensures the attackers suffer more financial loss and have little to gain. Puzzles ensure that both parties have an incentive to act in good faith.</p>
 
-![CLIENT CONNECTION](https://sentivate.com/wp-content/uploads/2018/09/DISHyrbid.png)
+<br />
 
-## UNIVERSAL DOMAIN SYSTEM
+<h4>UNIVERSAL DOMAIN SYSTEM</h4>
 
-### DOMAIN CERTIFICATES
+<h5>DOMAIN CERTIFICATES</h5>
 
-###### ROUTING & CRYPTOGRAPHIC PARAMETERS
+<br />
 
-Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, and an authorized Domain Registrar. In order to establish a successful handshake, the domain certificate and a valid signature is required.
+<h5>ROUTING & CRYPTOGRAPHIC PARAMETERS</h5>
 
-The domain's ephemeral certificate also acts as a wallet which stores funds for any puzzles it distributes to clients. A portion of the mined Viat is sent to the ephemeral certificates wallet address.
+<p>Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, and an authorized Domain Registrar. In order to establish a successful handshake, the domain certificate and a valid signature is required.</p>
 
-### DOMAIN REGISTRAR
+<p>The domain's ephemeral certificate also acts as a wallet which stores funds for any puzzles it distributes to clients. A portion of the mined Viat is sent to the ephemeral certificates wallet address.</p>
 
-###### UPLOAD & SIGN DOMAIN CERTIFICATES
+<br />
 
-The Domain Registrar, (DR), is used to register a domain and manage a domain's public certificate. The DR validates & signs the public certificates associated with the hostname. The DR then passes the certificate to the Domain Information System which stores the certificate for distribution.
+<h5>DOMAIN REGISTRAR</h5>
 
-### DOMAIN INFORMATION SYSTEM
+<br />
 
-###### QUERY DOMAIN ROUTING AND CRYPTOGRAPHY
+<h5>UPLOAD & SIGN DOMAIN CERTIFICATES</h5>
 
-The Domain Information System, (DIS), returns domain-specific information in the form of a domain certificate from human-readable hostnames. The DIS returns the domain’s certificate which includes cryptographic details & routing information. By including the hostnames cryptography along with routing information, 0-RTT is possible without requiring the client to have visited the domain prior. This is a unique advantage over TLS 1.3 in that 0-RTT is available by default where as in TLS 1.3 one would need to have visited the site prior. Before clients connect to a website they must first query the DIS with a human-readable hostname. The DIS has centralized servers and a decentralized network to provide clients with the fastest possible way to access domain certificates.
+<p>The Domain Registrar, (DR), is used to register a domain and manage a domain's public certificate. The DR validates & signs the public certificates associated with the hostname. The DR then passes the certificate to the Domain Information System which stores the certificate for distribution.</p>
 
-The DIS acts as another layer of defence from malicious certificate related attacks. When invalid certificates are used to request information from the DIS to go to a service the DIS simply denys returning a response.
+<br />
 
-The decentralized nodes providing domain certificates have a chance to earn Viat through their services. This functionality will be covered in-depth with the Viat white paper.
+<h5>DOMAIN INFORMATION SYSTEM</h5>
+
+<br />
+
+<h5>QUERY DOMAIN ROUTING AND CRYPTOGRAPHY</h5>
+
+<p>The Domain Information System, (DIS), returns domain-specific information in the form of a domain certificate from human-readable hostnames. The DIS returns the domain’s certificate which includes cryptographic details & routing information. By including the hostnames cryptography along with routing information, 0-RTT is possible without requiring the client to have visited the domain prior. This is a unique advantage over TLS 1.3 in that 0-RTT is available by default where as in TLS 1.3 one would need to have visited the site prior. Before clients connect to a website they must first query the DIS with a human-readable hostname. The DIS has centralized servers and a decentralized network to provide clients with the fastest possible way to access domain certificates.</p>
+
+<p>The DIS acts as another layer of defence from malicious certificate related attacks. When invalid certificates are used to request information from the DIS to go to a service the DIS simply denys returning a response.</p>
+
+<p>The decentralized nodes providing domain certificates have a chance to earn Viat through their services. This functionality will be covered in-depth with the Viat white paper.</p>
 
 ![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
 
-### DOMAINS
+<br />
 
-###### HUMAN READABLE HOSTNAMES
+<h5>DOMAINS</h5>
 
-Domains on Sentivate have full extension names and can have single full names for trademarked entities. The domain rules and regulations are designed to organize the web, free up domain names for new companies, protect trademarks, limit malicious activity, and make extensions more descriptive.
+<br />
 
-For example, one can navigate to Amazon by simply typing Amazon into the Sentivate browser. Domain rules are stricter on the Sentivate network. Domain squatting is entirely disallowed, there is a use it or lose it policy. Domain content or service must be relevant to the domain extension. For example, Amazon's store must use the store domain extension, "Amazon.store". There are shorthand domain extensions available for certain domains. For example, Amazon's company website must utilize the company extension, Amazon.company or the shorthand variant Amazon.com. Bitcoin, Ethereum, and Litecoin are cryptocurrencies and sites dedicated to them must use the cryptocurrency extension. However, a news site related to say bitcoin must use the .news and or .blog extension. Any domain that may have random and or arbitrary content must use the .abstract extension.
+<h5>HUMAN READABLE HOSTNAMES</h5>
 
-## UNIVERSAL IDENTITY SYSTEM
+<p>Domains on Sentivate have full extension names and can have single full names for trademarked entities. The domain rules and regulations are designed to organize the web, free up domain names for new companies, protect trademarks, limit malicious activity, and make extensions more descriptive.</p>
+
+<p>For example, one can navigate to Amazon by simply typing Amazon into the Sentivate browser. Domain rules are stricter on the Sentivate network. Domain squatting is entirely disallowed, there is a use it or lose it policy. Domain content or service must be relevant to the domain extension. For example, Amazon's store must use the store domain extension, "Amazon.store". There are shorthand domain extensions available for certain domains. For example, Amazon's company website must utilize the company extension, Amazon.company or the shorthand variant Amazon.com. Bitcoin, Ethereum, and Litecoin are cryptocurrencies and sites dedicated to them must use the cryptocurrency extension. However, a news site related to say bitcoin must use the .news and or .blog extension. Any domain that may have random and or arbitrary content must use the .abstract extension.</p>
+
+<br />
+<h4>UNIVERSAL IDENTITY SYSTEM</h4>
 
 ### IDENTITY CERTIFICATES
 
