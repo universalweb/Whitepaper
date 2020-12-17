@@ -1,6 +1,6 @@
 <h1 align="center">SENTIVATE</h1>
 <p align="center">
-<img src="https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png">
+<img src="https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png" />
 </p>
 <h2 align="center">UNIVERSAL WEB REPUBLIC (UWR)</h2>
 <hr />
@@ -74,6 +74,7 @@
 
 <p>HTTP & DNS were built a long time ago without the consideration of modern demands in mind. More and more bandwidth is being sucked up, HTTP continues to show its long known scalability issues, and DNS is lacking in security, performance, scalability, and features. If half of the web can be shut down from DoS-ing specific DNS servers there's an obvious architectural limitation. HTTPS is the current vehicle for our global economy it's essentially the armored car of the Web. The entire digital economy relies on and is transported over HTTPS any modifications to it will result in a change to the economy on a global scale. Any slowing down to the primary components of the Web, (HTTP & DNS), results in missed opportunities or stagnant economic growth across the planet especially in first world countries. DNS & HTTP limit the Web's potential, hinder scalability, are dreadfully slow compared to modern options, lack modern features, negate the ability to redesign core functionality, eat up bandwidth, and cost consumers & businesses billions. There are a plethora of issues and if we don't begin to address them we'll begin to experience an extremely degraded Web experience and at worse rapid economic stagnation. When you factor in all the dollar signs and worse case scenarios one soon realizes that ignoring the Web's shortcomings could result in a global humanitarian crisis for first world nations. There's a lot riding on the Web and when the Web suffers it has a ripple effect that affects us all.</p>
 
+<h6>SOURCES</h6>
 <ul>
     <li><a href="https://www.fastcompany.com/1825005/how-one-second-could-cost-amazon-16-billion-sales">A one second delay could cost Amazon 1.6BB in sales.</a></li>
     <li><a href="https://www.gigaspaces.com/blog/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/">“10 years ago, Amazon found that every 100ms of latency cost them 1% in sales”</a></li>
