@@ -6,10 +6,10 @@
 <h6 align="center">WHITE PAPER</h6>
 <hr />
 <h6 align="center">UNIVERSAL WEB (UW)</h6>
-<hr />
+<hr /> 
 <h5>INTRODUCTION</h5>
 
-<p>The Universal Web is the Web reimagined. We have come to expect much of the Web from features it never had, weren't intended to have, and to a scale far beyond what it was initially designed for. The UW is built to be a viable & realistic replacement for the modern Web in every way and then some.</p>
+<p>The Universal Web is the Web re-imagined. We have come to expect much of the Web from features it never had, weren't intended to have, and to a scale far beyond what it was initially designed for. The UW is built to be a viable & realistic replacement for the modern Web in every way and then some.</p>
 
 <p>The UW addresses the following issues directly: bandwidth crisis, outdated protocols, broken DNS, lack of accountability, lack of identity, reactive security, Domain rules, and web categorization.</p>
 
@@ -22,7 +22,7 @@
 
 <p>We predicted this crisis would occur and then COVID happened. COVID proved that the Web is already close to a breaking point due to the massive stress placed on the Internet from more users sucking up tremendous amounts of bandwidth. COVID proved the bandwidth crisis is very real and right around the corner. We said the bandwidth crisis was a very real concern from the very beginning.</p>
 
-<p>What we are building is the only true option left less we run the risk of economic stagnation, speed lanes, data prioritization, unusable slow performance, and extremely high fees. Imagine a first world nation with a class structure predicated upon Web access. Some will be granted usable fast Web access while others will be forced to pay crushing fees or endure extremely limited access. With the economy, job market, government, and society becoming increasingly dependent upon a fast cheap open Web any access limitations could be disastrous for average people.</p>
+<p>What we are building is the only true option left less we run the risk of economic stagnation, speed lanes, data prioritization, unusable slow performance, and extremely high fees. Imagine a first world nation with a class structure predicated upon Web access. Some will be granted usable fast Web access while others will be forced to pay crushing fees or endure extremely limited access. The economy, job market, government, and society is becoming increasingly dependent upon a fast, cheap, & open Web. Any Web access limitations could be disastrous for average people.</p>
 
 <h6>SOURCES</h6>
 <ul>
@@ -95,11 +95,9 @@
 <b>How the "Web 3.0" Space Works <small>(SLOWER)</small></b>
 <code>REQUEST => CONSENSUS ALGORITHM => EXPECTED PROCESSING => REALITY</code>
 
-<p>Web3's are limited to the design of their blockchain, decentralized topology, node capacity, and consensus algorithm. An important feature is missing from the Web3 lanscape and that's primarily freedom. The freedom to design an application and service that relies on one's own resources is entirely lacking in the Web3 world. Another feature that is lacking because it breaks the blockchain is deletion. Another missing feature which defeats the purpose of such Web3 network's principles and intentions is censorship or blacklisting. In the Web3s of today apps must be restricted to or confined to the networks blockchain, consensus algorithm, and rules. Essentially applications are limited by the rules of the network itself. Whereas in a Web based on equal opportunity rather than equal outcome such as the World Wide Web & the Universal Web applications are only limited by their own resources. Resources which they directly own, control, or freely participate in.</p>
+<p>Web3's are limited to the design of their blockchain, decentralized topology, node capacity, and consensus algorithm. An important feature is missing from the Web3 lanscape and that's primarily freedom. The freedom to design an application and service that relies on one's own resources is entirely lacking in the Web3 world. Another feature that is lacking because it breaks the blockchain is deletion. Another missing feature which defeats the purpose of such Web3 network's principles and intentions is censorship or blacklisting. In the Web3s of today apps must be restricted to or confined to the networks blockchain, consensus algorithm, and rules. Essentially applications are limited by the rules of the network itself. Whereas in a Web based on equal opportunity rather than equal outcome such as the World Wide Web &  Universal Web applications are only limited by their own resources. Resources which they directly own, control, or freely participate in.</p>
 
-<p>The entirety of the "crypto" Web3 space consists of the polar opposite of what we are building. Because Web3 requires an additional process to form consensus regardless of how complex, fast, simple, or what advancements it makes in the future the fact that it exists means it will always take more time to complete a request in a Web3 world compared to the design of the modern World Wide Web or in our case the Universal Web. This is a huge error in rational thinking and clear and obvious logic that dictates that no such replacement should ever exist. Unless we are under tyrannical rule, have no care for speed, nor care for cost, and are being unilaterally censored there is no reason to replace the current topology with a solely blockchain decentralized based Web.</p>
-
-<h6>TLDR; Both topologies have their use cases but together they're a solution to an ever growing problem that has gone unchecked.</h6>
+<p>The entirety of the "crypto" Web3 space consists of the polar opposite of what we are building. Because Web3 requires an additional process to form consensus regardless of how complex, fast, simple, or what advancements it makes in the future the fact that it exists means it will always take more time to complete a request in a Web3 world compared to the design of the modern World Wide Web or in our case the Universal Web. This is a huge error in rational and logical thinking that dictates that no such replacement should ever take place that involves Web3 replacing the WWWW. Unless we are under tyrannical rule, have no care for speed, nor care for cost, and are being unilaterally censored there is no reason to replace the current topology with a solely blockchain decentralized based Web.</p>
 
 <hr/>
 
@@ -110,6 +108,8 @@
 <h5>EXPANDED TOPOLOGY</h5>
 <p>From a topology standpoint the UW is a hybrid web (centralized focused but enhanced by decentralized components). The network is designed to go beyond the capabilities that any solely centralized or decentralized network could offer. Centralized components provide early protections and ensure equal or better performance than the WWW. The WWW doesn't provide a unified way to take advantage of decentralized technology that can enhance its core functions. DNS is an existing function which can take advantage of decentralized technology to expand availability and increase performance. A new decentralized feature is the delivery of typical static Web assets via a Web wide decentralized CDN. Allowing all of the Web to participate is key to adoption and expantion. These decentralized options can be taken advantage of based on the client's and the service's discretion.</p>
 
+<h6>TLDR; Both topologies have their use cases but together they're a solution.</h6>
+
 <br />
 
 <img align="center" src="https://sentivate.com/wp-content/uploads/2018/09/hyrbidNetworkTopology.png">
@@ -117,7 +117,7 @@
 <p align="center">THE BEST OF BOTH</p>
 <br />
 
-<p>The WWW doesn't provide a unified way to take advantage of decentralized technology that can enhance its core functions. DNS is an existing function which can take advantage of decentralized technology to expand availability and increase performance. Delivery of typical static Web assets require a unified decentralized CDN so that all of the Web can participate. These decentralized options can be incentivized by introducing a native integrated cryptocurrency hence Viat. By expanding the Web's topology to incorporate a hybrid approach it can take advantage of the features that come along with such networks yet it can also remain impervious to the downsides of it because it isn't reliant on them. Although the attack surface increases this allows clients and services to simply gravitate or lean on the centralized or decentralized varieties of individual components.</p>
+<p>The WWW doesn't provide a unified way to take advantage of decentralized technology which can enhance its core functions. DNS is an existing function which can take advantage of decentralized technology to expand availability and increase performance. Delivery of typical static Web assets require a unified decentralized CDN so that all of the Web can participate. These decentralized options can be incentivized by introducing a native integrated cryptocurrency hence Viat. By expanding the Web's topology to incorporate a hybrid approach it can take advantage of the features that come along with such networks yet it can also remain impervious to the downsides of it because it isn't reliant on them. Although the attack surface increases this allows clients and services to simply gravitate or lean on the centralized or decentralized varieties of individual components. Allowing them to remain operational in more scenarios while operating at the best possible performance.</p>
 
 <br />
 
@@ -151,7 +151,7 @@
 
 <p>The first step in the construction of the Universal Web is to replace HTTP entirely with UDSP. On the Universal Web all communication, streaming, or transferring of any type of data utilizes UDSP. When visiting a site on the Universal Web UDSP is the protocol used instead of HTTP. Specific UDSP client and server modules are required to visit or host a website on the Sentivate Network. UDSP is the foundation and blood cells of the Universal Web.</p>
 
-<p>UDSP is capable of dynamic reliability on a connection level, or on a per-request basis which is agreed upon between the involved parties. Unlike HTTP, UDSP enforces encryption which means all UDSP connections are encrypted by default, no exceptions. UDSP supports IPv6, Multiplexing,  Multihoming, and perfect-forward-secrecy.</p>
+<p>UDSP is capable of dynamic reliability on a connection level, or on a per-request basis which is agreed upon between the involved parties. Unlike HTTP, UDSP enforces encryption which means all UDSP connections are encrypted by default, no exceptions. UDSP supports IPv6, Multiplexing, Multihoming, and perfect-forward-secrecy.</p>
 
 <p>UDSP is conceptually a merger of the functionality you'd expect from HTTP & Websockets. UDSP is designed to be kept open for the life cycle of the app and requests are to be sent over that one singular connection. Since connections are bi-directional streams and less chatty this makes the network less clogged and ensures low-latency for the livelihood of the connection. UDSP is far less chatty than HTTP and can be programmatically set to adjust it's own reliability standards. This makes UDSP a highly useful protocol where high-throughput, low-latency, and high reliability are required. Due to UDSP's programmatically dynamic nature, it's efficacious in situations of highly variable and or degraded network connectivity.</p>
 
