@@ -246,7 +246,7 @@
 
 <h3>hApps</h3>
 
-###### HYBRID UNIVERSAL WEB APPS
+<h3>HYBRID UNIVERSAL WEB APPS</h3>
 
 Hybrid apps are self-constructing, streaming single-page-applications. Hybrid apps are built using reactive, dynamic, and modular development methodologies. hApps have all the benefits of centralized & decentralized networks ensuring the highest scalability potential.
 
