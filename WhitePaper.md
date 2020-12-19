@@ -219,9 +219,9 @@
 <br />
 <h4>UNIVERSAL IDENTITY SYSTEM</h4>
 
-### IDENTITY CERTIFICATES
+<h3>IDENTITY CERTIFICATES</h3>
 
-###### EPHEMERAL & MASTER KEY PAIRS
+<h3>EPHEMERAL & MASTER KEY PAIRS</h3>
 
 Identity certificates, (IC), are documents which provide cryptographic details that represent you on the network and are signed by a Identity Registrar. An identity certificate has two cryptographic key pairs: Master and Ephemeral. A master key pair is used specifically for signing ephemeral certificates and is the core identifying key pair. Ephemeral key pairs can be replaced at the owner's discretion. Identity certificates cryptographically authenticate & authorize clients on the network.
 
@@ -233,9 +233,8 @@ Identity certificates form the basis for a decentralized reputation system, whic
 
 Identity certificates can be linked to real world identities and assets. Making Sentivate an ideal platform for secure, private, and verifiable voting in elections. Stores and companies can have verified ICs which allow users to directly pay or donate through Viat.
 
-### IDENTITY REGISTRAR
-
-###### VALIDATE AND SIGN
+<h3>IDENTITY REGISTRAR</h3>
+<h3>VALIDATE AND SIGN</h3>
 
 The Identity Registrar, (IR), is a service which signs certificates & is the first layer of protection for the network. The IR protects the network by filtering faulty certificates, stopping Sybil attacks, and nefarious actors. The Identity Registrar ensures malicious certificates aren’t signed which allows services to efficiently deny their connection attempts. False signatures can be denied by the DIS and therefore potentially protect a service and save some of its resources before hand.
 
@@ -243,9 +242,9 @@ A decentralized network and acyclic blockchain will be leveraged to help validat
 
 Active certificates will continually be updated and signed. When a certificate is re-signed, another field is added to the certificate which shows the elapsed time since the previous signing of the certificate. This provides services with an extra layer of trust for certain certificates.
 
-## DEVELOPMENT
+<h4>DEVELOPMENT</h4>
 
-### hApps
+<h3>hApps</h3>
 
 ###### HYBRID UNIVERSAL WEB APPS
 
