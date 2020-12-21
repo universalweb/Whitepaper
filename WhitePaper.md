@@ -128,31 +128,7 @@
 
 <br />
 
-<h4><a href="https://github.com/sodium-friends/sodium-native">CRYPTOGRAPHY</a></h4>
-
--   Key Signatures
-    -   Single-part signature: Ed25519
-    -   Multi-part signature: Ed25519ph
--   Packet Encryption
-    -   Authenticated Encryption with Additional Data
-    -   Encrypts a message with a key and a nonce to keep it confidential
-    -   Computes an authentication tag. This tag is used to make sure that the message, as well as optional, non-confidential (non-encrypted) data, haven’t been tampered with.
-    -   Encryption: XChaCha20 stream cipher
-    -   Authentication: Poly1305 MAC
--   Hashing - BLAKE2b - Standardized (RFC 7693) secure hash function that is as strong as SHA-3 but faster than SHA-1 and MD5.
-    Unlike MD5, SHA-1 and SHA-256, this function is safe against hash length extension attacks.
--   Key exchange – Shared Session Secret Keys
-    -   16(MIN), 32 DEFAULT, 64(MAX) BYTES RANGE
-        -   BLAKE2B-512
-            -   BLAKE2 is a cryptographic hash function **faster than MD5, SHA-1, SHA-2, and SHA-3**, yet is at least as secure as the latest standard SHA-3
-            -   Optimized for 64-bit platforms—including NEON-enabled ARMs—and produces digests of any size between 1 and 64 bytes
-        -   X25519 – Ephemeral Key Pair
-            -   Computes a secret shared between the sender and receiver, using the sender’s secret key and the receiver’s public key (or vice versa)
-
-<br />
-<h4>PROTOCOL</h4>
-
-<h5>UNIVERSAL DATA STREAM PROTOCOL - <small>(UDSP)</small></h5>
+<h4>UNIVERSAL DATA STREAM PROTOCOL - <small>(UDSP)</small></h4>
 
 <p><b>UDSP is a UDP based low-latency, real-time, bi-directional, encryption enforced, and reliable Data Transport Protocol.</b></p>
 
@@ -170,10 +146,6 @@
 
 <h5>DOMAIN CERTIFICATES</h5>
 
-<br />
-
-<h5>ROUTING & CRYPTOGRAPHIC PARAMETERS</h5>
-
 <p>Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, and an authorized Domain Registrar. In order to establish a successful handshake, the domain certificate and a valid signature is required.</p>
 
 <p>The domain's ephemeral certificate also acts as a wallet which stores funds for any puzzles it distributes to clients. A portion of the mined Viat is sent to the ephemeral certificates wallet address.</p>
@@ -181,10 +153,6 @@
 <br />
 
 <h5>DOMAIN REGISTRAR</h5>
-
-<br />
-
-<h5>UPLOAD & SIGN DOMAIN CERTIFICATES</h5>
 
 <p>The Domain Registrar, (DR), is used to register a domain and manage a domain's public certificate. The DR validates & signs the public certificates associated with the hostname. The DR then passes the certificate to the Domain Information System which stores the certificate for distribution.</p>
 
@@ -202,7 +170,8 @@
 
 <p>The decentralized nodes providing domain certificates have a chance to earn Viat through their services. This functionality will be covered in-depth with the Viat white paper.</p>
 
-![DIS](https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png)
+<br />
+<img src="https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png" />
 
 <br />
 
@@ -234,7 +203,6 @@
 <p>Identity certificates can be linked to real world identities and assets. Making Sentivate an ideal platform for secure, private, and verifiable voting in elections. Stores and companies can have verified ICs which allow users to directly pay or donate through Viat.</p>
 
 <h3>IDENTITY REGISTRAR</h3>
-<h3>VALIDATE AND SIGN</h3>
 
 <p>The Identity Registrar, (IR), is a service which signs certificates & is the first layer of protection for the network. The IR protects the network by filtering faulty certificates, stopping Sybil attacks, and nefarious actors. The Identity Registrar ensures malicious certificates aren’t signed which allows services to efficiently deny their connection attempts. False signatures can be denied by the DIS and therefore potentially protect a service and save some of its resources before hand.</p>
 
@@ -242,18 +210,40 @@
 
 <p>Active certificates will continually be updated and signed. When a certificate is re-signed, another field is added to the certificate which shows the elapsed time since the previous signing of the certificate. This provides services with an extra layer of trust for certain certificates.</p>
 
-<h4>DEVELOPMENT</h4>
+<br />
+<h4>Universal Web Apps</h4>
 
-<h3>hApps</h3>
+<p>Hybrid apps are self-constructing, streaming single-page-applications. Hybrid apps are built using reactive, dynamic, and modular development methodologies. hApps have all the benefits of centralized & decentralized networks ensuring the highest scalability potential.</p>
 
-<h3>HYBRID UNIVERSAL WEB APPS</h3>
+<p>hApps’ assets are contained in their own file and are streamed to the client on an as needed basis. hApps are streamed and built over time much like a bridge building itself as you walk across. Only one initial page load takes place and thereafter pages are dynamically built as needed similar to Single-page-apps. Only exactly when the client needs the resource is when it will be fetched and delivered.</p>
 
-Hybrid apps are self-constructing, streaming single-page-applications. Hybrid apps are built using reactive, dynamic, and modular development methodologies. hApps have all the benefits of centralized & decentralized networks ensuring the highest scalability potential.
+<p>Sentivate’s components allow for highly modular asset streaming. For example, components can share the same CSS or HTML assets which ensures shared assets are only downloaded once and the duplicate code is never sent over the wire. Server loads and bandwidth is drastically decreased with this methodology as now the client is only pulling exactly what is needed.</p>
 
-hApps’ assets are contained in their own file and are streamed to the client on an as needed basis. hApps are streamed and built over time much like a bridge building itself as you walk across. Only one initial page load takes place and thereafter pages are dynamically built as needed similar to Single-page-apps. Only exactly when the client needs the resource is when it will be fetched and delivered.
+<p>Hybrid Apps can utilize an opt-in decentralized P2P CDN for assets in addition to the destination service. Making use of a Hybrid Content Delivery Network means that hybrid apps have high availability, scalability, and more bandwidth.</p>
 
-Sentivate’s components allow for highly modular asset streaming. For example, components can share the same CSS or HTML assets which ensures shared assets are only downloaded once and the duplicate code is never sent over the wire. Server loads and bandwidth is drastically decreased with this methodology as now the client is only pulling exactly what is needed.
+<p>hApps validate, authenticate, and authorize clients automatically during the initial connection handshake. hApps backends can store and reference clients by their public key or full certificates. Think of it as oAuth for the entire Internet. Services no longer need to worry about hashing, storing, and or encrypting passwords. Clients can quickly login on the click of a button or automatically by simply connecting to the service. Users no longer need to remember or create complex passwords as using their keypair is more secure and easier to use. If services do not require you to have a username they can simply rely on your public key as your identifying name. This means that for some services users don't have to create a username and password during the registration process.</p>
 
-Hybrid Apps can utilize an opt-in decentralized P2P CDN for assets in addition to the destination service. Making use of a Hybrid Content Delivery Network means that hybrid apps have high availability, scalability, and more bandwidth.
+<br />
 
-hApps validate, authenticate, and authorize clients automatically during the initial connection handshake. hApps backends can store and reference clients by their public key or full certificates. Think of it as oAuth for the entire Internet. Services no longer need to worry about hashing, storing, and or encrypting passwords. Clients can quickly login on the click of a button or automatically by simply connecting to the service. Users no longer need to remember or create complex passwords as using their keypair is more secure and easier to use. If services do not require you to have a username they can simply rely on your public key as your identifying name. This means that for some services users don't have to create a username and password during the registration process.
+<h4><a href="https://github.com/sodium-friends/sodium-native">CRYPTOGRAPHY</a></h4>
+
+-   Key Signatures
+    -   Single-part signature: Ed25519
+    -   Multi-part signature: Ed25519ph
+-   Packet Encryption
+    -   Authenticated Encryption with Additional Data
+    -   Encrypts a message with a key and a nonce to keep it confidential
+    -   Computes an authentication tag. This tag is used to make sure that the message, as well as optional, non-confidential (non-encrypted) data, haven’t been tampered with.
+    -   Encryption: XChaCha20 stream cipher
+    -   Authentication: Poly1305 MAC
+-   Hashing - BLAKE2b - Standardized (RFC 7693) secure hash function that is as strong as SHA-3 but faster than SHA-1 and MD5.
+    Unlike MD5, SHA-1 and SHA-256, this function is safe against hash length extension attacks.
+-   Key exchange – Shared Session Secret Keys
+    -   16(MIN), 32 DEFAULT, 64(MAX) BYTES RANGE
+        -   BLAKE2B-512
+            -   BLAKE2 is a cryptographic hash function **faster than MD5, SHA-1, SHA-2, and SHA-3**, yet is at least as secure as the latest standard SHA-3
+            -   Optimized for 64-bit platforms—including NEON-enabled ARMs—and produces digests of any size between 1 and 64 bytes
+        -   X25519 – Ephemeral Key Pair
+            -   Computes a secret shared between the sender and receiver, using the sender’s secret key and the receiver’s public key (or vice versa)
+
+<br />
