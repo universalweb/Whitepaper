@@ -142,8 +142,9 @@
 
 <br />
 
-<h4>UNIVERSAL DOMAIN SYSTEM - <small>(UDS)</h4>
+<h4 align="center">UNIVERSAL DOMAIN SYSTEM - <small>(UDS)</h4>
 
+<h5>DOMAIN NAME SYSTEM</h5>
 <p>Being able to find a service with a human readable hostname is vital to the function of the Web today. The component which does this on the WWW is called DNS and the DIS on the Universal Web. DNS takes a human readable hostname for example Universal.web and returns the IP address of the end service. This allows your computer to than navigate to the requested website. You give it domain name and it gives you the ip of that domain name. Without this system the Web wouldn't be what it is today. It allows you to traverse the many services available on the Internet in a human friendly way.</p>
 
 <p>The Universal Web also provides DNS related services but is more robust. The information returned by the DIS is different compared to your typical DNS response. The DIS returns a cryptographic certificate which provides more than just routing data in order to keep the network more secure and offer more features.</p>
