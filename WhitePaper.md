@@ -128,7 +128,7 @@
 
 <br />
 
-<h4>UNIVERSAL DATA STREAM PROTOCOL - <small>(UDSP)</small></h4>
+<h4 align="center">UNIVERSAL DATA STREAM PROTOCOL - <small>(UDSP)</small></h4>
 
 <p><b>UDSP is a UDP based low-latency, real-time, bi-directional, encryption enforced, and reliable Data Transport Protocol.</b></p>
 
@@ -142,7 +142,23 @@
 
 <br />
 
-<h4>UNIVERSAL DOMAIN SYSTEM</h4>
+<h4>UNIVERSAL DOMAIN SYSTEM - <small>(UDS)</h4>
+
+<p>Being able to find a service with a human readable hostname is vital to the function of the Web today. The component which does this on the WWW is called DNS and the DIS on the Universal Web. DNS takes a human readable hostname for example Universal.web and returns the IP address of the end service. This allows your computer to than navigate to the requested website. You give it domain name and it gives you the ip of that domain name. Without this system the Web wouldn't be what it is today. It allows you to traverse the many services available on the Internet in a human friendly way.</p>
+
+<p>The Universal Web also provides DNS related services but is more robust. The information returned by the DIS is different compared to your typical DNS response. The DIS returns a cryptographic certificate which provides more than just routing data in order to keep the network more secure and offer more features.</p>
+
+<p>The Privacy of users is better on the UW compared to the WWW because the DIS has encrypted communication by default unlike DNS today. This stops people from being able to interfer with the responses coming back from a DNS server. It also stops an attacker from gathering information on what websites you're visiting. It also keeps users safe when more sophisticated DNS and BGP hijacking attacks occur. The more sophisticated attacks are prevented largely because the information returned is cryptographic in nature that being a domain certificate which ensures that users even if routed to the wrong place wouldn't be able to establish a connection to the service since it doesn't hold the true key pairs.</p>
+
+<h5>DOMAIN INFORMATION SYSTEM</h5>
+
+<p>The Domain Information System, (DIS), returns domain-specific information in the form of a domain certificate from human-readable hostnames. The DIS returns the domain’s certificate which includes cryptographic details & routing information. By including the hostnames cryptography along with routing information, 0-RTT is possible without requiring the client to have visited the domain prior. This is a unique advantage over TLS 1.3 in that 0-RTT is available by default where as in TLS 1.3 one would need to have visited the site prior. Before clients connect to a website they must first query the DIS with a human-readable hostname. The DIS has centralized servers and a decentralized network to provide clients with the fastest possible way to access domain certificates</p>
+
+<p>The DIS acts as another layer of defence from malicious certificate related attacks. When invalid certificates are used to request information from the DIS to go to a service the DIS simply denys returning a response.</p>
+
+<p>The decentralized nodes providing domain certificates have a chance to earn Viat through their services. This functionality will be covered in-depth with the Viat white paper.</p>
+
+<br />
 
 <h5>DOMAIN CERTIFICATES</h5>
 
@@ -157,29 +173,11 @@
 <p>The Domain Registrar, (DR), is used to register a domain and manage a domain's public certificate. The DR validates & signs the public certificates associated with the hostname. The DR then passes the certificate to the Domain Information System which stores the certificate for distribution.</p>
 
 <br />
-
-<h5>DOMAIN INFORMATION SYSTEM</h5>
-
-<br />
-
-<h5>QUERY DOMAIN ROUTING AND CRYPTOGRAPHY</h5>
-
-<p>The Domain Information System, (DIS), returns domain-specific information in the form of a domain certificate from human-readable hostnames. The DIS returns the domain’s certificate which includes cryptographic details & routing information. By including the hostnames cryptography along with routing information, 0-RTT is possible without requiring the client to have visited the domain prior. This is a unique advantage over TLS 1.3 in that 0-RTT is available by default where as in TLS 1.3 one would need to have visited the site prior. Before clients connect to a website they must first query the DIS with a human-readable hostname. The DIS has centralized servers and a decentralized network to provide clients with the fastest possible way to access domain certificates.</p>
-
-<p>The DIS acts as another layer of defence from malicious certificate related attacks. When invalid certificates are used to request information from the DIS to go to a service the DIS simply denys returning a response.</p>
-
-<p>The decentralized nodes providing domain certificates have a chance to earn Viat through their services. This functionality will be covered in-depth with the Viat white paper.</p>
-
-<br />
 <img src="https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png" />
 
 <br />
 
 <h5>DOMAINS</h5>
-
-<br />
-
-<h5>HUMAN READABLE HOSTNAMES</h5>
 
 <p>Domains on Sentivate have full extension names and can have single full names for trademarked entities. The domain rules and regulations are designed to organize the web, free up domain names for new companies, protect trademarks, limit malicious activity, and make extensions more descriptive.</p>
 
@@ -188,9 +186,7 @@
 <br />
 <h4>UNIVERSAL IDENTITY SYSTEM</h4>
 
-<h3>IDENTITY CERTIFICATES</h3>
-
-<h3>EPHEMERAL & MASTER KEY PAIRS</h3>
+<h5>IDENTITY CERTIFICATES</h5>
 
 <p>Identity certificates, (IC), are documents which provide cryptographic details that represent you on the network and are signed by a Identity Registrar. An identity certificate has two cryptographic key pairs: Master and Ephemeral. A master key pair is used specifically for signing ephemeral certificates and is the core identifying key pair. Ephemeral key pairs can be replaced at the owner's discretion. Identity certificates cryptographically authenticate & authorize clients on the network.</p>
 
@@ -202,7 +198,7 @@
 
 <p>Identity certificates can be linked to real world identities and assets. Making Sentivate an ideal platform for secure, private, and verifiable voting in elections. Stores and companies can have verified ICs which allow users to directly pay or donate through Viat.</p>
 
-<h3>IDENTITY REGISTRAR</h3>
+<h5>IDENTITY REGISTRAR</h5>
 
 <p>The Identity Registrar, (IR), is a service which signs certificates & is the first layer of protection for the network. The IR protects the network by filtering faulty certificates, stopping Sybil attacks, and nefarious actors. The Identity Registrar ensures malicious certificates aren’t signed which allows services to efficiently deny their connection attempts. False signatures can be denied by the DIS and therefore potentially protect a service and save some of its resources before hand.</p>
 
