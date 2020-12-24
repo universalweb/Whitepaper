@@ -10,7 +10,7 @@
 
 <h3>DEFINITIONS</h3>
 <p><b>UNIVERSAL WEB REPUBLIC (UWR)</b>: The UWR consists of the Universal Web's Government & the Universal Web itself which is the plane that all activity governed by the the Universal Web's Government resides.</p>
-<p><b>UNIVERSAL WEB (UW)</b>: The UWR consists of the Universal Web's Government & the Universal Web itself which is the plane that all activity governed by the the Universal Web's Government resides.</p>
+<p><b>UNIVERSAL WEB (UW)</b>: The UW is the Web re-imagined. A new Web built to in time replace to old. A culmination of years of Web technology evolution and all that we have learned from hindsight.</p>
 
 <hr />
 
@@ -138,7 +138,7 @@
 
 <h3>UNIVERSAL DATA STREAM PROTOCOL - <small>(UDSP)</small></h3>
 
-<p><b>UDSP is a UDP based low-latency, real-time, bi-directional, encryption enforced, and reliable Data Transport Protocol.</b></p>
+<p><b>UDSP is a UDP based low-latency, real-time, bi-directional, encryption enforced, and reliable Data Transport Protocol. UDSP replaces primarily HTTPS & WebSockets for all data communication on the UW.</b></p>
 
 <p>The first step in the construction of the Universal Web is to replace HTTP entirely with UDSP. On the Universal Web all communication, streaming, or transferring of any type of data utilizes UDSP. When visiting a site on the Universal Web UDSP is the protocol used instead of HTTP. Specific UDSP client and server modules are required to visit or host a website on the Sentivate Network. UDSP is the foundation and blood cells of the Universal Web.</p>
 
@@ -151,6 +151,8 @@
 <br />
 
 <h3>UNIVERSAL DOMAIN SYSTEM - <small>(UDS)</h4>
+
+<p>The UDS controls all domain components that come together to make connecting to sites easy, fast, and cryptographically verifiable. When requesting information on a domain name your client contacts the Domain Information System (DIS) a crucial component in UDS which takes on the responsabilities one typically expects from a DNS like service although it incorporates Domain certificates. Domain certificates are cryptographically verifiable structured documents which could include IP/Network routing information, Domain records, domain path matching, and cryptographic information.</p>
 
 <h4>DOMAIN NAME SYSTEM</h4>
 <p>Being able to find a service with a human readable hostname is vital to the function of the Web today. The component which does this on the WWW is called DNS and the DIS on the Universal Web. DNS takes a human readable hostname for example Universal.web and returns the IP address of the end service. This allows your computer to than navigate to the requested website. You give it domain name and it gives you the ip of that domain name. Without this system the Web wouldn't be what it is today. It allows you to traverse the many services available on the Internet in a human friendly way.</p>
