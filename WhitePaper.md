@@ -6,9 +6,15 @@
 <hr />
 <h2 align="center">WHITE PAPER</h2>
 <hr />
-<h3 align="center">INTRODUCTION</h3>
+<h2 align="center">INTRODUCTION</h2>
 
-<h5>THE UNIVERSAL WEB (UW)</h5>
+<h3>DEFINITIONS</h3>
+<p><b>UNIVERSAL WEB REPUBLIC (UWR)</b>: The UWR consists of the Universal Web's Government & the Universal Web itself which is the plane that all activity governed by the the Universal Web's Government resides.</p>
+<p><b>UNIVERSAL WEB (UW)</b>: The UWR consists of the Universal Web's Government & the Universal Web itself which is the plane that all activity governed by the the Universal Web's Government resides.</p>
+
+<hr />
+
+<h3>THE UNIVERSAL WEB (UW)</h3>
 <p>The Universal Web is the Web re-imagined. We have come to expect much of the Web from features it never had, weren't intended to have, and to a scale far beyond what it was initially designed for. The UW is built to be a viable & realistic replacement for the modern Web in every way and then some.</p>
 
 <p>The UW addresses the following issues directly: bandwidth crisis, outdated protocols, broken DNS, lack of accountability, lack of identity, reactive security, Domain rules, and web categorization.</p>
@@ -17,7 +23,7 @@
 
 <p>The current state of the World Wide Web is deprecation. If humanity continues to monkey-patch existing problems the Internet will remain the “wild wild west”. Humanity’s ever-increasing demands will never be met by the current state of the Web. We must start thinking in revolutionary terms and not evolutionary. The solution is a complete replacement of contemporary systems, browsers, languages, protocols, and platforms with increased security, speed, efficiency, accountability, trust, identity, capability, and reliability. In order to transition into a new age of information we must replace that which we have become all too comfortable with.</p>
 
-<h5>BANDWIDTH CRISIS - <small>WE PREDICTED IT</small></h5>
+<h3>BANDWIDTH CRISIS - <small>WE PREDICTED IT</small></h3>
 <p>Bandwidth is limited, our needs are out growing our networks.To solve this issue we need modern revolutionary technology to replace existing components. If we don’t, fast lanes & prioritization of data is our only option. All those fears that folks have of the repeal of Net Neutrality will be our only hope at keeping the Web spinning. The inevitable rise of IoT, more devices per-person, more devices per-household, self-driving cars, increasing populations, & developing countries coming online suck up bandwidth we don’t have.</p>
 
 <p>We predicted this crisis would occur and then COVID happened. COVID proved that the Web is already close to a breaking point due to the massive stress placed on the Internet from more users sucking up tremendous amounts of bandwidth. COVID proved the bandwidth crisis is very real and right around the corner. We said the bandwidth crisis was a very real concern from the very beginning.</p>
@@ -70,7 +76,7 @@
     </li>
 </ul>
 
-<h4>TECH DEBT - <small>SLOW SPEEDS BIG IMPLICATIONS</small></h4>
+<h3>TECH DEBT - <small>SLOW SPEEDS BIG IMPLICATIONS</small></h3>
 
 <p>HTTP & DNS were built a long time ago without the consideration of modern demands in mind. More and more bandwidth is being sucked up, HTTP continues to show its long known scalability issues, and DNS is lacking in security, performance, scalability, and features. If half of the web can be shut down from DoS-ing specific DNS servers there's an obvious architectural limitation. HTTPS is the current vehicle for our global economy it's essentially the armored car of the Web. The entire digital economy relies on and is transported over HTTPS any modifications to it will result in a change to the economy on a global scale. Any slowing down to the primary components of the Web, (HTTP & DNS), results in missed opportunities or stagnant economic growth across the planet especially in first world countries. DNS & HTTP limit the Web's potential, hinder scalability, are dreadfully slow compared to modern options, lack modern features, negate the ability to redesign core functionality, eat up bandwidth, and cost consumers & businesses billions. There are a plethora of issues and if we don't begin to address them we'll begin to experience an extremely degraded Web experience and at worse rapid economic stagnation. When you factor in all the dollar signs and worse case scenarios one soon realizes that ignoring the Web's shortcomings could result in a global humanitarian crisis for first world nations. There's a lot riding on the Web and when the Web suffers it has a ripple effect that affects us all.</p>
 
@@ -83,7 +89,7 @@
 
 <br/>
 
-<h4>WEB 3.0 ISN'T THE ANSWER <small> - The Universal Web is.</small></h4>
+<h3>WEB 3.0 ISN'T THE ANSWER <small> - The Universal Web is.</small></h3>
 <p>As apposed to all solely decentralized blockchain based Webs typically referred to as "Web 3.0" or "Web3" the UW seeks to be a truly capable replacement and an ideological one. The UW isn't just a replacement in terms of offering the same functionality but in the true sense of the word. It's a revolutionary replacement capable of outperforming the modern Web using the exact same hardware. The UW doesn't require decentralized consensus as it's truly decentralized by default as is the Web today. A site on the Web today isn't contained in a centralized way much like a Web3 is contained by the rules and laws of the blockchain, network, or consensus algorithm.</p>
 
 <p>We'll summarize one of the core issues of Web3 with a simple logical assertion. Those in physics may appreciate or understand this more so than others. The shortest distance is a straight line between two points. From point A to B is much faster than having to stop midway to B and run a decentralized consensus process. The point is additional processing is always required in order to complete the most basic of requests. The additional step which is required in the Web 3.0 lanscape will always yield a slower result than what the Universal Web does. The UW provides you and the destination the freedom to communicate and operate on your own accord.</p>
@@ -104,11 +110,11 @@
 
 <hr/>
 
-<h3 align="center">TECHNOLOGY</h3>
+<h2 align="center">TECHNOLOGY</h2>
 
 <br/>
 
-<h4>EXPANDED TOPOLOGY</h4>
+<h3>EXPANDED TOPOLOGY</h3>
 <p>From a topology standpoint the UW is a hybrid web (centralized focused but enhanced by decentralized components). The network is designed to go beyond the capabilities that any solely centralized or decentralized Web could offer. Centralized components provide early protections and ensure equal or better performance than the WWW or Web3. The WWW doesn't provide a unified way to take advantage of decentralized technology that can enhance its core functions. DNS is an existing function which can take advantage of decentralized technology to expand availability and increase performance. This doesn't mean to imply that domain names be decentralized much like unstoppable domains we see that as entirely futile in solving the issues related to DNS which are first and foremost technical problems. A new decentralized component to be implimented on the UW natively is the delivery of typical static Web assets what is called a decentralized CDN. Natively intigrating & allowing all of the Web to participate in these decentralized components is key to adoption and expantion. Without having it so that the entire Universal Web could take advantage of this technology and having it sit several layers up on the front-end with say a Javascript library that uses WEBRTC is again another futile endeavour and it will encounter many draw backs. One of those draw backs are that the library must first be downloaded and then initialized after the page loads this of course is a significant delay and overhead that will outway the benefits. It needs to kick in and be part of the ecosystem from the very begining. This is why the Web needs to be re-imagined because many of its potential capabilities only make sense when they are integrated into the individual components. By doing so you create a harmonious symphoney rather than tons of Javascript overhead, trying to conform protocols to things they shouldn't be doing just because you can, compensate for software debt ridden components, and trying to make the Web into something it's not inherently designed to be. These decentralized options can be taken advantage of based on the client's and the service's discretion meaning they are up to be balanced based on needs and desires not because the network forces you into it.</p>
 
 <p>It's important to note that topology doesn't refere to the physical architecture of the network. A physical design would be severely overcomplicated complicated, require lots of specifically designed network devices, and wouldn't be advantageous in any way what so ever. In the "crypto" landscape, companies like Cloudflare, and much of the Web are software defined networks. Make sure to note that when reviewing this information those less aware of these are often confused and think we are speaking on physical networks. Bitcoin is a decentralized network but it's done with software not by creating a physically new network that is designed to be decentralized with routers and networking equipment. The same thing in this context.</p>
@@ -130,7 +136,7 @@
 
 <br />
 
-<h4 align="center">UNIVERSAL DATA STREAM PROTOCOL - <small>(UDSP)</small></h4>
+<h3>UNIVERSAL DATA STREAM PROTOCOL - <small>(UDSP)</small></h3>
 
 <p><b>UDSP is a UDP based low-latency, real-time, bi-directional, encryption enforced, and reliable Data Transport Protocol.</b></p>
 
@@ -144,16 +150,16 @@
 
 <br />
 
-<h4 align="center">UNIVERSAL DOMAIN SYSTEM - <small>(UDS)</h4>
+<h3>UNIVERSAL DOMAIN SYSTEM - <small>(UDS)</h4>
 
-<h5>DOMAIN NAME SYSTEM</h5>
+<h4>DOMAIN NAME SYSTEM</h4>
 <p>Being able to find a service with a human readable hostname is vital to the function of the Web today. The component which does this on the WWW is called DNS and the DIS on the Universal Web. DNS takes a human readable hostname for example Universal.web and returns the IP address of the end service. This allows your computer to than navigate to the requested website. You give it domain name and it gives you the ip of that domain name. Without this system the Web wouldn't be what it is today. It allows you to traverse the many services available on the Internet in a human friendly way.</p>
 
 <p>The Universal Web also provides DNS related services but is more robust. The information returned by the DIS is different compared to your typical DNS response. The DIS returns a cryptographic certificate which provides more than just routing data in order to keep the network more secure and offer more features.</p>
 
 <p>The Privacy of users is better on the UW compared to the WWW because the DIS has encrypted communication by default unlike DNS today. This stops people from being able to interfer with the responses coming back from a DNS server. It also stops an attacker from gathering information on what websites you're visiting. It also keeps users safe when more sophisticated DNS and BGP hijacking attacks occur. The more sophisticated attacks are prevented largely because the information returned is cryptographic in nature that being a domain certificate which ensures that users even if routed to the wrong place wouldn't be able to establish a connection to the service since it doesn't hold the true key pairs.</p>
 
-<h5>DOMAIN INFORMATION SYSTEM</h5>
+<h4>DOMAIN INFORMATION SYSTEM</h4>
 
 <p>The Domain Information System, (DIS), returns domain-specific information in the form of a domain certificate from human-readable hostnames. The DIS returns the domain’s certificate which includes cryptographic details & routing information. By including the hostnames cryptography along with routing information, 0-RTT is possible without requiring the client to have visited the domain prior. This is a unique advantage over TLS 1.3 in that 0-RTT is available by default where as in TLS 1.3 one would need to have visited the site prior. Before clients connect to a website they must first query the DIS with a human-readable hostname. The DIS has centralized servers and a decentralized network to provide clients with the fastest possible way to access domain certificates</p>
 
@@ -163,7 +169,7 @@
 
 <br />
 
-<h5>DOMAIN CERTIFICATES</h5>
+<h4>DOMAIN CERTIFICATES</h4>
 
 <p>Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, and an authorized Domain Registrar. In order to establish a successful handshake, the domain certificate and a valid signature is required.</p>
 
@@ -171,7 +177,7 @@
 
 <br />
 
-<h5>DOMAIN REGISTRAR</h5>
+<h4>DOMAIN REGISTRAR</h4>
 
 <p>The Domain Registrar, (DR), is used to register a domain and manage a domain's public certificate. The DR validates & signs the public certificates associated with the hostname. The DR then passes the certificate to the Domain Information System which stores the certificate for distribution.</p>
 
@@ -180,16 +186,16 @@
 
 <br />
 
-<h5>DOMAINS</h5>
+<h4>DOMAINS</h4>
 
 <p>Domains on Sentivate have full extension names and can have single full names for trademarked entities. The domain rules and regulations are designed to organize the web, free up domain names for new companies, protect trademarks, limit malicious activity, and make extensions more descriptive.</p>
 
 <p>For example, one can navigate to Amazon by simply typing Amazon into the Sentivate browser. Domain rules are stricter on the Sentivate network. Domain squatting is entirely disallowed, there is a use it or lose it policy. Domain content or service must be relevant to the domain extension. For example, Amazon's store must use the store domain extension, "Amazon.store". There are shorthand domain extensions available for certain domains. For example, Amazon's company website must utilize the company extension, Amazon.company or the shorthand variant Amazon.com. Bitcoin, Ethereum, and Litecoin are cryptocurrencies and sites dedicated to them must use the cryptocurrency extension. However, a news site related to say bitcoin must use the .news and or .blog extension. Any domain that may have random and or arbitrary content must use the .abstract extension.</p>
 
 <br />
-<h4>UNIVERSAL IDENTITY SYSTEM</h4>
+<h3>UNIVERSAL IDENTITY SYSTEM</h3>
 
-<h5>IDENTITY CERTIFICATES</h5>
+<h4>IDENTITY CERTIFICATES</h4>
 
 <p>Identity certificates, (IC), are documents which provide cryptographic details that represent you on the network and are signed by a Identity Registrar. An identity certificate has two cryptographic key pairs: Master and Ephemeral. A master key pair is used specifically for signing ephemeral certificates and is the core identifying key pair. Ephemeral key pairs can be replaced at the owner's discretion. Identity certificates cryptographically authenticate & authorize clients on the network.</p>
 
@@ -201,7 +207,7 @@
 
 <p>Identity certificates can be linked to real world identities and assets. Making Sentivate an ideal platform for secure, private, and verifiable voting in elections. Stores and companies can have verified ICs which allow users to directly pay or donate through Viat.</p>
 
-<h5>IDENTITY REGISTRAR</h5>
+<h4>IDENTITY REGISTRAR</h4>
 
 <p>The Identity Registrar, (IR), is a service which signs certificates & is the first layer of protection for the network. The IR protects the network by filtering faulty certificates, stopping Sybil attacks, and nefarious actors. The Identity Registrar ensures malicious certificates aren’t signed which allows services to efficiently deny their connection attempts. False signatures can be denied by the DIS and therefore potentially protect a service and save some of its resources before hand.</p>
 
@@ -210,7 +216,7 @@
 <p>Active certificates will continually be updated and signed. When a certificate is re-signed, another field is added to the certificate which shows the elapsed time since the previous signing of the certificate. This provides services with an extra layer of trust for certain certificates.</p>
 
 <br />
-<h4>Universal Web Apps</h4>
+<h3>Universal Web Apps</h3>
 
 <p>Hybrid apps are self-constructing, streaming single-page-applications. Hybrid apps are built using reactive, dynamic, and modular development methodologies. hApps have all the benefits of centralized & decentralized networks ensuring the highest scalability potential.</p>
 
@@ -224,7 +230,7 @@
 
 <br />
 
-<h4><a href="https://github.com/sodium-friends/sodium-native">CRYPTOGRAPHY</a></h4>
+<h3><a href="https://github.com/sodium-friends/sodium-native">CRYPTOGRAPHY</a></h3>
 
 -   Key Signatures
     -   Single-part signature: Ed25519
