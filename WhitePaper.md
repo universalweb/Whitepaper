@@ -9,8 +9,10 @@
 <h2 align="center">INTRODUCTION</h2>
 
 <h3>DEFINITIONS</h3>
-<p><b>UNIVERSAL WEB REPUBLIC (UWR)</b>: The UWR consists of the Universal Web's Government & the Universal Web itself which is the plane that all activity governed by the the Universal Web's Government resides.</p>
-<p><b>UNIVERSAL WEB (UW)</b>: The UW is the Web re-imagined. A new Web built to in time replace to old. A culmination of years of Web technology evolution and all that we have learned from hindsight.</p>
+<p><b>UNIVERSAL WEB REPUBLIC <small>(UWR)</small></b>: The UWR consists of the Universal Web's Government & the Universal Web itself which is the plane that all activity governed by the the Universal Web's Government resides. The UWR provides a democratic societal framework for the people of the Universal Web.</p>
+<p><b>UNIVERSAL WEB <small>(UW)</small></b>: The UW is the Web re-imagined. A new Web built to in time replace to old. A culmination of years of Web technology evolution and all that we have learned from hindsight and where we are heading. The UW holds a similar centralized design as the WWW while incorporating decentralized components for each of its core functions and beyond.</p>
+<p><b>SENTIVATE <small>(SNTVT)</small></b>: Sentivate is the name of the project, initiative, and movement behind all that is the UWR. Sentivate consists of two primary networks the Universal Web & Viat from a development standpoint. It's primarily concerned with the cryptocurrency and Web aspects of the project.</p>
+<p><b>VIAT</b>: Viat is the native decentralized cryptocurrency on the UW and is tightly & efficiently integrated into the UW's core components. Viat also has centralized components that provide more robust features & security. Some of those security features are: transaction security, theft recovery, loss recovery, access recovery, wallet migration, wallet lockdown, asset lockdown, and transaction halting/cancelation/reversal. One of the centralized features of Viat provide cheap instant transactions. Viat offers deletions, blockchain compression, and updates which allows it to self-optimize over time.</p>
 
 <hr />
 
@@ -106,7 +108,17 @@
 
 <p>Web3's are limited to the design of their blockchain, decentralized topology, node capacity, and consensus algorithm. An important feature is missing from the Web3 landscape and that's primarily freedom. The freedom to design an application and service that relies on one's resources is entirely lacking in the Web3 world. Another feature that is lacking because it breaks the blockchain is deletion. Another missing feature that defeats the purpose of such Web3 network's principles and intentions is censorship or blacklisting. In the Web3s of today, apps must be restricted to or confined to the networks blockchain, consensus algorithm, and rules. Essentially applications are limited by the rules of the network itself. Whereas in a Web-based on equal opportunity rather than equal outcome such as the World Wide Web &  Universal Web applications are only limited by their respective resources. Resources which they directly own, control, or freely participate in.</p>
 
-<p>The entirety of the "crypto" Web3 space consists of the polar opposite of what we are building. Because Web3 requires an additional process to form consensus regardless of how complex, fast, simple, or what advancements it makes in the future the fact that it exists means it will always take more time to complete a request in a Web3 world compared to the design of the modern World Wide Web or in our case the Universal Web. This is a huge error in rational and logical thinking that dictates that no such replacement should ever take place that involves Web3 replacing the WWWW. Unless we are under tyrannical rule, have no care for speed, nor care for cost, and are being unilaterally censored there is no reason to replace the current topology with a sole blockchain decentralized based Web.</p>
+<p>The entirety of the "crypto" Web3 space consists of the polar opposite of what we are building and preaching. Because Web3 requires an additional process to form consensus regardless of how complex, fast, simple, or what advancements it makes in the future the fact that it exists means it will always take more time to complete a request in a Web3 world compared to the design of the modern World Wide Web or in our case the Universal Web. This is a huge error in rational and logical thinking that dictates that no such replacement should ever take place that involves Web3 replacing the WWWW. Unless we are under tyrannical rule, have no care for speed, nor care for cost, and are being unilaterally censored there is no reason to replace the current topology with a sole blockchain decentralized based Web.</p>
+
+<!--
+UNDER CONSTRUCTION
+<h3>VIAT <small> - Multiple revenue streams for sites, services, and even APIs.</small></h3>
+
+<p>Talk about advertisers, donations, & DDOS protections opening up new revenue streams. Also talk about easy fast payments. Allowing those who were de-banked or are un-banked and still be able to send and receive fundings & payments. Circumvent political </p>
+
+<h3>REALISTIC <small></small></h3>
+<p>Working with governments to combat evil, ensure a well regulated space for business. Enforce Trademark rules.</p>
+-->
 
 <hr/>
 
@@ -146,7 +158,7 @@
 
 <p>UDSP is conceptually a merger of the functionality you'd expect from HTTP & Websockets. UDSP is designed to be kept open for the life cycle of the app and requests are to be sent over that one singular connection. Since connections are bi-directional streams and less chatty this conserves bandwidth and ensures low-latency for the livelihood of the connection. UDSP is far less chatty than HTTP and can be programmatically set to adjust it's own reliability standards. This makes UDSP a highly useful protocol where high-throughput, low-latency and high reliability are required. Due to UDSP's programmatic dynamic nature, it's efficacious in situations of highly variable and or degraded network connectivity.</p>
 
-<p>UDSP has optional puzzles included in the packets which allow providers and solvers to earn VIAT. Puzzles can vary and thus the puzzles are a Dynamic-Proof-of-Work. The puzzles may be encapsulated or point to data that is required for solving the puzzle. This functionality will be described in the next white paper for VIAT. The puzzles also function as congestion control and a way to limit the potential damages from DDOS attacks. Sentivate turns a typical DDOS attack into profit by the introduction of various puzzle types into packets. When a client solves the served puzzle the client and domain are credited by the network with Viat. If a server is under DDOS attack then the server can dynamically change the reward split up-to 100% for the domain. This ensures the attackers suffer more financial loss and have little to gain. Puzzles ensure that both parties have an incentive to act in good faith.</p>
+<p>UDSP has optional puzzles contained inside UDSP packets which allow providers and solvers to earn VIAT. Puzzles can vary and thus the puzzles are a Dynamic-Proof-of-Work. The puzzles may be encapsulated or point to data that is required for solving the puzzle. This functionality will be described in the next white paper for VIAT. The puzzles also function as congestion control and a way to limit the potential damages from DDOS attacks. Sentivate turns a typical DDOS attack into profit by the introduction of various puzzle types into packets. When a client solves the served puzzle the client and domain are credited by the network with Viat. If a server is under DDOS attack then the server can dynamically change the reward split up-to 100% for the domain. This ensures the attackers suffer more financial loss and have little to gain. Puzzles ensure that both parties have an incentive to act in good faith.</p>
 
 <br />
 
@@ -175,7 +187,11 @@
 
 <p>Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, and an authorized Domain Registrar. To establish a successful handshake, the domain certificate and a valid signature is required.</p>
 
-<p>The domain's ephemeral certificate also acts as a wallet that stores funds for any puzzles it distributes to clients. A portion of the mined Viat is sent to the ephemeral certificates wallet address.</p>
+<p>The domain's ephemeral certificate also acts as a wallet that stores funds for any puzzles it distributes to clients. A portion of the mined Viat is sent to the Viat wallet that is the public key which is stored inside domain certificates.</p>
+
+<p>Since domain certificates also serve as Viat wallets it allows things like purchases, donations, and self funding to occur. By providing ways for users to easily donate to their favorite sites the sites can rely less on advertisers and more on customer satisfaction as a result.</p>
+
+<p></p>
 
 <br />
 
@@ -254,3 +270,8 @@
             -   Computes a secret shared between the sender and receiver, using the sender’s secret key and the receiver’s public key (or vice versa)
 
 <br />
+
+<!--
+<h2>NOTES</h2>
+<p>All Viat mining is done with purpose and can take place at multiple points on the Universal Web but is utilitarian in nature to ensure the highest possible transaction throughpout </p>
+-->
