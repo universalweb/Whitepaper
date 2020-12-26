@@ -1,6 +1,15 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+    p {
+        font-family: 'Fira Code', monospace;
+    }
+</style>
 <h1 align="center">SENTIVATE</h1>
+<h5 align="center" style="font-family:Times, Times New Roman, serif">| <a href="https://twitter.com/tommarchi">Thomas Marchi</a> | <a href="https://twitter.com/MattKarasiewicz">Matt Karasiewicz</a> |</h5>
+<h5 align="center" style="font-family:Times, Times New Roman, serif"><i>| <a href="https://twitter.com/sentivate">@sentivate</a> |</i></h5>
+<hr />
 <p align="center">
-<img src="https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png" />
+    <img src="https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png" />
 </p>
 <h2 align="center">UNIVERSAL WEB REPUBLIC (UWR)</h2>
 <hr />
@@ -19,13 +28,15 @@
 <h3>THE UNIVERSAL WEB (UW)</h3>
 <p>The Universal Web is the Web re-imagined. We have come to expect much of the Web from features it never had, weren't intended to have, and to a scale far beyond what it was initially designed for. The UW is built to be a viable & realistic replacement for the modern Web in every way and then some.</p>
 
-<p>The UW addresses the following issues directly: bandwidth crisis, outdated protocols, broken DNS, lack of accountability, lack of identity, reactive security, Domain rules, and web categorization.</p>
+<p>The UW addresses the following issues directly: <a href="#bandwidthCrisis">bandwidth crisis</a>, <a href="#outdatedProtocols">outdated Web protocols (HTTP/DNS)</a>, identity, accountability, privacy, security, passwordless, DDOS, <a href="#viat">cryptocurrency</a>, crowd funding, ecommerce, <a href="#UWAs">Web App Development</a>, blockchain, decentralization, Web architecture, Domains, and Web categorization.</p>
 
 <p>At present, we find ourselves continuing to utilize a ruinous medium of interconnected communication on a global scale. Humanity’s demands are exponentially increasing of which the World Wide Web simply can’t meet. As we continue to grow, evolve, and venture beyond the solar system, our imperative task becomes revolutionizing the technology we depend on.</p>
 
 <p>The current state of the World Wide Web is deprecation. If humanity continues to monkey-patch existing problems the Internet will remain the “wild wild west”. Humanity’s ever-increasing demands will never be met by the current state of the Web. We must start thinking in revolutionary terms and not evolutionary. The solution is a complete replacement of contemporary systems, browsers, languages, protocols, and platforms with increased security, speed, efficiency, accountability, trust, identity, capability, and reliability. To transition into a new age of information we must replace that which we have become all too comfortable with.</p>
 
-<h3>BANDWIDTH CRISIS - <small>WE PREDICTED IT</small></h3>
+<p>There are a plethora of issues and if we don't address them we'll begin to experience an extremely degraded Web experience and at worse rapid economic stagnation. When you factor in all the dollar signs and worse case scenarios one soon realizes that ignoring the Web's shortcomings could result in a global humanitarian crisis for first-world nations. A lot is riding on the Web and when the Web falters it has an exponentially debilitating ripple that affects everyone.</a>
+
+<h3 id="bandwidthCrisis">BANDWIDTH CRISIS - <small>WE PREDICTED IT</small></h3>
 <p>Bandwidth is limited, our needs are outgrowing our networks. To solve this issue we need modern revolutionary technology to replace existing components. If we don’t, fast lanes & prioritization of data is our only option. All those fears that folks have of the repeal of Net Neutrality will be our only hope at keeping the Web spinning. The inevitable rise of IoT, more devices per-person, more devices per-household, self-driving cars, increasing populations, & developing countries coming online suck up bandwidth we don’t have.</p>
 
 <p>We predicted this crisis would occur and then COVID happened. COVID proved that the Web is already close to a breaking point due to the massive stress placed on the Internet from more users sucking up tremendous amounts of bandwidth. COVID proved the bandwidth crisis is very real and right around the corner. We said the bandwidth crisis was a very real concern from the very beginning.</p>
@@ -78,9 +89,8 @@
     </li>
 </ul>
 
-<h3>TECH DEBT - <small>SLOW SPEEDS BIG IMPLICATIONS</small></h3>
-
-<p>HTTP & DNS were built a long time ago without the consideration of modern demands in mind. More and more bandwidth is being sucked up, HTTP continues to show its long known scalability issues, and DNS is lacking in security, performance, scalability, and features. If half of the web can be shut down from DoS-ing specific DNS servers there's an obvious architectural limitation. HTTPS is the current vehicle for our global economy it's essentially the armored car of the Web. The entire digital economy relies on and is transported over HTTPS any modifications to it will result in a change to the economy on a global scale. Any slowing down to the primary components of the Web, (HTTP & DNS), results in missed opportunities or stagnant economic growth across the planet especially in first world countries. DNS & HTTP limit the Web's potential, hinder scalability, are dreadfully slow compared to modern options, lack modern features, negate the ability to redesign core functionality, eat up bandwidth, and cost consumers & businesses billions. There are a plethora of issues and if we don't begin to address them we'll begin to experience an extremely degraded Web experience and at worse rapid economic stagnation. When you factor in all the dollar signs and worse case scenarios one soon realizes that ignoring the Web's shortcomings could result in a global humanitarian crisis for first-world nations. A lot is riding on the Web and when the Web suffers it has a ripple effect that affects us all.</p>
+<h3>DNS & HTTP - <small>OUTDATED PROTOCOLS</small></h3>
+<p id="outdatedProtocols">HTTP & DNS were designed a long time ago in the context of Web history. They weren't  built then to do what we expect of them today. More and more bandwidth is being sucked up simply due to the design of HTTP in and of itself. The entire digital economy relies on and is transported over HTTP any modifications to it will result in economic fluctuations. HTTP is the current vehicle for our global economy it's essentially the armored car of the Web. The global slowing down of HTTP would result in at the very least missed economic opportunities or worse case stagnant economic growth across the planet. Meanwhile DNS is primarily lacking in security, privacy, and modern features. If half of the web could be shut down from DoS-ing specific DNS servers there's an obvious architectural limitation to DNS. If by taking over a DNS server, changing domain records, or <a hreh="https://www.cloudflare.com/learning/security/glossary/bgp-hijacking/">hijacking BGP</a> you could reroute traffic without  users being aware that had happened there is an architectural design issue at play. Just the fact that someone else could change your DNS records without proving they control the domain is an immediate concern. If someone where to get into your Godaddy or Cloudflare account they could change any of your domain records, which isn't possible on the UW due to the design of <a href="">domain certificates</a> & the <a href="">DIS</a>. The design of DNS & HTTP limit the Web's potential, hinder scalability, lack modern features, eat up bandwidth, cumulatively costs billions, and negate the ability to redesign core functionality resulting in perpetual systemic issues. We absolutely need to address these concerns or we'll continue to have issues until we reach a financial breaking point.</p>
 
 <h6>SOURCES</h6>
 <ul>
@@ -91,10 +101,12 @@
 
 <br/>
 
-<h3>WEB 3.0 ISN'T THE ANSWER <small> - The Universal Web is.</small></h3>
-<p>As opposed to all solely decentralized blockchain-based Webs typically referred to as "Web 3.0" or "Web3" the UW seeks to be a truly capable replacement and an ideological one. The UW isn't just a replacement in terms of offering the same functionality but in the true sense of the word. It's a revolutionary replacement capable of outperforming the modern Web using the same hardware. The UW doesn't require decentralized consensus as it's truly decentralized by default as is the Web today. A site on the Web today isn't contained in a centralized way much like a Web3 is contained by the rules and laws of the blockchain, network, or consensus algorithm.</p>
+<h3>WEB 3.0 FAILURE <small> - A DEEPLY FLAWED SOLUTION</small></h3>
+<p>"Web 3.0" ("Web3"), is an attempt to replace the Web we have today with a solely decentralized immutable blockchain-based Web. The proponents of Web3 are driven either by ideology, aren't aware of the true issues that plague the Web, and at worse are attempting to exploit all the money rushing into the cryptocurrency space. A distinction must be made for those that are building a blockchain based alternative Web or platform for building decentralized solutions.</p>
 
 <p>We'll summarize one of the core issues of Web3 with a simple logical assertion. Those in physics may appreciate or understand this more so than others. The shortest distance is a straight line between two points. From the point, A to B is much faster than having to stop midway to B and run a decentralized consensus process. The point is additional processing is always required to complete the most basic of requests. The additional step which is required in the Web 3.0 landscape will always yield a slower result than what the Universal Web does. The UW provides you and the destination the freedom to communicate and operate on your own accord.</p>
+
+<p>The UW seeks to be a truly capable replacement from first a technology standpoint. The UW isn't just a replacement in terms of offering the same functionality but in the true sense of the word. It's a revolutionary replacement capable of outperforming the modern Web using the same hardware. The UW doesn't require decentralized consensus as it's truly decentralized by default as is the Web today. A site on the Web today isn't contained in a centralized way much like a Web3 is contained by the rules and laws of the blockchain, network, or consensus algorithm.</p>
 
 <p>We know that the global economy requires a performant & inexpensive web. If a solely decentralized web replaced the modern web, then it would accelerate the bandwidth crisis and bring us to a dystopian web. The term Web 3.0 is not a magic globe, a revolutionary idea, or a solution; it's a cash grab. Trades are happening in nanoseconds the global economy doesn't have time to wait seconds or minutes for a block time to verify and then propagate through the network. A replacement for the web shouldn't be slower and more expensive for consumers. Web 3.0 costs more and they like to hide behind things like it's all on-chain and costs very little to launch an app. The reality is, you get what you pay for. Web 3.0 offsets costs to users instead of the services, which also results in poorer service. Another common argument is to allow users to control their data. That's no problem, say hello to homomorphic encryption. Instead of tackling this issue from just topology, we need to innovate in every aspect of the web and ask more from our web services. The web's topology problem is minor compared to its outdated technology problem. If these Web 3.0 projects cared about changing the web they would focus on the actual issues.</p>
 <br />
@@ -234,7 +246,7 @@ UNDER CONSTRUCTION
 <p>Active certificates will continually be updated and signed. When a certificate is re-signed, another field is added to the certificate which shows the elapsed time since the previous signing of the certificate. This provides services with an extra layer of trust for certain certificates.</p>
 
 <br />
-<h3>Universal Web Apps</h3>
+<h3 id="UWAs">Universal Web Apps</h3>
 
 <p>Hybrid apps are self-constructing, streaming single-page-applications. Hybrid apps are built using reactive, dynamic, and modular development methodologies. hApps have all the benefits of centralized & decentralized networks ensuring the highest scalability potential.</p>
 
@@ -273,5 +285,6 @@ UNDER CONSTRUCTION
 
 <!--
 <h2>NOTES</h2>
+VIAT
 <p>All Viat mining is done with purpose and can take place at multiple points on the Universal Web but is utilitarian in nature to ensure the highest possible transaction throughpout </p>
 -->
