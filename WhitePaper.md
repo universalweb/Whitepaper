@@ -1,9 +1,3 @@
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-    p {
-        font-family: 'Fira Code', monospace;
-    }
-</style>
 <h1 align="center">SENTIVATE</h1>
 <h5 align="center" style="font-family:Times, Times New Roman, serif">| <a href="https://twitter.com/tommarchi">Thomas Marchi</a> | <a href="https://twitter.com/MattKarasiewicz">Matt Karasiewicz</a> |</h5>
 <h5 align="center" style="font-family:Times, Times New Roman, serif"><i>| <a href="https://twitter.com/sentivate">@sentivate</a> |</i></h5>
