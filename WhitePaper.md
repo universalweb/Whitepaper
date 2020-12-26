@@ -1,4 +1,4 @@
-<h1 align="center">SENTIVATE</h1>
+<h1 align="center"><a href="https://sentivate.com">SENTIVATE</a></h1>
 <h5 align="center">| <a href="https://twitter.com/tommarchi">Thomas Marchi</a> | <a href="https://twitter.com/MattKarasiewicz">Matt Karasiewicz</a> |</h5>
 <h5 align="center"><i>| <a href="https://twitter.com/sentivate">@sentivate</a> |</i></h5>
 <hr />
