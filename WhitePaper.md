@@ -1,6 +1,6 @@
 <h1 align="center">SENTIVATE</h1>
-<h5 align="center" style="font-family:Times, Times New Roman, serif">| <a href="https://twitter.com/tommarchi">Thomas Marchi</a> | <a href="https://twitter.com/MattKarasiewicz">Matt Karasiewicz</a> |</h5>
-<h5 align="center" style="font-family:Times, Times New Roman, serif"><i>| <a href="https://twitter.com/sentivate">@sentivate</a> |</i></h5>
+<h5 align="center">| <a href="https://twitter.com/tommarchi">Thomas Marchi</a> | <a href="https://twitter.com/MattKarasiewicz">Matt Karasiewicz</a> |</h5>
+<h5 align="center"><i>| <a href="https://twitter.com/sentivate">@sentivate</a> |</i></h5>
 <hr />
 <p align="center">
     <img src="https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png" />
