@@ -1,18 +1,18 @@
 <h1 align="center"><a href="https://sentivate.com">SENTIVATE</a></h1>
+<hr />
+<h5 align="center">WHITE PAPER</h5>
 <h5 align="center">| <a href="https://twitter.com/tommarchi">Thomas Marchi</a> | <a href="https://twitter.com/MattKarasiewicz">Matt Karasiewicz</a> |</h5>
 <h5 align="center"><i>| <a href="https://twitter.com/sentivate">@sentivate</a> |</i></h5>
 <hr />
 <p align="center">
     <img src="https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png" />
 </p>
-<h2 align="center">UNIVERSAL WEB REPUBLIC (UWR)</h2>
-<hr />
-<h2 align="center">WHITE PAPER</h2>
+<h4 align="center">UNIVERSAL WEB REPUBLIC (UWR)</h4>
 <hr />
 <h2 align="center">INTRODUCTION</h2>
 
 <h3>DEFINITIONS</h3>
-<p><b>UNIVERSAL WEB REPUBLIC <small>(UWR)</small></b>: The UWR consists of the Universal Web's Government & the Universal Web itself which is the plane that all activity governed by the the Universal Web's Government resides. The UWR provides a democratic societal framework for the people of the Universal Web.</p>
+<p><b>UNIVERSAL WEB REPUBLIC <small>(UWR)</small></b>: The UWR consists of the Universal Web's Government, Viat, & the Universal Web itself which is the plane that all activity governed by the the Universal Web's Government resides. The UWR provides a democratic societal framework for the people of the Universal Web.</p>
 <p><a href="https://universalWeb.io"><b>UNIVERSAL WEB <small>(UW)</small></b></a>: The UW is the Web re-imagined. A new Web built to in time replace to old. A culmination of years of Web technology evolution and all that we have learned from hindsight and where we are heading. The UW holds a similar centralized design as the WWW while incorporating decentralized components for each of its core functions and beyond.</p>
 <p><a href="https://sentivate.com"><b>SENTIVATE <small>(SNTVT)</small></b></a>: Sentivate is the name of the project, initiative, and movement behind all that is the UWR. Sentivate consists of two primary networks the Universal Web & Viat from a development standpoint. It's primarily concerned with the cryptocurrency and Web aspects of the project.</p>
 <p><b>VIAT</b>: Viat is the native decentralized cryptocurrency on the UW and is tightly & efficiently integrated into the UW's core components. Viat also has centralized components that provide more robust features & security. Some of those security features are: transaction security, theft recovery, loss recovery, access recovery, wallet migration, wallet lockdown, asset lockdown, and transaction halting/cancelation/reversal. One of the centralized features of Viat provide cheap instant transactions. Viat offers deletions, blockchain compression, and updates which allows it to self-optimize over time.</p>
