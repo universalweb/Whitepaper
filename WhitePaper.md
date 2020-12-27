@@ -139,7 +139,7 @@ UNDER CONSTRUCTION
 
 <p>It's important to note that topology doesn't refer to the physical architecture of the network. A physical design would be severely overcomplicated complicated, require lots of specifically designed network devices, and wouldn't be advantageous in any way what so ever. In the "crypto" landscape, companies like Cloudflare, and much of the Web is software-defined networks. Make sure to note that when reviewing this information those less aware of these are often confused and think we are speaking on physical networks. Bitcoin is a decentralized network but it's done with software not by creating a physically new network that is designed to be decentralized with routers and networking equipment. The same thing in this context.</p>
 
-<h5>TLDR; Both topologies have their use cases but together they're a solution for the Web.</h5>
+<h5>TLDR; Centralized and Decentralized topologies have their use cases but together they're a solution for a better Web.</h5>
 
 <br />
 
@@ -170,18 +170,21 @@ UNDER CONSTRUCTION
 
 <br />
 
-<h3>UNIVERSAL DOMAIN SYSTEM - <small>(UDS)</h4>
+<h3>UNIVERSAL DOMAIN SYSTEM - <small>(UDS)</small></h4>
 
-<p>The UDS controls all domain components that come together to make connecting to sites easy, fast, and cryptographically verifiable. When requesting information on a domain name your client contacts the Domain Information System (DIS) a crucial component in UDS which takes on the responsabilities one typically expects from a DNS like service although it incorporates Domain certificates. Domain certificates are cryptographically verifiable structured documents which could include IP/Network routing information, Domain records, domain path matching, and cryptographic information.</p>
+<p>The UDS controls all domain components that come together to make connecting to sites easy, fast, and cryptographically verifiable. When requesting information on a domain name your client contacts the Domain Information System (DIS) a crucial component in UDS which takes on the responsabilities one typically expects from a DNS like service although it incorporates Domain certificates. Domain certificates are cryptographically verifiable structured documents which could include IP/Network routing information, Domain records, domain path matching, Server Name Indication (SNI), and cryptographic information. Domain certificates can be used in and of themselves to connect to services or are used to verify cryptographic domain name records.</p>
 
-<h4>DOMAIN NAME SYSTEM</h4>
+<h4>DOMAIN NAME RECORDS - <small>(DNR)</small></h4>
+<p>Similar to DNS the DIS does have domain records except that they are signed and cryptographically verifiable. The domain certificate is first required then the domain record. If the domain certificate itself doesn't posess default routing information it can then ask for a record, which is also known as a "record certificate". Each record must be individually signed so that it can be efficiently stored and transferred to a client. If the client doesn't have the certificate associated with a particular domain it must first request it. If the client has the certificate and it contains sufficient routing information it can use it. If not then the client must ask for the records associated with that certificate and domain.</p>
+
+<h4>DOMAIN NAME SYSTEM  - <small>(DNS)</small></h4>
 <p>Being able to find a service with a human-readable hostname is vital to the function of the Web today. The component which does this on the WWW is called DNS and the DIS on the Universal Web. DNS takes a human-readable hostname for example Universal.web and returns the IP address of the end service. This allows your computer to navigate to the requested website. You give it a domain name and it gives you the IP of that domain name. Without this system, the Web wouldn't be what it is today. It allows you to traverse the many services available on the Internet in a human-friendly way.</p>
 
 <p>The Universal Web also provides DNS related services but is more robust. The information returned by the DIS is different compared to your typical DNS response. The DIS returns a cryptographic certificate that provides more than just routing data to keep the network more secure and offer more features.</p>
 
 <p>The Privacy of users is better on the UW compared to the WWW because the DIS has encrypted communication by default unlike DNS today. This stops people from being able to interfere with the responses coming back from a DNS server. It also stops an attacker from gathering information on what websites you're visiting. It also keeps users safe when more sophisticated DNS and BGP hijacking attacks occur. The more sophisticated attacks are prevented largely because the information returned is cryptographic in nature that being a domain certificate that ensures that users even if routed to the wrong place wouldn't be able to establish a connection to the service since it doesn't hold the true key pairs.</p>
 
-<h4 id="dis">DOMAIN INFORMATION SYSTEM</h4>
+<h4 id="dis">DOMAIN INFORMATION SYSTEM - <small>(DIS)</small></h4>
 
 <p>The Domain Information System, (DIS), returns domain-specific information in the form of a domain certificate from human-readable hostnames. The DIS returns the domain’s certificate which includes cryptographic details & routing information. By including the hostnames cryptography along with routing information, 0-RTT is possible without requiring the client to have visited the domain prior. This is a unique advantage over TLS 1.3 in that 0-RTT is available by default whereas in TLS 1.3 one would need to have visited the site prior. Before clients connect to a website they must first query the DIS with a human-readable hostname. The DIS has centralized servers and a decentralized network to provide clients with the fastest possible way to access domain certificates</p>
 
@@ -193,19 +196,17 @@ UNDER CONSTRUCTION
 
 <h4 id="dcerts">DOMAIN CERTIFICATES</h4>
 
-<p>Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, and an authorized Domain Registrar. To establish a successful handshake, the domain certificate and a valid signature is required.</p>
+<p>Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, and an authorized Domain Registrar. To establish a successful handshake, the domain certificate and a valid signature is required. Domain certificates can also be linked to a real entity or business if the propper procedure is undergone which shows that they are indeed a legitimate match.</p>
 
 <p>The domain's ephemeral certificate also acts as a wallet that stores funds for any puzzles it distributes to clients. A portion of the mined Viat is sent to the Viat wallet that is the public key which is stored inside domain certificates.</p>
 
-<p>Since domain certificates also serve as Viat wallets it allows things like purchases, donations, and self funding to occur. By providing ways for users to easily donate to their favorite sites the sites can rely less on advertisers and more on customer satisfaction as a result.</p>
-
-<p></p>
+<p>Since domain certificates also serve as Viat wallets it allows things like ecommerce, crowd funding, and a shift to rely less on ad revenue and more on enjoyable content. By providing ways for users to easily donate to their favorite sites the sites can rely less on advertisers and more on customer satisfaction as a result. However, such a mechanism needs to be easy, integrated, and detached from the typical payment gateways. The service nor the client should have to implement a library or plugin in order to have this functionality. Therefore, the only true solution is one that is tightly integrated into the Web and is as easy as a few clicks. No forums or signup processes required. If such a processes was required for a certain entity to abide by the local laws they could implement an additional easy request that would call for such information. Again such info could be easily saved as part of a profile and cryptographically signed in and of itself.</p>
 
 <br />
 
 <h4>DOMAIN REGISTRAR</h4>
 
-<p>The Domain Registrar, (DR), is used to register a domain and manage a domain's public certificate. The DR validates & signs the public certificates associated with the hostname. The DR then passes the certificate to the Domain Information System which stores the certificate for distribution.</p>
+<p>The Domain Registrar, (DR), is used to register a domain and manage a domain's public certificate. The DR validates & signs the public certificates associated with the hostname. The DR then passes the certificate to the Domain Information System which stores the certificate for distribution. The DR takes part in verifying that a domain certificate is indeed related to a certain entity. This would of course require an additional fee to complete such a service.</p>
 
 <br />
 <img src="https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png" />
@@ -214,9 +215,9 @@ UNDER CONSTRUCTION
 
 <h4>DOMAINS</h4>
 
-<p>Domains on Sentivate have full extension names and can have single full names for trademarked entities. The domain rules and regulations are designed to organize the web, free up domain names for new companies, protect trademarks, limit malicious activity, and make extensions more descriptive.</p>
+<p>Domains on the UW have full or shortcut extension names and can have single full names for trademarked entities. The domain rules and regulations are designed to organize the Web, free up domain, protect trademarks, limit malicious activity, and categorize the Web. Domain extentions should be descriptive, relevant, and be indicative of the type of content to expect from the website.</p>
 
-<p>For example, one can navigate to Amazon by simply typing Amazon into the Sentivate browser. Domain rules are stricter on the Sentivate network. Domain squatting is entirely disallowed, there is a use it or lose it policy. Domain content or service must be relevant to the domain extension. For example, Amazon's store must use the store domain extension, "Amazon.store". There are shorthand domain extensions available for certain domains. For example, Amazon's company website must utilize the company extension, Amazon.company, or the shorthand variant Amazon.com. Bitcoin, Ethereum, and Litecoin are cryptocurrencies, and sites dedicated to them must use the cryptocurrency extension. However, a news site related to say bitcoin must use the .news and or .blog extension. Any domain that may have random and or arbitrary content must use the .abstract extension.</p>
+<p>For example, one can navigate to Amazon by simply typing Amazon into a Universal Web browser. Domain rules are stricter on the Universal Web. Domain squatting is stricter, there is a use it or lose it policy. One could indeed sell the domain name but it would need first of been "used" in the manner in which the extension would indicate. Domain content or service must be relevant to the domain extension. For example, Amazon's store must use the store domain extension, "Amazon.store". There are shorthand domain extensions available for certain domains. For example, Amazon's company website must utilize the company extension, Amazon.company, or the shorthand variant Amazon.com. Bitcoin, Ethereum, and Litecoin are cryptocurrencies, and sites dedicated to them must use the cryptocurrency extension. However, a news site related to say bitcoin must use the .news and or .blog extension. Any domain that may have random and or arbitrary content must use the .abstract extension if general terms aren't enough such as "blog".</p>
 
 <br />
 <h3>UNIVERSAL IDENTITY SYSTEM</h3>
@@ -235,11 +236,11 @@ UNDER CONSTRUCTION
 
 <h4>IDENTITY REGISTRAR</h4>
 
-<p>The Identity Registrar, (IR), is a service that signs certificates & is the first layer of protection for the network. The IR protects the network by filtering faulty certificates, stopping Sybil attacks, and nefarious actors. The Identity Registrar ensures malicious certificates aren’t signed which allows services to efficiently deny their connection attempts. False signatures can be denied by the DIS and therefore potentially protect service and save some of its resources beforehand.</p>
+<p>The Identity Registrar, (IR), is a service that signs certificates & is the first layer of protection for the network. The IR protects the network by filtering faulty certificates, stopping Sybil attacks, spam identities, dummy identities, and nefarious actors. A missing or false signature would give services an extra edge to more efficiently weed out and deny connection attempts. If the certificate is successfully vetted by the IR it would then sign the certificate. Only then it can be successfully used by services and the DIS. During the initial handshake, the first packet contains the certificates required to establish a UDSP stream. If signatures are successfully validated the rest of the handshake process continues else it fails. In the future a decentralized IR mechanism will be leveraged to help validate newly submitted certificates for signing.</p>
 
-<p>A decentralized network and acyclic blockchain will be leveraged to help validate newly submitted certificates for signing. If the certificated is successfully vetted by the network the IR signs the certificate. Then it can be successfully used by services and the DIS. During the initial handshake, the first packet contains the certificates required to establish a UDSP stream. If signatures are successfully validated the rest of the handshake process continues else it fails.</p>
+<p>The IR is a proactive security measure and helps keep potential issues to a minimum. If certain countries require that citizens or devices have a person or entity linked to an IC then this would be an efficient mechanism for halting potential crime without compromising the privacy of the individual. It would also aid countries in tracking down criminal entities or use other parts of the network to pinpoint it.</p>
 
-<p>Active certificates will continually be updated and signed. When a certificate is re-signed, another field is added to the certificate which shows the elapsed time since the previous signing of the certificate. This provides services with an extra layer of trust for certain certificates.</p>
+<p>Active certificates could continually be updated and signed. When a certificate is re-signed, another field is added to the certificate which shows the elapsed time since the previous signing of the certificate. This provides services with an extra layer of trust for certificates as it ensures that they be continually and the bad ones are weeded out. This interval could happen when whatever it's deemed necessary by the client. If the whole UW were to enforce a certain time dependent check it would force the users of those services to do so prior to connecting.</p>
 
 <br />
 <h3 id="UWAs">Universal Web Apps</h3>
@@ -284,3 +285,5 @@ UNDER CONSTRUCTION
 VIAT
 <p>All Viat mining is done with purpose and can take place at multiple points on the Universal Web but is utilitarian in nature to ensure the highest possible transaction throughpout </p>
 -->
+
+copyright © Universal Web, Inc 2020
