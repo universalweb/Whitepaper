@@ -84,7 +84,9 @@
 </ul>
 
 <h3>DNS & HTTP - <small>OUTDATED PROTOCOLS</small></h3>
-<p id="outdatedProtocols">HTTP & DNS were designed a long time ago in the context of Web history. They weren't  built then to do what we expect of them today. More and more bandwidth is being sucked up simply due to the design of HTTP in and of itself. The entire digital economy relies on and is transported over HTTP any modifications to it will result in economic fluctuations. HTTP is the current vehicle for our global economy it's essentially the armored car of the Web. The global slowing down of HTTP would result in at the very least missed economic opportunities or worse case stagnant economic growth across the planet. Meanwhile DNS is primarily lacking in security, privacy, and modern features. If half of the web could be shut down from DoS-ing specific DNS servers there's an obvious architectural limitation to DNS. If by taking over a DNS server, changing domain records, or <a hreh="https://www.cloudflare.com/learning/security/glossary/bgp-hijacking/">hijacking BGP</a> you could reroute traffic without  users being aware that had happened there is an architectural design issue at play. Just the fact that someone else could change your DNS records without proving they control the domain is an immediate concern. If someone where to get into your Godaddy or Cloudflare account they could change any of your domain records, which isn't possible on the UW due to the design of <a href="">domain certificates</a> & the <a href="">DIS</a>. The design of DNS & HTTP limit the Web's potential, hinder scalability, lack modern features, eat up bandwidth, cumulatively costs billions, and negate the ability to redesign core functionality resulting in perpetual systemic issues. We absolutely need to address these concerns or we'll continue to have issues until we reach a financial breaking point.</p>
+<p id="outdatedProtocols">HTTP & DNS were designed a long time ago in the context of Web history. They weren't  built then to do what we expect of them today. More and more bandwidth is being sucked up simply due to the design of HTTP in and of itself. The entire digital economy relies on and is transported over HTTP any modifications to it will result in economic fluctuations. HTTP is the current vehicle for our global economy it's essentially the armored car of the Web. The global slowing down of HTTP would result in at the very least missed economic opportunities or worse case stagnant economic growth across the planet. Meanwhile DNS is primarily lacking in security, privacy, and modern features. If half of the web could be shut down from DoS-ing specific DNS servers there's an obvious architectural limitation to DNS. If by taking over a DNS server, changing domain records, or <a hreh="https://www.cloudflare.com/learning/security/glossary/bgp-hijacking/">hijacking BGP</a> you could reroute traffic without  users being aware that had happened there is an architectural design issue at play. Just the fact that someone else could change your DNS records without proving they control the domain is an immediate concern. If someone where to get into your Godaddy or Cloudflare account they could change any of your domain records, which isn't possible on the UW due to the design of <a href="#dcerts">domain certificates</a> & the <a href="#dis">DIS</a>. The design of DNS & HTTP limit the Web's potential, hinder scalability, lack modern features, eat up bandwidth, cumulatively costs billions, and negate the ability to redesign core functionality resulting in perpetual systemic issues. We absolutely need to address these concerns or we'll continue to have issues until we reach a financial breaking point.</p>
+
+<p>Small delays can have costly consequences for example in the case of Amazon when they ran an analysis a few years back and found that just 100ms of delay resulted in 1% loss in profits. Quite an astounding figure when you look at it again a few years later that percentage has grown to over 7% based on the Akamai study. You see the gap is costly and widening and its widening fast. Without taking a good hard look at the state of the Web today we may find ourselves without a viable Web tomorrow.</p>
 
 <h6>SOURCES</h6>
 <ul>
@@ -105,7 +107,7 @@
 <p>We know that the global economy requires a performant & inexpensive web. If a solely decentralized web replaced the modern web, then it would accelerate the bandwidth crisis and bring us to a dystopian web. The term Web 3.0 is not a magic globe, a revolutionary idea, or a solution; it's a cash grab. Trades are happening in nanoseconds the global economy doesn't have time to wait seconds or minutes for a block time to verify and then propagate through the network. A replacement for the web shouldn't be slower and more expensive for consumers. Web 3.0 costs more and they like to hide behind things like it's all on-chain and costs very little to launch an app. The reality is, you get what you pay for. Web 3.0 offsets costs to users instead of the services, which also results in poorer service. Another common argument is to allow users to control their data. That's no problem, say hello to homomorphic encryption. Instead of tackling this issue from just topology, we need to innovate in every aspect of the web and ask more from our web services. The web's topology problem is minor compared to its outdated technology problem. If these Web 3.0 projects cared about changing the web they would focus on the actual issues.</p>
 <br />
 
-<b>How the World Wide Web & Universal Web Work <small>(FASTER)</small></b><br />
+<b>How the World Wide Web & Core Universal Web Work <small>(FASTER)</small></b><br />
 <code>REQUEST => EXPECTED PROCESSING => REALITY</code><br />
 
 <b>How the "Web 3.0" Space Works <small>(SLOWER)</small></b><br />
@@ -179,7 +181,7 @@ UNDER CONSTRUCTION
 
 <p>The Privacy of users is better on the UW compared to the WWW because the DIS has encrypted communication by default unlike DNS today. This stops people from being able to interfere with the responses coming back from a DNS server. It also stops an attacker from gathering information on what websites you're visiting. It also keeps users safe when more sophisticated DNS and BGP hijacking attacks occur. The more sophisticated attacks are prevented largely because the information returned is cryptographic in nature that being a domain certificate that ensures that users even if routed to the wrong place wouldn't be able to establish a connection to the service since it doesn't hold the true key pairs.</p>
 
-<h4>DOMAIN INFORMATION SYSTEM</h4>
+<h4 id="dis">DOMAIN INFORMATION SYSTEM</h4>
 
 <p>The Domain Information System, (DIS), returns domain-specific information in the form of a domain certificate from human-readable hostnames. The DIS returns the domain’s certificate which includes cryptographic details & routing information. By including the hostnames cryptography along with routing information, 0-RTT is possible without requiring the client to have visited the domain prior. This is a unique advantage over TLS 1.3 in that 0-RTT is available by default whereas in TLS 1.3 one would need to have visited the site prior. Before clients connect to a website they must first query the DIS with a human-readable hostname. The DIS has centralized servers and a decentralized network to provide clients with the fastest possible way to access domain certificates</p>
 
@@ -189,7 +191,7 @@ UNDER CONSTRUCTION
 
 <br />
 
-<h4>DOMAIN CERTIFICATES</h4>
+<h4 id="dcerts">DOMAIN CERTIFICATES</h4>
 
 <p>Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, and an authorized Domain Registrar. To establish a successful handshake, the domain certificate and a valid signature is required.</p>
 
@@ -221,11 +223,11 @@ UNDER CONSTRUCTION
 
 <h4>IDENTITY CERTIFICATES</h4>
 
-<p>Identity certificates, (IC), are documents that provide cryptographic details that represent you on the network and are signed by an Identity Registrar. An identity certificate has two cryptographic key pairs: Master and Ephemeral. A master key pair is used specifically for signing ephemeral certificates and is the core identifying key pair. Ephemeral key pairs can be replaced at the owner's discretion. Identity certificates cryptographically authenticate & authorize clients on the network.</p>
+<p>Identity certificates, (IC), are documents that provide cryptographic details that represent you on the network and are signed by an Identity Registrar. An identity certificate has two cryptographic key pairs: Master and Ephemeral. A master key pair is used specifically for signing ephemeral certificates and is the core identifying key pair. Ephemeral key pairs can be replaced at the owner's discretion. Identity certificates cryptographically authenticate & authorize clients on the network. Servers require a client certificate upon connection to establish a successful UDSP handshake.</p>
 
 <p>Ephemeral Certificates, (EC), are a sub-certificate to the Master Certificate. EC's act as profiles that are used to access user-defined services. For example, wallet certificate, banking certificate, general web browsing certificate, or for every service. However, one can choose to utilize one single ephemeral certificate for all services. ECs are used for the key exchange process which sets up a bi-directional UDSP connection between the origin and host.</p>
 
-<p>Users can instantly signup, login, and purchase an item with their identity certificate. Servers require a client certificate upon connection to establish a successful UDSP handshake.</p>
+<p>Users can instantly signup, login, and purchase an item with their identity certificate.</p>
 
 <p>Identity certificates form the basis for a decentralized reputation system, which can publicly record good & bad behavior associated with specific certificates. A honeypot can be used to block known bad actors from accessing a service further securing the network.</p>
 
