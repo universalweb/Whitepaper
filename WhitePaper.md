@@ -42,6 +42,21 @@
     <li>
         <a href="https://www.foxnews.com/story/experts-warn-internet-is-running-out-of-bandwidth">Experts Warn Internet Is Running Out of Bandwidth</a>
     </li>
+       <li>
+        <a href="https://www.nytimes.com/2020/03/26/business/coronavirus-internet-traffic-speed.html">Surging Traffic Is Slowing Down Our Internet</a>
+    </li>
+     <li>
+        <a href="https://www.wsj.com/articles/coronavirus-lockdown-tested-internets-backbone-11597503600">Broadband usage surged in mid-March as millions of Americans turned to the internet to work, learn and communicate at home</a>
+    </li>
+    <li>
+        <a href="https://itif.org/publications/2020/07/13/lessons-pandemic-broadband-policy-after-covid-19">U.S. broadband networks weathered the COVID-19 surge in traffic better than most peer nations. The pandemic should galvanize policymakers to ensure broadband can serve as an essential lifeline for everyone, including low-income and rural residents.</a>
+    </li>
+    <li>
+        <a href="https://www.fastly.com/blog/how-covid-19-is-affecting-internet-performance">How COVID-19 is affecting internet performance</a>
+    </li>
+    <li>
+        <a href="https://www.theguardian.com/media/2020/mar/26/netflix-is-reducing-streaming-quality-amid-coronavirus-how-will-it-affect-viewing-in-australia">Netflix is reducing streaming quality amid coronavirus.</a>
+    </li>
     <li>
         <a href="https://gadgets.ndtv.com/internet/news/coronavirus-impact-can-we-run-out-of-the-internet-because-of-people-working-from-home-2199980">Coronavirus Impact: Can We Run Out of the Internet Because of People Working From Home?</a>
     </li>
@@ -61,25 +76,7 @@
         <a href="https://www.oecd.org/coronavirus/policy-responses/keeping-the-internet-up-and-running-in-times-of-crisis-4017c4c9/">Keeping the Internet up and running in times of crisis</a>
     </li>
     <li>
-        <a href="https://www.wsj.com/articles/coronavirus-lockdown-tested-internets-backbone-11597503600">Broadband usage surged in mid-March as millions of Americans turned to the internet to work, learn and communicate at home</a>
-    </li>
-    <li>
-        <a href="https://itif.org/publications/2020/07/13/lessons-pandemic-broadband-policy-after-covid-19">U.S. broadband networks weathered the COVID-19 surge in traffic better than most peer nations. The pandemic should galvanize policymakers to ensure broadband can serve as an essential lifeline for everyone, including low-income and rural residents.</a>
-    </li>
-    <li>
-        <a href="https://www.fastly.com/blog/how-covid-19-is-affecting-internet-performance">How COVID-19 is affecting internet performance</a>
-    </li>
-    <li>
-        <a href="https://www.theguardian.com/media/2020/mar/26/netflix-is-reducing-streaming-quality-amid-coronavirus-how-will-it-affect-viewing-in-australia">Netflix is reducing streaming quality amid coronavirus.</a>
-    </li>
-    <li>
         <a href="https://www.brookings.edu/blog/the-avenue/2020/03/30/covid-19-proves-we-need-to-continue-upgrading-americas-broadband-infrastructure/">COVID-19 proves we need to continue upgrading America’s broadband infrastructure</a>
-    </li>
-    <li>
-        <a href="https://www.brookings.edu/blog/the-avenue/2020/03/30/covid-19-proves-we-need-to-continue-upgrading-americas-broadband-infrastructure/">COVID-19 proves we need to continue upgrading America’s broadband infrastructure</a>
-    </li>
-    <li>
-        <a href="https://www.nytimes.com/2020/03/26/business/coronavirus-internet-traffic-speed.html">Surging Traffic Is Slowing Down Our Internet</a>
     </li>
 </ul>
 
