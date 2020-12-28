@@ -196,9 +196,16 @@ UNDER CONSTRUCTION
 
 <h4 id="dcerts">DOMAIN CERTIFICATES</h4>
 
-<p>Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, and an authorized Domain Registrar. To establish a successful handshake, the domain certificate and a valid signature is required. Domain certificates can also be linked to a real entity or business if the propper procedure is undergone which shows that they are indeed a legitimate match.</p>
+<p>Domain certificates provide routing, cryptography, and additional details associated with a hostname. Domain certificates are signed by 3 or more keypairs: Ephemeral, Master, and an authorized Domain Registrar. To establish a successful handshake, the domain certificate and multiple valid signatures are required. Domain certificates can also be linked to a real entity or business if the propper validation procedure is undergone. By linking these two people are able to easily identify an entity on or offline with something as simple as a QR code.</p>
 
-<p>The domain's ephemeral certificate also acts as a wallet that stores funds for any puzzles it distributes to clients. A portion of the mined Viat is sent to the Viat wallet that is the public key which is stored inside domain certificates.</p>
+<p>An intersting feature of domain certificates is that they could be used as a real world form of DNS. 
+Certificates can be stored in a QR code, displayed as an image, or printed out then displayed in store fronts or shared among people. 
+This would allow anyone to sort of physically do a DNS request which is something we find quite cool in and of itself. 
+You can have these on products so that users could never be exposed to DNS attacks in the process or have a quick, secure, and easy way to get to a Website.
+If an attacker taped a QR code to a store front so long as they are displayed the destination domain they can't be duped. 
+Additionally, there is a public blockchain backed naughty list for bad actors for domains as well as identities with a distinction made for both to make sure users can have the best information at hand to help identify bad actors.</p>
+
+<p>The domain's ephemeral certificate also acts as a Viat wallet that stores funds for any puzzles it distributes to clients. A portion of the mined Viat is sent to the Viat wallet that is the public key which is stored inside domain certificates.</p>
 
 <p>Since domain certificates also serve as Viat wallets it allows things like ecommerce, crowd funding, and a shift to rely less on ad revenue and more on enjoyable content. By providing ways for users to easily donate to their favorite sites the sites can rely less on advertisers and more on customer satisfaction as a result. However, such a mechanism needs to be easy, integrated, and detached from the typical payment gateways. The service nor the client should have to implement a library or plugin in order to have this functionality. Therefore, the only true solution is one that is tightly integrated into the Web and is as easy as a few clicks. No forums or signup processes required. If such a processes was required for a certain entity to abide by the local laws they could implement an additional easy request that would call for such information. Again such info could be easily saved as part of a profile and cryptographically signed in and of itself.</p>
 
@@ -209,6 +216,7 @@ UNDER CONSTRUCTION
 <p>The Domain Registrar, (DR), is used to register a domain and manage a domain's public certificate. The DR validates & signs the public certificates associated with the hostname. The DR then passes the certificate to the Domain Information System which stores the certificate for distribution. The DR takes part in verifying that a domain certificate is indeed related to a certain entity. This would of course require an additional fee to complete such a service.</p>
 
 <br />
+
 <img src="https://sentivate.com/wp-content/uploads/2018/09/SentivateInfographicDIS.png" />
 
 <br />
@@ -219,20 +227,17 @@ UNDER CONSTRUCTION
 
 <p>For example, one can navigate to Amazon by simply typing Amazon into a Universal Web browser. Domain rules are stricter on the Universal Web. Domain squatting is stricter, there is a use it or lose it policy. One could indeed sell the domain name but it would need first of been "used" in the manner in which the extension would indicate. Domain content or service must be relevant to the domain extension. For example, Amazon's store must use the store domain extension, "Amazon.store". There are shorthand domain extensions available for certain domains. For example, Amazon's company website must utilize the company extension, Amazon.company, or the shorthand variant Amazon.com. Bitcoin, Ethereum, and Litecoin are cryptocurrencies, and sites dedicated to them must use the cryptocurrency extension. However, a news site related to say bitcoin must use the .news and or .blog extension. Any domain that may have random and or arbitrary content must use the .abstract extension if general terms aren't enough such as "blog".</p>
 
+<h4>DOMAIN REPUTATION  - <small>(DR)</small></h4>
+<p>Being able to find as well as distinguish trust worthy from malicious services, (as well as specific URLs), which is essential to a safer Web. Users can rate domains as well as eachother right from the Browser. Having ratings on eachother can also help to assign a weight to the voter and further ensure no votes are used to abuse, silence, or intimidate a service. It can also ignore or remove any fraudulent voting done in mass or at a single point in time. This can do wonders when looking to asses public opinion or tackle the "Fake News" concern.</p>
+
 <br />
 <h3>UNIVERSAL IDENTITY SYSTEM</h3>
 
 <h4>IDENTITY CERTIFICATES</h4>
 
-<p>Identity certificates, (IC), are documents that provide cryptographic details that represent you on the network and are signed by an Identity Registrar. An identity certificate has two cryptographic key pairs: Master and Ephemeral. A master key pair is used specifically for signing ephemeral certificates and is the core identifying key pair. Ephemeral key pairs can be replaced at the owner's discretion. Identity certificates cryptographically authenticate & authorize clients on the network. Servers require a client certificate upon connection to establish a successful UDSP handshake.</p>
+<p>Identity certificates, (IC), are documents that provide cryptographic details that represent you on the network and are signed by an Identity Registrar. An identity certificate has two cryptographic key pairs: Master and Ephemeral. A master key pair is used specifically for signing ephemeral certificates and is the core identifying key pair. Ephemeral key pairs can be replaced at the owner's discretion. Identity certificates cryptographically authenticate & authorize clients on the network. Servers require a client certificate upon connection to establish a successful UDSP handshake. Identity certificates form the basis for a decentralized reputation system, which can publicly record good & bad behavior associated with specific certificates. A honeypot can be used to block known bad actors from accessing a service further securing the network. Since Identity certificates can be linked to real-world identities and assets. This feature makes the UW an ideal platform for secure, private, and verifiable voting in elections. Stores and companies can have verified ICs which allow users to easily identify them on or offline.</p>
 
-<p>Ephemeral Certificates, (EC), are a sub-certificate to the Master Certificate. EC's act as profiles that are used to access user-defined services. For example, wallet certificate, banking certificate, general web browsing certificate, or for every service. However, one can choose to utilize one single ephemeral certificate for all services. ECs are used for the key exchange process which sets up a bi-directional UDSP connection between the origin and host.</p>
-
-<p>Users can instantly signup, login, and purchase an item with their identity certificate.</p>
-
-<p>Identity certificates form the basis for a decentralized reputation system, which can publicly record good & bad behavior associated with specific certificates. A honeypot can be used to block known bad actors from accessing a service further securing the network.</p>
-
-<p>Identity certificates can be linked to real-world identities and assets. Making Sentivate an ideal platform for secure, private, and verifiable voting in elections. Stores and companies can have verified ICs which allow users to directly pay or donate through Viat.</p>
+<p>Ephemeral Certificates, (EC or Profiles), are a sub-certificate to the Master Certificate. EC's act as profiles that are used to access user-defined services. For example, wallet certificate, banking certificate, general web browsing certificate, or for every service. One can choose to utilize one single ephemeral certificate for all services, one for each, or any arbitrary combination. An EC is part of the encrypted payload sent in the first packet  which occurs during the connection handshake for authentication, not encryption. Users can instantly signup, login, or purchase an item with their identity certificate.</>
 
 <h4>IDENTITY REGISTRAR</h4>
 
