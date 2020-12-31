@@ -1,20 +1,21 @@
-<h1 align="center"><a href="https://sentivate.com">SENTIVATE</a></h1>
-<hr />
-<h5 align="center">WHITE PAPER</h5>
+<h1 align="center"><a href="https://universalweb.io">UNIVERSAL WEB (UW)</a><br /><small><small>WHITE PAPER</small></small></h1>
 <h5 align="center">| <a href="https://twitter.com/tommarchi">Thomas Marchi</a> | <a href="https://twitter.com/MattKarasiewicz">Matt Karasiewicz</a> |</h5>
-<h5 align="center"><i>| <a href="https://twitter.com/sentivate">TWITTER</a> | <a href="https://t.me/sentivate">TELEGRAM</a> | <a href="https://discord.com/invite/jChPfgN">DISCORD</a> | <a href="https://universalweb.io">SENTIVATE.COM</a> | <a href="https://universalweb.io">UNIVERSALWEB.IO</a> |</i></h5>
 <hr />
+<h4 align="center"><a href="https://sentivate.com">SENTIVATE</a></h4>
 <p align="center">
     <img src="https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png" />
 </p>
-<h4 align="center">UNIVERSAL WEB REPUBLIC (UWR)</h4>
+<h5 align="center"><i>| <a href="https://twitter.com/sentivate">TWITTER</a> | <a href="https://t.me/sentivate">TELEGRAM</a> | <a href="https://discord.com/invite/jChPfgN">DISCORD</a> |</h5>
 <hr />
 <h2 align="center">INTRODUCTION</h2>
+<br />
+<h4>DEFINITIONS</h4><br />
+<p><b>UNIVERSAL WEB REPUBLIC <small><i>(UWR)</i></small></b>: The UWR consists of the Universal Web's Government, Viat, & the Universal Web itself which is the plane that all activity governed by the the Universal Web's Government resides. The UWR provides a democratic societal framework for the people of the Universal Web.</p><br />
 
-<h3>DEFINITIONS</h3>
-<p><b>UNIVERSAL WEB REPUBLIC <small>(UWR)</small></b>: The UWR consists of the Universal Web's Government, Viat, & the Universal Web itself which is the plane that all activity governed by the the Universal Web's Government resides. The UWR provides a democratic societal framework for the people of the Universal Web.</p>
-<p><a href="https://universalWeb.io"><b>UNIVERSAL WEB <small>(UW)</small></b></a>: The UW is the Web re-imagined. A new Web built to in time replace the old. A culmination of years of Web technology evolution, modern demands, future needs, and past failures all used to redesign the Web. The UW holds a similar centralized design as the WWW while incorporating decentralized components for each of its core functions and beyond. Focused on being realistic, </p>
-<p><a href="https://sentivate.com"><b>SENTIVATE <small>(SNTVT)</small></b></a>: Sentivate is the name of the project, initiative, and movement behind all that is the UWR. Sentivate consists of two primary networks the Universal Web & Viat from a development standpoint. It's primarily concerned with the cryptocurrency and Web aspects of the project.</p>
+<p><a href="https://universalWeb.io"><b>UNIVERSAL WEB <small><i>(UW)</i></small></b></a>: The UW is the Web re-imagined. A new Web built to in time replace the old. A culmination of years of Web technology evolution, modern demands, future needs, and past failures all used to redesign the Web. The UW holds a similar centralized design as the WWW while incorporating decentralized components for each of its core functions and beyond. Focused on being realistic, </p><br />
+
+<p><a href="https://sentivate.com"><b>SENTIVATE <small><i>(SNTVT)</i></small></b></a>: Sentivate is the name of the project, initiative, and movement behind all that is the UWR. Sentivate consists of two primary networks the Universal Web & Viat from a development standpoint. It's primarily concerned with the cryptocurrency and Web aspects of the project.</p><br />
+
 <p><b>VIAT</b>: Viat is the native decentralized cryptocurrency on the UW and is tightly & efficiently integrated into the UW's core components. Viat also has centralized components that provide more robust features & security. Some of those security features are: transaction security, theft recovery, loss recovery, access recovery, wallet migration, wallet lockdown, asset lockdown, and transaction halting/cancelation/reversal. One of the centralized features of Viat provide cheap instant transactions. Viat offers deletions, blockchain compression, and updates which allows it to self-optimize over time.</p>
 
 <hr />
@@ -296,4 +297,4 @@ VIAT
 <p>All Viat mining is done with purpose and can take place at multiple points on the Universal Web but is utilitarian in nature to ensure the highest possible transaction throughpout </p>
 -->
 
-copyright © Universal Web, Inc 2020
+<small>COPYRIGHT © 2021 <a href="https://universalweb.io">UNIVERSAL WEB, Inc</a></small>
