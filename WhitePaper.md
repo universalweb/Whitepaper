@@ -5,7 +5,7 @@
 <p align="center">
     <img src="https://sentivate.com/wp-content/uploads/brizy/3443/assets/images/iW=269&iH=274&oX=0&oY=0&cW=269&cH=274/SNTVTbig.png" />
 </p>
-<h5 align="center"><i>| <a href="https://twitter.com/sentivate">TWITTER</a> | <a href="https://t.me/sentivate">TELEGRAM</a> | <a href="https://discord.com/invite/jChPfgN">DISCORD</a> |</h5>
+<h5 align="center">| <a href="https://twitter.com/sentivate">TWITTER</a> | <a href="https://t.me/sentivate">TELEGRAM</a> | <a href="https://discord.com/invite/jChPfgN">DISCORD</a> |</h5>
 <hr />
 <h2 align="center">INTRODUCTION</h2>
 <br />
