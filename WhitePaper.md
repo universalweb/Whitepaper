@@ -128,6 +128,17 @@ UNDER CONSTRUCTION
 
 <hr/>
 
+<h2 align="center">FEATURES</h2>
+
+<h3>Universal Sign-on</h3>
+<p>Think of single sign-on across the Web but directly integrated into the network protocol layer, (UDSP). This implimentation is raddically different than other solutions which instead are an entire new system sitting on-top of the old Web. Universal Sign-on is not additive but instead replacement technology that speeds up the Web instead of being another huge cumbersome layer ontop of it. All current single sign-on attempts for the WWW & Web3 propose an additive solution in the form of entirely new systems, blockchains, and or platforms. Universal Sign-on is integrated directly into UDSP encapsulated into a single encrypted packet. Since it's part of the encrypted payload your single sign-on isn't identifiable by the network or those watching. Unlike others this means your identity remains anonymous to the network because the connection is protected by a randomly generated throw away keypair.</p>
+
+<p>Universal Sign-on uses identity certificates known as profiles which also function as Viat wallets. The Viat integration gives you all the benefits of the UW's native cryptocurrency without sacraficing performance or introducing more layers to the protocol. Cryptocurrencies today sit ontop of existing flawed Web technologies & have to build cumbersome middleware solutions in an attempt to bridge them. They aren't inherintly inigrated into the Web yet alone the Web's HTTP protocol & act as yet another cumbersome layer of additive technology.</p>
+
+<p>This design means that only the Universal Web has the fastest known Web wide single sign-on compared to the WWW & Web3. All while UDSP is stil a faster transport protocol than HTTP. Just one of the very few features packed into UDSP that actually speeds up traditional Web activities by eliminating steps. On the Universal Web by connecting to an App or Website you automatically sign in which eliminates having to connect or sign-in with a 3rd party service like all other single sign-on solutions. There are no sign-in with buttons for the Universal Web it all happens from the jump without the user having to do any extra work. All of these features without the additional steps and performance compromises.</p>
+
+<hr/>
+
 <h2 align="center">TECHNOLOGY</h2>
 
 <br/>
