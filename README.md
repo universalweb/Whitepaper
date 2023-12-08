@@ -1,4 +1,5 @@
 <h1 align="center"><a href="https://universalweb.io">UNIVERSAL WEB (UW)</a><br /><small><small>WHITE PAPER (!!OUTDATED!!)</small></small></h1>
+<h2 align="center">CURRENT VERSION IS  3.0 THIS IS PRIOR TO 3.0</h2>
 <h5 align="center">| <a href="https://github.com/universalweb/Network">NETWORK REPO</a> |</h5>
 <h5 align="center">| <a href="https://twitter.com/tommarchi">Thomas Marchi</a> | <a href="https://twitter.com/MattKarasiewicz">Matt Karasiewicz</a> |</h5>
 <hr />
